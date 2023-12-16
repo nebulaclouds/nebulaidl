@@ -5,7 +5,7 @@ go 1.19
 require (
 	github.com/EngHabu/mockery v0.0.0-20220405200825-3f76291311cf
 	github.com/alvaroloes/enumer v1.1.2
-	github.com/nebulaclouds/nebulastdlib v0.4.16
+	github.com/nebulaclouds/nebulastdlib v1.0.0
 	github.com/golangci/golangci-lint v1.53.3
 	github.com/pseudomuto/protoc-gen-doc v1.4.1
 )
