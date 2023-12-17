@@ -2,7 +2,7 @@ name: "Publish pypi Artifacts"
 on:
   push:
     branches:
-      - master
+      - main
 
 jobs:
   build:
@@ -11,6 +11,13 @@ jobs:
     steps:
       - name: Checkout Nebula Protocol
         uses: actions/checkout@v3
+
+      - name: Generate Development Version
+        run: |
+          cat .env
+          CURRENT_VERSION=$(grep VERSION .env)
+          sed -i -e "s/$CURRENT_VERSION/$CURRENT_VERSION.dev$(date +%s)/g" .env
+          cat .env
 
       - name: Setup JFrog CLI
         uses: jfrog/setup-jfrog-cli@v3
@@ -22,10 +29,10 @@ jobs:
         run: jf pip-config --global=true --repo-resolve=streamline-io-pypi
 
 #      - name: Install Deps
-#        run: jf pip install .
+#        run: cd protocol-models/python && jf pip install .
 
       - name: Package the project
-        run: python setup.py sdist bdist_wheel
+        run: python -m pip install python-dotenv && python setup.py sdist bdist_wheel
 
       - name: Publish
         run: jf rt upload dist/ streamline-io-pypi/
