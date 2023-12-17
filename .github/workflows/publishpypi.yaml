@@ -19,7 +19,7 @@ jobs:
           JF_ACCESS_TOKEN: ${{ secrets.JF_ACCESS_TOKEN }}
 
       - name: Set CLI Config
-        run: jf pip-config --global=true --repo-resolve=nebula-pypi-local
+        run: jf pip-config --global=true --repo-resolve=streamline-io-pypi
 
 #      - name: Install Deps
 #        run: jf pip install .
@@ -28,10 +28,10 @@ jobs:
         run: python setup.py sdist bdist_wheel
 
       - name: Publish
+        run: jf rt upload dist/ streamline-io-pypi/
 #        run: |
 #          python3 setup.py sdist upload -r local
 #          python3 setup.py bdist_wheel upload -r local
-        run: jf rt upload dist/ nebula-pypi-local/
 
       - name: Publish Build info With JFrog CLI
         run: |
