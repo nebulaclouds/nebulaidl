@@ -6,7 +6,6 @@ vendor
 *.swp
 *.swo
 
-dist
 gen/pb_python/nebulaidl.egg-info/
 
 .virtualgo
