@@ -2,7 +2,7 @@ name: "Publish pypi Artifacts"
 on:
   push:
     branches:
-      - main
+      - master
 
 jobs:
   build:
