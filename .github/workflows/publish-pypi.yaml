@@ -22,13 +22,13 @@ jobs:
         run: jf pip-config --global=true --repo-resolve=nebula-local
 
 #      - name: Install Deps
-#        run: cd protocol-models/python && jf pip install .
+#        run: jf pip install .
 
       - name: Package the project
-        run: python -m pip install python-dotenv && python setup.py sdist bdist_wheel
+        run: python setup.py sdist bdist_wheel
 
       - name: Publish
-        run: cd protocol-models/python && jf rt upload dist/ nebula-local/
+        run: jf rt upload dist/ nebula-local/
 
       - name: Publish Build info With JFrog CLI
         run: |
