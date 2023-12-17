@@ -13,7 +13,7 @@ jobs:
         uses: actions/checkout@v3
 
       - name: Setup JFrog CLI
-        uses: jfrog/setup-jfrog-cli@v2
+        uses: jfrog/setup-jfrog-cli@v3
         env:
           JF_URL: ${{ secrets.JF_URL }}
           JF_ACCESS_TOKEN: ${{ secrets.JF_ACCESS_TOKEN }}
@@ -25,7 +25,7 @@ jobs:
 #        run: jf pip install .
 
       - name: Package the project
-        run: python -m pip install python-dotenv && python setup.py sdist bdist_wheel
+        run: python setup.py sdist bdist_wheel
 
       - name: Publish
         run: jf rt upload dist/ streamline-io-pypi/
