@@ -34,20 +34,20 @@ jobs:
       - name: Set CLI Config
         run: jf pip-config --global=true --repo-resolve=streamline-io-pypi-local
 
-#      - name: Install Deps
-#        run: cd protocol-models/python && jf pip install .
-
-      - name: Package the project
-        run: python -m pip install python-dotenv && python setup.py sdist bdist_wheel
-
-      - name: Publish
-        run: jf rt upload dist/ streamline-io-pypi-local/
-
-      - name: Publish Build info With JFrog CLI
-        run: |
-          # Collect environment variables for the build
-          jf rt build-collect-env
-          # Collect VCS details from git and add them to the build
-          jf rt build-add-git
-          # Publish build info
-          jf rt build-publish
+##      - name: Install Deps
+##        run: jf pip install .
+#
+#      - name: Package the project
+#        run: python -m pip install python-dotenv && python setup.py sdist bdist_wheel
+#
+#      - name: Publish
+#        run: jf rt upload dist/ streamline-io-pypi-local/
+#
+#      - name: Publish Build info With JFrog CLI
+#        run: |
+#          # Collect environment variables for the build
+#          jf rt build-collect-env
+#          # Collect VCS details from git and add them to the build
+#          jf rt build-add-git
+#          # Publish build info
+#          jf rt build-publish
