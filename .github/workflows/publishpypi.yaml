@@ -32,7 +32,6 @@ jobs:
           JF_ACCESS_TOKEN: ${{ secrets.JF_ACCESS_TOKEN }}
 
       - name: Set CLI Config
-#        run: jf rt ping
         run: jf pip-config --global=true --repo-resolve=nebula-pypi
 
 #      - name: Install Deps
@@ -44,12 +43,11 @@ jobs:
       - name: Publish
         run: jf rt upload dist/ nebula-pypi/
 
-
-##      - name: Publish Build info With JFrog CLI
-##        run: |
-##          # Collect environment variables for the build
-##          jf rt build-collect-env
-##          # Collect VCS details from git and add them to the build
-##          jf rt build-add-git
-##          # Publish build info
-##          jf rt build-publish
+      - name: Publish Build info With JFrog CLI
+        run: |
+          # Collect environment variables for the build
+          jf rt build-collect-env
+          # Collect VCS details from git and add them to the build
+          jf rt build-add-git
+          # Publish build info
+          jf rt build-publish
