@@ -38,7 +38,6 @@ jobs:
       - run: |
           jf rt ping
 
-
 #      - name: Set CLI Config
 #        run: jf pip-config --global=true --repo-resolve=nebulaidl-pypi
 #
