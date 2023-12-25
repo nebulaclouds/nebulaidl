@@ -18676,8 +18676,8 @@ public final class Tasks {
       "proto\032\036google/protobuf/duration.proto\032\034g" +
       "oogle/protobuf/struct.proto\"\261\002\n\tResource" +
       "s\0228\n\010requests\030\001 \003(\0132&.nebulaidl.core.Reso" +
-      "urces.ResourceEntry\0226\n\006limits\030\002 \003(\0132&.fl" +
-      "yteidl.core.Resources.ResourceEntry\032S\n\rR" +
+      "urces.ResourceEntry\0226\n\006limits\030\002 \003(\0132&.ne" +
+      "bulaidl.core.Resources.ResourceEntry\032S\n\rR" +
       "esourceEntry\0223\n\004name\030\001 \001(\0162%.nebulaidl.co" +
       "re.Resources.ResourceName\022\r\n\005value\030\002 \001(\t" +
       "\"]\n\014ResourceName\022\013\n\007UNKNOWN\020\000\022\007\n\003CPU\020\001\022\007" +
@@ -18689,8 +18689,8 @@ public final class Tasks {
       "E_SDK\020\001\"\316\003\n\014TaskMetadata\022\024\n\014discoverable" +
       "\030\001 \001(\010\022/\n\007runtime\030\002 \001(\0132\036.nebulaidl.core." +
       "RuntimeMetadata\022*\n\007timeout\030\004 \001(\0132\031.googl" +
-      "e.protobuf.Duration\022-\n\007retries\030\005 \001(\0132\034.f" +
-      "lyteidl.core.RetryStrategy\022\031\n\021discovery_" +
+      "e.protobuf.Duration\022-\n\007retries\030\005 \001(\0132\034.n" +
+      "ebulaidl.core.RetryStrategy\022\031\n\021discovery_" +
       "version\030\006 \001(\t\022 \n\030deprecated_error_messag" +
       "e\030\007 \001(\t\022\027\n\rinterruptible\030\010 \001(\010H\000\022\032\n\022cach" +
       "e_serializable\030\t \001(\010\022\026\n\016generates_deck\030\n" +
@@ -18723,8 +18723,8 @@ public final class Tasks {
       "(\0162%.nebulaidl.core.Container.Architectur" +
       "e\"I\n\014Architecture\022\013\n\007UNKNOWN\020\000\022\t\n\005AMD64\020" +
       "\001\022\t\n\005ARM64\020\002\022\n\n\006ARM_V6\020\003\022\n\n\006ARM_V7\020\004\"\233\002\n" +
-      "\nIOStrategy\022=\n\rdownload_mode\030\001 \001(\0162&.fly" +
-      "teidl.core.IOStrategy.DownloadMode\0229\n\013up" +
+      "\nIOStrategy\022=\n\rdownload_mode\030\001 \001(\0162&.neb" +
+      "ulaidl.core.IOStrategy.DownloadMode\0229\n\013up" +
       "load_mode\030\002 \001(\0162$.nebulaidl.core.IOStrate" +
       "gy.UploadMode\"L\n\014DownloadMode\022\022\n\016DOWNLOA" +
       "D_EAGER\020\000\022\023\n\017DOWNLOAD_STREAM\020\001\022\023\n\017DO_NOT" +
@@ -18742,8 +18742,8 @@ public final class Tasks {
       "ta_config\030\003 \001(\0132 .nebulaidl.core.DataLoad" +
       "ingConfig\"\374\001\n\021K8sObjectMetadata\022<\n\006label" +
       "s\030\001 \003(\0132,.nebulaidl.core.K8sObjectMetadat" +
-      "a.LabelsEntry\022F\n\013annotations\030\002 \003(\01321.fly" +
-      "teidl.core.K8sObjectMetadata.Annotations" +
+      "a.LabelsEntry\022F\n\013annotations\030\002 \003(\01321.neb" +
+      "ulaidl.core.K8sObjectMetadata.Annotations" +
       "Entry\032-\n\013LabelsEntry\022\013\n\003key\030\001 \001(\t\022\r\n\005val" +
       "ue\030\002 \001(\t:\0028\001\0322\n\020AnnotationsEntry\022\013\n\003key\030" +
       "\001 \001(\t\022\r\n\005value\030\002 \001(\t:\0028\001\"~\n\003Sql\022\021\n\tstate" +

@@ -110,7 +110,7 @@ const char descriptor_table_protodef_nebulaidl_2fcore_2ferrors_2eproto[] =
   "\023\n\017NON_RECOVERABLE\020\000\022\017\n\013RECOVERABLE\020\001\"=\n"
   "\rErrorDocument\022,\n\005error\030\001 \001(\0132\035.nebulaidl"
   ".core.ContainerErrorB6Z4github.com/nebula"
-  "org/nebulaidl/gen/pb-go/nebulaidl/coreb\006pr"
+  "clouds/nebulaidl/gen/pb-go/nebulaidl/coreb\006pr"
   "oto3"
   ;
 ::google::protobuf::internal::DescriptorTable descriptor_table_nebulaidl_2fcore_2ferrors_2eproto = {

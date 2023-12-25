@@ -4472,15 +4472,15 @@ public final class ProjectAttributesOuterClass {
       "ttributes\030\001 \001(\0132!.nebulaidl.admin.Project" +
       "Attributes\"!\n\037ProjectAttributesUpdateRes" +
       "ponse\"h\n\033ProjectAttributesGetRequest\022\017\n\007" +
-      "project\030\001 \001(\t\0228\n\rresource_type\030\002 \001(\0162!.f" +
-      "lyteidl.admin.MatchableResource\"U\n\034Proje" +
+      "project\030\001 \001(\t\0228\n\rresource_type\030\002 \001(\0162!.n" +
+      "ebulaidl.admin.MatchableResource\"U\n\034Proje" +
       "ctAttributesGetResponse\0225\n\nattributes\030\001 " +
       "\001(\0132!.nebulaidl.admin.ProjectAttributes\"k" +
       "\n\036ProjectAttributesDeleteRequest\022\017\n\007proj" +
       "ect\030\001 \001(\t\0228\n\rresource_type\030\002 \001(\0162!.nebula" +
       "idl.admin.MatchableResource\"!\n\037ProjectAt" +
-      "tributesDeleteResponseB7Z5github.com/fly" +
-      "teorg/nebulaidl/gen/pb-go/nebulaidl/adminb" +
+      "tributesDeleteResponseB7Z5github.com/neb" +
+      "ulaclouds/nebulaidl/gen/pb-go/nebulaidl/adminb" +
       "\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =

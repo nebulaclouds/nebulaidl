@@ -74,8 +74,8 @@ const char descriptor_table_protodef_nebulaidl_2fplugins_2fmpi_2eproto[] =
   "\n\032nebulaidl/plugins/mpi.proto\022\020nebulaidl.p"
   "lugins\"_\n\032DistributedMPITrainingTask\022\023\n\013"
   "num_workers\030\001 \001(\005\022\035\n\025num_launcher_replic"
-  "as\030\002 \001(\005\022\r\n\005slots\030\003 \001(\005B9Z7github.com/fl"
-  "yteorg/nebulaidl/gen/pb-go/nebulaidl/plugi"
+  "as\030\002 \001(\005\022\r\n\005slots\030\003 \001(\005B9Z7github.com/ne"
+  "bulaclouds/nebulaidl/gen/pb-go/nebulaidl/plugi"
   "nsb\006proto3"
   ;
 ::google::protobuf::internal::DescriptorTable descriptor_table_nebulaidl_2fplugins_2fmpi_2eproto = {

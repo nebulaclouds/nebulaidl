@@ -27,8 +27,8 @@ public final class Agent {
       ".service\032\032nebulaidl/admin/agent.proto2\217\002\n" +
       "\021AsyncAgentService\022U\n\nCreateTask\022!.nebula" +
       "idl.admin.CreateTaskRequest\032\".nebulaidl.a" +
-      "dmin.CreateTaskResponse\"\000\022L\n\007GetTask\022\036.f" +
-      "lyteidl.admin.GetTaskRequest\032\037.nebulaidl." +
+      "dmin.CreateTaskResponse\"\000\022L\n\007GetTask\022\036.n" +
+      "ebulaidl.admin.GetTaskRequest\032\037.nebulaidl." +
       "admin.GetTaskResponse\"\000\022U\n\nDeleteTask\022!." +
       "nebulaidl.admin.DeleteTaskRequest\032\".nebula" +
       "idl.admin.DeleteTaskResponse\"\000B9Z7github" +

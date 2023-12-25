@@ -316,10 +316,10 @@ const char descriptor_table_protodef_nebulaidl_2fadmin_2fevent_2eproto[] =
   "st_id\030\001 \001(\t\0221\n\005event\030\002 \001(\0132\".nebulaidl.ev"
   "ent.NodeExecutionEvent\"\034\n\032NodeExecutionE"
   "ventResponse\"b\n\031TaskExecutionEventReques"
-  "t\022\022\n\nrequest_id\030\001 \001(\t\0221\n\005event\030\002 \001(\0132\".f"
-  "lyteidl.event.TaskExecutionEvent\"\034\n\032Task"
-  "ExecutionEventResponseB7Z5github.com/fly"
-  "teorg/nebulaidl/gen/pb-go/nebulaidl/adminb"
+  "t\022\022\n\nrequest_id\030\001 \001(\t\0221\n\005event\030\002 \001(\0132\".n"
+  "nebulaidl.event.TaskExecutionEvent\"\034\n\032Task"
+  "ExecutionEventResponseB7Z5github.com/neb"
+  "ulaclouds/nebulaidl/gen/pb-go/nebulaidl/adminb"
   "\006proto3"
   ;
 ::google::protobuf::internal::DescriptorTable descriptor_table_nebulaidl_2fadmin_2fevent_2eproto = {

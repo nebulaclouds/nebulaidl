@@ -5494,15 +5494,15 @@ public final class TaskOuterClass {
       "Response\"v\n\004Task\022%\n\002id\030\001 \001(\0132\031.nebulaidl." +
       "core.Identifier\022,\n\007closure\030\002 \001(\0132\033.nebula" +
       "idl.admin.TaskClosure\022\031\n\021short_descripti" +
-      "on\030\003 \001(\t\">\n\010TaskList\022#\n\005tasks\030\001 \003(\0132\024.fl" +
-      "yteidl.admin.Task\022\r\n\005token\030\002 \001(\t\"q\n\010Task" +
+      "on\030\003 \001(\t\">\n\010TaskList\022#\n\005tasks\030\001 \003(\0132\024.ne" +
+      "bulaidl.admin.Task\022\r\n\005token\030\002 \001(\t\"q\n\010Task" +
       "Spec\022-\n\010template\030\001 \001(\0132\033.nebulaidl.core.T" +
       "askTemplate\0226\n\013description\030\002 \001(\0132!.nebula" +
       "idl.admin.DescriptionEntity\"q\n\013TaskClosu" +
       "re\0222\n\rcompiled_task\030\001 \001(\0132\033.nebulaidl.cor" +
       "e.CompiledTask\022.\n\ncreated_at\030\002 \001(\0132\032.goo" +
-      "gle.protobuf.TimestampB7Z5github.com/fly" +
-      "teorg/nebulaidl/gen/pb-go/nebulaidl/adminb" +
+      "gle.protobuf.TimestampB7Z5github.com/neb" +
+      "ulaclouds/nebulaidl/gen/pb-go/nebulaidl/adminb" +
       "\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =

@@ -5084,8 +5084,8 @@ public final class Auth {
       "ClientConfig\022/.nebulaidl.service.PublicCl" +
       "ientAuthConfigRequest\0320.nebulaidl.service" +
       ".PublicClientAuthConfigResponse\"\037\202\323\344\223\002\031\022" +
-      "\027/config/v1/nebula_clientB9Z7github.com/f" +
-      "lyteorg/nebulaidl/gen/pb-go/nebulaidl/serv" +
+      "\027/config/v1/nebula_clientB9Z7github.com/n" +
+      "ebulaclouds/nebulaidl/gen/pb-go/nebulaidl/serv" +
       "iceb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =

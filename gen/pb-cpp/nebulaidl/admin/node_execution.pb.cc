@@ -452,8 +452,8 @@ static ::google::protobuf::Message const * const file_default_instances[] = {
 };
 
 const char descriptor_table_protodef_nebulaidl_2fadmin_2fnode_5fexecution_2eproto[] =
-  "\n#nebulaidl/admin/node_execution.proto\022\016f"
-  "lyteidl.admin\032\033nebulaidl/admin/common.pro"
+  "\n#nebulaidl/admin/node_execution.proto\022\016n"
+  "ebulaidl.admin\032\033nebulaidl/admin/common.pro"
   "to\032\035nebulaidl/core/execution.proto\032\033nebula"
   "idl/core/catalog.proto\032\034nebulaidl/core/co"
   "mpiler.proto\032\036nebulaidl/core/identifier.p"
@@ -485,8 +485,8 @@ const char descriptor_table_protodef_nebulaidl_2fadmin_2fnode_5fexecution_2eprot
   "cutionClosure\022\030\n\noutput_uri\030\001 \001(\tB\002\030\001H\000\022"
   ".\n\005error\030\002 \001(\0132\035.nebulaidl.core.Execution"
   "ErrorH\000\0224\n\013output_data\030\n \001(\0132\031.nebulaidl."
-  "core.LiteralMapB\002\030\001H\000\0221\n\005phase\030\003 \001(\0162\".f"
-  "lyteidl.core.NodeExecution.Phase\022.\n\nstar"
+  "core.LiteralMapB\002\030\001H\000\0221\n\005phase\030\003 \001(\0162\".n"
+  "ebulaidl.core.NodeExecution.Phase\022.\n\nstar"
   "ted_at\030\004 \001(\0132\032.google.protobuf.Timestamp"
   "\022+\n\010duration\030\005 \001(\0132\031.google.protobuf.Dur"
   "ation\022.\n\ncreated_at\030\006 \001(\0132\032.google.proto"

@@ -1218,9 +1218,9 @@ public final class WorkflowClosureOuterClass {
       "nebulaidl.core\032\034nebulaidl/core/workflow.pr" +
       "oto\032\031nebulaidl/core/tasks.proto\"p\n\017Workfl" +
       "owClosure\0221\n\010workflow\030\001 \001(\0132\037.nebulaidl.c" +
-      "ore.WorkflowTemplate\022*\n\005tasks\030\002 \003(\0132\033.fl" +
-      "yteidl.core.TaskTemplateB6Z4github.com/f" +
-      "lyteorg/nebulaidl/gen/pb-go/nebulaidl/core" +
+      "ore.WorkflowTemplate\022*\n\005tasks\030\002 \003(\0132\033.ne" +
+      "bulaidl.core.TaskTemplateB6Z4github.com/n" +
+      "ebulaclouds/nebulaidl/gen/pb-go/nebulaidl/core" +
       "b\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =

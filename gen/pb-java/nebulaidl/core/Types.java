@@ -13897,8 +13897,8 @@ public final class Types {
       "\0132\032.nebulaidl.core.LiteralType\"\034\n\rTypeStr" +
       "ucture\022\013\n\003tag\030\001 \001(\t\">\n\016TypeAnnotation\022,\n" +
       "\013annotations\030\001 \001(\0132\027.google.protobuf.Str" +
-      "uct\"\273\004\n\013LiteralType\022+\n\006simple\030\001 \001(\0162\031.fl" +
-      "yteidl.core.SimpleTypeH\000\022+\n\006schema\030\002 \001(\013" +
+      "uct\"\273\004\n\013LiteralType\022+\n\006simple\030\001 \001(\0162\031.ne" +
+      "bulaidl.core.SimpleTypeH\000\022+\n\006schema\030\002 \001(\013" +
       "2\031.nebulaidl.core.SchemaTypeH\000\0225\n\017collect" +
       "ion_type\030\003 \001(\0132\032.nebulaidl.core.LiteralTy" +
       "peH\000\0224\n\016map_value_type\030\004 \001(\0132\032.nebulaidl." +
@@ -13920,8 +13920,8 @@ public final class Types {
       "(\t*\206\001\n\nSimpleType\022\010\n\004NONE\020\000\022\013\n\007INTEGER\020\001" +
       "\022\t\n\005FLOAT\020\002\022\n\n\006STRING\020\003\022\013\n\007BOOLEAN\020\004\022\014\n\010" +
       "DATETIME\020\005\022\014\n\010DURATION\020\006\022\n\n\006BINARY\020\007\022\t\n\005" +
-      "ERROR\020\010\022\n\n\006STRUCT\020\tB6Z4github.com/nebulao" +
-      "rg/nebulaidl/gen/pb-go/nebulaidl/coreb\006pro" +
+      "ERROR\020\010\022\n\n\006STRUCT\020\tB6Z4github.com/nebulaclou" +
+      "ds/nebulaidl/gen/pb-go/nebulaidl/coreb\006pro" +
       "to3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =

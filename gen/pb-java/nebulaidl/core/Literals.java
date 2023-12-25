@@ -18483,15 +18483,15 @@ public final class Literals {
       "ration\030\006 \001(\0132\031.google.protobuf.DurationH" +
       "\000B\007\n\005value\"\006\n\004Void\"B\n\004Blob\022-\n\010metadata\030\001" +
       " \001(\0132\033.nebulaidl.core.BlobMetadata\022\013\n\003uri" +
-      "\030\003 \001(\t\"5\n\014BlobMetadata\022%\n\004type\030\001 \001(\0132\027.f" +
-      "lyteidl.core.BlobType\"$\n\006Binary\022\r\n\005value" +
+      "\030\003 \001(\t\"5\n\014BlobMetadata\022%\n\004type\030\001 \001(\0132\027.n" +
+      "ebulaidl.core.BlobType\"$\n\006Binary\022\r\n\005value" +
       "\030\001 \001(\014\022\013\n\003tag\030\002 \001(\t\">\n\006Schema\022\013\n\003uri\030\001 \001" +
       "(\t\022\'\n\004type\030\003 \001(\0132\031.nebulaidl.core.SchemaT" +
       "ype\"X\n\005Union\022%\n\005value\030\001 \001(\0132\026.nebulaidl.c" +
       "ore.Literal\022(\n\004type\030\002 \001(\0132\032.nebulaidl.cor" +
       "e.LiteralType\"b\n\031StructuredDatasetMetada" +
-      "ta\022E\n\027structured_dataset_type\030\001 \001(\0132$.fl" +
-      "yteidl.core.StructuredDatasetType\"\\\n\021Str" +
+      "ta\022E\n\027structured_dataset_type\030\001 \001(\0132$.ne" +
+      "bulaidl.core.StructuredDatasetType\"\\\n\021Str" +
       "ucturedDataset\022\013\n\003uri\030\001 \001(\t\022:\n\010metadata\030" +
       "\002 \001(\0132(.nebulaidl.core.StructuredDatasetM" +
       "etadata\"\233\003\n\006Scalar\022-\n\tprimitive\030\001 \001(\0132\030." +
@@ -18509,15 +18509,15 @@ public final class Literals {
       "llection\030\002 \001(\0132 .nebulaidl.core.LiteralCo" +
       "llectionH\000\022(\n\003map\030\003 \001(\0132\031.nebulaidl.core." +
       "LiteralMapH\000\022\014\n\004hash\030\004 \001(\tB\007\n\005value\"=\n\021L" +
-      "iteralCollection\022(\n\010literals\030\001 \003(\0132\026.fly" +
-      "teidl.core.Literal\"\220\001\n\nLiteralMap\0229\n\010lit" +
+      "iteralCollection\022(\n\010literals\030\001 \003(\0132\026.neb" +
+      "ulaidl.core.Literal\"\220\001\n\nLiteralMap\0229\n\010lit" +
       "erals\030\001 \003(\0132\'.nebulaidl.core.LiteralMap.L" +
       "iteralsEntry\032G\n\rLiteralsEntry\022\013\n\003key\030\001 \001" +
       "(\t\022%\n\005value\030\002 \001(\0132\026.nebulaidl.core.Litera" +
       "l:\0028\001\"E\n\025BindingDataCollection\022,\n\010bindin" +
       "gs\030\001 \003(\0132\032.nebulaidl.core.BindingData\"\234\001\n" +
-      "\016BindingDataMap\022=\n\010bindings\030\001 \003(\0132+.flyt" +
-      "eidl.core.BindingDataMap.BindingsEntry\032K" +
+      "\016BindingDataMap\022=\n\010bindings\030\001 \003(\0132+.nebul" +
+      "aidl.core.BindingDataMap.BindingsEntry\032K" +
       "\n\rBindingsEntry\022\013\n\003key\030\001 \001(\t\022)\n\005value\030\002 " +
       "\001(\0132\032.nebulaidl.core.BindingData:\0028\001\";\n\tU" +
       "nionInfo\022.\n\ntargetType\030\001 \001(\0132\032.nebulaidl." +

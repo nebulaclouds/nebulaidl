@@ -5724,11 +5724,11 @@ public final class Execution {
       "fServiceSpec\0222\n\017queueing_budget\030\001 \001(\0132\031." +
       "google.protobuf.Duration\"\302\001\n\020QualityOfSe" +
       "rvice\0224\n\004tier\030\001 \001(\0162$.nebulaidl.core.Qual" +
-      "ityOfService.TierH\000\0223\n\004spec\030\002 \001(\0132#.flyt" +
-      "eidl.core.QualityOfServiceSpecH\000\"4\n\004Tier" +
+      "ityOfService.TierH\000\0223\n\004spec\030\002 \001(\0132#.nebul" +
+      "aidl.core.QualityOfServiceSpecH\000\"4\n\004Tier" +
       "\022\r\n\tUNDEFINED\020\000\022\010\n\004HIGH\020\001\022\n\n\006MEDIUM\020\002\022\007\n" +
-      "\003LOW\020\003B\r\n\013designationB6Z4github.com/flyt" +
-      "eorg/nebulaidl/gen/pb-go/nebulaidl/coreb\006p" +
+      "\003LOW\020\003B\r\n\013designationB6Z4github.com/neb" +
+      "ulaclouds/nebulaidl/gen/pb-go/nebulaidl/coreb\006p" +
       "roto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =

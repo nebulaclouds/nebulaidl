@@ -237,8 +237,8 @@ const char descriptor_table_protodef_nebulaidl_2fservice_2fexternal_5fplugin_5fs
   "GetRequest\032!.nebulaidl.service.TaskGetRes"
   "ponse\"\003\210\002\001\022\\\n\nDeleteTask\022#.nebulaidl.serv"
   "ice.TaskDeleteRequest\032$.nebulaidl.service"
-  ".TaskDeleteResponse\"\003\210\002\001B9Z7github.com/f"
-  "lyteorg/nebulaidl/gen/pb-go/nebulaidl/serv"
+  ".TaskDeleteResponse\"\003\210\002\001B9Z7github.com/n"
+  "ebulaclouds/nebulaidl/gen/pb-go/nebulaidl/serv"
   "iceb\006proto3"
   ;
 ::google::protobuf::internal::DescriptorTable descriptor_table_nebulaidl_2fservice_2fexternal_5fplugin_5fservice_2eproto = {

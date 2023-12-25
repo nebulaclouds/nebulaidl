@@ -6006,8 +6006,8 @@ public final class Event {
       "st_id\030\001 \001(\t\0221\n\005event\030\002 \001(\0132\".nebulaidl.ev" +
       "ent.NodeExecutionEvent\"\034\n\032NodeExecutionE" +
       "ventResponse\"b\n\031TaskExecutionEventReques" +
-      "t\022\022\n\nrequest_id\030\001 \001(\t\0221\n\005event\030\002 \001(\0132\".f" +
-      "lyteidl.event.TaskExecutionEvent\"\034\n\032Task" +
+      "t\022\022\n\nrequest_id\030\001 \001(\t\0221\n\005event\030\002 \001(\0132\".n" +
+      "ebulaidl.event.TaskExecutionEvent\"\034\n\032Task" +
       "ExecutionEventResponseB7Z5github.com/fly" +
       "teorg/nebulaidl/gen/pb-go/nebulaidl/adminb" +
       "\006proto3"

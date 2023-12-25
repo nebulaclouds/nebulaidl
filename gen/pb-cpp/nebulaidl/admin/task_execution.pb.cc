@@ -323,8 +323,8 @@ static ::google::protobuf::Message const * const file_default_instances[] = {
 };
 
 const char descriptor_table_protodef_nebulaidl_2fadmin_2ftask_5fexecution_2eproto[] =
-  "\n#nebulaidl/admin/task_execution.proto\022\016f"
-  "lyteidl.admin\032\033nebulaidl/admin/common.pro"
+  "\n#nebulaidl/admin/task_execution.proto\022\016n"
+  "ebulaidl.admin\032\033nebulaidl/admin/common.pro"
   "to\032\035nebulaidl/core/execution.proto\032\036nebula"
   "idl/core/identifier.proto\032\034nebulaidl/core"
   "/literals.proto\032\032nebulaidl/event/event.pr"

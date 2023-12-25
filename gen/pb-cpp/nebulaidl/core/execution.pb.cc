@@ -273,8 +273,8 @@ const char descriptor_table_protodef_nebulaidl_2fcore_2fexecution_2eproto[] =
   "ityOfService.TierH\000\0223\n\004spec\030\002 \001(\0132#.flyt"
   "eidl.core.QualityOfServiceSpecH\000\"4\n\004Tier"
   "\022\r\n\tUNDEFINED\020\000\022\010\n\004HIGH\020\001\022\n\n\006MEDIUM\020\002\022\007\n"
-  "\003LOW\020\003B\r\n\013designationB6Z4github.com/flyt"
-  "eorg/nebulaidl/gen/pb-go/nebulaidl/coreb\006p"
+  "\003LOW\020\003B\r\n\013designationB6Z4github.com/nebula"
+  "clouds/nebulaidl/gen/pb-go/nebulaidl/coreb\006p"
   "roto3"
   ;
 ::google::protobuf::internal::DescriptorTable descriptor_table_nebulaidl_2fcore_2fexecution_2eproto = {

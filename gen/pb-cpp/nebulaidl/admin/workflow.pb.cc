@@ -319,8 +319,8 @@ static ::google::protobuf::Message const * const file_default_instances[] = {
 
 const char descriptor_table_protodef_nebulaidl_2fadmin_2fworkflow_2eproto[] =
   "\n\035nebulaidl/admin/workflow.proto\022\016nebulaid"
-  "l.admin\032\034nebulaidl/core/compiler.proto\032\036f"
-  "lyteidl/core/identifier.proto\032\034nebulaidl/"
+  "l.admin\032\034nebulaidl/core/compiler.proto\032\036n"
+  "ebulaidl/core/identifier.proto\032\034nebulaidl/"
   "core/workflow.proto\032\'nebulaidl/admin/desc"
   "ription_entity.proto\032\037google/protobuf/ti"
   "mestamp.proto\"j\n\025WorkflowCreateRequest\022%"

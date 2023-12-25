@@ -4295,10 +4295,10 @@ public final class Condition {
       "\001 \001(\0132$.nebulaidl.core.ConjunctionExpress" +
       "ionH\000\0229\n\ncomparison\030\002 \001(\0132#.nebulaidl.cor" +
       "e.ComparisonExpressionH\000B\006\n\004expr\"\372\001\n\025Con" +
-      "junctionExpression\022F\n\010operator\030\001 \001(\01624.f" +
-      "lyteidl.core.ConjunctionExpression.Logic" +
-      "alOperator\0229\n\017left_expression\030\002 \001(\0132 .fl" +
-      "yteidl.core.BooleanExpression\022:\n\020right_e" +
+      "junctionExpression\022F\n\010operator\030\001 \001(\01624.n" +
+      "ebulaidl.core.ConjunctionExpression.Logic" +
+      "alOperator\0229\n\017left_expression\030\002 \001(\0132 .ne" +
+      "bulaidl.core.BooleanExpression\022:\n\020right_e" +
       "xpression\030\003 \001(\0132 .nebulaidl.core.BooleanE" +
       "xpression\"\"\n\017LogicalOperator\022\007\n\003AND\020\000\022\006\n" +
       "\002OR\020\001B6Z4github.com/nebulaclouds/nebulaidl/ge" +
