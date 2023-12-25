@@ -1,4 +1,5 @@
 name: "Publish pypi Artifacts"
+
 on:
   push:
     branches:
@@ -11,12 +12,6 @@ jobs:
     steps:
       - name: Checkout Nebula Protocol
         uses: actions/checkout@v3
-
-      - name: Setup Java
-        uses: actions/setup-java@v3
-        with:
-          distribution: "zulu"
-          java-version: "17"
 
       - name: Generate Development Version
         run: |
@@ -33,9 +28,6 @@ jobs:
 
       - name: Set CLI Config
         run: jf pip-config --global=true --repo-resolve=nebula-pypi
-
-#      - name: Install Deps
-#        run: jf pip install .
 
       - name: Package the project
         run: python -m pip install python-dotenv && python setup.py sdist bdist_wheel
