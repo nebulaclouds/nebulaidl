@@ -990,7 +990,7 @@ public final class Spark {
           java.lang.String, java.lang.String> defaultEntry =
               com.google.protobuf.MapEntry
               .<java.lang.String, java.lang.String>newDefaultInstance(
-                  nebulaidl.plugins.Spark.internal_static_nebulaidl_plugins_SparkJob_SparkConfEntry_descriptor,
+                  nebulaidl.plugins.Spark.internal_static_nebulaidl_plugins_SparkJob_SparkConfEntry_descriptor, 
                   com.google.protobuf.WireFormat.FieldType.STRING,
                   "",
                   com.google.protobuf.WireFormat.FieldType.STRING,
@@ -1066,7 +1066,7 @@ public final class Spark {
           java.lang.String, java.lang.String> defaultEntry =
               com.google.protobuf.MapEntry
               .<java.lang.String, java.lang.String>newDefaultInstance(
-                  nebulaidl.plugins.Spark.internal_static_nebulaidl_plugins_SparkJob_HadoopConfEntry_descriptor,
+                  nebulaidl.plugins.Spark.internal_static_nebulaidl_plugins_SparkJob_HadoopConfEntry_descriptor, 
                   com.google.protobuf.WireFormat.FieldType.STRING,
                   "",
                   com.google.protobuf.WireFormat.FieldType.STRING,
@@ -2755,24 +2755,24 @@ public final class Spark {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\034nebulaidl/plugins/spark.proto\022\020nebulaidl" +
-      ".plugins\032\034google/protobuf/struct.proto\"B" +
-      "\n\020SparkApplication\".\n\004Type\022\n\n\006PYTHON\020\000\022\010" +
-      "\n\004JAVA\020\001\022\t\n\005SCALA\020\002\022\005\n\001R\020\003\"\333\003\n\010SparkJob\022" +
-      "@\n\017applicationType\030\001 \001(\0162\'.nebulaidl.plug" +
-      "ins.SparkApplication.Type\022\033\n\023mainApplica" +
-      "tionFile\030\002 \001(\t\022\021\n\tmainClass\030\003 \001(\t\022<\n\tspa" +
-      "rkConf\030\004 \003(\0132).nebulaidl.plugins.SparkJob" +
-      ".SparkConfEntry\022>\n\nhadoopConf\030\005 \003(\0132*.ne" +
-      "bulaidl.plugins.SparkJob.HadoopConfEntry\022" +
-      "\024\n\014executorPath\030\006 \001(\t\022/\n\016databricksConf\030" +
-      "\007 \001(\0132\027.google.protobuf.Struct\022\027\n\017databr" +
-      "icksToken\030\010 \001(\t\022\032\n\022databricksInstance\030\t " +
-      "\001(\t\0320\n\016SparkConfEntry\022\013\n\003key\030\001 \001(\t\022\r\n\005va" +
-      "lue\030\002 \001(\t:\0028\001\0321\n\017HadoopConfEntry\022\013\n\003key\030" +
-      "\001 \001(\t\022\r\n\005value\030\002 \001(\t:\0028\001B9Z7github.com/n" +
-      "ebulaclouds/nebulaidl/gen/pb-go/nebulaidl/plug" +
-      "insb\006proto3"
+      "\n\035nebulaidl/plugins/spark.proto\022\021nebulai" +
+      "dl.plugins\032\034google/protobuf/struct.proto" +
+      "\"B\n\020SparkApplication\".\n\004Type\022\n\n\006PYTHON\020\000" +
+      "\022\010\n\004JAVA\020\001\022\t\n\005SCALA\020\002\022\005\n\001R\020\003\"\336\003\n\010SparkJo" +
+      "b\022A\n\017applicationType\030\001 \001(\0162(.nebulaidl.p" +
+      "lugins.SparkApplication.Type\022\033\n\023mainAppl" +
+      "icationFile\030\002 \001(\t\022\021\n\tmainClass\030\003 \001(\t\022=\n\t" +
+      "sparkConf\030\004 \003(\0132*.nebulaidl.plugins.Spar" +
+      "kJob.SparkConfEntry\022?\n\nhadoopConf\030\005 \003(\0132" +
+      "+.nebulaidl.plugins.SparkJob.HadoopConfE" +
+      "ntry\022\024\n\014executorPath\030\006 \001(\t\022/\n\016databricks" +
+      "Conf\030\007 \001(\0132\027.google.protobuf.Struct\022\027\n\017d" +
+      "atabricksToken\030\010 \001(\t\022\032\n\022databricksInstan" +
+      "ce\030\t \001(\t\0320\n\016SparkConfEntry\022\013\n\003key\030\001 \001(\t\022" +
+      "\r\n\005value\030\002 \001(\t:\0028\001\0321\n\017HadoopConfEntry\022\013\n" +
+      "\003key\030\001 \001(\t\022\r\n\005value\030\002 \001(\t:\0028\001B?Z=github." +
+      "com/nebulaclouds/nebulaidl/gen/pb-go/neb" +
+      "ulaidl/pluginsb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

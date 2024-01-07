@@ -10,7 +10,7 @@
 package nebulaadmin
 
 type AdminVersion struct {
-	Build     string `json:"Build,omitempty"`
-	Version   string `json:"Version,omitempty"`
+	Build string `json:"Build,omitempty"`
+	Version string `json:"Version,omitempty"`
 	BuildTime string `json:"BuildTime,omitempty"`
 }

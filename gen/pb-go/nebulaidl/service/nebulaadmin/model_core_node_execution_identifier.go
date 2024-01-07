@@ -11,6 +11,6 @@ package nebulaadmin
 
 // Encapsulation of fields that identify a Nebula node execution entity.
 type CoreNodeExecutionIdentifier struct {
-	NodeId      string                           `json:"node_id,omitempty"`
+	NodeId string `json:"node_id,omitempty"`
 	ExecutionId *CoreWorkflowExecutionIdentifier `json:"execution_id,omitempty"`
 }

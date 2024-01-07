@@ -702,7 +702,7 @@ public final class Qubole {
     /**
      * <code>repeated .nebulaidl.plugins.HiveQuery queries = 2;</code>
      */
-    java.util.List<nebulaidl.plugins.Qubole.HiveQuery>
+    java.util.List<nebulaidl.plugins.Qubole.HiveQuery> 
         getQueriesList();
     /**
      * <code>repeated .nebulaidl.plugins.HiveQuery queries = 2;</code>
@@ -715,7 +715,7 @@ public final class Qubole {
     /**
      * <code>repeated .nebulaidl.plugins.HiveQuery queries = 2;</code>
      */
-    java.util.List<? extends nebulaidl.plugins.Qubole.HiveQueryOrBuilder>
+    java.util.List<? extends nebulaidl.plugins.Qubole.HiveQueryOrBuilder> 
         getQueriesOrBuilderList();
     /**
      * <code>repeated .nebulaidl.plugins.HiveQuery queries = 2;</code>
@@ -822,7 +822,7 @@ public final class Qubole {
     /**
      * <code>repeated .nebulaidl.plugins.HiveQuery queries = 2;</code>
      */
-    public java.util.List<? extends nebulaidl.plugins.Qubole.HiveQueryOrBuilder>
+    public java.util.List<? extends nebulaidl.plugins.Qubole.HiveQueryOrBuilder> 
         getQueriesOrBuilderList() {
       return queries_;
     }
@@ -1387,7 +1387,7 @@ public final class Qubole {
       /**
        * <code>repeated .nebulaidl.plugins.HiveQuery queries = 2;</code>
        */
-      public java.util.List<? extends nebulaidl.plugins.Qubole.HiveQueryOrBuilder>
+      public java.util.List<? extends nebulaidl.plugins.Qubole.HiveQueryOrBuilder> 
            getQueriesOrBuilderList() {
         if (queriesBuilder_ != null) {
           return queriesBuilder_.getMessageOrBuilderList();
@@ -1413,12 +1413,12 @@ public final class Qubole {
       /**
        * <code>repeated .nebulaidl.plugins.HiveQuery queries = 2;</code>
        */
-      public java.util.List<nebulaidl.plugins.Qubole.HiveQuery.Builder>
+      public java.util.List<nebulaidl.plugins.Qubole.HiveQuery.Builder> 
            getQueriesBuilderList() {
         return getQueriesFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          nebulaidl.plugins.Qubole.HiveQuery, nebulaidl.plugins.Qubole.HiveQuery.Builder, nebulaidl.plugins.Qubole.HiveQueryOrBuilder>
+          nebulaidl.plugins.Qubole.HiveQuery, nebulaidl.plugins.Qubole.HiveQuery.Builder, nebulaidl.plugins.Qubole.HiveQueryOrBuilder> 
           getQueriesFieldBuilder() {
         if (queriesBuilder_ == null) {
           queriesBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
@@ -2349,7 +2349,7 @@ public final class Qubole {
        * <code>.nebulaidl.plugins.HiveQueryCollection query_collection = 2 [deprecated = true];</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          nebulaidl.plugins.Qubole.HiveQueryCollection, nebulaidl.plugins.Qubole.HiveQueryCollection.Builder, nebulaidl.plugins.Qubole.HiveQueryCollectionOrBuilder>
+          nebulaidl.plugins.Qubole.HiveQueryCollection, nebulaidl.plugins.Qubole.HiveQueryCollection.Builder, nebulaidl.plugins.Qubole.HiveQueryCollectionOrBuilder> 
           getQueryCollectionFieldBuilder() {
         if (queryCollectionBuilder_ == null) {
           queryCollectionBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -2560,7 +2560,7 @@ public final class Qubole {
        * <code>.nebulaidl.plugins.HiveQuery query = 4;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          nebulaidl.plugins.Qubole.HiveQuery, nebulaidl.plugins.Qubole.HiveQuery.Builder, nebulaidl.plugins.Qubole.HiveQueryOrBuilder>
+          nebulaidl.plugins.Qubole.HiveQuery, nebulaidl.plugins.Qubole.HiveQuery.Builder, nebulaidl.plugins.Qubole.HiveQueryOrBuilder> 
           getQueryFieldBuilder() {
         if (queryBuilder_ == null) {
           queryBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -2649,17 +2649,17 @@ public final class Qubole {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\035nebulaidl/plugins/qubole.proto\022\020nebulaid" +
-      "l.plugins\"C\n\tHiveQuery\022\r\n\005query\030\001 \001(\t\022\023\n" +
-      "\013timeout_sec\030\002 \001(\r\022\022\n\nretryCount\030\003 \001(\r\"C" +
-      "\n\023HiveQueryCollection\022,\n\007queries\030\002 \003(\0132\033" +
-      ".nebulaidl.plugins.HiveQuery\"\245\001\n\rQuboleHi" +
-      "veJob\022\025\n\rcluster_label\030\001 \001(\t\022C\n\020query_co" +
-      "llection\030\002 \001(\0132%.nebulaidl.plugins.HiveQu" +
-      "eryCollectionB\002\030\001\022\014\n\004tags\030\003 \003(\t\022*\n\005query" +
-      "\030\004 \001(\0132\033.nebulaidl.plugins.HiveQueryB9Z7g" +
-      "ithub.com/nebulaclouds/nebulaidl/gen/pb-go/fl" +
-      "yteidl/pluginsb\006proto3"
+      "\n\036nebulaidl/plugins/qubole.proto\022\021nebula" +
+      "idl.plugins\"C\n\tHiveQuery\022\r\n\005query\030\001 \001(\t\022" +
+      "\023\n\013timeout_sec\030\002 \001(\r\022\022\n\nretryCount\030\003 \001(\r" +
+      "\"D\n\023HiveQueryCollection\022-\n\007queries\030\002 \003(\013" +
+      "2\034.nebulaidl.plugins.HiveQuery\"\247\001\n\rQubol" +
+      "eHiveJob\022\025\n\rcluster_label\030\001 \001(\t\022D\n\020query" +
+      "_collection\030\002 \001(\0132&.nebulaidl.plugins.Hi" +
+      "veQueryCollectionB\002\030\001\022\014\n\004tags\030\003 \003(\t\022+\n\005q" +
+      "uery\030\004 \001(\0132\034.nebulaidl.plugins.HiveQuery" +
+      "B?Z=github.com/nebulaclouds/nebulaidl/ge" +
+      "n/pb-go/nebulaidl/pluginsb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

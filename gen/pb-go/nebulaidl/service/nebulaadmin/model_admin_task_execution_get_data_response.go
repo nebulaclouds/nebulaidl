@@ -18,6 +18,6 @@ type AdminTaskExecutionGetDataResponse struct {
 	// Full_inputs will only be populated if they are under a configured size threshold.
 	FullInputs *CoreLiteralMap `json:"full_inputs,omitempty"`
 	// Full_outputs will only be populated if they are under a configured size threshold.
-	FullOutputs *CoreLiteralMap  `json:"full_outputs,omitempty"`
-	NebulaUrls  *AdminNebulaUrLs `json:"nebula_urls,omitempty"`
+	FullOutputs *CoreLiteralMap `json:"full_outputs,omitempty"`
+	NebulaUrls *AdminNebulaUrLs `json:"nebula_urls,omitempty"`
 }

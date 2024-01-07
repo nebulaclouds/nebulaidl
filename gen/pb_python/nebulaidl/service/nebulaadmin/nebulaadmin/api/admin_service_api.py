@@ -1649,7 +1649,7 @@ class AdminServiceApi(object):
         :param str id_domain: Name of the domain the resource belongs to. A domain can be considered as a subset within a specific project. (required)
         :param str id_name: User provided value for the resource. (required)
         :param str id_version: Specific version of the resource. (required)
-        :param str id_resource_type: Identifies the specific type of resource that this identifier corresponds to.   - DATASET: A dataset represents an entity modeled in Nebula DataCatalog. A Dataset is also a versioned entity and can be a compilation of multiple individual objects. Eventually all Catalog objects should be modeled similar to Nebula Objects. The Dataset entities makes it possible for the UI  and CLI to act on the objects  in a similar manner to other Nebula objects
+        :param str id_resource_type: Identifies the specific type of resource that this identifier corresponds to.   - DATASET: A dataset represents an entity modeled in Nebula DataCatalog. A Dataset is also a versioned entity and can be a compilation of multiple individual objects. Eventually all Catalog objects should be modeled similar to Nebula Objects. The Dataset entities makes it possible for the UI  and CLI to act on the objects in a similar manner to other Nebula objects
         :return: AdminLaunchPlan
                  If the method is called asynchronously,
                  returns the request thread.
@@ -1674,7 +1674,7 @@ class AdminServiceApi(object):
         :param str id_domain: Name of the domain the resource belongs to. A domain can be considered as a subset within a specific project. (required)
         :param str id_name: User provided value for the resource. (required)
         :param str id_version: Specific version of the resource. (required)
-        :param str id_resource_type: Identifies the specific type of resource that this identifier corresponds to.   - DATASET: A dataset represents an entity modeled in Nebula DataCatalog. A Dataset is also a versioned entity and can be a compilation of multiple individual objects. Eventually all Catalog objects should be modeled similar to Nebula Objects. The Dataset entities makes it possible for the UI  and CLI to act on the objects  in a similar manner to other Nebula objects
+        :param str id_resource_type: Identifies the specific type of resource that this identifier corresponds to.   - DATASET: A dataset represents an entity modeled in Nebula DataCatalog. A Dataset is also a versioned entity and can be a compilation of multiple individual objects. Eventually all Catalog objects should be modeled similar to Nebula Objects. The Dataset entities makes it possible for the UI  and CLI to act on the objects in a similar manner to other Nebula objects
         :return: AdminLaunchPlan
                  If the method is called asynchronously,
                  returns the request thread.
@@ -2347,7 +2347,7 @@ class AdminServiceApi(object):
         :param str id_domain: Name of the domain the resource belongs to. A domain can be considered as a subset within a specific project. (required)
         :param str id_name: User provided value for the resource. (required)
         :param str id_version: Specific version of the resource. (required)
-        :param str id_resource_type: Identifies the specific type of resource that this identifier corresponds to.   - DATASET: A dataset represents an entity modeled in Nebula DataCatalog. A Dataset is also a versioned entity and can be a compilation of multiple individual objects. Eventually all Catalog objects should be modeled similar to Nebula Objects. The Dataset entities makes it possible for the UI  and CLI to act on the objects  in a similar manner to other Nebula objects
+        :param str id_resource_type: Identifies the specific type of resource that this identifier corresponds to.   - DATASET: A dataset represents an entity modeled in Nebula DataCatalog. A Dataset is also a versioned entity and can be a compilation of multiple individual objects. Eventually all Catalog objects should be modeled similar to Nebula Objects. The Dataset entities makes it possible for the UI  and CLI to act on the objects in a similar manner to other Nebula objects
         :return: AdminTask
                  If the method is called asynchronously,
                  returns the request thread.
@@ -2372,7 +2372,7 @@ class AdminServiceApi(object):
         :param str id_domain: Name of the domain the resource belongs to. A domain can be considered as a subset within a specific project. (required)
         :param str id_name: User provided value for the resource. (required)
         :param str id_version: Specific version of the resource. (required)
-        :param str id_resource_type: Identifies the specific type of resource that this identifier corresponds to.   - DATASET: A dataset represents an entity modeled in Nebula DataCatalog. A Dataset is also a versioned entity and can be a compilation of multiple individual objects. Eventually all Catalog objects should be modeled similar to Nebula Objects. The Dataset entities makes it possible for the UI  and CLI to act on the objects  in a similar manner to other Nebula objects
+        :param str id_resource_type: Identifies the specific type of resource that this identifier corresponds to.   - DATASET: A dataset represents an entity modeled in Nebula DataCatalog. A Dataset is also a versioned entity and can be a compilation of multiple individual objects. Eventually all Catalog objects should be modeled similar to Nebula Objects. The Dataset entities makes it possible for the UI  and CLI to act on the objects in a similar manner to other Nebula objects
         :return: AdminTask
                  If the method is called asynchronously,
                  returns the request thread.
@@ -2477,7 +2477,7 @@ class AdminServiceApi(object):
         :param str id_task_id_name: User provided value for the resource. (required)
         :param str id_task_id_version: Specific version of the resource. (required)
         :param int id_retry_attempt: (required)
-        :param str id_task_id_resource_type: Identifies the specific type of resource that this identifier corresponds to.   - DATASET: A dataset represents an entity modeled in Nebula DataCatalog. A Dataset is also a versioned entity and can be a compilation of multiple individual objects. Eventually all Catalog objects should be modeled similar to Nebula Objects. The Dataset entities makes it possible for the UI  and CLI to act on the objects  in a similar manner to other Nebula objects
+        :param str id_task_id_resource_type: Identifies the specific type of resource that this identifier corresponds to.   - DATASET: A dataset represents an entity modeled in Nebula DataCatalog. A Dataset is also a versioned entity and can be a compilation of multiple individual objects. Eventually all Catalog objects should be modeled similar to Nebula Objects. The Dataset entities makes it possible for the UI  and CLI to act on the objects in a similar manner to other Nebula objects
         :return: NebulaidladminTaskExecution
                  If the method is called asynchronously,
                  returns the request thread.
@@ -2507,7 +2507,7 @@ class AdminServiceApi(object):
         :param str id_task_id_name: User provided value for the resource. (required)
         :param str id_task_id_version: Specific version of the resource. (required)
         :param int id_retry_attempt: (required)
-        :param str id_task_id_resource_type: Identifies the specific type of resource that this identifier corresponds to.   - DATASET: A dataset represents an entity modeled in Nebula DataCatalog. A Dataset is also a versioned entity and can be a compilation of multiple individual objects. Eventually all Catalog objects should be modeled similar to Nebula Objects. The Dataset entities makes it possible for the UI  and CLI to act on the objects  in a similar manner to other Nebula objects
+        :param str id_task_id_resource_type: Identifies the specific type of resource that this identifier corresponds to.   - DATASET: A dataset represents an entity modeled in Nebula DataCatalog. A Dataset is also a versioned entity and can be a compilation of multiple individual objects. Eventually all Catalog objects should be modeled similar to Nebula Objects. The Dataset entities makes it possible for the UI  and CLI to act on the objects in a similar manner to other Nebula objects
         :return: NebulaidladminTaskExecution
                  If the method is called asynchronously,
                  returns the request thread.
@@ -2642,7 +2642,7 @@ class AdminServiceApi(object):
         :param str id_task_id_name: User provided value for the resource. (required)
         :param str id_task_id_version: Specific version of the resource. (required)
         :param int id_retry_attempt: (required)
-        :param str id_task_id_resource_type: Identifies the specific type of resource that this identifier corresponds to.   - DATASET: A dataset represents an entity modeled in Nebula DataCatalog. A Dataset is also a versioned entity and can be a compilation of multiple individual objects. Eventually all Catalog objects should be modeled similar to Nebula Objects. The Dataset entities makes it possible for the UI  and CLI to act on the objects  in a similar manner to other Nebula objects
+        :param str id_task_id_resource_type: Identifies the specific type of resource that this identifier corresponds to.   - DATASET: A dataset represents an entity modeled in Nebula DataCatalog. A Dataset is also a versioned entity and can be a compilation of multiple individual objects. Eventually all Catalog objects should be modeled similar to Nebula Objects. The Dataset entities makes it possible for the UI  and CLI to act on the objects in a similar manner to other Nebula objects
         :return: AdminTaskExecutionGetDataResponse
                  If the method is called asynchronously,
                  returns the request thread.
@@ -2672,7 +2672,7 @@ class AdminServiceApi(object):
         :param str id_task_id_name: User provided value for the resource. (required)
         :param str id_task_id_version: Specific version of the resource. (required)
         :param int id_retry_attempt: (required)
-        :param str id_task_id_resource_type: Identifies the specific type of resource that this identifier corresponds to.   - DATASET: A dataset represents an entity modeled in Nebula DataCatalog. A Dataset is also a versioned entity and can be a compilation of multiple individual objects. Eventually all Catalog objects should be modeled similar to Nebula Objects. The Dataset entities makes it possible for the UI  and CLI to act on the objects  in a similar manner to other Nebula objects
+        :param str id_task_id_resource_type: Identifies the specific type of resource that this identifier corresponds to.   - DATASET: A dataset represents an entity modeled in Nebula DataCatalog. A Dataset is also a versioned entity and can be a compilation of multiple individual objects. Eventually all Catalog objects should be modeled similar to Nebula Objects. The Dataset entities makes it possible for the UI  and CLI to act on the objects in a similar manner to other Nebula objects
         :return: AdminTaskExecutionGetDataResponse
                  If the method is called asynchronously,
                  returns the request thread.
@@ -2891,7 +2891,7 @@ class AdminServiceApi(object):
         :param str id_domain: Name of the domain the resource belongs to. A domain can be considered as a subset within a specific project. (required)
         :param str id_name: User provided value for the resource. (required)
         :param str id_version: Specific version of the resource. (required)
-        :param str id_resource_type: Identifies the specific type of resource that this identifier corresponds to.   - DATASET: A dataset represents an entity modeled in Nebula DataCatalog. A Dataset is also a versioned entity and can be a compilation of multiple individual objects. Eventually all Catalog objects should be modeled similar to Nebula Objects. The Dataset entities makes it possible for the UI  and CLI to act on the objects  in a similar manner to other Nebula objects
+        :param str id_resource_type: Identifies the specific type of resource that this identifier corresponds to.   - DATASET: A dataset represents an entity modeled in Nebula DataCatalog. A Dataset is also a versioned entity and can be a compilation of multiple individual objects. Eventually all Catalog objects should be modeled similar to Nebula Objects. The Dataset entities makes it possible for the UI  and CLI to act on the objects in a similar manner to other Nebula objects
         :return: AdminWorkflow
                  If the method is called asynchronously,
                  returns the request thread.
@@ -2916,7 +2916,7 @@ class AdminServiceApi(object):
         :param str id_domain: Name of the domain the resource belongs to. A domain can be considered as a subset within a specific project. (required)
         :param str id_name: User provided value for the resource. (required)
         :param str id_version: Specific version of the resource. (required)
-        :param str id_resource_type: Identifies the specific type of resource that this identifier corresponds to.   - DATASET: A dataset represents an entity modeled in Nebula DataCatalog. A Dataset is also a versioned entity and can be a compilation of multiple individual objects. Eventually all Catalog objects should be modeled similar to Nebula Objects. The Dataset entities makes it possible for the UI  and CLI to act on the objects  in a similar manner to other Nebula objects
+        :param str id_resource_type: Identifies the specific type of resource that this identifier corresponds to.   - DATASET: A dataset represents an entity modeled in Nebula DataCatalog. A Dataset is also a versioned entity and can be a compilation of multiple individual objects. Eventually all Catalog objects should be modeled similar to Nebula Objects. The Dataset entities makes it possible for the UI  and CLI to act on the objects in a similar manner to other Nebula objects
         :return: AdminWorkflow
                  If the method is called asynchronously,
                  returns the request thread.
@@ -4416,7 +4416,7 @@ class AdminServiceApi(object):
         :param str task_execution_id_task_id_name: User provided value for the resource. (required)
         :param str task_execution_id_task_id_version: Specific version of the resource. (required)
         :param int task_execution_id_retry_attempt: (required)
-        :param str task_execution_id_task_id_resource_type: Identifies the specific type of resource that this identifier corresponds to.   - DATASET: A dataset represents an entity modeled in Nebula DataCatalog. A Dataset is also a versioned entity and can be a compilation of multiple individual objects. Eventually all Catalog objects should be modeled similar to Nebula Objects. The Dataset entities makes it possible for the UI  and CLI to act on the objects  in a similar manner to other Nebula objects
+        :param str task_execution_id_task_id_resource_type: Identifies the specific type of resource that this identifier corresponds to.   - DATASET: A dataset represents an entity modeled in Nebula DataCatalog. A Dataset is also a versioned entity and can be a compilation of multiple individual objects. Eventually all Catalog objects should be modeled similar to Nebula Objects. The Dataset entities makes it possible for the UI  and CLI to act on the objects in a similar manner to other Nebula objects
         :param int limit: Indicates the number of resources to be returned. +required.
         :param str token: In the case of multiple pages of results, the, server-provided token can be used to fetch the next page in a query. +optional.
         :param str filters: Indicates a list of filters passed as string. More info on constructing filters : <Link> +optional.
@@ -4451,7 +4451,7 @@ class AdminServiceApi(object):
         :param str task_execution_id_task_id_name: User provided value for the resource. (required)
         :param str task_execution_id_task_id_version: Specific version of the resource. (required)
         :param int task_execution_id_retry_attempt: (required)
-        :param str task_execution_id_task_id_resource_type: Identifies the specific type of resource that this identifier corresponds to.   - DATASET: A dataset represents an entity modeled in Nebula DataCatalog. A Dataset is also a versioned entity and can be a compilation of multiple individual objects. Eventually all Catalog objects should be modeled similar to Nebula Objects. The Dataset entities makes it possible for the UI  and CLI to act on the objects  in a similar manner to other Nebula objects
+        :param str task_execution_id_task_id_resource_type: Identifies the specific type of resource that this identifier corresponds to.   - DATASET: A dataset represents an entity modeled in Nebula DataCatalog. A Dataset is also a versioned entity and can be a compilation of multiple individual objects. Eventually all Catalog objects should be modeled similar to Nebula Objects. The Dataset entities makes it possible for the UI  and CLI to act on the objects in a similar manner to other Nebula objects
         :param int limit: Indicates the number of resources to be returned. +required.
         :param str token: In the case of multiple pages of results, the, server-provided token can be used to fetch the next page in a query. +optional.
         :param str filters: Indicates a list of filters passed as string. More info on constructing filters : <Link> +optional.
@@ -6399,7 +6399,7 @@ class AdminServiceApi(object):
             collection_formats=collection_formats)
 
     def update_project(self, id, body, **kwargs):  # noqa: E501
-        """Updates an existing :ref:`ref_nebulaidl.admin.Project`  nebulaidl.admin.Project should be passed but the domains property should be empty; it will be ignored in the handler as domains cannot be updated via this API.  # noqa: E501
+        """Updates an existing :ref:`ref_nebulaidl.admin.Project` nebulaidl.admin.Project should be passed but the domains property should be empty; it will be ignored in the handler as domains cannot be updated via this API.  # noqa: E501
 
         This method makes a synchronous HTTP request by default. To make an
         asynchronous HTTP request, please pass async_req=True
@@ -6421,7 +6421,7 @@ class AdminServiceApi(object):
             return data
 
     def update_project_with_http_info(self, id, body, **kwargs):  # noqa: E501
-        """Updates an existing :ref:`ref_nebulaidl.admin.Project`  nebulaidl.admin.Project should be passed but the domains property should be empty; it will be ignored in the handler as domains cannot be updated via this API.  # noqa: E501
+        """Updates an existing :ref:`ref_nebulaidl.admin.Project` nebulaidl.admin.Project should be passed but the domains property should be empty; it will be ignored in the handler as domains cannot be updated via this API.  # noqa: E501
 
         This method makes a synchronous HTTP request by default. To make an
         asynchronous HTTP request, please pass async_req=True

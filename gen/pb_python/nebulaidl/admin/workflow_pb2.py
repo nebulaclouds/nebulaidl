@@ -18,7 +18,7 @@ from nebulaidl.admin import description_entity_pb2 as nebulaidl_dot_admin_dot_de
 from google.protobuf import timestamp_pb2 as google_dot_protobuf_dot_timestamp__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1d\x66lyteidl/admin/workflow.proto\x12\x0e\x66lyteidl.admin\x1a\x1c\x66lyteidl/core/compiler.proto\x1a\x1e\x66lyteidl/core/identifier.proto\x1a\x1c\x66lyteidl/core/workflow.proto\x1a\'nebulaidl/admin/description_entity.proto\x1a\x1fgoogle/protobuf/timestamp.proto\"t\n\x15WorkflowCreateRequest\x12)\n\x02id\x18\x01 \x01(\x0b\x32\x19.nebulaidl.core.IdentifierR\x02id\x12\x30\n\x04spec\x18\x02 \x01(\x0b\x32\x1c.nebulaidl.admin.WorkflowSpecR\x04spec\"\x18\n\x16WorkflowCreateResponse\"\x9d\x01\n\x08Workflow\x12)\n\x02id\x18\x01 \x01(\x0b\x32\x19.nebulaidl.core.IdentifierR\x02id\x12\x39\n\x07\x63losure\x18\x02 \x01(\x0b\x32\x1f.nebulaidl.admin.WorkflowClosureR\x07\x63losure\x12+\n\x11short_description\x18\x03 \x01(\tR\x10shortDescription\"\\\n\x0cWorkflowList\x12\x36\n\tworkflows\x18\x01 \x03(\x0b\x32\x18.nebulaidl.admin.WorkflowR\tworkflows\x12\x14\n\x05token\x18\x02 \x01(\tR\x05token\"\xd6\x01\n\x0cWorkflowSpec\x12;\n\x08template\x18\x01 \x01(\x0b\x32\x1f.nebulaidl.core.WorkflowTemplateR\x08template\x12\x44\n\rsub_workflows\x18\x02 \x03(\x0b\x32\x1f.nebulaidl.core.WorkflowTemplateR\x0csubWorkflows\x12\x43\n\x0b\x64\x65scription\x18\x03 \x01(\x0b\x32!.nebulaidl.admin.DescriptionEntityR\x0b\x64\x65scription\"\xa1\x01\n\x0fWorkflowClosure\x12S\n\x11\x63ompiled_workflow\x18\x01 \x01(\x0b\x32&.nebulaidl.core.CompiledWorkflowClosureR\x10\x63ompiledWorkflow\x12\x39\n\ncreated_at\x18\x02 \x01(\x0b\x32\x1a.google.protobuf.TimestampR\tcreatedAt\"R\n%WorkflowErrorExistsDifferentStructure\x12)\n\x02id\x18\x01 \x01(\x0b\x32\x19.nebulaidl.core.IdentifierR\x02id\"R\n%WorkflowErrorExistsIdenticalStructure\x12)\n\x02id\x18\x01 \x01(\x0b\x32\x19.nebulaidl.core.IdentifierR\x02id\"\x95\x02\n\x1b\x43reateWorkflowFailureReason\x12u\n\x1a\x65xists_different_structure\x18\x01 \x01(\x0b\x32\x35.nebulaidl.admin.WorkflowErrorExistsDifferentStructureH\x00R\x18\x65xistsDifferentStructure\x12u\n\x1a\x65xists_identical_structure\x18\x02 \x01(\x0b\x32\x35.nebulaidl.admin.WorkflowErrorExistsIdenticalStructureH\x00R\x18\x65xistsIdenticalStructureB\x08\n\x06reasonB\xb3\x01\n\x12\x63om.nebulaidl.adminB\rWorkflowProtoP\x01Z5github.com/nebulaclouds/nebulaidl/gen/pb-go/nebulaidl/admin\xa2\x02\x03\x46\x41X\xaa\x02\x0e\x46lyteidl.Admin\xca\x02\x0e\x46lyteidl\\Admin\xe2\x02\x1a\x46lyteidl\\Admin\\GPBMetadata\xea\x02\x0f\x46lyteidl::Adminb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1enebulaidl/admin/workflow.proto\x12\x0fnebulaidl.admin\x1a\x1dnebulaidl/core/compiler.proto\x1a\x1fnebulaidl/core/identifier.proto\x1a\x1dnebulaidl/core/workflow.proto\x1a(nebulaidl/admin/description_entity.proto\x1a\x1fgoogle/protobuf/timestamp.proto\"v\n\x15WorkflowCreateRequest\x12*\n\x02id\x18\x01 \x01(\x0b\x32\x1a.nebulaidl.core.IdentifierR\x02id\x12\x31\n\x04spec\x18\x02 \x01(\x0b\x32\x1d.nebulaidl.admin.WorkflowSpecR\x04spec\"\x18\n\x16WorkflowCreateResponse\"\x9f\x01\n\x08Workflow\x12*\n\x02id\x18\x01 \x01(\x0b\x32\x1a.nebulaidl.core.IdentifierR\x02id\x12:\n\x07\x63losure\x18\x02 \x01(\x0b\x32 .nebulaidl.admin.WorkflowClosureR\x07\x63losure\x12+\n\x11short_description\x18\x03 \x01(\tR\x10shortDescription\"]\n\x0cWorkflowList\x12\x37\n\tworkflows\x18\x01 \x03(\x0b\x32\x19.nebulaidl.admin.WorkflowR\tworkflows\x12\x14\n\x05token\x18\x02 \x01(\tR\x05token\"\xd9\x01\n\x0cWorkflowSpec\x12<\n\x08template\x18\x01 \x01(\x0b\x32 .nebulaidl.core.WorkflowTemplateR\x08template\x12\x45\n\rsub_workflows\x18\x02 \x03(\x0b\x32 .nebulaidl.core.WorkflowTemplateR\x0csubWorkflows\x12\x44\n\x0b\x64\x65scription\x18\x03 \x01(\x0b\x32\".nebulaidl.admin.DescriptionEntityR\x0b\x64\x65scription\"\xa2\x01\n\x0fWorkflowClosure\x12T\n\x11\x63ompiled_workflow\x18\x01 \x01(\x0b\x32\'.nebulaidl.core.CompiledWorkflowClosureR\x10\x63ompiledWorkflow\x12\x39\n\ncreated_at\x18\x02 \x01(\x0b\x32\x1a.google.protobuf.TimestampR\tcreatedAt\"S\n%WorkflowErrorExistsDifferentStructure\x12*\n\x02id\x18\x01 \x01(\x0b\x32\x1a.nebulaidl.core.IdentifierR\x02id\"S\n%WorkflowErrorExistsIdenticalStructure\x12*\n\x02id\x18\x01 \x01(\x0b\x32\x1a.nebulaidl.core.IdentifierR\x02id\"\x97\x02\n\x1b\x43reateWorkflowFailureReason\x12v\n\x1a\x65xists_different_structure\x18\x01 \x01(\x0b\x32\x36.nebulaidl.admin.WorkflowErrorExistsDifferentStructureH\x00R\x18\x65xistsDifferentStructure\x12v\n\x1a\x65xists_identical_structure\x18\x02 \x01(\x0b\x32\x36.nebulaidl.admin.WorkflowErrorExistsIdenticalStructureH\x00R\x18\x65xistsIdenticalStructureB\x08\n\x06reasonB\xbe\x01\n\x13\x63om.nebulaidl.adminB\rWorkflowProtoP\x01Z;github.com/nebulaclouds/nebulaidl/gen/pb-go/nebulaidl/admin\xa2\x02\x03NAX\xaa\x02\x0fNebulaidl.Admin\xca\x02\x0fNebulaidl\\Admin\xe2\x02\x1bNebulaidl\\Admin\\GPBMetadata\xea\x02\x10Nebulaidl::Adminb\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -26,23 +26,23 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'nebulaidl.admin.workflow_pb
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\022com.nebulaidl.adminB\rWorkflowProtoP\001Z5github.com/nebulaclouds/nebulaidl/gen/pb-go/nebulaidl/admin\242\002\003FAX\252\002\016Nebulaidl.Admin\312\002\016Nebulaidl\\Admin\342\002\032Nebulaidl\\Admin\\GPBMetadata\352\002\017Nebulaidl::Admin'
-  _globals['_WORKFLOWCREATEREQUEST']._serialized_start=215
-  _globals['_WORKFLOWCREATEREQUEST']._serialized_end=331
-  _globals['_WORKFLOWCREATERESPONSE']._serialized_start=333
-  _globals['_WORKFLOWCREATERESPONSE']._serialized_end=357
-  _globals['_WORKFLOW']._serialized_start=360
-  _globals['_WORKFLOW']._serialized_end=517
-  _globals['_WORKFLOWLIST']._serialized_start=519
-  _globals['_WORKFLOWLIST']._serialized_end=611
-  _globals['_WORKFLOWSPEC']._serialized_start=614
-  _globals['_WORKFLOWSPEC']._serialized_end=828
-  _globals['_WORKFLOWCLOSURE']._serialized_start=831
-  _globals['_WORKFLOWCLOSURE']._serialized_end=992
-  _globals['_WORKFLOWERROREXISTSDIFFERENTSTRUCTURE']._serialized_start=994
-  _globals['_WORKFLOWERROREXISTSDIFFERENTSTRUCTURE']._serialized_end=1076
-  _globals['_WORKFLOWERROREXISTSIDENTICALSTRUCTURE']._serialized_start=1078
-  _globals['_WORKFLOWERROREXISTSIDENTICALSTRUCTURE']._serialized_end=1160
-  _globals['_CREATEWORKFLOWFAILUREREASON']._serialized_start=1163
-  _globals['_CREATEWORKFLOWFAILUREREASON']._serialized_end=1440
+  DESCRIPTOR._serialized_options = b'\n\023com.nebulaidl.adminB\rWorkflowProtoP\001Z;github.com/nebulaclouds/nebulaidl/gen/pb-go/nebulaidl/admin\242\002\003NAX\252\002\017Nebulaidl.Admin\312\002\017Nebulaidl\\Admin\342\002\033Nebulaidl\\Admin\\GPBMetadata\352\002\020Nebulaidl::Admin'
+  _globals['_WORKFLOWCREATEREQUEST']._serialized_start=221
+  _globals['_WORKFLOWCREATEREQUEST']._serialized_end=339
+  _globals['_WORKFLOWCREATERESPONSE']._serialized_start=341
+  _globals['_WORKFLOWCREATERESPONSE']._serialized_end=365
+  _globals['_WORKFLOW']._serialized_start=368
+  _globals['_WORKFLOW']._serialized_end=527
+  _globals['_WORKFLOWLIST']._serialized_start=529
+  _globals['_WORKFLOWLIST']._serialized_end=622
+  _globals['_WORKFLOWSPEC']._serialized_start=625
+  _globals['_WORKFLOWSPEC']._serialized_end=842
+  _globals['_WORKFLOWCLOSURE']._serialized_start=845
+  _globals['_WORKFLOWCLOSURE']._serialized_end=1007
+  _globals['_WORKFLOWERROREXISTSDIFFERENTSTRUCTURE']._serialized_start=1009
+  _globals['_WORKFLOWERROREXISTSDIFFERENTSTRUCTURE']._serialized_end=1092
+  _globals['_WORKFLOWERROREXISTSIDENTICALSTRUCTURE']._serialized_start=1094
+  _globals['_WORKFLOWERROREXISTSIDENTICALSTRUCTURE']._serialized_end=1177
+  _globals['_CREATEWORKFLOWFAILUREREASON']._serialized_start=1180
+  _globals['_CREATEWORKFLOWFAILUREREASON']._serialized_end=1459
 # @@protoc_insertion_point(module_scope)

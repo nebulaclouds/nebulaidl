@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n nebulaidl/plugins/array_job.proto\x12\x10\x66lyteidl.plugins\"\xa9\x01\n\x08\x41rrayJob\x12 \n\x0bparallelism\x18\x01 \x01(\x03R\x0bparallelism\x12\x12\n\x04size\x18\x02 \x01(\x03R\x04size\x12%\n\rmin_successes\x18\x03 \x01(\x03H\x00R\x0cminSuccesses\x12,\n\x11min_success_ratio\x18\x04 \x01(\x02H\x00R\x0fminSuccessRatioB\x12\n\x10success_criteriaB\xbf\x01\n\x14\x63om.nebulaidl.pluginsB\rArrayJobProtoP\x01Z7github.com/nebulaclouds/nebulaidl/gen/pb-go/nebulaidl/plugins\xa2\x02\x03\x46PX\xaa\x02\x10\x46lyteidl.Plugins\xca\x02\x10\x46lyteidl\\Plugins\xe2\x02\x1c\x46lyteidl\\Plugins\\GPBMetadata\xea\x02\x11\x46lyteidl::Pluginsb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n!nebulaidl/plugins/array_job.proto\x12\x11nebulaidl.plugins\"\xa9\x01\n\x08\x41rrayJob\x12 \n\x0bparallelism\x18\x01 \x01(\x03R\x0bparallelism\x12\x12\n\x04size\x18\x02 \x01(\x03R\x04size\x12%\n\rmin_successes\x18\x03 \x01(\x03H\x00R\x0cminSuccesses\x12,\n\x11min_success_ratio\x18\x04 \x01(\x02H\x00R\x0fminSuccessRatioB\x12\n\x10success_criteriaB\xca\x01\n\x15\x63om.nebulaidl.pluginsB\rArrayJobProtoP\x01Z=github.com/nebulaclouds/nebulaidl/gen/pb-go/nebulaidl/plugins\xa2\x02\x03NPX\xaa\x02\x11Nebulaidl.Plugins\xca\x02\x11Nebulaidl\\Plugins\xe2\x02\x1dNebulaidl\\Plugins\\GPBMetadata\xea\x02\x12Nebulaidl::Pluginsb\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -21,7 +21,7 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'nebulaidl.plugins.array_job
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\024com.nebulaidl.pluginsB\rArrayJobProtoP\001Z7github.com/nebulaclouds/nebulaidl/gen/pb-go/nebulaidl/plugins\242\002\003FPX\252\002\020Nebulaidl.Plugins\312\002\020Nebulaidl\\Plugins\342\002\034Nebulaidl\\Plugins\\GPBMetadata\352\002\021Nebulaidl::Plugins'
-  _globals['_ARRAYJOB']._serialized_start=55
-  _globals['_ARRAYJOB']._serialized_end=224
+  DESCRIPTOR._serialized_options = b'\n\025com.nebulaidl.pluginsB\rArrayJobProtoP\001Z=github.com/nebulaclouds/nebulaidl/gen/pb-go/nebulaidl/plugins\242\002\003NPX\252\002\021Nebulaidl.Plugins\312\002\021Nebulaidl\\Plugins\342\002\035Nebulaidl\\Plugins\\GPBMetadata\352\002\022Nebulaidl::Plugins'
+  _globals['_ARRAYJOB']._serialized_start=57
+  _globals['_ARRAYJOB']._serialized_end=226
 # @@protoc_insertion_point(module_scope)

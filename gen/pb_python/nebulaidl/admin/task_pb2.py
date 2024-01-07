@@ -18,7 +18,7 @@ from nebulaidl.admin import description_entity_pb2 as nebulaidl_dot_admin_dot_de
 from google.protobuf import timestamp_pb2 as google_dot_protobuf_dot_timestamp__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x19\x66lyteidl/admin/task.proto\x12\x0e\x66lyteidl.admin\x1a\x1e\x66lyteidl/core/identifier.proto\x1a\x19\x66lyteidl/core/tasks.proto\x1a\x1c\x66lyteidl/core/compiler.proto\x1a\'nebulaidl/admin/description_entity.proto\x1a\x1fgoogle/protobuf/timestamp.proto\"l\n\x11TaskCreateRequest\x12)\n\x02id\x18\x01 \x01(\x0b\x32\x19.nebulaidl.core.IdentifierR\x02id\x12,\n\x04spec\x18\x02 \x01(\x0b\x32\x18.nebulaidl.admin.TaskSpecR\x04spec\"\x14\n\x12TaskCreateResponse\"\x95\x01\n\x04Task\x12)\n\x02id\x18\x01 \x01(\x0b\x32\x19.nebulaidl.core.IdentifierR\x02id\x12\x35\n\x07\x63losure\x18\x02 \x01(\x0b\x32\x1b.nebulaidl.admin.TaskClosureR\x07\x63losure\x12+\n\x11short_description\x18\x03 \x01(\tR\x10shortDescription\"L\n\x08TaskList\x12*\n\x05tasks\x18\x01 \x03(\x0b\x32\x14.nebulaidl.admin.TaskR\x05tasks\x12\x14\n\x05token\x18\x02 \x01(\tR\x05token\"\x88\x01\n\x08TaskSpec\x12\x37\n\x08template\x18\x01 \x01(\x0b\x32\x1b.nebulaidl.core.TaskTemplateR\x08template\x12\x43\n\x0b\x64\x65scription\x18\x02 \x01(\x0b\x32!.nebulaidl.admin.DescriptionEntityR\x0b\x64\x65scription\"\x8a\x01\n\x0bTaskClosure\x12@\n\rcompiled_task\x18\x01 \x01(\x0b\x32\x1b.nebulaidl.core.CompiledTaskR\x0c\x63ompiledTask\x12\x39\n\ncreated_at\x18\x02 \x01(\x0b\x32\x1a.google.protobuf.TimestampR\tcreatedAtB\xaf\x01\n\x12\x63om.nebulaidl.adminB\tTaskProtoP\x01Z5github.com/nebulaclouds/nebulaidl/gen/pb-go/nebulaidl/admin\xa2\x02\x03\x46\x41X\xaa\x02\x0e\x46lyteidl.Admin\xca\x02\x0e\x46lyteidl\\Admin\xe2\x02\x1a\x46lyteidl\\Admin\\GPBMetadata\xea\x02\x0f\x46lyteidl::Adminb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1anebulaidl/admin/task.proto\x12\x0fnebulaidl.admin\x1a\x1fnebulaidl/core/identifier.proto\x1a\x1anebulaidl/core/tasks.proto\x1a\x1dnebulaidl/core/compiler.proto\x1a(nebulaidl/admin/description_entity.proto\x1a\x1fgoogle/protobuf/timestamp.proto\"n\n\x11TaskCreateRequest\x12*\n\x02id\x18\x01 \x01(\x0b\x32\x1a.nebulaidl.core.IdentifierR\x02id\x12-\n\x04spec\x18\x02 \x01(\x0b\x32\x19.nebulaidl.admin.TaskSpecR\x04spec\"\x14\n\x12TaskCreateResponse\"\x97\x01\n\x04Task\x12*\n\x02id\x18\x01 \x01(\x0b\x32\x1a.nebulaidl.core.IdentifierR\x02id\x12\x36\n\x07\x63losure\x18\x02 \x01(\x0b\x32\x1c.nebulaidl.admin.TaskClosureR\x07\x63losure\x12+\n\x11short_description\x18\x03 \x01(\tR\x10shortDescription\"M\n\x08TaskList\x12+\n\x05tasks\x18\x01 \x03(\x0b\x32\x15.nebulaidl.admin.TaskR\x05tasks\x12\x14\n\x05token\x18\x02 \x01(\tR\x05token\"\x8a\x01\n\x08TaskSpec\x12\x38\n\x08template\x18\x01 \x01(\x0b\x32\x1c.nebulaidl.core.TaskTemplateR\x08template\x12\x44\n\x0b\x64\x65scription\x18\x02 \x01(\x0b\x32\".nebulaidl.admin.DescriptionEntityR\x0b\x64\x65scription\"\x8b\x01\n\x0bTaskClosure\x12\x41\n\rcompiled_task\x18\x01 \x01(\x0b\x32\x1c.nebulaidl.core.CompiledTaskR\x0c\x63ompiledTask\x12\x39\n\ncreated_at\x18\x02 \x01(\x0b\x32\x1a.google.protobuf.TimestampR\tcreatedAtB\xba\x01\n\x13\x63om.nebulaidl.adminB\tTaskProtoP\x01Z;github.com/nebulaclouds/nebulaidl/gen/pb-go/nebulaidl/admin\xa2\x02\x03NAX\xaa\x02\x0fNebulaidl.Admin\xca\x02\x0fNebulaidl\\Admin\xe2\x02\x1bNebulaidl\\Admin\\GPBMetadata\xea\x02\x10Nebulaidl::Adminb\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -26,17 +26,17 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'nebulaidl.admin.task_pb2', 
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\022com.nebulaidl.adminB\tTaskProtoP\001Z5github.com/nebulaclouds/nebulaidl/gen/pb-go/nebulaidl/admin\242\002\003FAX\252\002\016Nebulaidl.Admin\312\002\016Nebulaidl\\Admin\342\002\032Nebulaidl\\Admin\\GPBMetadata\352\002\017Nebulaidl::Admin'
-  _globals['_TASKCREATEREQUEST']._serialized_start=208
-  _globals['_TASKCREATEREQUEST']._serialized_end=316
-  _globals['_TASKCREATERESPONSE']._serialized_start=318
-  _globals['_TASKCREATERESPONSE']._serialized_end=338
-  _globals['_TASK']._serialized_start=341
-  _globals['_TASK']._serialized_end=490
-  _globals['_TASKLIST']._serialized_start=492
-  _globals['_TASKLIST']._serialized_end=568
-  _globals['_TASKSPEC']._serialized_start=571
-  _globals['_TASKSPEC']._serialized_end=707
-  _globals['_TASKCLOSURE']._serialized_start=710
-  _globals['_TASKCLOSURE']._serialized_end=848
+  DESCRIPTOR._serialized_options = b'\n\023com.nebulaidl.adminB\tTaskProtoP\001Z;github.com/nebulaclouds/nebulaidl/gen/pb-go/nebulaidl/admin\242\002\003NAX\252\002\017Nebulaidl.Admin\312\002\017Nebulaidl\\Admin\342\002\033Nebulaidl\\Admin\\GPBMetadata\352\002\020Nebulaidl::Admin'
+  _globals['_TASKCREATEREQUEST']._serialized_start=214
+  _globals['_TASKCREATEREQUEST']._serialized_end=324
+  _globals['_TASKCREATERESPONSE']._serialized_start=326
+  _globals['_TASKCREATERESPONSE']._serialized_end=346
+  _globals['_TASK']._serialized_start=349
+  _globals['_TASK']._serialized_end=500
+  _globals['_TASKLIST']._serialized_start=502
+  _globals['_TASKLIST']._serialized_end=579
+  _globals['_TASKSPEC']._serialized_start=582
+  _globals['_TASKSPEC']._serialized_end=720
+  _globals['_TASKCLOSURE']._serialized_start=723
+  _globals['_TASKCLOSURE']._serialized_end=862
 # @@protoc_insertion_point(module_scope)

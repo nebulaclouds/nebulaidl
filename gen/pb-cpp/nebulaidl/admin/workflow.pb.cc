@@ -16,6 +16,7 @@
 // @@protoc_insertion_point(includes)
 #include <google/protobuf/port_def.inc>
 
+extern PROTOBUF_INTERNAL_EXPORT_google_2fprotobuf_2ftimestamp_2eproto ::google::protobuf::internal::SCCInfo<0> scc_info_Timestamp_google_2fprotobuf_2ftimestamp_2eproto;
 extern PROTOBUF_INTERNAL_EXPORT_nebulaidl_2fadmin_2fdescription_5fentity_2eproto ::google::protobuf::internal::SCCInfo<3> scc_info_DescriptionEntity_nebulaidl_2fadmin_2fdescription_5fentity_2eproto;
 extern PROTOBUF_INTERNAL_EXPORT_nebulaidl_2fadmin_2fworkflow_2eproto ::google::protobuf::internal::SCCInfo<1> scc_info_WorkflowErrorExistsDifferentStructure_nebulaidl_2fadmin_2fworkflow_2eproto;
 extern PROTOBUF_INTERNAL_EXPORT_nebulaidl_2fadmin_2fworkflow_2eproto ::google::protobuf::internal::SCCInfo<1> scc_info_WorkflowErrorExistsIdenticalStructure_nebulaidl_2fadmin_2fworkflow_2eproto;
@@ -25,7 +26,6 @@ extern PROTOBUF_INTERNAL_EXPORT_nebulaidl_2fadmin_2fworkflow_2eproto ::google::p
 extern PROTOBUF_INTERNAL_EXPORT_nebulaidl_2fcore_2fcompiler_2eproto ::google::protobuf::internal::SCCInfo<2> scc_info_CompiledWorkflowClosure_nebulaidl_2fcore_2fcompiler_2eproto;
 extern PROTOBUF_INTERNAL_EXPORT_nebulaidl_2fcore_2fidentifier_2eproto ::google::protobuf::internal::SCCInfo<0> scc_info_Identifier_nebulaidl_2fcore_2fidentifier_2eproto;
 extern PROTOBUF_INTERNAL_EXPORT_nebulaidl_2fcore_2fworkflow_2eproto ::google::protobuf::internal::SCCInfo<6> scc_info_WorkflowTemplate_nebulaidl_2fcore_2fworkflow_2eproto;
-extern PROTOBUF_INTERNAL_EXPORT_google_2fprotobuf_2ftimestamp_2eproto ::google::protobuf::internal::SCCInfo<0> scc_info_Timestamp_google_2fprotobuf_2ftimestamp_2eproto;
 namespace nebulaidl {
 namespace admin {
 class WorkflowCreateRequestDefaultTypeInternal {
@@ -318,44 +318,45 @@ static ::google::protobuf::Message const * const file_default_instances[] = {
 };
 
 const char descriptor_table_protodef_nebulaidl_2fadmin_2fworkflow_2eproto[] =
-  "\n\035nebulaidl/admin/workflow.proto\022\016nebulaid"
-  "l.admin\032\034nebulaidl/core/compiler.proto\032\036n"
-  "ebulaidl/core/identifier.proto\032\034nebulaidl/"
-  "core/workflow.proto\032\'nebulaidl/admin/desc"
-  "ription_entity.proto\032\037google/protobuf/ti"
-  "mestamp.proto\"j\n\025WorkflowCreateRequest\022%"
-  "\n\002id\030\001 \001(\0132\031.nebulaidl.core.Identifier\022*\n"
-  "\004spec\030\002 \001(\0132\034.nebulaidl.admin.WorkflowSpe"
-  "c\"\030\n\026WorkflowCreateResponse\"~\n\010Workflow\022"
-  "%\n\002id\030\001 \001(\0132\031.nebulaidl.core.Identifier\0220"
-  "\n\007closure\030\002 \001(\0132\037.nebulaidl.admin.Workflo"
-  "wClosure\022\031\n\021short_description\030\003 \001(\t\"J\n\014W"
-  "orkflowList\022+\n\tworkflows\030\001 \003(\0132\030.nebulaid"
-  "l.admin.Workflow\022\r\n\005token\030\002 \001(\t\"\261\001\n\014Work"
-  "flowSpec\0221\n\010template\030\001 \001(\0132\037.nebulaidl.co"
-  "re.WorkflowTemplate\0226\n\rsub_workflows\030\002 \003"
-  "(\0132\037.nebulaidl.core.WorkflowTemplate\0226\n\013d"
-  "escription\030\003 \001(\0132!.nebulaidl.admin.Descri"
-  "ptionEntity\"\204\001\n\017WorkflowClosure\022A\n\021compi"
-  "led_workflow\030\001 \001(\0132&.nebulaidl.core.Compi"
-  "ledWorkflowClosure\022.\n\ncreated_at\030\002 \001(\0132\032"
-  ".google.protobuf.Timestamp\"N\n%WorkflowEr"
-  "rorExistsDifferentStructure\022%\n\002id\030\001 \001(\0132"
-  "\031.nebulaidl.core.Identifier\"N\n%WorkflowEr"
-  "rorExistsIdenticalStructure\022%\n\002id\030\001 \001(\0132"
-  "\031.nebulaidl.core.Identifier\"\341\001\n\033CreateWor"
-  "kflowFailureReason\022[\n\032exists_different_s"
-  "tructure\030\001 \001(\01325.nebulaidl.admin.Workflow"
-  "ErrorExistsDifferentStructureH\000\022[\n\032exist"
-  "s_identical_structure\030\002 \001(\01325.nebulaidl.a"
-  "dmin.WorkflowErrorExistsIdenticalStructu"
-  "reH\000B\010\n\006reasonB7Z5github.com/nebulaclouds/fl"
-  "yteidl/gen/pb-go/nebulaidl/adminb\006proto3"
+  "\n\036nebulaidl/admin/workflow.proto\022\017nebula"
+  "idl.admin\032\035nebulaidl/core/compiler.proto"
+  "\032\037nebulaidl/core/identifier.proto\032\035nebul"
+  "aidl/core/workflow.proto\032(nebulaidl/admi"
+  "n/description_entity.proto\032\037google/proto"
+  "buf/timestamp.proto\"l\n\025WorkflowCreateReq"
+  "uest\022&\n\002id\030\001 \001(\0132\032.nebulaidl.core.Identi"
+  "fier\022+\n\004spec\030\002 \001(\0132\035.nebulaidl.admin.Wor"
+  "kflowSpec\"\030\n\026WorkflowCreateResponse\"\200\001\n\010"
+  "Workflow\022&\n\002id\030\001 \001(\0132\032.nebulaidl.core.Id"
+  "entifier\0221\n\007closure\030\002 \001(\0132 .nebulaidl.ad"
+  "min.WorkflowClosure\022\031\n\021short_description"
+  "\030\003 \001(\t\"K\n\014WorkflowList\022,\n\tworkflows\030\001 \003("
+  "\0132\031.nebulaidl.admin.Workflow\022\r\n\005token\030\002 "
+  "\001(\t\"\264\001\n\014WorkflowSpec\0222\n\010template\030\001 \001(\0132 "
+  ".nebulaidl.core.WorkflowTemplate\0227\n\rsub_"
+  "workflows\030\002 \003(\0132 .nebulaidl.core.Workflo"
+  "wTemplate\0227\n\013description\030\003 \001(\0132\".nebulai"
+  "dl.admin.DescriptionEntity\"\205\001\n\017WorkflowC"
+  "losure\022B\n\021compiled_workflow\030\001 \001(\0132\'.nebu"
+  "laidl.core.CompiledWorkflowClosure\022.\n\ncr"
+  "eated_at\030\002 \001(\0132\032.google.protobuf.Timesta"
+  "mp\"O\n%WorkflowErrorExistsDifferentStruct"
+  "ure\022&\n\002id\030\001 \001(\0132\032.nebulaidl.core.Identif"
+  "ier\"O\n%WorkflowErrorExistsIdenticalStruc"
+  "ture\022&\n\002id\030\001 \001(\0132\032.nebulaidl.core.Identi"
+  "fier\"\343\001\n\033CreateWorkflowFailureReason\022\\\n\032"
+  "exists_different_structure\030\001 \001(\01326.nebul"
+  "aidl.admin.WorkflowErrorExistsDifferentS"
+  "tructureH\000\022\\\n\032exists_identical_structure"
+  "\030\002 \001(\01326.nebulaidl.admin.WorkflowErrorEx"
+  "istsIdenticalStructureH\000B\010\n\006reasonB=Z;gi"
+  "thub.com/nebulaclouds/nebulaidl/gen/pb-g"
+  "o/nebulaidl/adminb\006proto3"
   ;
 ::google::protobuf::internal::DescriptorTable descriptor_table_nebulaidl_2fadmin_2fworkflow_2eproto = {
-  false, InitDefaults_nebulaidl_2fadmin_2fworkflow_2eproto,
+  false, InitDefaults_nebulaidl_2fadmin_2fworkflow_2eproto, 
   descriptor_table_protodef_nebulaidl_2fadmin_2fworkflow_2eproto,
-  "nebulaidl/admin/workflow.proto", &assign_descriptors_table_nebulaidl_2fadmin_2fworkflow_2eproto, 1319,
+  "nebulaidl/admin/workflow.proto", &assign_descriptors_table_nebulaidl_2fadmin_2fworkflow_2eproto, 1345,
 };
 
 void AddDescriptors_nebulaidl_2fadmin_2fworkflow_2eproto() {

@@ -126,18 +126,19 @@ static ::google::protobuf::Message const * const file_default_instances[] = {
 };
 
 const char descriptor_table_protodef_nebulaidl_2fadmin_2fversion_2eproto[] =
-  "\n\034nebulaidl/admin/version.proto\022\016nebulaidl"
-  ".admin\"L\n\022GetVersionResponse\0226\n\025control_"
-  "plane_version\030\001 \001(\0132\027.nebulaidl.admin.Ver"
-  "sion\"<\n\007Version\022\r\n\005Build\030\001 \001(\t\022\017\n\007Versio"
-  "n\030\002 \001(\t\022\021\n\tBuildTime\030\003 \001(\t\"\023\n\021GetVersion"
-  "RequestB7Z5github.com/nebulaclouds/nebulaidl/"
-  "gen/pb-go/nebulaidl/adminb\006proto3"
+  "\n\035nebulaidl/admin/version.proto\022\017nebulai"
+  "dl.admin\"M\n\022GetVersionResponse\0227\n\025contro"
+  "l_plane_version\030\001 \001(\0132\030.nebulaidl.admin."
+  "Version\"<\n\007Version\022\r\n\005Build\030\001 \001(\t\022\017\n\007Ver"
+  "sion\030\002 \001(\t\022\021\n\tBuildTime\030\003 \001(\t\"\023\n\021GetVers"
+  "ionRequestB=Z;github.com/nebulaclouds/ne"
+  "bulaidl/gen/pb-go/nebulaidl/adminb\006proto"
+  "3"
   ;
 ::google::protobuf::internal::DescriptorTable descriptor_table_nebulaidl_2fadmin_2fversion_2eproto = {
-  false, InitDefaults_nebulaidl_2fadmin_2fversion_2eproto,
+  false, InitDefaults_nebulaidl_2fadmin_2fversion_2eproto, 
   descriptor_table_protodef_nebulaidl_2fadmin_2fversion_2eproto,
-  "nebulaidl/admin/version.proto", &assign_descriptors_table_nebulaidl_2fadmin_2fversion_2eproto, 272,
+  "nebulaidl/admin/version.proto", &assign_descriptors_table_nebulaidl_2fadmin_2fversion_2eproto, 281,
 };
 
 void AddDescriptors_nebulaidl_2fadmin_2fversion_2eproto() {

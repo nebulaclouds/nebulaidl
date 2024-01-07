@@ -10,6 +10,6 @@
 package nebulaadmin
 
 type AdminProjectAttributesDeleteRequest struct {
-	Project      string                  `json:"project,omitempty"`
+	Project string `json:"project,omitempty"`
 	ResourceType *AdminMatchableResource `json:"resource_type,omitempty"`
 }

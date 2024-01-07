@@ -890,7 +890,7 @@ public final class Condition {
        * <code>.nebulaidl.core.Operand left_value = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          nebulaidl.core.Condition.Operand, nebulaidl.core.Condition.Operand.Builder, nebulaidl.core.Condition.OperandOrBuilder>
+          nebulaidl.core.Condition.Operand, nebulaidl.core.Condition.Operand.Builder, nebulaidl.core.Condition.OperandOrBuilder> 
           getLeftValueFieldBuilder() {
         if (leftValueBuilder_ == null) {
           leftValueBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -1007,7 +1007,7 @@ public final class Condition {
        * <code>.nebulaidl.core.Operand right_value = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          nebulaidl.core.Condition.Operand, nebulaidl.core.Condition.Operand.Builder, nebulaidl.core.Condition.OperandOrBuilder>
+          nebulaidl.core.Condition.Operand, nebulaidl.core.Condition.Operand.Builder, nebulaidl.core.Condition.OperandOrBuilder> 
           getRightValueFieldBuilder() {
         if (rightValueBuilder_ == null) {
           rightValueBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -1972,7 +1972,7 @@ public final class Condition {
        * <code>.nebulaidl.core.Primitive primitive = 1 [deprecated = true];</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          nebulaidl.core.Literals.Primitive, nebulaidl.core.Literals.Primitive.Builder, nebulaidl.core.Literals.PrimitiveOrBuilder>
+          nebulaidl.core.Literals.Primitive, nebulaidl.core.Literals.Primitive.Builder, nebulaidl.core.Literals.PrimitiveOrBuilder> 
           getPrimitiveFieldBuilder() {
         if (primitiveBuilder_ == null) {
           if (!(valCase_ == 1)) {
@@ -2244,7 +2244,7 @@ public final class Condition {
        * <code>.nebulaidl.core.Scalar scalar = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          nebulaidl.core.Literals.Scalar, nebulaidl.core.Literals.Scalar.Builder, nebulaidl.core.Literals.ScalarOrBuilder>
+          nebulaidl.core.Literals.Scalar, nebulaidl.core.Literals.Scalar.Builder, nebulaidl.core.Literals.ScalarOrBuilder> 
           getScalarFieldBuilder() {
         if (scalarBuilder_ == null) {
           if (!(valCase_ == 3)) {
@@ -3032,7 +3032,7 @@ public final class Condition {
        * <code>.nebulaidl.core.ConjunctionExpression conjunction = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          nebulaidl.core.Condition.ConjunctionExpression, nebulaidl.core.Condition.ConjunctionExpression.Builder, nebulaidl.core.Condition.ConjunctionExpressionOrBuilder>
+          nebulaidl.core.Condition.ConjunctionExpression, nebulaidl.core.Condition.ConjunctionExpression.Builder, nebulaidl.core.Condition.ConjunctionExpressionOrBuilder> 
           getConjunctionFieldBuilder() {
         if (conjunctionBuilder_ == null) {
           if (!(exprCase_ == 1)) {
@@ -3168,7 +3168,7 @@ public final class Condition {
        * <code>.nebulaidl.core.ComparisonExpression comparison = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          nebulaidl.core.Condition.ComparisonExpression, nebulaidl.core.Condition.ComparisonExpression.Builder, nebulaidl.core.Condition.ComparisonExpressionOrBuilder>
+          nebulaidl.core.Condition.ComparisonExpression, nebulaidl.core.Condition.ComparisonExpression.Builder, nebulaidl.core.Condition.ComparisonExpressionOrBuilder> 
           getComparisonFieldBuilder() {
         if (comparisonBuilder_ == null) {
           if (!(exprCase_ == 2)) {
@@ -4069,7 +4069,7 @@ public final class Condition {
        * <code>.nebulaidl.core.BooleanExpression left_expression = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          nebulaidl.core.Condition.BooleanExpression, nebulaidl.core.Condition.BooleanExpression.Builder, nebulaidl.core.Condition.BooleanExpressionOrBuilder>
+          nebulaidl.core.Condition.BooleanExpression, nebulaidl.core.Condition.BooleanExpression.Builder, nebulaidl.core.Condition.BooleanExpressionOrBuilder> 
           getLeftExpressionFieldBuilder() {
         if (leftExpressionBuilder_ == null) {
           leftExpressionBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -4186,7 +4186,7 @@ public final class Condition {
        * <code>.nebulaidl.core.BooleanExpression right_expression = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          nebulaidl.core.Condition.BooleanExpression, nebulaidl.core.Condition.BooleanExpression.Builder, nebulaidl.core.Condition.BooleanExpressionOrBuilder>
+          nebulaidl.core.Condition.BooleanExpression, nebulaidl.core.Condition.BooleanExpression.Builder, nebulaidl.core.Condition.BooleanExpressionOrBuilder> 
           getRightExpressionFieldBuilder() {
         if (rightExpressionBuilder_ == null) {
           rightExpressionBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -4280,29 +4280,30 @@ public final class Condition {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\035nebulaidl/core/condition.proto\022\rnebulaid" +
-      "l.core\032\034nebulaidl/core/literals.proto\"\356\001\n" +
-      "\024ComparisonExpression\022>\n\010operator\030\001 \001(\0162" +
-      ",.nebulaidl.core.ComparisonExpression.Ope" +
-      "rator\022*\n\nleft_value\030\002 \001(\0132\026.nebulaidl.cor" +
-      "e.Operand\022+\n\013right_value\030\003 \001(\0132\026.nebulaid" +
-      "l.core.Operand\"=\n\010Operator\022\006\n\002EQ\020\000\022\007\n\003NE" +
-      "Q\020\001\022\006\n\002GT\020\002\022\007\n\003GTE\020\003\022\006\n\002LT\020\004\022\007\n\003LTE\020\005\"{\n" +
-      "\007Operand\0221\n\tprimitive\030\001 \001(\0132\030.nebulaidl.c" +
-      "ore.PrimitiveB\002\030\001H\000\022\r\n\003var\030\002 \001(\tH\000\022\'\n\006sc" +
-      "alar\030\003 \001(\0132\025.nebulaidl.core.ScalarH\000B\005\n\003v" +
-      "al\"\223\001\n\021BooleanExpression\022;\n\013conjunction\030" +
-      "\001 \001(\0132$.nebulaidl.core.ConjunctionExpress" +
-      "ionH\000\0229\n\ncomparison\030\002 \001(\0132#.nebulaidl.cor" +
-      "e.ComparisonExpressionH\000B\006\n\004expr\"\372\001\n\025Con" +
-      "junctionExpression\022F\n\010operator\030\001 \001(\01624.n" +
-      "ebulaidl.core.ConjunctionExpression.Logic" +
-      "alOperator\0229\n\017left_expression\030\002 \001(\0132 .ne" +
-      "bulaidl.core.BooleanExpression\022:\n\020right_e" +
-      "xpression\030\003 \001(\0132 .nebulaidl.core.BooleanE" +
-      "xpression\"\"\n\017LogicalOperator\022\007\n\003AND\020\000\022\006\n" +
-      "\002OR\020\001B6Z4github.com/nebulaclouds/nebulaidl/ge" +
-      "n/pb-go/nebulaidl/coreb\006proto3"
+      "\n\036nebulaidl/core/condition.proto\022\016nebula" +
+      "idl.core\032\035nebulaidl/core/literals.proto\"" +
+      "\361\001\n\024ComparisonExpression\022?\n\010operator\030\001 \001" +
+      "(\0162-.nebulaidl.core.ComparisonExpression" +
+      ".Operator\022+\n\nleft_value\030\002 \001(\0132\027.nebulaid" +
+      "l.core.Operand\022,\n\013right_value\030\003 \001(\0132\027.ne" +
+      "bulaidl.core.Operand\"=\n\010Operator\022\006\n\002EQ\020\000" +
+      "\022\007\n\003NEQ\020\001\022\006\n\002GT\020\002\022\007\n\003GTE\020\003\022\006\n\002LT\020\004\022\007\n\003LT" +
+      "E\020\005\"}\n\007Operand\0222\n\tprimitive\030\001 \001(\0132\031.nebu" +
+      "laidl.core.PrimitiveB\002\030\001H\000\022\r\n\003var\030\002 \001(\tH" +
+      "\000\022(\n\006scalar\030\003 \001(\0132\026.nebulaidl.core.Scala" +
+      "rH\000B\005\n\003val\"\225\001\n\021BooleanExpression\022<\n\013conj" +
+      "unction\030\001 \001(\0132%.nebulaidl.core.Conjuncti" +
+      "onExpressionH\000\022:\n\ncomparison\030\002 \001(\0132$.neb" +
+      "ulaidl.core.ComparisonExpressionH\000B\006\n\004ex" +
+      "pr\"\375\001\n\025ConjunctionExpression\022G\n\010operator" +
+      "\030\001 \001(\01625.nebulaidl.core.ConjunctionExpre" +
+      "ssion.LogicalOperator\022:\n\017left_expression" +
+      "\030\002 \001(\0132!.nebulaidl.core.BooleanExpressio" +
+      "n\022;\n\020right_expression\030\003 \001(\0132!.nebulaidl." +
+      "core.BooleanExpression\"\"\n\017LogicalOperato" +
+      "r\022\007\n\003AND\020\000\022\006\n\002OR\020\001B<Z:github.com/nebulac" +
+      "louds/nebulaidl/gen/pb-go/nebulaidl/core" +
+      "b\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

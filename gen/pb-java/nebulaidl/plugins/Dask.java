@@ -724,7 +724,7 @@ public final class Dask {
        * <code>.nebulaidl.plugins.DaskScheduler scheduler = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          nebulaidl.plugins.Dask.DaskScheduler, nebulaidl.plugins.Dask.DaskScheduler.Builder, nebulaidl.plugins.Dask.DaskSchedulerOrBuilder>
+          nebulaidl.plugins.Dask.DaskScheduler, nebulaidl.plugins.Dask.DaskScheduler.Builder, nebulaidl.plugins.Dask.DaskSchedulerOrBuilder> 
           getSchedulerFieldBuilder() {
         if (schedulerBuilder_ == null) {
           schedulerBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -877,7 +877,7 @@ public final class Dask {
        * <code>.nebulaidl.plugins.DaskWorkerGroup workers = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          nebulaidl.plugins.Dask.DaskWorkerGroup, nebulaidl.plugins.Dask.DaskWorkerGroup.Builder, nebulaidl.plugins.Dask.DaskWorkerGroupOrBuilder>
+          nebulaidl.plugins.Dask.DaskWorkerGroup, nebulaidl.plugins.Dask.DaskWorkerGroup.Builder, nebulaidl.plugins.Dask.DaskWorkerGroupOrBuilder> 
           getWorkersFieldBuilder() {
         if (workersBuilder_ == null) {
           workersBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -1724,7 +1724,7 @@ public final class Dask {
        * <code>.nebulaidl.core.Resources resources = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          nebulaidl.core.Tasks.Resources, nebulaidl.core.Tasks.Resources.Builder, nebulaidl.core.Tasks.ResourcesOrBuilder>
+          nebulaidl.core.Tasks.Resources, nebulaidl.core.Tasks.Resources.Builder, nebulaidl.core.Tasks.ResourcesOrBuilder> 
           getResourcesFieldBuilder() {
         if (resourcesBuilder_ == null) {
           resourcesBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -2705,7 +2705,7 @@ public final class Dask {
        * <code>.nebulaidl.core.Resources resources = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          nebulaidl.core.Tasks.Resources, nebulaidl.core.Tasks.Resources.Builder, nebulaidl.core.Tasks.ResourcesOrBuilder>
+          nebulaidl.core.Tasks.Resources, nebulaidl.core.Tasks.Resources.Builder, nebulaidl.core.Tasks.ResourcesOrBuilder> 
           getResourcesFieldBuilder() {
         if (resourcesBuilder_ == null) {
           resourcesBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -2794,17 +2794,18 @@ public final class Dask {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\033nebulaidl/plugins/dask.proto\022\020nebulaidl." +
-      "plugins\032\031nebulaidl/core/tasks.proto\"q\n\007Da" +
-      "skJob\0222\n\tscheduler\030\001 \001(\0132\037.nebulaidl.plug" +
-      "ins.DaskScheduler\0222\n\007workers\030\002 \001(\0132!.fly" +
-      "teidl.plugins.DaskWorkerGroup\"K\n\rDaskSch" +
-      "eduler\022\r\n\005image\030\001 \001(\t\022+\n\tresources\030\002 \001(\013" +
-      "2\030.nebulaidl.core.Resources\"h\n\017DaskWorker" +
-      "Group\022\031\n\021number_of_workers\030\001 \001(\r\022\r\n\005imag" +
-      "e\030\002 \001(\t\022+\n\tresources\030\003 \001(\0132\030.nebulaidl.co" +
-      "re.ResourcesB9Z7github.com/nebulaclouds/flyt" +
-      "eidl/gen/pb-go/nebulaidl/pluginsb\006proto3"
+      "\n\034nebulaidl/plugins/dask.proto\022\021nebulaid" +
+      "l.plugins\032\032nebulaidl/core/tasks.proto\"s\n" +
+      "\007DaskJob\0223\n\tscheduler\030\001 \001(\0132 .nebulaidl." +
+      "plugins.DaskScheduler\0223\n\007workers\030\002 \001(\0132\"" +
+      ".nebulaidl.plugins.DaskWorkerGroup\"L\n\rDa" +
+      "skScheduler\022\r\n\005image\030\001 \001(\t\022,\n\tresources\030" +
+      "\002 \001(\0132\031.nebulaidl.core.Resources\"i\n\017Dask" +
+      "WorkerGroup\022\031\n\021number_of_workers\030\001 \001(\r\022\r" +
+      "\n\005image\030\002 \001(\t\022,\n\tresources\030\003 \001(\0132\031.nebul" +
+      "aidl.core.ResourcesB?Z=github.com/nebula" +
+      "clouds/nebulaidl/gen/pb-go/nebulaidl/plu" +
+      "ginsb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

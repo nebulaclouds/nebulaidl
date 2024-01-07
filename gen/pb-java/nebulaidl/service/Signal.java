@@ -23,21 +23,22 @@ public final class Signal {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\035nebulaidl/service/signal.proto\022\020nebulaid" +
-      "l.service\032\034google/api/annotations.proto\032" +
-      "\033nebulaidl/admin/signal.proto2\232\003\n\rSignalS" +
-      "ervice\022W\n\021GetOrCreateSignal\022(.nebulaidl.a" +
-      "dmin.SignalGetOrCreateRequest\032\026.nebulaidl" +
-      ".admin.Signal\"\000\022\301\001\n\013ListSignals\022!.nebulai" +
-      "dl.admin.SignalListRequest\032\032.nebulaidl.ad" +
-      "min.SignalList\"s\202\323\344\223\002m\022k/api/v1/signals/" +
-      "{workflow_execution_id.project}/{workflo" +
-      "w_execution_id.domain}/{workflow_executi" +
-      "on_id.name}\022l\n\tSetSignal\022 .nebulaidl.admi" +
-      "n.SignalSetRequest\032!.nebulaidl.admin.Sign" +
-      "alSetResponse\"\032\202\323\344\223\002\024\"\017/api/v1/signals:\001" +
-      "*B9Z7github.com/nebulaclouds/nebulaidl/gen/pb" +
-      "-go/nebulaidl/serviceb\006proto3"
+      "\n\036nebulaidl/service/signal.proto\022\021nebula" +
+      "idl.service\032\034google/api/annotations.prot" +
+      "o\032\034nebulaidl/admin/signal.proto2\240\003\n\rSign" +
+      "alService\022Y\n\021GetOrCreateSignal\022).nebulai" +
+      "dl.admin.SignalGetOrCreateRequest\032\027.nebu" +
+      "laidl.admin.Signal\"\000\022\303\001\n\013ListSignals\022\".n" +
+      "ebulaidl.admin.SignalListRequest\032\033.nebul" +
+      "aidl.admin.SignalList\"s\202\323\344\223\002m\022k/api/v1/s" +
+      "ignals/{workflow_execution_id.project}/{" +
+      "workflow_execution_id.domain}/{workflow_" +
+      "execution_id.name}\022n\n\tSetSignal\022!.nebula" +
+      "idl.admin.SignalSetRequest\032\".nebulaidl.a" +
+      "dmin.SignalSetResponse\"\032\202\323\344\223\002\024\"\017/api/v1/" +
+      "signals:\001*B?Z=github.com/nebulaclouds/ne" +
+      "bulaidl/gen/pb-go/nebulaidl/serviceb\006pro" +
+      "to3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

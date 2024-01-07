@@ -71,17 +71,17 @@ static ::google::protobuf::Message const * const file_default_instances[] = {
 };
 
 const char descriptor_table_protodef_nebulaidl_2fplugins_2ftensorflow_2eproto[] =
-  "\n!nebulaidl/plugins/tensorflow.proto\022\020fly"
-  "teidl.plugins\"a\n!DistributedTensorflowTr"
-  "ainingTask\022\017\n\007workers\030\001 \001(\005\022\023\n\013ps_replic"
-  "as\030\002 \001(\005\022\026\n\016chief_replicas\030\003 \001(\005B9Z7gith"
-  "ub.com/nebulaclouds/nebulaidl/gen/pb-go/nebula"
-  "idl/pluginsb\006proto3"
+  "\n\"nebulaidl/plugins/tensorflow.proto\022\021ne"
+  "bulaidl.plugins\"a\n!DistributedTensorflow"
+  "TrainingTask\022\017\n\007workers\030\001 \001(\005\022\023\n\013ps_repl"
+  "icas\030\002 \001(\005\022\026\n\016chief_replicas\030\003 \001(\005B\?Z=gi"
+  "thub.com/nebulaclouds/nebulaidl/gen/pb-g"
+  "o/nebulaidl/pluginsb\006proto3"
   ;
 ::google::protobuf::internal::DescriptorTable descriptor_table_nebulaidl_2fplugins_2ftensorflow_2eproto = {
-  false, InitDefaults_nebulaidl_2fplugins_2ftensorflow_2eproto,
+  false, InitDefaults_nebulaidl_2fplugins_2ftensorflow_2eproto, 
   descriptor_table_protodef_nebulaidl_2fplugins_2ftensorflow_2eproto,
-  "nebulaidl/plugins/tensorflow.proto", &assign_descriptors_table_nebulaidl_2fplugins_2ftensorflow_2eproto, 219,
+  "nebulaidl/plugins/tensorflow.proto", &assign_descriptors_table_nebulaidl_2fplugins_2ftensorflow_2eproto, 227,
 };
 
 void AddDescriptors_nebulaidl_2fplugins_2ftensorflow_2eproto() {

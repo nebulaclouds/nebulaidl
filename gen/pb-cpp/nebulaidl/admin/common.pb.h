@@ -73,9 +73,6 @@ extern EmailNotificationDefaultTypeInternal _EmailNotification_default_instance_
 class Envs;
 class EnvsDefaultTypeInternal;
 extern EnvsDefaultTypeInternal _Envs_default_instance_;
-class NebulaURLs;
-class NebulaURLsDefaultTypeInternal;
-extern NebulaURLsDefaultTypeInternal _NebulaURLs_default_instance_;
 class Labels;
 class LabelsDefaultTypeInternal;
 extern LabelsDefaultTypeInternal _Labels_default_instance_;
@@ -112,6 +109,9 @@ extern NamedEntityUpdateRequestDefaultTypeInternal _NamedEntityUpdateRequest_def
 class NamedEntityUpdateResponse;
 class NamedEntityUpdateResponseDefaultTypeInternal;
 extern NamedEntityUpdateResponseDefaultTypeInternal _NamedEntityUpdateResponse_default_instance_;
+class NebulaURLs;
+class NebulaURLsDefaultTypeInternal;
+extern NebulaURLsDefaultTypeInternal _NebulaURLs_default_instance_;
 class Notification;
 class NotificationDefaultTypeInternal;
 extern NotificationDefaultTypeInternal _Notification_default_instance_;
@@ -145,7 +145,6 @@ template<> ::nebulaidl::admin::Annotations_ValuesEntry_DoNotUse* Arena::CreateMa
 template<> ::nebulaidl::admin::AuthRole* Arena::CreateMaybeMessage<::nebulaidl::admin::AuthRole>(Arena*);
 template<> ::nebulaidl::admin::EmailNotification* Arena::CreateMaybeMessage<::nebulaidl::admin::EmailNotification>(Arena*);
 template<> ::nebulaidl::admin::Envs* Arena::CreateMaybeMessage<::nebulaidl::admin::Envs>(Arena*);
-template<> ::nebulaidl::admin::NebulaURLs* Arena::CreateMaybeMessage<::nebulaidl::admin::NebulaURLs>(Arena*);
 template<> ::nebulaidl::admin::Labels* Arena::CreateMaybeMessage<::nebulaidl::admin::Labels>(Arena*);
 template<> ::nebulaidl::admin::Labels_ValuesEntry_DoNotUse* Arena::CreateMaybeMessage<::nebulaidl::admin::Labels_ValuesEntry_DoNotUse>(Arena*);
 template<> ::nebulaidl::admin::NamedEntity* Arena::CreateMaybeMessage<::nebulaidl::admin::NamedEntity>(Arena*);
@@ -158,6 +157,7 @@ template<> ::nebulaidl::admin::NamedEntityListRequest* Arena::CreateMaybeMessage
 template<> ::nebulaidl::admin::NamedEntityMetadata* Arena::CreateMaybeMessage<::nebulaidl::admin::NamedEntityMetadata>(Arena*);
 template<> ::nebulaidl::admin::NamedEntityUpdateRequest* Arena::CreateMaybeMessage<::nebulaidl::admin::NamedEntityUpdateRequest>(Arena*);
 template<> ::nebulaidl::admin::NamedEntityUpdateResponse* Arena::CreateMaybeMessage<::nebulaidl::admin::NamedEntityUpdateResponse>(Arena*);
+template<> ::nebulaidl::admin::NebulaURLs* Arena::CreateMaybeMessage<::nebulaidl::admin::NebulaURLs>(Arena*);
 template<> ::nebulaidl::admin::Notification* Arena::CreateMaybeMessage<::nebulaidl::admin::Notification>(Arena*);
 template<> ::nebulaidl::admin::ObjectGetRequest* Arena::CreateMaybeMessage<::nebulaidl::admin::ObjectGetRequest>(Arena*);
 template<> ::nebulaidl::admin::PagerDutyNotification* Arena::CreateMaybeMessage<::nebulaidl::admin::PagerDutyNotification>(Arena*);

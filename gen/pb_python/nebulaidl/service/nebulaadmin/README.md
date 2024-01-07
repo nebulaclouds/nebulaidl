@@ -123,7 +123,7 @@ Class | Method | HTTP request | Description
 *AdminServiceApi* | [**update_execution**](docs/AdminServiceApi.md#update_execution) | **PUT** /api/v1/executions/{id.project}/{id.domain}/{id.name} | Update execution belonging to project domain :ref:&#x60;ref_nebulaidl.admin.Execution&#x60;.
 *AdminServiceApi* | [**update_launch_plan**](docs/AdminServiceApi.md#update_launch_plan) | **PUT** /api/v1/launch_plans/{id.project}/{id.domain}/{id.name}/{id.version} | Updates the status of a registered :ref:&#x60;ref_nebulaidl.admin.LaunchPlan&#x60;.
 *AdminServiceApi* | [**update_named_entity**](docs/AdminServiceApi.md#update_named_entity) | **PUT** /api/v1/named_entities/{resource_type}/{id.project}/{id.domain}/{id.name} | Updates a :ref:&#x60;ref_nebulaidl.admin.NamedEntity&#x60; object.
-*AdminServiceApi* | [**update_project**](docs/AdminServiceApi.md#update_project) | **PUT** /api/v1/projects/{id} | Updates an existing :ref:&#x60;ref_nebulaidl.admin.Project&#x60;  nebulaidl.admin.Project should be passed but the domains property should be empty; it will be ignored in the handler as domains cannot be updated via this API.
+*AdminServiceApi* | [**update_project**](docs/AdminServiceApi.md#update_project) | **PUT** /api/v1/projects/{id} | Updates an existing :ref:&#x60;ref_nebulaidl.admin.Project&#x60; nebulaidl.admin.Project should be passed but the domains property should be empty; it will be ignored in the handler as domains cannot be updated via this API.
 *AdminServiceApi* | [**update_project_attributes**](docs/AdminServiceApi.md#update_project_attributes) | **PUT** /api/v1/project_attributes/{attributes.project} | Creates or updates custom :ref:&#x60;ref_nebulaidl.admin.MatchableAttributesConfiguration&#x60; at the project level
 *AdminServiceApi* | [**update_project_domain_attributes**](docs/AdminServiceApi.md#update_project_domain_attributes) | **PUT** /api/v1/project_domain_attributes/{attributes.project}/{attributes.domain} | Creates or updates custom :ref:&#x60;ref_nebulaidl.admin.MatchableAttributesConfiguration&#x60; for a project and domain.
 *AdminServiceApi* | [**update_workflow_attributes**](docs/AdminServiceApi.md#update_workflow_attributes) | **PUT** /api/v1/workflow_attributes/{attributes.project}/{attributes.domain}/{attributes.workflow} | Creates or updates custom :ref:&#x60;ref_nebulaidl.admin.MatchableAttributesConfiguration&#x60; for a project, domain and workflow.
@@ -164,7 +164,6 @@ Class | Method | HTTP request | Description
  - [AdminExecutionUpdateResponse](docs/AdminExecutionUpdateResponse.md)
  - [AdminFixedRate](docs/AdminFixedRate.md)
  - [AdminFixedRateUnit](docs/AdminFixedRateUnit.md)
- - [AdminNebulaURLs](docs/AdminNebulaURLs.md)
  - [AdminGetVersionResponse](docs/AdminGetVersionResponse.md)
  - [AdminLabels](docs/AdminLabels.md)
  - [AdminLaunchPlan](docs/AdminLaunchPlan.md)
@@ -190,6 +189,7 @@ Class | Method | HTTP request | Description
  - [AdminNamedEntityState](docs/AdminNamedEntityState.md)
  - [AdminNamedEntityUpdateRequest](docs/AdminNamedEntityUpdateRequest.md)
  - [AdminNamedEntityUpdateResponse](docs/AdminNamedEntityUpdateResponse.md)
+ - [AdminNebulaURLs](docs/AdminNebulaURLs.md)
  - [AdminNodeExecutionClosure](docs/AdminNodeExecutionClosure.md)
  - [AdminNodeExecutionEventRequest](docs/AdminNodeExecutionEventRequest.md)
  - [AdminNodeExecutionEventResponse](docs/AdminNodeExecutionEventResponse.md)
@@ -367,6 +367,8 @@ Class | Method | HTTP request | Description
  - [EventWorkflowExecutionEvent](docs/EventWorkflowExecutionEvent.md)
  - [ExecutionErrorErrorKind](docs/ExecutionErrorErrorKind.md)
  - [ExecutionMetadataExecutionMode](docs/ExecutionMetadataExecutionMode.md)
+ - [IOStrategyDownloadMode](docs/IOStrategyDownloadMode.md)
+ - [IOStrategyUploadMode](docs/IOStrategyUploadMode.md)
  - [NebulaidladminDynamicWorkflowNodeMetadata](docs/NebulaidladminDynamicWorkflowNodeMetadata.md)
  - [NebulaidladminNodeExecution](docs/NebulaidladminNodeExecution.md)
  - [NebulaidladminTaskCreateRequest](docs/NebulaidladminTaskCreateRequest.md)
@@ -378,8 +380,6 @@ Class | Method | HTTP request | Description
  - [NebulaidleventTaskExecutionMetadata](docs/NebulaidleventTaskExecutionMetadata.md)
  - [NebulaidleventTaskNodeMetadata](docs/NebulaidleventTaskNodeMetadata.md)
  - [NebulaidleventWorkflowNodeMetadata](docs/NebulaidleventWorkflowNodeMetadata.md)
- - [IOStrategyDownloadMode](docs/IOStrategyDownloadMode.md)
- - [IOStrategyUploadMode](docs/IOStrategyUploadMode.md)
  - [PluginOverrideMissingPluginBehavior](docs/PluginOverrideMissingPluginBehavior.md)
  - [ProjectProjectState](docs/ProjectProjectState.md)
  - [ProtobufListValue](docs/ProtobufListValue.md)

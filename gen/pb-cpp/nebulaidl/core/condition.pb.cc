@@ -164,34 +164,35 @@ static ::google::protobuf::Message const * const file_default_instances[] = {
 };
 
 const char descriptor_table_protodef_nebulaidl_2fcore_2fcondition_2eproto[] =
-  "\n\035nebulaidl/core/condition.proto\022\rnebulaid"
-  "l.core\032\034nebulaidl/core/literals.proto\"\356\001\n"
-  "\024ComparisonExpression\022>\n\010operator\030\001 \001(\0162"
-  ",.nebulaidl.core.ComparisonExpression.Ope"
-  "rator\022*\n\nleft_value\030\002 \001(\0132\026.nebulaidl.cor"
-  "e.Operand\022+\n\013right_value\030\003 \001(\0132\026.nebulaid"
-  "l.core.Operand\"=\n\010Operator\022\006\n\002EQ\020\000\022\007\n\003NE"
-  "Q\020\001\022\006\n\002GT\020\002\022\007\n\003GTE\020\003\022\006\n\002LT\020\004\022\007\n\003LTE\020\005\"{\n"
-  "\007Operand\0221\n\tprimitive\030\001 \001(\0132\030.nebulaidl.c"
-  "ore.PrimitiveB\002\030\001H\000\022\r\n\003var\030\002 \001(\tH\000\022\'\n\006sc"
-  "alar\030\003 \001(\0132\025.nebulaidl.core.ScalarH\000B\005\n\003v"
-  "al\"\223\001\n\021BooleanExpression\022;\n\013conjunction\030"
-  "\001 \001(\0132$.nebulaidl.core.ConjunctionExpress"
-  "ionH\000\0229\n\ncomparison\030\002 \001(\0132#.nebulaidl.cor"
-  "e.ComparisonExpressionH\000B\006\n\004expr\"\372\001\n\025Con"
-  "junctionExpression\022F\n\010operator\030\001 \001(\01624.n"
-  "nebulaidl.core.ConjunctionExpression.Logic"
-  "alOperator\0229\n\017left_expression\030\002 \001(\0132 .ne"
-  "bulaidl.core.BooleanExpression\022:\n\020right_e"
-  "xpression\030\003 \001(\0132 .nebulaidl.core.BooleanE"
-  "xpression\"\"\n\017LogicalOperator\022\007\n\003AND\020\000\022\006\n"
-  "\002OR\020\001B6Z4github.com/nebulaclouds/nebulaidl/ge"
-  "n/pb-go/nebulaidl/coreb\006proto3"
+  "\n\036nebulaidl/core/condition.proto\022\016nebula"
+  "idl.core\032\035nebulaidl/core/literals.proto\""
+  "\361\001\n\024ComparisonExpression\022\?\n\010operator\030\001 \001"
+  "(\0162-.nebulaidl.core.ComparisonExpression"
+  ".Operator\022+\n\nleft_value\030\002 \001(\0132\027.nebulaid"
+  "l.core.Operand\022,\n\013right_value\030\003 \001(\0132\027.ne"
+  "bulaidl.core.Operand\"=\n\010Operator\022\006\n\002EQ\020\000"
+  "\022\007\n\003NEQ\020\001\022\006\n\002GT\020\002\022\007\n\003GTE\020\003\022\006\n\002LT\020\004\022\007\n\003LT"
+  "E\020\005\"}\n\007Operand\0222\n\tprimitive\030\001 \001(\0132\031.nebu"
+  "laidl.core.PrimitiveB\002\030\001H\000\022\r\n\003var\030\002 \001(\tH"
+  "\000\022(\n\006scalar\030\003 \001(\0132\026.nebulaidl.core.Scala"
+  "rH\000B\005\n\003val\"\225\001\n\021BooleanExpression\022<\n\013conj"
+  "unction\030\001 \001(\0132%.nebulaidl.core.Conjuncti"
+  "onExpressionH\000\022:\n\ncomparison\030\002 \001(\0132$.neb"
+  "ulaidl.core.ComparisonExpressionH\000B\006\n\004ex"
+  "pr\"\375\001\n\025ConjunctionExpression\022G\n\010operator"
+  "\030\001 \001(\01625.nebulaidl.core.ConjunctionExpre"
+  "ssion.LogicalOperator\022:\n\017left_expression"
+  "\030\002 \001(\0132!.nebulaidl.core.BooleanExpressio"
+  "n\022;\n\020right_expression\030\003 \001(\0132!.nebulaidl."
+  "core.BooleanExpression\"\"\n\017LogicalOperato"
+  "r\022\007\n\003AND\020\000\022\006\n\002OR\020\001B<Z:github.com/nebulac"
+  "louds/nebulaidl/gen/pb-go/nebulaidl/core"
+  "b\006proto3"
   ;
 ::google::protobuf::internal::DescriptorTable descriptor_table_nebulaidl_2fcore_2fcondition_2eproto = {
-  false, InitDefaults_nebulaidl_2fcore_2fcondition_2eproto,
+  false, InitDefaults_nebulaidl_2fcore_2fcondition_2eproto, 
   descriptor_table_protodef_nebulaidl_2fcore_2fcondition_2eproto,
-  "nebulaidl/core/condition.proto", &assign_descriptors_table_nebulaidl_2fcore_2fcondition_2eproto, 909,
+  "nebulaidl/core/condition.proto", &assign_descriptors_table_nebulaidl_2fcore_2fcondition_2eproto, 928,
 };
 
 void AddDescriptors_nebulaidl_2fcore_2fcondition_2eproto() {

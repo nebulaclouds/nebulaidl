@@ -11,8 +11,8 @@ package nebulaadmin
 
 // Represents a structure for notifications based on execution status. The notification content is configured within nebula admin but can be templatized. Future iterations could expose configuring notifications with custom content.
 type AdminNotification struct {
-	Phases    []CoreWorkflowExecutionPhase `json:"phases,omitempty"`
-	Email     *AdminEmailNotification      `json:"email,omitempty"`
-	PagerDuty *AdminPagerDutyNotification  `json:"pager_duty,omitempty"`
-	Slack     *AdminSlackNotification      `json:"slack,omitempty"`
+	Phases []CoreWorkflowExecutionPhase `json:"phases,omitempty"`
+	Email *AdminEmailNotification `json:"email,omitempty"`
+	PagerDuty *AdminPagerDutyNotification `json:"pager_duty,omitempty"`
+	Slack *AdminSlackNotification `json:"slack,omitempty"`
 }

@@ -15,7 +15,7 @@ from nebulaidl.core import tasks_pb2 as nebulaidl_dot_core_dot_tasks__pb2
 from nebulaidl.plugins.kubeflow import common_pb2 as nebulaidl_dot_plugins_dot_kubeflow_dot_common__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n*nebulaidl/plugins/kubeflow/tensorflow.proto\x12\x19\x66lyteidl.plugins.kubeflow\x1a\x19\x66lyteidl/core/tasks.proto\x1a&nebulaidl/plugins/kubeflow/common.proto\"\xa8\x03\n!DistributedTensorflowTrainingTask\x12l\n\x0fworker_replicas\x18\x01 \x01(\x0b\x32\x43.nebulaidl.plugins.kubeflow.DistributedTensorflowTrainingReplicaSpecR\x0eworkerReplicas\x12\x64\n\x0bps_replicas\x18\x02 \x01(\x0b\x32\x43.nebulaidl.plugins.kubeflow.DistributedTensorflowTrainingReplicaSpecR\npsReplicas\x12j\n\x0e\x63hief_replicas\x18\x03 \x01(\x0b\x32\x43.nebulaidl.plugins.kubeflow.DistributedTensorflowTrainingReplicaSpecR\rchiefReplicas\x12\x43\n\nrun_policy\x18\x04 \x01(\x0b\x32$.nebulaidl.plugins.kubeflow.RunPolicyR\trunPolicy\"\xe5\x01\n(DistributedTensorflowTrainingReplicaSpec\x12\x1a\n\x08replicas\x18\x01 \x01(\x05R\x08replicas\x12\x14\n\x05image\x18\x02 \x01(\tR\x05image\x12\x36\n\tresources\x18\x03 \x01(\x0b\x32\x18.nebulaidl.core.ResourcesR\tresources\x12O\n\x0erestart_policy\x18\x04 \x01(\x0e\x32(.nebulaidl.plugins.kubeflow.RestartPolicyR\rrestartPolicyB\xef\x01\n\x1d\x63om.nebulaidl.plugins.kubeflowB\x0fTensorflowProtoP\x01Z7github.com/nebulaclouds/nebulaidl/gen/pb-go/nebulaidl/plugins\xa2\x02\x03\x46PK\xaa\x02\x19\x46lyteidl.Plugins.Kubeflow\xca\x02\x19\x46lyteidl\\Plugins\\Kubeflow\xe2\x02%Nebulaidl\\Plugins\\Kubeflow\\GPBMetadata\xea\x02\x1b\x46lyteidl::Plugins::Kubeflowb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n+nebulaidl/plugins/kubeflow/tensorflow.proto\x12\x1anebulaidl.plugins.kubeflow\x1a\x1anebulaidl/core/tasks.proto\x1a\'nebulaidl/plugins/kubeflow/common.proto\"\xac\x03\n!DistributedTensorflowTrainingTask\x12m\n\x0fworker_replicas\x18\x01 \x01(\x0b\x32\x44.nebulaidl.plugins.kubeflow.DistributedTensorflowTrainingReplicaSpecR\x0eworkerReplicas\x12\x65\n\x0bps_replicas\x18\x02 \x01(\x0b\x32\x44.nebulaidl.plugins.kubeflow.DistributedTensorflowTrainingReplicaSpecR\npsReplicas\x12k\n\x0e\x63hief_replicas\x18\x03 \x01(\x0b\x32\x44.nebulaidl.plugins.kubeflow.DistributedTensorflowTrainingReplicaSpecR\rchiefReplicas\x12\x44\n\nrun_policy\x18\x04 \x01(\x0b\x32%.nebulaidl.plugins.kubeflow.RunPolicyR\trunPolicy\"\xe7\x01\n(DistributedTensorflowTrainingReplicaSpec\x12\x1a\n\x08replicas\x18\x01 \x01(\x05R\x08replicas\x12\x14\n\x05image\x18\x02 \x01(\tR\x05image\x12\x37\n\tresources\x18\x03 \x01(\x0b\x32\x19.nebulaidl.core.ResourcesR\tresources\x12P\n\x0erestart_policy\x18\x04 \x01(\x0e\x32).nebulaidl.plugins.kubeflow.RestartPolicyR\rrestartPolicyB\xfa\x01\n\x1e\x63om.nebulaidl.plugins.kubeflowB\x0fTensorflowProtoP\x01Z=github.com/nebulaclouds/nebulaidl/gen/pb-go/nebulaidl/plugins\xa2\x02\x03NPK\xaa\x02\x1aNebulaidl.Plugins.Kubeflow\xca\x02\x1aNebulaidl\\Plugins\\Kubeflow\xe2\x02&Nebulaidl\\Plugins\\Kubeflow\\GPBMetadata\xea\x02\x1cNebulaidl::Plugins::Kubeflowb\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -23,9 +23,9 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'nebulaidl.plugins.kubeflow.
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\035com.nebulaidl.plugins.kubeflowB\017TensorflowProtoP\001Z7github.com/nebulaclouds/nebulaidl/gen/pb-go/nebulaidl/plugins\242\002\003FPK\252\002\031Nebulaidl.Plugins.Kubeflow\312\002\031Nebulaidl\\Plugins\\Kubeflow\342\002%Nebulaidl\\Plugins\\Kubeflow\\GPBMetadata\352\002\033Nebulaidl::Plugins::Kubeflow'
-  _globals['_DISTRIBUTEDTENSORFLOWTRAININGTASK']._serialized_start=141
-  _globals['_DISTRIBUTEDTENSORFLOWTRAININGTASK']._serialized_end=565
-  _globals['_DISTRIBUTEDTENSORFLOWTRAININGREPLICASPEC']._serialized_start=568
-  _globals['_DISTRIBUTEDTENSORFLOWTRAININGREPLICASPEC']._serialized_end=797
+  DESCRIPTOR._serialized_options = b'\n\036com.nebulaidl.plugins.kubeflowB\017TensorflowProtoP\001Z=github.com/nebulaclouds/nebulaidl/gen/pb-go/nebulaidl/plugins\242\002\003NPK\252\002\032Nebulaidl.Plugins.Kubeflow\312\002\032Nebulaidl\\Plugins\\Kubeflow\342\002&Nebulaidl\\Plugins\\Kubeflow\\GPBMetadata\352\002\034Nebulaidl::Plugins::Kubeflow'
+  _globals['_DISTRIBUTEDTENSORFLOWTRAININGTASK']._serialized_start=145
+  _globals['_DISTRIBUTEDTENSORFLOWTRAININGTASK']._serialized_end=573
+  _globals['_DISTRIBUTEDTENSORFLOWTRAININGREPLICASPEC']._serialized_start=576
+  _globals['_DISTRIBUTEDTENSORFLOWTRAININGREPLICASPEC']._serialized_end=807
 # @@protoc_insertion_point(module_scope)

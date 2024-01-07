@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 from nebulaidl.admin import agent_pb2 as nebulaidl_dot_admin_dot_agent__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1c\x66lyteidl/service/agent.proto\x12\x10\x66lyteidl.service\x1a\x1a\x66lyteidl/admin/agent.proto2\x8f\x02\n\x11\x41syncAgentService\x12U\n\nCreateTask\x12!.nebulaidl.admin.CreateTaskRequest\x1a\".nebulaidl.admin.CreateTaskResponse\"\x00\x12L\n\x07GetTask\x12\x1e.nebulaidl.admin.GetTaskRequest\x1a\x1f.nebulaidl.admin.GetTaskResponse\"\x00\x12U\n\nDeleteTask\x12!.nebulaidl.admin.DeleteTaskRequest\x1a\".nebulaidl.admin.DeleteTaskResponse\"\x00\x42\xbc\x01\n\x14\x63om.nebulaidl.serviceB\nAgentProtoP\x01Z7github.com/nebulaclouds/nebulaidl/gen/pb-go/nebulaidl/service\xa2\x02\x03\x46SX\xaa\x02\x10\x46lyteidl.Service\xca\x02\x10\x46lyteidl\\Service\xe2\x02\x1c\x46lyteidl\\Service\\GPBMetadata\xea\x02\x11\x46lyteidl::Serviceb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1dnebulaidl/service/agent.proto\x12\x11nebulaidl.service\x1a\x1bnebulaidl/admin/agent.proto2\x95\x02\n\x11\x41syncAgentService\x12W\n\nCreateTask\x12\".nebulaidl.admin.CreateTaskRequest\x1a#.nebulaidl.admin.CreateTaskResponse\"\x00\x12N\n\x07GetTask\x12\x1f.nebulaidl.admin.GetTaskRequest\x1a .nebulaidl.admin.GetTaskResponse\"\x00\x12W\n\nDeleteTask\x12\".nebulaidl.admin.DeleteTaskRequest\x1a#.nebulaidl.admin.DeleteTaskResponse\"\x00\x42\xc7\x01\n\x15\x63om.nebulaidl.serviceB\nAgentProtoP\x01Z=github.com/nebulaclouds/nebulaidl/gen/pb-go/nebulaidl/service\xa2\x02\x03NSX\xaa\x02\x11Nebulaidl.Service\xca\x02\x11Nebulaidl\\Service\xe2\x02\x1dNebulaidl\\Service\\GPBMetadata\xea\x02\x12Nebulaidl::Serviceb\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -22,7 +22,7 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'nebulaidl.service.agent_pb2
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\024com.nebulaidl.serviceB\nAgentProtoP\001Z7github.com/nebulaclouds/nebulaidl/gen/pb-go/nebulaidl/service\242\002\003FSX\252\002\020Nebulaidl.Service\312\002\020Nebulaidl\\Service\342\002\034Nebulaidl\\Service\\GPBMetadata\352\002\021Nebulaidl::Service'
-  _globals['_ASYNCAGENTSERVICE']._serialized_start=79
-  _globals['_ASYNCAGENTSERVICE']._serialized_end=350
+  DESCRIPTOR._serialized_options = b'\n\025com.nebulaidl.serviceB\nAgentProtoP\001Z=github.com/nebulaclouds/nebulaidl/gen/pb-go/nebulaidl/service\242\002\003NSX\252\002\021Nebulaidl.Service\312\002\021Nebulaidl\\Service\342\002\035Nebulaidl\\Service\\GPBMetadata\352\002\022Nebulaidl::Service'
+  _globals['_ASYNCAGENTSERVICE']._serialized_start=82
+  _globals['_ASYNCAGENTSERVICE']._serialized_end=359
 # @@protoc_insertion_point(module_scope)

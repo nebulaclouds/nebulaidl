@@ -257,31 +257,32 @@ static ::google::protobuf::Message const * const file_default_instances[] = {
 };
 
 const char descriptor_table_protodef_nebulaidl_2fcore_2finterface_2eproto[] =
-  "\n\035nebulaidl/core/interface.proto\022\rnebulaid"
-  "l.core\032\031nebulaidl/core/types.proto\032\034nebula"
-  "idl/core/literals.proto\"I\n\010Variable\022(\n\004t"
-  "ype\030\001 \001(\0132\032.nebulaidl.core.LiteralType\022\023\n"
-  "\013description\030\002 \001(\t\"\226\001\n\013VariableMap\022<\n\tva"
-  "riables\030\001 \003(\0132).nebulaidl.core.VariableMa"
-  "p.VariablesEntry\032I\n\016VariablesEntry\022\013\n\003ke"
-  "y\030\001 \001(\t\022&\n\005value\030\002 \001(\0132\027.nebulaidl.core.V"
-  "ariable:\0028\001\"i\n\016TypedInterface\022*\n\006inputs\030"
-  "\001 \001(\0132\032.nebulaidl.core.VariableMap\022+\n\007out"
-  "puts\030\002 \001(\0132\032.nebulaidl.core.VariableMap\"|"
-  "\n\tParameter\022$\n\003var\030\001 \001(\0132\027.nebulaidl.core"
-  ".Variable\022)\n\007default\030\002 \001(\0132\026.nebulaidl.co"
-  "re.LiteralH\000\022\022\n\010required\030\003 \001(\010H\000B\n\n\010beha"
-  "vior\"\234\001\n\014ParameterMap\022\?\n\nparameters\030\001 \003("
-  "\0132+.nebulaidl.core.ParameterMap.Parameter"
-  "sEntry\032K\n\017ParametersEntry\022\013\n\003key\030\001 \001(\t\022\'"
-  "\n\005value\030\002 \001(\0132\030.nebulaidl.core.Parameter:"
-  "\0028\001B6Z4github.com/nebulaclouds/nebulaidl/gen/"
-  "pb-go/nebulaidl/coreb\006proto3"
+  "\n\036nebulaidl/core/interface.proto\022\016nebula"
+  "idl.core\032\032nebulaidl/core/types.proto\032\035ne"
+  "bulaidl/core/literals.proto\"J\n\010Variable\022"
+  ")\n\004type\030\001 \001(\0132\033.nebulaidl.core.LiteralTy"
+  "pe\022\023\n\013description\030\002 \001(\t\"\230\001\n\013VariableMap\022"
+  "=\n\tvariables\030\001 \003(\0132*.nebulaidl.core.Vari"
+  "ableMap.VariablesEntry\032J\n\016VariablesEntry"
+  "\022\013\n\003key\030\001 \001(\t\022\'\n\005value\030\002 \001(\0132\030.nebulaidl"
+  ".core.Variable:\0028\001\"k\n\016TypedInterface\022+\n\006"
+  "inputs\030\001 \001(\0132\033.nebulaidl.core.VariableMa"
+  "p\022,\n\007outputs\030\002 \001(\0132\033.nebulaidl.core.Vari"
+  "ableMap\"~\n\tParameter\022%\n\003var\030\001 \001(\0132\030.nebu"
+  "laidl.core.Variable\022*\n\007default\030\002 \001(\0132\027.n"
+  "ebulaidl.core.LiteralH\000\022\022\n\010required\030\003 \001("
+  "\010H\000B\n\n\010behavior\"\236\001\n\014ParameterMap\022@\n\npara"
+  "meters\030\001 \003(\0132,.nebulaidl.core.ParameterM"
+  "ap.ParametersEntry\032L\n\017ParametersEntry\022\013\n"
+  "\003key\030\001 \001(\t\022(\n\005value\030\002 \001(\0132\031.nebulaidl.co"
+  "re.Parameter:\0028\001B<Z:github.com/nebulaclo"
+  "uds/nebulaidl/gen/pb-go/nebulaidl/coreb\006"
+  "proto3"
   ;
 ::google::protobuf::internal::DescriptorTable descriptor_table_nebulaidl_2fcore_2finterface_2eproto = {
-  false, InitDefaults_nebulaidl_2fcore_2finterface_2eproto,
+  false, InitDefaults_nebulaidl_2fcore_2finterface_2eproto, 
   descriptor_table_protodef_nebulaidl_2fcore_2finterface_2eproto,
-  "nebulaidl/core/interface.proto", &assign_descriptors_table_nebulaidl_2fcore_2finterface_2eproto, 787,
+  "nebulaidl/core/interface.proto", &assign_descriptors_table_nebulaidl_2fcore_2finterface_2eproto, 806,
 };
 
 void AddDescriptors_nebulaidl_2fcore_2finterface_2eproto() {

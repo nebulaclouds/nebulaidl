@@ -5060,33 +5060,33 @@ public final class Auth {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\033nebulaidl/service/auth.proto\022\020nebulaidl." +
-      "service\032\034google/api/annotations.proto\"\027\n" +
-      "\025OAuth2MetadataRequest\"\315\002\n\026OAuth2Metadat" +
-      "aResponse\022\016\n\006issuer\030\001 \001(\t\022\036\n\026authorizati" +
-      "on_endpoint\030\002 \001(\t\022\026\n\016token_endpoint\030\003 \001(" +
-      "\t\022 \n\030response_types_supported\030\004 \003(\t\022\030\n\020s" +
-      "copes_supported\030\005 \003(\t\022-\n%token_endpoint_" +
-      "auth_methods_supported\030\006 \003(\t\022\020\n\010jwks_uri" +
-      "\030\007 \001(\t\022(\n code_challenge_methods_support" +
-      "ed\030\010 \003(\t\022\035\n\025grant_types_supported\030\t \003(\t\022" +
-      "%\n\035device_authorization_endpoint\030\n \001(\t\"\037" +
-      "\n\035PublicClientAuthConfigRequest\"\256\001\n\036Publ" +
-      "icClientAuthConfigResponse\022\021\n\tclient_id\030" +
-      "\001 \001(\t\022\024\n\014redirect_uri\030\002 \001(\t\022\016\n\006scopes\030\003 " +
-      "\003(\t\022\"\n\032authorization_metadata_key\030\004 \001(\t\022" +
-      "\035\n\025service_http_endpoint\030\005 \001(\t\022\020\n\010audien" +
-      "ce\030\006 \001(\t2\315\002\n\023AuthMetadataService\022\227\001\n\021Get" +
-      "OAuth2Metadata\022\'.nebulaidl.service.OAuth2" +
-      "MetadataRequest\032(.nebulaidl.service.OAuth" +
-      "2MetadataResponse\"/\202\323\344\223\002)\022\'/.well-known/" +
-      "oauth-authorization-server\022\233\001\n\025GetPublic" +
-      "ClientConfig\022/.nebulaidl.service.PublicCl" +
-      "ientAuthConfigRequest\0320.nebulaidl.service" +
-      ".PublicClientAuthConfigResponse\"\037\202\323\344\223\002\031\022" +
-      "\027/config/v1/nebula_clientB9Z7github.com/n" +
-      "ebulaclouds/nebulaidl/gen/pb-go/nebulaidl/serv" +
-      "iceb\006proto3"
+      "\n\034nebulaidl/service/auth.proto\022\021nebulaid" +
+      "l.service\032\034google/api/annotations.proto\"" +
+      "\027\n\025OAuth2MetadataRequest\"\315\002\n\026OAuth2Metad" +
+      "ataResponse\022\016\n\006issuer\030\001 \001(\t\022\036\n\026authoriza" +
+      "tion_endpoint\030\002 \001(\t\022\026\n\016token_endpoint\030\003 " +
+      "\001(\t\022 \n\030response_types_supported\030\004 \003(\t\022\030\n" +
+      "\020scopes_supported\030\005 \003(\t\022-\n%token_endpoin" +
+      "t_auth_methods_supported\030\006 \003(\t\022\020\n\010jwks_u" +
+      "ri\030\007 \001(\t\022(\n code_challenge_methods_suppo" +
+      "rted\030\010 \003(\t\022\035\n\025grant_types_supported\030\t \003(" +
+      "\t\022%\n\035device_authorization_endpoint\030\n \001(\t" +
+      "\"\037\n\035PublicClientAuthConfigRequest\"\256\001\n\036Pu" +
+      "blicClientAuthConfigResponse\022\021\n\tclient_i" +
+      "d\030\001 \001(\t\022\024\n\014redirect_uri\030\002 \001(\t\022\016\n\006scopes\030" +
+      "\003 \003(\t\022\"\n\032authorization_metadata_key\030\004 \001(" +
+      "\t\022\035\n\025service_http_endpoint\030\005 \001(\t\022\020\n\010audi" +
+      "ence\030\006 \001(\t2\322\002\n\023AuthMetadataService\022\231\001\n\021G" +
+      "etOAuth2Metadata\022(.nebulaidl.service.OAu" +
+      "th2MetadataRequest\032).nebulaidl.service.O" +
+      "Auth2MetadataResponse\"/\202\323\344\223\002)\022\'/.well-kn" +
+      "own/oauth-authorization-server\022\236\001\n\025GetPu" +
+      "blicClientConfig\0220.nebulaidl.service.Pub" +
+      "licClientAuthConfigRequest\0321.nebulaidl.s" +
+      "ervice.PublicClientAuthConfigResponse\" \202" +
+      "\323\344\223\002\032\022\030/config/v1/nebula_clientB?Z=githu" +
+      "b.com/nebulaclouds/nebulaidl/gen/pb-go/n" +
+      "ebulaidl/serviceb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

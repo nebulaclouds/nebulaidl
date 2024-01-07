@@ -17,7 +17,7 @@ from nebulaidl.core import literals_pb2 as nebulaidl_dot_core_dot_literals__pb2
 from nebulaidl.core import types_pb2 as nebulaidl_dot_core_dot_types__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1b\x66lyteidl/admin/signal.proto\x12\x0e\x66lyteidl.admin\x1a\x1b\x66lyteidl/admin/common.proto\x1a\x1e\x66lyteidl/core/identifier.proto\x1a\x1c\x66lyteidl/core/literals.proto\x1a\x19\x66lyteidl/core/types.proto\"{\n\x18SignalGetOrCreateRequest\x12/\n\x02id\x18\x01 \x01(\x0b\x32\x1f.nebulaidl.core.SignalIdentifierR\x02id\x12.\n\x04type\x18\x02 \x01(\x0b\x32\x1a.nebulaidl.core.LiteralTypeR\x04type\"\xe8\x01\n\x11SignalListRequest\x12^\n\x15workflow_execution_id\x18\x01 \x01(\x0b\x32*.nebulaidl.core.WorkflowExecutionIdentifierR\x13workflowExecutionId\x12\x14\n\x05limit\x18\x02 \x01(\rR\x05limit\x12\x14\n\x05token\x18\x03 \x01(\tR\x05token\x12\x18\n\x07\x66ilters\x18\x04 \x01(\tR\x07\x66ilters\x12-\n\x07sort_by\x18\x05 \x01(\x0b\x32\x14.nebulaidl.admin.SortR\x06sortBy\"T\n\nSignalList\x12\x30\n\x07signals\x18\x01 \x03(\x0b\x32\x16.nebulaidl.admin.SignalR\x07signals\x12\x14\n\x05token\x18\x02 \x01(\tR\x05token\"q\n\x10SignalSetRequest\x12/\n\x02id\x18\x01 \x01(\x0b\x32\x1f.nebulaidl.core.SignalIdentifierR\x02id\x12,\n\x05value\x18\x02 \x01(\x0b\x32\x16.nebulaidl.core.LiteralR\x05value\"\x13\n\x11SignalSetResponse\"\x97\x01\n\x06Signal\x12/\n\x02id\x18\x01 \x01(\x0b\x32\x1f.nebulaidl.core.SignalIdentifierR\x02id\x12.\n\x04type\x18\x02 \x01(\x0b\x32\x1a.nebulaidl.core.LiteralTypeR\x04type\x12,\n\x05value\x18\x03 \x01(\x0b\x32\x16.nebulaidl.core.LiteralR\x05valueB\xb1\x01\n\x12\x63om.nebulaidl.adminB\x0bSignalProtoP\x01Z5github.com/nebulaclouds/nebulaidl/gen/pb-go/nebulaidl/admin\xa2\x02\x03\x46\x41X\xaa\x02\x0e\x46lyteidl.Admin\xca\x02\x0e\x46lyteidl\\Admin\xe2\x02\x1a\x46lyteidl\\Admin\\GPBMetadata\xea\x02\x0f\x46lyteidl::Adminb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1cnebulaidl/admin/signal.proto\x12\x0fnebulaidl.admin\x1a\x1cnebulaidl/admin/common.proto\x1a\x1fnebulaidl/core/identifier.proto\x1a\x1dnebulaidl/core/literals.proto\x1a\x1anebulaidl/core/types.proto\"}\n\x18SignalGetOrCreateRequest\x12\x30\n\x02id\x18\x01 \x01(\x0b\x32 .nebulaidl.core.SignalIdentifierR\x02id\x12/\n\x04type\x18\x02 \x01(\x0b\x32\x1b.nebulaidl.core.LiteralTypeR\x04type\"\xea\x01\n\x11SignalListRequest\x12_\n\x15workflow_execution_id\x18\x01 \x01(\x0b\x32+.nebulaidl.core.WorkflowExecutionIdentifierR\x13workflowExecutionId\x12\x14\n\x05limit\x18\x02 \x01(\rR\x05limit\x12\x14\n\x05token\x18\x03 \x01(\tR\x05token\x12\x18\n\x07\x66ilters\x18\x04 \x01(\tR\x07\x66ilters\x12.\n\x07sort_by\x18\x05 \x01(\x0b\x32\x15.nebulaidl.admin.SortR\x06sortBy\"U\n\nSignalList\x12\x31\n\x07signals\x18\x01 \x03(\x0b\x32\x17.nebulaidl.admin.SignalR\x07signals\x12\x14\n\x05token\x18\x02 \x01(\tR\x05token\"s\n\x10SignalSetRequest\x12\x30\n\x02id\x18\x01 \x01(\x0b\x32 .nebulaidl.core.SignalIdentifierR\x02id\x12-\n\x05value\x18\x02 \x01(\x0b\x32\x17.nebulaidl.core.LiteralR\x05value\"\x13\n\x11SignalSetResponse\"\x9a\x01\n\x06Signal\x12\x30\n\x02id\x18\x01 \x01(\x0b\x32 .nebulaidl.core.SignalIdentifierR\x02id\x12/\n\x04type\x18\x02 \x01(\x0b\x32\x1b.nebulaidl.core.LiteralTypeR\x04type\x12-\n\x05value\x18\x03 \x01(\x0b\x32\x17.nebulaidl.core.LiteralR\x05valueB\xbc\x01\n\x13\x63om.nebulaidl.adminB\x0bSignalProtoP\x01Z;github.com/nebulaclouds/nebulaidl/gen/pb-go/nebulaidl/admin\xa2\x02\x03NAX\xaa\x02\x0fNebulaidl.Admin\xca\x02\x0fNebulaidl\\Admin\xe2\x02\x1bNebulaidl\\Admin\\GPBMetadata\xea\x02\x10Nebulaidl::Adminb\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -25,17 +25,17 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'nebulaidl.admin.signal_pb2'
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\022com.nebulaidl.adminB\013SignalProtoP\001Z5github.com/nebulaclouds/nebulaidl/gen/pb-go/nebulaidl/admin\242\002\003FAX\252\002\016Nebulaidl.Admin\312\002\016Nebulaidl\\Admin\342\002\032Nebulaidl\\Admin\\GPBMetadata\352\002\017Nebulaidl::Admin'
-  _globals['_SIGNALGETORCREATEREQUEST']._serialized_start=165
-  _globals['_SIGNALGETORCREATEREQUEST']._serialized_end=288
-  _globals['_SIGNALLISTREQUEST']._serialized_start=291
-  _globals['_SIGNALLISTREQUEST']._serialized_end=523
-  _globals['_SIGNALLIST']._serialized_start=525
-  _globals['_SIGNALLIST']._serialized_end=609
-  _globals['_SIGNALSETREQUEST']._serialized_start=611
-  _globals['_SIGNALSETREQUEST']._serialized_end=724
-  _globals['_SIGNALSETRESPONSE']._serialized_start=726
-  _globals['_SIGNALSETRESPONSE']._serialized_end=745
-  _globals['_SIGNAL']._serialized_start=748
-  _globals['_SIGNAL']._serialized_end=899
+  DESCRIPTOR._serialized_options = b'\n\023com.nebulaidl.adminB\013SignalProtoP\001Z;github.com/nebulaclouds/nebulaidl/gen/pb-go/nebulaidl/admin\242\002\003NAX\252\002\017Nebulaidl.Admin\312\002\017Nebulaidl\\Admin\342\002\033Nebulaidl\\Admin\\GPBMetadata\352\002\020Nebulaidl::Admin'
+  _globals['_SIGNALGETORCREATEREQUEST']._serialized_start=171
+  _globals['_SIGNALGETORCREATEREQUEST']._serialized_end=296
+  _globals['_SIGNALLISTREQUEST']._serialized_start=299
+  _globals['_SIGNALLISTREQUEST']._serialized_end=533
+  _globals['_SIGNALLIST']._serialized_start=535
+  _globals['_SIGNALLIST']._serialized_end=620
+  _globals['_SIGNALSETREQUEST']._serialized_start=622
+  _globals['_SIGNALSETREQUEST']._serialized_end=737
+  _globals['_SIGNALSETRESPONSE']._serialized_start=739
+  _globals['_SIGNALSETRESPONSE']._serialized_end=758
+  _globals['_SIGNAL']._serialized_start=761
+  _globals['_SIGNAL']._serialized_end=915
 # @@protoc_insertion_point(module_scope)

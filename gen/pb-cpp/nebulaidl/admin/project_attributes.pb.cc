@@ -237,30 +237,30 @@ static ::google::protobuf::Message const * const file_default_instances[] = {
 };
 
 const char descriptor_table_protodef_nebulaidl_2fadmin_2fproject_5fattributes_2eproto[] =
-  "\n\'nebulaidl/admin/project_attributes.prot"
-  "o\022\016nebulaidl.admin\032\'nebulaidl/admin/matcha"
-  "ble_resource.proto\"e\n\021ProjectAttributes\022"
-  "\017\n\007project\030\001 \001(\t\022\?\n\023matching_attributes\030"
-  "\002 \001(\0132\".nebulaidl.admin.MatchingAttribute"
-  "s\"W\n\036ProjectAttributesUpdateRequest\0225\n\na"
-  "ttributes\030\001 \001(\0132!.nebulaidl.admin.Project"
-  "Attributes\"!\n\037ProjectAttributesUpdateRes"
-  "ponse\"h\n\033ProjectAttributesGetRequest\022\017\n\007"
-  "project\030\001 \001(\t\0228\n\rresource_type\030\002 \001(\0162!.n"
-  "ebulaidl.admin.MatchableResource\"U\n\034Proje"
-  "ctAttributesGetResponse\0225\n\nattributes\030\001 "
-  "\001(\0132!.nebulaidl.admin.ProjectAttributes\"k"
-  "\n\036ProjectAttributesDeleteRequest\022\017\n\007proj"
-  "ect\030\001 \001(\t\0228\n\rresource_type\030\002 \001(\0162!.nebula"
-  "idl.admin.MatchableResource\"!\n\037ProjectAt"
-  "tributesDeleteResponseB7Z5github.com/neb"
-  "ulaclouds/nebulaidl/gen/pb-go/nebulaidl/adminb"
-  "\006proto3"
+  "\n(nebulaidl/admin/project_attributes.pro"
+  "to\022\017nebulaidl.admin\032(nebulaidl/admin/mat"
+  "chable_resource.proto\"f\n\021ProjectAttribut"
+  "es\022\017\n\007project\030\001 \001(\t\022@\n\023matching_attribut"
+  "es\030\002 \001(\0132#.nebulaidl.admin.MatchingAttri"
+  "butes\"X\n\036ProjectAttributesUpdateRequest\022"
+  "6\n\nattributes\030\001 \001(\0132\".nebulaidl.admin.Pr"
+  "ojectAttributes\"!\n\037ProjectAttributesUpda"
+  "teResponse\"i\n\033ProjectAttributesGetReques"
+  "t\022\017\n\007project\030\001 \001(\t\0229\n\rresource_type\030\002 \001("
+  "\0162\".nebulaidl.admin.MatchableResource\"V\n"
+  "\034ProjectAttributesGetResponse\0226\n\nattribu"
+  "tes\030\001 \001(\0132\".nebulaidl.admin.ProjectAttri"
+  "butes\"l\n\036ProjectAttributesDeleteRequest\022"
+  "\017\n\007project\030\001 \001(\t\0229\n\rresource_type\030\002 \001(\0162"
+  "\".nebulaidl.admin.MatchableResource\"!\n\037P"
+  "rojectAttributesDeleteResponseB=Z;github"
+  ".com/nebulaclouds/nebulaidl/gen/pb-go/ne"
+  "bulaidl/adminb\006proto3"
   ;
 ::google::protobuf::internal::DescriptorTable descriptor_table_nebulaidl_2fadmin_2fproject_5fattributes_2eproto = {
-  false, InitDefaults_nebulaidl_2fadmin_2fproject_5fattributes_2eproto,
+  false, InitDefaults_nebulaidl_2fadmin_2fproject_5fattributes_2eproto, 
   descriptor_table_protodef_nebulaidl_2fadmin_2fproject_5fattributes_2eproto,
-  "nebulaidl/admin/project_attributes.proto", &assign_descriptors_table_nebulaidl_2fadmin_2fproject_5fattributes_2eproto, 727,
+  "nebulaidl/admin/project_attributes.proto", &assign_descriptors_table_nebulaidl_2fadmin_2fproject_5fattributes_2eproto, 741,
 };
 
 void AddDescriptors_nebulaidl_2fadmin_2fproject_5fattributes_2eproto() {

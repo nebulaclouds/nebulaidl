@@ -110,31 +110,31 @@ static ::google::protobuf::Message const * const file_default_instances[] = {
 };
 
 const char descriptor_table_protodef_nebulaidl_2fplugins_2fkubeflow_2ftensorflow_2eproto[] =
-  "\n*nebulaidl/plugins/kubeflow/tensorflow.p"
-  "roto\022\031nebulaidl.plugins.kubeflow\032\031nebulaid"
-  "l/core/tasks.proto\032&nebulaidl/plugins/kub"
-  "eflow/common.proto\"\362\002\n!DistributedTensor"
-  "flowTrainingTask\022\\\n\017worker_replicas\030\001 \001("
-  "\0132C.nebulaidl.plugins.kubeflow.Distribute"
-  "dTensorflowTrainingReplicaSpec\022X\n\013ps_rep"
-  "licas\030\002 \001(\0132C.nebulaidl.plugins.kubeflow."
-  "DistributedTensorflowTrainingReplicaSpec"
-  "\022[\n\016chief_replicas\030\003 \001(\0132C.nebulaidl.plug"
-  "ins.kubeflow.DistributedTensorflowTraini"
-  "ngReplicaSpec\0228\n\nrun_policy\030\004 \001(\0132$.flyt"
-  "eidl.plugins.kubeflow.RunPolicy\"\272\001\n(Dist"
-  "ributedTensorflowTrainingReplicaSpec\022\020\n\010"
-  "replicas\030\001 \001(\005\022\r\n\005image\030\002 \001(\t\022+\n\tresourc"
-  "es\030\003 \001(\0132\030.nebulaidl.core.Resources\022@\n\016re"
-  "start_policy\030\004 \001(\0162(.nebulaidl.plugins.ku"
-  "beflow.RestartPolicyB9Z7github.com/nebula"
-  "org/nebulaidl/gen/pb-go/nebulaidl/pluginsb"
-  "\006proto3"
+  "\n+nebulaidl/plugins/kubeflow/tensorflow."
+  "proto\022\032nebulaidl.plugins.kubeflow\032\032nebul"
+  "aidl/core/tasks.proto\032\'nebulaidl/plugins"
+  "/kubeflow/common.proto\"\366\002\n!DistributedTe"
+  "nsorflowTrainingTask\022]\n\017worker_replicas\030"
+  "\001 \001(\0132D.nebulaidl.plugins.kubeflow.Distr"
+  "ibutedTensorflowTrainingReplicaSpec\022Y\n\013p"
+  "s_replicas\030\002 \001(\0132D.nebulaidl.plugins.kub"
+  "eflow.DistributedTensorflowTrainingRepli"
+  "caSpec\022\\\n\016chief_replicas\030\003 \001(\0132D.nebulai"
+  "dl.plugins.kubeflow.DistributedTensorflo"
+  "wTrainingReplicaSpec\0229\n\nrun_policy\030\004 \001(\013"
+  "2%.nebulaidl.plugins.kubeflow.RunPolicy\""
+  "\274\001\n(DistributedTensorflowTrainingReplica"
+  "Spec\022\020\n\010replicas\030\001 \001(\005\022\r\n\005image\030\002 \001(\t\022,\n"
+  "\tresources\030\003 \001(\0132\031.nebulaidl.core.Resour"
+  "ces\022A\n\016restart_policy\030\004 \001(\0162).nebulaidl."
+  "plugins.kubeflow.RestartPolicyB\?Z=github"
+  ".com/nebulaclouds/nebulaidl/gen/pb-go/ne"
+  "bulaidl/pluginsb\006proto3"
   ;
 ::google::protobuf::internal::DescriptorTable descriptor_table_nebulaidl_2fplugins_2fkubeflow_2ftensorflow_2eproto = {
-  false, InitDefaults_nebulaidl_2fplugins_2fkubeflow_2ftensorflow_2eproto,
+  false, InitDefaults_nebulaidl_2fplugins_2fkubeflow_2ftensorflow_2eproto, 
   descriptor_table_protodef_nebulaidl_2fplugins_2fkubeflow_2ftensorflow_2eproto,
-  "nebulaidl/plugins/kubeflow/tensorflow.proto", &assign_descriptors_table_nebulaidl_2fplugins_2fkubeflow_2ftensorflow_2eproto, 767,
+  "nebulaidl/plugins/kubeflow/tensorflow.proto", &assign_descriptors_table_nebulaidl_2fplugins_2fkubeflow_2ftensorflow_2eproto, 783,
 };
 
 void AddDescriptors_nebulaidl_2fplugins_2fkubeflow_2ftensorflow_2eproto() {

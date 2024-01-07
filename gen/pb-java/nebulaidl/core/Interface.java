@@ -707,7 +707,7 @@ public final class Interface {
        * <code>.nebulaidl.core.LiteralType type = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          nebulaidl.core.Types.LiteralType, nebulaidl.core.Types.LiteralType.Builder, nebulaidl.core.Types.LiteralTypeOrBuilder>
+          nebulaidl.core.Types.LiteralType, nebulaidl.core.Types.LiteralType.Builder, nebulaidl.core.Types.LiteralTypeOrBuilder> 
           getTypeFieldBuilder() {
         if (typeBuilder_ == null) {
           typeBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -1025,7 +1025,7 @@ public final class Interface {
           java.lang.String, nebulaidl.core.Interface.Variable> defaultEntry =
               com.google.protobuf.MapEntry
               .<java.lang.String, nebulaidl.core.Interface.Variable>newDefaultInstance(
-                  nebulaidl.core.Interface.internal_static_nebulaidl_core_VariableMap_VariablesEntry_descriptor,
+                  nebulaidl.core.Interface.internal_static_nebulaidl_core_VariableMap_VariablesEntry_descriptor, 
                   com.google.protobuf.WireFormat.FieldType.STRING,
                   "",
                   com.google.protobuf.WireFormat.FieldType.MESSAGE,
@@ -2280,7 +2280,7 @@ public final class Interface {
        * <code>.nebulaidl.core.VariableMap inputs = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          nebulaidl.core.Interface.VariableMap, nebulaidl.core.Interface.VariableMap.Builder, nebulaidl.core.Interface.VariableMapOrBuilder>
+          nebulaidl.core.Interface.VariableMap, nebulaidl.core.Interface.VariableMap.Builder, nebulaidl.core.Interface.VariableMapOrBuilder> 
           getInputsFieldBuilder() {
         if (inputsBuilder_ == null) {
           inputsBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -2397,7 +2397,7 @@ public final class Interface {
        * <code>.nebulaidl.core.VariableMap outputs = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          nebulaidl.core.Interface.VariableMap, nebulaidl.core.Interface.VariableMap.Builder, nebulaidl.core.Interface.VariableMapOrBuilder>
+          nebulaidl.core.Interface.VariableMap, nebulaidl.core.Interface.VariableMap.Builder, nebulaidl.core.Interface.VariableMapOrBuilder> 
           getOutputsFieldBuilder() {
         if (outputsBuilder_ == null) {
           outputsBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -3302,7 +3302,7 @@ public final class Interface {
        * <code>.nebulaidl.core.Variable var = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          nebulaidl.core.Interface.Variable, nebulaidl.core.Interface.Variable.Builder, nebulaidl.core.Interface.VariableOrBuilder>
+          nebulaidl.core.Interface.Variable, nebulaidl.core.Interface.Variable.Builder, nebulaidl.core.Interface.VariableOrBuilder> 
           getVarFieldBuilder() {
         if (varBuilder_ == null) {
           varBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -3469,7 +3469,7 @@ public final class Interface {
        * <code>.nebulaidl.core.Literal default = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          nebulaidl.core.Literals.Literal, nebulaidl.core.Literals.Literal.Builder, nebulaidl.core.Literals.LiteralOrBuilder>
+          nebulaidl.core.Literals.Literal, nebulaidl.core.Literals.Literal.Builder, nebulaidl.core.Literals.LiteralOrBuilder> 
           getDefaultFieldBuilder() {
         if (defaultBuilder_ == null) {
           if (!(behaviorCase_ == 2)) {
@@ -3745,7 +3745,7 @@ public final class Interface {
           java.lang.String, nebulaidl.core.Interface.Parameter> defaultEntry =
               com.google.protobuf.MapEntry
               .<java.lang.String, nebulaidl.core.Interface.Parameter>newDefaultInstance(
-                  nebulaidl.core.Interface.internal_static_nebulaidl_core_ParameterMap_ParametersEntry_descriptor,
+                  nebulaidl.core.Interface.internal_static_nebulaidl_core_ParameterMap_ParametersEntry_descriptor, 
                   com.google.protobuf.WireFormat.FieldType.STRING,
                   "",
                   com.google.protobuf.WireFormat.FieldType.MESSAGE,
@@ -4418,26 +4418,27 @@ public final class Interface {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\035nebulaidl/core/interface.proto\022\rnebulaid" +
-      "l.core\032\031nebulaidl/core/types.proto\032\034nebula" +
-      "idl/core/literals.proto\"I\n\010Variable\022(\n\004t" +
-      "ype\030\001 \001(\0132\032.nebulaidl.core.LiteralType\022\023\n" +
-      "\013description\030\002 \001(\t\"\226\001\n\013VariableMap\022<\n\tva" +
-      "riables\030\001 \003(\0132).nebulaidl.core.VariableMa" +
-      "p.VariablesEntry\032I\n\016VariablesEntry\022\013\n\003ke" +
-      "y\030\001 \001(\t\022&\n\005value\030\002 \001(\0132\027.nebulaidl.core.V" +
-      "ariable:\0028\001\"i\n\016TypedInterface\022*\n\006inputs\030" +
-      "\001 \001(\0132\032.nebulaidl.core.VariableMap\022+\n\007out" +
-      "puts\030\002 \001(\0132\032.nebulaidl.core.VariableMap\"|" +
-      "\n\tParameter\022$\n\003var\030\001 \001(\0132\027.nebulaidl.core" +
-      ".Variable\022)\n\007default\030\002 \001(\0132\026.nebulaidl.co" +
-      "re.LiteralH\000\022\022\n\010required\030\003 \001(\010H\000B\n\n\010beha" +
-      "vior\"\234\001\n\014ParameterMap\022?\n\nparameters\030\001 \003(" +
-      "\0132+.nebulaidl.core.ParameterMap.Parameter" +
-      "sEntry\032K\n\017ParametersEntry\022\013\n\003key\030\001 \001(\t\022\'" +
-      "\n\005value\030\002 \001(\0132\030.nebulaidl.core.Parameter:" +
-      "\0028\001B6Z4github.com/nebulaclouds/nebulaidl/gen/" +
-      "pb-go/nebulaidl/coreb\006proto3"
+      "\n\036nebulaidl/core/interface.proto\022\016nebula" +
+      "idl.core\032\032nebulaidl/core/types.proto\032\035ne" +
+      "bulaidl/core/literals.proto\"J\n\010Variable\022" +
+      ")\n\004type\030\001 \001(\0132\033.nebulaidl.core.LiteralTy" +
+      "pe\022\023\n\013description\030\002 \001(\t\"\230\001\n\013VariableMap\022" +
+      "=\n\tvariables\030\001 \003(\0132*.nebulaidl.core.Vari" +
+      "ableMap.VariablesEntry\032J\n\016VariablesEntry" +
+      "\022\013\n\003key\030\001 \001(\t\022\'\n\005value\030\002 \001(\0132\030.nebulaidl" +
+      ".core.Variable:\0028\001\"k\n\016TypedInterface\022+\n\006" +
+      "inputs\030\001 \001(\0132\033.nebulaidl.core.VariableMa" +
+      "p\022,\n\007outputs\030\002 \001(\0132\033.nebulaidl.core.Vari" +
+      "ableMap\"~\n\tParameter\022%\n\003var\030\001 \001(\0132\030.nebu" +
+      "laidl.core.Variable\022*\n\007default\030\002 \001(\0132\027.n" +
+      "ebulaidl.core.LiteralH\000\022\022\n\010required\030\003 \001(" +
+      "\010H\000B\n\n\010behavior\"\236\001\n\014ParameterMap\022@\n\npara" +
+      "meters\030\001 \003(\0132,.nebulaidl.core.ParameterM" +
+      "ap.ParametersEntry\032L\n\017ParametersEntry\022\013\n" +
+      "\003key\030\001 \001(\t\022(\n\005value\030\002 \001(\0132\031.nebulaidl.co" +
+      "re.Parameter:\0028\001B<Z:github.com/nebulaclo" +
+      "uds/nebulaidl/gen/pb-go/nebulaidl/coreb\006" +
+      "proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

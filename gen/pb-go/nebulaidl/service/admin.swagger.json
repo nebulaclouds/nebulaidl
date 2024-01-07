@@ -199,7 +199,7 @@
           },
           {
             "name": "task_execution_id.task_id.resource_type",
-            "description": "Identifies the specific type of resource that this identifier corresponds to.\n\n - DATASET: A dataset represents an entity modeled in Nebula DataCatalog. A Dataset is also a versioned entity and can be a compilation of multiple individual objects.\nEventually all Catalog objects should be modeled similar to Nebula Objects. The Dataset entities makes it possible for the UI  and CLI to act on the objects \nin a similar manner to other Nebula objects",
+            "description": "Identifies the specific type of resource that this identifier corresponds to.\n\n - DATASET: A dataset represents an entity modeled in Nebula DataCatalog. A Dataset is also a versioned entity and can be a compilation of multiple individual objects.\nEventually all Catalog objects should be modeled similar to Nebula Objects. The Dataset entities makes it possible for the UI  and CLI to act on the objects\nin a similar manner to other Nebula objects",
             "in": "query",
             "required": false,
             "type": "string",
@@ -422,7 +422,7 @@
           },
           {
             "name": "id.task_id.resource_type",
-            "description": "Identifies the specific type of resource that this identifier corresponds to.\n\n - DATASET: A dataset represents an entity modeled in Nebula DataCatalog. A Dataset is also a versioned entity and can be a compilation of multiple individual objects.\nEventually all Catalog objects should be modeled similar to Nebula Objects. The Dataset entities makes it possible for the UI  and CLI to act on the objects \nin a similar manner to other Nebula objects",
+            "description": "Identifies the specific type of resource that this identifier corresponds to.\n\n - DATASET: A dataset represents an entity modeled in Nebula DataCatalog. A Dataset is also a versioned entity and can be a compilation of multiple individual objects.\nEventually all Catalog objects should be modeled similar to Nebula Objects. The Dataset entities makes it possible for the UI  and CLI to act on the objects\nin a similar manner to other Nebula objects",
             "in": "query",
             "required": false,
             "type": "string",
@@ -1373,7 +1373,7 @@
           },
           {
             "name": "id.resource_type",
-            "description": "Identifies the specific type of resource that this identifier corresponds to.\n\n - DATASET: A dataset represents an entity modeled in Nebula DataCatalog. A Dataset is also a versioned entity and can be a compilation of multiple individual objects.\nEventually all Catalog objects should be modeled similar to Nebula Objects. The Dataset entities makes it possible for the UI  and CLI to act on the objects \nin a similar manner to other Nebula objects",
+            "description": "Identifies the specific type of resource that this identifier corresponds to.\n\n - DATASET: A dataset represents an entity modeled in Nebula DataCatalog. A Dataset is also a versioned entity and can be a compilation of multiple individual objects.\nEventually all Catalog objects should be modeled similar to Nebula Objects. The Dataset entities makes it possible for the UI  and CLI to act on the objects\nin a similar manner to other Nebula objects",
             "in": "query",
             "required": false,
             "type": "string",
@@ -2193,7 +2193,7 @@
     },
     "/api/v1/projects/{id}": {
       "put": {
-        "summary": "Updates an existing :ref:`ref_nebulaidl.admin.Project` \nnebulaidl.admin.Project should be passed but the domains property should be empty;\nit will be ignored in the handler as domains cannot be updated via this API.",
+        "summary": "Updates an existing :ref:`ref_nebulaidl.admin.Project`\nnebulaidl.admin.Project should be passed but the domains property should be empty;\nit will be ignored in the handler as domains cannot be updated via this API.",
         "operationId": "UpdateProject",
         "responses": {
           "200": {
@@ -2302,7 +2302,7 @@
           },
           {
             "name": "id.task_id.resource_type",
-            "description": "Identifies the specific type of resource that this identifier corresponds to.\n\n - DATASET: A dataset represents an entity modeled in Nebula DataCatalog. A Dataset is also a versioned entity and can be a compilation of multiple individual objects.\nEventually all Catalog objects should be modeled similar to Nebula Objects. The Dataset entities makes it possible for the UI  and CLI to act on the objects \nin a similar manner to other Nebula objects",
+            "description": "Identifies the specific type of resource that this identifier corresponds to.\n\n - DATASET: A dataset represents an entity modeled in Nebula DataCatalog. A Dataset is also a versioned entity and can be a compilation of multiple individual objects.\nEventually all Catalog objects should be modeled similar to Nebula Objects. The Dataset entities makes it possible for the UI  and CLI to act on the objects\nin a similar manner to other Nebula objects",
             "in": "query",
             "required": false,
             "type": "string",
@@ -2714,7 +2714,7 @@
           },
           {
             "name": "id.resource_type",
-            "description": "Identifies the specific type of resource that this identifier corresponds to.\n\n - DATASET: A dataset represents an entity modeled in Nebula DataCatalog. A Dataset is also a versioned entity and can be a compilation of multiple individual objects.\nEventually all Catalog objects should be modeled similar to Nebula Objects. The Dataset entities makes it possible for the UI  and CLI to act on the objects \nin a similar manner to other Nebula objects",
+            "description": "Identifies the specific type of resource that this identifier corresponds to.\n\n - DATASET: A dataset represents an entity modeled in Nebula DataCatalog. A Dataset is also a versioned entity and can be a compilation of multiple individual objects.\nEventually all Catalog objects should be modeled similar to Nebula Objects. The Dataset entities makes it possible for the UI  and CLI to act on the objects\nin a similar manner to other Nebula objects",
             "in": "query",
             "required": false,
             "type": "string",
@@ -3207,7 +3207,7 @@
           },
           {
             "name": "id.resource_type",
-            "description": "Identifies the specific type of resource that this identifier corresponds to.\n\n - DATASET: A dataset represents an entity modeled in Nebula DataCatalog. A Dataset is also a versioned entity and can be a compilation of multiple individual objects.\nEventually all Catalog objects should be modeled similar to Nebula Objects. The Dataset entities makes it possible for the UI  and CLI to act on the objects \nin a similar manner to other Nebula objects",
+            "description": "Identifies the specific type of resource that this identifier corresponds to.\n\n - DATASET: A dataset represents an entity modeled in Nebula DataCatalog. A Dataset is also a versioned entity and can be a compilation of multiple individual objects.\nEventually all Catalog objects should be modeled similar to Nebula Objects. The Dataset entities makes it possible for the UI  and CLI to act on the objects\nin a similar manner to other Nebula objects",
             "in": "query",
             "required": false,
             "type": "string",
@@ -4116,21 +4116,6 @@
       "default": "MINUTE",
       "description": "Represents a frequency at which to run a schedule."
     },
-    "adminNebulaURLs": {
-      "type": "object",
-      "properties": {
-        "inputs": {
-          "type": "string"
-        },
-        "outputs": {
-          "type": "string"
-        },
-        "deck": {
-          "type": "string"
-        }
-      },
-      "description": "These URLs are returned as part of node and task execution data requests."
-    },
     "adminGetVersionResponse": {
       "type": "object",
       "properties": {
@@ -4555,6 +4540,21 @@
     "adminNamedEntityUpdateResponse": {
       "type": "object",
       "description": "Purposefully empty, may be populated in the future."
+    },
+    "adminNebulaURLs": {
+      "type": "object",
+      "properties": {
+        "inputs": {
+          "type": "string"
+        },
+        "outputs": {
+          "type": "string"
+        },
+        "deck": {
+          "type": "string"
+        }
+      },
+      "description": "These URLs are returned as part of node and task execution data requests."
     },
     "adminNodeExecutionClosure": {
       "type": "object",
@@ -6587,7 +6587,7 @@
         "DATASET"
       ],
       "default": "UNSPECIFIED",
-      "description": "Indicates a resource type within Nebula.\n\n - DATASET: A dataset represents an entity modeled in Nebula DataCatalog. A Dataset is also a versioned entity and can be a compilation of multiple individual objects.\nEventually all Catalog objects should be modeled similar to Nebula Objects. The Dataset entities makes it possible for the UI  and CLI to act on the objects \nin a similar manner to other Nebula objects"
+      "description": "Indicates a resource type within Nebula.\n\n - DATASET: A dataset represents an entity modeled in Nebula DataCatalog. A Dataset is also a versioned entity and can be a compilation of multiple individual objects.\nEventually all Catalog objects should be modeled similar to Nebula Objects. The Dataset entities makes it possible for the UI  and CLI to act on the objects\nin a similar manner to other Nebula objects"
     },
     "coreResources": {
       "type": "object",

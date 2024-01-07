@@ -224,29 +224,30 @@ static ::google::protobuf::Message const * const file_default_instances[] = {
 };
 
 const char descriptor_table_protodef_nebulaidl_2fplugins_2fray_2eproto[] =
-  "\n\032nebulaidl/plugins/ray.proto\022\020nebulaidl.p"
-  "lugins\"P\n\006RayJob\0221\n\013ray_cluster\030\001 \001(\0132\034."
-  "nebulaidl.plugins.RayCluster\022\023\n\013runtime_e"
-  "nv\030\002 \001(\t\"\204\001\n\nRayCluster\0228\n\017head_group_sp"
-  "ec\030\001 \001(\0132\037.nebulaidl.plugins.HeadGroupSpe"
-  "c\022<\n\021worker_group_spec\030\002 \003(\0132!.nebulaidl."
-  "plugins.WorkerGroupSpec\"\225\001\n\rHeadGroupSpe"
-  "c\022M\n\020ray_start_params\030\001 \003(\01323.nebulaidl.p"
-  "lugins.HeadGroupSpec.RayStartParamsEntry"
-  "\0325\n\023RayStartParamsEntry\022\013\n\003key\030\001 \001(\t\022\r\n\005"
-  "value\030\002 \001(\t:\0028\001\"\353\001\n\017WorkerGroupSpec\022\022\n\ng"
-  "roup_name\030\001 \001(\t\022\020\n\010replicas\030\002 \001(\005\022\024\n\014min"
-  "_replicas\030\003 \001(\005\022\024\n\014max_replicas\030\004 \001(\005\022O\n"
-  "\020ray_start_params\030\005 \003(\01325.nebulaidl.plugi"
-  "ns.WorkerGroupSpec.RayStartParamsEntry\0325"
-  "\n\023RayStartParamsEntry\022\013\n\003key\030\001 \001(\t\022\r\n\005va"
-  "lue\030\002 \001(\t:\0028\001B9Z7github.com/nebulaclouds/fly"
-  "teidl/gen/pb-go/nebulaidl/pluginsb\006proto3"
+  "\n\033nebulaidl/plugins/ray.proto\022\021nebulaidl"
+  ".plugins\"Q\n\006RayJob\0222\n\013ray_cluster\030\001 \001(\0132"
+  "\035.nebulaidl.plugins.RayCluster\022\023\n\013runtim"
+  "e_env\030\002 \001(\t\"\206\001\n\nRayCluster\0229\n\017head_group"
+  "_spec\030\001 \001(\0132 .nebulaidl.plugins.HeadGrou"
+  "pSpec\022=\n\021worker_group_spec\030\002 \003(\0132\".nebul"
+  "aidl.plugins.WorkerGroupSpec\"\226\001\n\rHeadGro"
+  "upSpec\022N\n\020ray_start_params\030\001 \003(\01324.nebul"
+  "aidl.plugins.HeadGroupSpec.RayStartParam"
+  "sEntry\0325\n\023RayStartParamsEntry\022\013\n\003key\030\001 \001"
+  "(\t\022\r\n\005value\030\002 \001(\t:\0028\001\"\354\001\n\017WorkerGroupSpe"
+  "c\022\022\n\ngroup_name\030\001 \001(\t\022\020\n\010replicas\030\002 \001(\005\022"
+  "\024\n\014min_replicas\030\003 \001(\005\022\024\n\014max_replicas\030\004 "
+  "\001(\005\022P\n\020ray_start_params\030\005 \003(\01326.nebulaid"
+  "l.plugins.WorkerGroupSpec.RayStartParams"
+  "Entry\0325\n\023RayStartParamsEntry\022\013\n\003key\030\001 \001("
+  "\t\022\r\n\005value\030\002 \001(\t:\0028\001B\?Z=github.com/nebul"
+  "aclouds/nebulaidl/gen/pb-go/nebulaidl/pl"
+  "uginsb\006proto3"
   ;
 ::google::protobuf::internal::DescriptorTable descriptor_table_nebulaidl_2fplugins_2fray_2eproto = {
-  false, InitDefaults_nebulaidl_2fplugins_2fray_2eproto,
+  false, InitDefaults_nebulaidl_2fplugins_2fray_2eproto, 
   descriptor_table_protodef_nebulaidl_2fplugins_2fray_2eproto,
-  "nebulaidl/plugins/ray.proto", &assign_descriptors_table_nebulaidl_2fplugins_2fray_2eproto, 720,
+  "nebulaidl/plugins/ray.proto", &assign_descriptors_table_nebulaidl_2fplugins_2fray_2eproto, 733,
 };
 
 void AddDescriptors_nebulaidl_2fplugins_2fray_2eproto() {

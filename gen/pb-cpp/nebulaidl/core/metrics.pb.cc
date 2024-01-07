@@ -16,11 +16,11 @@
 // @@protoc_insertion_point(includes)
 #include <google/protobuf/port_def.inc>
 
+extern PROTOBUF_INTERNAL_EXPORT_google_2fprotobuf_2ftimestamp_2eproto ::google::protobuf::internal::SCCInfo<0> scc_info_Timestamp_google_2fprotobuf_2ftimestamp_2eproto;
 extern PROTOBUF_INTERNAL_EXPORT_nebulaidl_2fcore_2fidentifier_2eproto ::google::protobuf::internal::SCCInfo<0> scc_info_WorkflowExecutionIdentifier_nebulaidl_2fcore_2fidentifier_2eproto;
 extern PROTOBUF_INTERNAL_EXPORT_nebulaidl_2fcore_2fidentifier_2eproto ::google::protobuf::internal::SCCInfo<1> scc_info_NodeExecutionIdentifier_nebulaidl_2fcore_2fidentifier_2eproto;
 extern PROTOBUF_INTERNAL_EXPORT_nebulaidl_2fcore_2fidentifier_2eproto ::google::protobuf::internal::SCCInfo<2> scc_info_TaskExecutionIdentifier_nebulaidl_2fcore_2fidentifier_2eproto;
 extern PROTOBUF_INTERNAL_EXPORT_nebulaidl_2fcore_2fmetrics_2eproto ::google::protobuf::internal::SCCInfo<4> scc_info_Span_nebulaidl_2fcore_2fmetrics_2eproto;
-extern PROTOBUF_INTERNAL_EXPORT_google_2fprotobuf_2ftimestamp_2eproto ::google::protobuf::internal::SCCInfo<0> scc_info_Timestamp_google_2fprotobuf_2ftimestamp_2eproto;
 namespace nebulaidl {
 namespace core {
 class SpanDefaultTypeInternal {
@@ -89,25 +89,25 @@ static ::google::protobuf::Message const * const file_default_instances[] = {
 };
 
 const char descriptor_table_protodef_nebulaidl_2fcore_2fmetrics_2eproto[] =
-  "\n\033nebulaidl/core/metrics.proto\022\rnebulaidl."
-  "core\032\036nebulaidl/core/identifier.proto\032\037go"
-  "ogle/protobuf/timestamp.proto\"\337\002\n\004Span\022."
-  "\n\nstart_time\030\001 \001(\0132\032.google.protobuf.Tim"
-  "estamp\022,\n\010end_time\030\002 \001(\0132\032.google.protob"
-  "uf.Timestamp\022A\n\013workflow_id\030\003 \001(\0132*.nebul"
-  "aidl.core.WorkflowExecutionIdentifierH\000\022"
-  "9\n\007node_id\030\004 \001(\0132&.nebulaidl.core.NodeExe"
-  "cutionIdentifierH\000\0229\n\007task_id\030\005 \001(\0132&.ne"
-  "bulaidl.core.TaskExecutionIdentifierH\000\022\026\n"
-  "\014operation_id\030\006 \001(\tH\000\022\"\n\005spans\030\007 \003(\0132\023.n"
-  "ebulaidl.core.SpanB\004\n\002idB6Z4github.com/ne"
-  "bulaclouds/nebulaidl/gen/pb-go/nebulaidl/coreb"
-  "\006proto3"
+  "\n\034nebulaidl/core/metrics.proto\022\016nebulaid"
+  "l.core\032\037nebulaidl/core/identifier.proto\032"
+  "\037google/protobuf/timestamp.proto\"\343\002\n\004Spa"
+  "n\022.\n\nstart_time\030\001 \001(\0132\032.google.protobuf."
+  "Timestamp\022,\n\010end_time\030\002 \001(\0132\032.google.pro"
+  "tobuf.Timestamp\022B\n\013workflow_id\030\003 \001(\0132+.n"
+  "ebulaidl.core.WorkflowExecutionIdentifie"
+  "rH\000\022:\n\007node_id\030\004 \001(\0132\'.nebulaidl.core.No"
+  "deExecutionIdentifierH\000\022:\n\007task_id\030\005 \001(\013"
+  "2\'.nebulaidl.core.TaskExecutionIdentifie"
+  "rH\000\022\026\n\014operation_id\030\006 \001(\tH\000\022#\n\005spans\030\007 \003"
+  "(\0132\024.nebulaidl.core.SpanB\004\n\002idB<Z:github"
+  ".com/nebulaclouds/nebulaidl/gen/pb-go/ne"
+  "bulaidl/coreb\006proto3"
   ;
 ::google::protobuf::internal::DescriptorTable descriptor_table_nebulaidl_2fcore_2fmetrics_2eproto = {
-  false, InitDefaults_nebulaidl_2fcore_2fmetrics_2eproto,
+  false, InitDefaults_nebulaidl_2fcore_2fmetrics_2eproto, 
   descriptor_table_protodef_nebulaidl_2fcore_2fmetrics_2eproto,
-  "nebulaidl/core/metrics.proto", &assign_descriptors_table_nebulaidl_2fcore_2fmetrics_2eproto, 527,
+  "nebulaidl/core/metrics.proto", &assign_descriptors_table_nebulaidl_2fcore_2fmetrics_2eproto, 540,
 };
 
 void AddDescriptors_nebulaidl_2fcore_2fmetrics_2eproto() {

@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1d\x66lyteidl/plugins/qubole.proto\x12\x10\x66lyteidl.plugins\"b\n\tHiveQuery\x12\x14\n\x05query\x18\x01 \x01(\tR\x05query\x12\x1f\n\x0btimeout_sec\x18\x02 \x01(\rR\ntimeoutSec\x12\x1e\n\nretryCount\x18\x03 \x01(\rR\nretryCount\"L\n\x13HiveQueryCollection\x12\x35\n\x07queries\x18\x02 \x03(\x0b\x32\x1b.nebulaidl.plugins.HiveQueryR\x07queries\"\xd1\x01\n\rQuboleHiveJob\x12#\n\rcluster_label\x18\x01 \x01(\tR\x0c\x63lusterLabel\x12T\n\x10query_collection\x18\x02 \x01(\x0b\x32%.nebulaidl.plugins.HiveQueryCollectionB\x02\x18\x01R\x0fqueryCollection\x12\x12\n\x04tags\x18\x03 \x03(\tR\x04tags\x12\x31\n\x05query\x18\x04 \x01(\x0b\x32\x1b.nebulaidl.plugins.HiveQueryR\x05queryB\xbd\x01\n\x14\x63om.nebulaidl.pluginsB\x0bQuboleProtoP\x01Z7github.com/nebulaclouds/nebulaidl/gen/pb-go/nebulaidl/plugins\xa2\x02\x03\x46PX\xaa\x02\x10\x46lyteidl.Plugins\xca\x02\x10\x46lyteidl\\Plugins\xe2\x02\x1c\x46lyteidl\\Plugins\\GPBMetadata\xea\x02\x11\x46lyteidl::Pluginsb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1enebulaidl/plugins/qubole.proto\x12\x11nebulaidl.plugins\"b\n\tHiveQuery\x12\x14\n\x05query\x18\x01 \x01(\tR\x05query\x12\x1f\n\x0btimeout_sec\x18\x02 \x01(\rR\ntimeoutSec\x12\x1e\n\nretryCount\x18\x03 \x01(\rR\nretryCount\"M\n\x13HiveQueryCollection\x12\x36\n\x07queries\x18\x02 \x03(\x0b\x32\x1c.nebulaidl.plugins.HiveQueryR\x07queries\"\xd3\x01\n\rQuboleHiveJob\x12#\n\rcluster_label\x18\x01 \x01(\tR\x0c\x63lusterLabel\x12U\n\x10query_collection\x18\x02 \x01(\x0b\x32&.nebulaidl.plugins.HiveQueryCollectionB\x02\x18\x01R\x0fqueryCollection\x12\x12\n\x04tags\x18\x03 \x03(\tR\x04tags\x12\x32\n\x05query\x18\x04 \x01(\x0b\x32\x1c.nebulaidl.plugins.HiveQueryR\x05queryB\xc8\x01\n\x15\x63om.nebulaidl.pluginsB\x0bQuboleProtoP\x01Z=github.com/nebulaclouds/nebulaidl/gen/pb-go/nebulaidl/plugins\xa2\x02\x03NPX\xaa\x02\x11Nebulaidl.Plugins\xca\x02\x11Nebulaidl\\Plugins\xe2\x02\x1dNebulaidl\\Plugins\\GPBMetadata\xea\x02\x12Nebulaidl::Pluginsb\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -21,13 +21,13 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'nebulaidl.plugins.qubole_pb
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\024com.nebulaidl.pluginsB\013QuboleProtoP\001Z7github.com/nebulaclouds/nebulaidl/gen/pb-go/nebulaidl/plugins\242\002\003FPX\252\002\020Nebulaidl.Plugins\312\002\020Nebulaidl\\Plugins\342\002\034Nebulaidl\\Plugins\\GPBMetadata\352\002\021Nebulaidl::Plugins'
+  DESCRIPTOR._serialized_options = b'\n\025com.nebulaidl.pluginsB\013QuboleProtoP\001Z=github.com/nebulaclouds/nebulaidl/gen/pb-go/nebulaidl/plugins\242\002\003NPX\252\002\021Nebulaidl.Plugins\312\002\021Nebulaidl\\Plugins\342\002\035Nebulaidl\\Plugins\\GPBMetadata\352\002\022Nebulaidl::Plugins'
   _QUBOLEHIVEJOB.fields_by_name['query_collection']._options = None
   _QUBOLEHIVEJOB.fields_by_name['query_collection']._serialized_options = b'\030\001'
-  _globals['_HIVEQUERY']._serialized_start=51
-  _globals['_HIVEQUERY']._serialized_end=149
-  _globals['_HIVEQUERYCOLLECTION']._serialized_start=151
-  _globals['_HIVEQUERYCOLLECTION']._serialized_end=227
-  _globals['_QUBOLEHIVEJOB']._serialized_start=230
-  _globals['_QUBOLEHIVEJOB']._serialized_end=439
+  _globals['_HIVEQUERY']._serialized_start=53
+  _globals['_HIVEQUERY']._serialized_end=151
+  _globals['_HIVEQUERYCOLLECTION']._serialized_start=153
+  _globals['_HIVEQUERYCOLLECTION']._serialized_end=230
+  _globals['_QUBOLEHIVEJOB']._serialized_start=233
+  _globals['_QUBOLEHIVEJOB']._serialized_end=444
 # @@protoc_insertion_point(module_scope)

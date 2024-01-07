@@ -11,5 +11,5 @@ package nebulaadmin
 
 type AdminLiteralMapBlob struct {
 	Values *CoreLiteralMap `json:"values,omitempty"`
-	Uri    string          `json:"uri,omitempty"`
+	Uri string `json:"uri,omitempty"`
 }

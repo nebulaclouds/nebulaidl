@@ -25,7 +25,7 @@ public final class DynamicJob {
      *
      * <code>repeated .nebulaidl.core.Node nodes = 1;</code>
      */
-    java.util.List<nebulaidl.core.Workflow.Node>
+    java.util.List<nebulaidl.core.Workflow.Node> 
         getNodesList();
     /**
      * <pre>
@@ -50,7 +50,7 @@ public final class DynamicJob {
      *
      * <code>repeated .nebulaidl.core.Node nodes = 1;</code>
      */
-    java.util.List<? extends nebulaidl.core.Workflow.NodeOrBuilder>
+    java.util.List<? extends nebulaidl.core.Workflow.NodeOrBuilder> 
         getNodesOrBuilderList();
     /**
      * <pre>
@@ -83,7 +83,7 @@ public final class DynamicJob {
      *
      * <code>repeated .nebulaidl.core.Binding outputs = 3;</code>
      */
-    java.util.List<nebulaidl.core.Literals.Binding>
+    java.util.List<nebulaidl.core.Literals.Binding> 
         getOutputsList();
     /**
      * <pre>
@@ -111,7 +111,7 @@ public final class DynamicJob {
      *
      * <code>repeated .nebulaidl.core.Binding outputs = 3;</code>
      */
-    java.util.List<? extends nebulaidl.core.Literals.BindingOrBuilder>
+    java.util.List<? extends nebulaidl.core.Literals.BindingOrBuilder> 
         getOutputsOrBuilderList();
     /**
      * <pre>
@@ -131,7 +131,7 @@ public final class DynamicJob {
      *
      * <code>repeated .nebulaidl.core.TaskTemplate tasks = 4;</code>
      */
-    java.util.List<nebulaidl.core.Tasks.TaskTemplate>
+    java.util.List<nebulaidl.core.Tasks.TaskTemplate> 
         getTasksList();
     /**
      * <pre>
@@ -156,7 +156,7 @@ public final class DynamicJob {
      *
      * <code>repeated .nebulaidl.core.TaskTemplate tasks = 4;</code>
      */
-    java.util.List<? extends nebulaidl.core.Tasks.TaskTemplateOrBuilder>
+    java.util.List<? extends nebulaidl.core.Tasks.TaskTemplateOrBuilder> 
         getTasksOrBuilderList();
     /**
      * <pre>
@@ -175,7 +175,7 @@ public final class DynamicJob {
      *
      * <code>repeated .nebulaidl.core.WorkflowTemplate subworkflows = 5;</code>
      */
-    java.util.List<nebulaidl.core.Workflow.WorkflowTemplate>
+    java.util.List<nebulaidl.core.Workflow.WorkflowTemplate> 
         getSubworkflowsList();
     /**
      * <pre>
@@ -200,7 +200,7 @@ public final class DynamicJob {
      *
      * <code>repeated .nebulaidl.core.WorkflowTemplate subworkflows = 5;</code>
      */
-    java.util.List<? extends nebulaidl.core.Workflow.WorkflowTemplateOrBuilder>
+    java.util.List<? extends nebulaidl.core.Workflow.WorkflowTemplateOrBuilder> 
         getSubworkflowsOrBuilderList();
     /**
      * <pre>
@@ -364,7 +364,7 @@ public final class DynamicJob {
      *
      * <code>repeated .nebulaidl.core.Node nodes = 1;</code>
      */
-    public java.util.List<? extends nebulaidl.core.Workflow.NodeOrBuilder>
+    public java.util.List<? extends nebulaidl.core.Workflow.NodeOrBuilder> 
         getNodesOrBuilderList() {
       return nodes_;
     }
@@ -438,7 +438,7 @@ public final class DynamicJob {
      *
      * <code>repeated .nebulaidl.core.Binding outputs = 3;</code>
      */
-    public java.util.List<? extends nebulaidl.core.Literals.BindingOrBuilder>
+    public java.util.List<? extends nebulaidl.core.Literals.BindingOrBuilder> 
         getOutputsOrBuilderList() {
       return outputs_;
     }
@@ -496,7 +496,7 @@ public final class DynamicJob {
      *
      * <code>repeated .nebulaidl.core.TaskTemplate tasks = 4;</code>
      */
-    public java.util.List<? extends nebulaidl.core.Tasks.TaskTemplateOrBuilder>
+    public java.util.List<? extends nebulaidl.core.Tasks.TaskTemplateOrBuilder> 
         getTasksOrBuilderList() {
       return tasks_;
     }
@@ -551,7 +551,7 @@ public final class DynamicJob {
      *
      * <code>repeated .nebulaidl.core.WorkflowTemplate subworkflows = 5;</code>
      */
-    public java.util.List<? extends nebulaidl.core.Workflow.WorkflowTemplateOrBuilder>
+    public java.util.List<? extends nebulaidl.core.Workflow.WorkflowTemplateOrBuilder> 
         getSubworkflowsOrBuilderList() {
       return subworkflows_;
     }
@@ -1373,7 +1373,7 @@ public final class DynamicJob {
        *
        * <code>repeated .nebulaidl.core.Node nodes = 1;</code>
        */
-      public java.util.List<? extends nebulaidl.core.Workflow.NodeOrBuilder>
+      public java.util.List<? extends nebulaidl.core.Workflow.NodeOrBuilder> 
            getNodesOrBuilderList() {
         if (nodesBuilder_ != null) {
           return nodesBuilder_.getMessageOrBuilderList();
@@ -1411,12 +1411,12 @@ public final class DynamicJob {
        *
        * <code>repeated .nebulaidl.core.Node nodes = 1;</code>
        */
-      public java.util.List<nebulaidl.core.Workflow.Node.Builder>
+      public java.util.List<nebulaidl.core.Workflow.Node.Builder> 
            getNodesBuilderList() {
         return getNodesFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          nebulaidl.core.Workflow.Node, nebulaidl.core.Workflow.Node.Builder, nebulaidl.core.Workflow.NodeOrBuilder>
+          nebulaidl.core.Workflow.Node, nebulaidl.core.Workflow.Node.Builder, nebulaidl.core.Workflow.NodeOrBuilder> 
           getNodesFieldBuilder() {
         if (nodesBuilder_ == null) {
           nodesBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
@@ -1750,7 +1750,7 @@ public final class DynamicJob {
        *
        * <code>repeated .nebulaidl.core.Binding outputs = 3;</code>
        */
-      public java.util.List<? extends nebulaidl.core.Literals.BindingOrBuilder>
+      public java.util.List<? extends nebulaidl.core.Literals.BindingOrBuilder> 
            getOutputsOrBuilderList() {
         if (outputsBuilder_ != null) {
           return outputsBuilder_.getMessageOrBuilderList();
@@ -1791,12 +1791,12 @@ public final class DynamicJob {
        *
        * <code>repeated .nebulaidl.core.Binding outputs = 3;</code>
        */
-      public java.util.List<nebulaidl.core.Literals.Binding.Builder>
+      public java.util.List<nebulaidl.core.Literals.Binding.Builder> 
            getOutputsBuilderList() {
         return getOutputsFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          nebulaidl.core.Literals.Binding, nebulaidl.core.Literals.Binding.Builder, nebulaidl.core.Literals.BindingOrBuilder>
+          nebulaidl.core.Literals.Binding, nebulaidl.core.Literals.Binding.Builder, nebulaidl.core.Literals.BindingOrBuilder> 
           getOutputsFieldBuilder() {
         if (outputsBuilder_ == null) {
           outputsBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
@@ -2065,7 +2065,7 @@ public final class DynamicJob {
        *
        * <code>repeated .nebulaidl.core.TaskTemplate tasks = 4;</code>
        */
-      public java.util.List<? extends nebulaidl.core.Tasks.TaskTemplateOrBuilder>
+      public java.util.List<? extends nebulaidl.core.Tasks.TaskTemplateOrBuilder> 
            getTasksOrBuilderList() {
         if (tasksBuilder_ != null) {
           return tasksBuilder_.getMessageOrBuilderList();
@@ -2103,12 +2103,12 @@ public final class DynamicJob {
        *
        * <code>repeated .nebulaidl.core.TaskTemplate tasks = 4;</code>
        */
-      public java.util.List<nebulaidl.core.Tasks.TaskTemplate.Builder>
+      public java.util.List<nebulaidl.core.Tasks.TaskTemplate.Builder> 
            getTasksBuilderList() {
         return getTasksFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          nebulaidl.core.Tasks.TaskTemplate, nebulaidl.core.Tasks.TaskTemplate.Builder, nebulaidl.core.Tasks.TaskTemplateOrBuilder>
+          nebulaidl.core.Tasks.TaskTemplate, nebulaidl.core.Tasks.TaskTemplate.Builder, nebulaidl.core.Tasks.TaskTemplateOrBuilder> 
           getTasksFieldBuilder() {
         if (tasksBuilder_ == null) {
           tasksBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
@@ -2377,7 +2377,7 @@ public final class DynamicJob {
        *
        * <code>repeated .nebulaidl.core.WorkflowTemplate subworkflows = 5;</code>
        */
-      public java.util.List<? extends nebulaidl.core.Workflow.WorkflowTemplateOrBuilder>
+      public java.util.List<? extends nebulaidl.core.Workflow.WorkflowTemplateOrBuilder> 
            getSubworkflowsOrBuilderList() {
         if (subworkflowsBuilder_ != null) {
           return subworkflowsBuilder_.getMessageOrBuilderList();
@@ -2415,12 +2415,12 @@ public final class DynamicJob {
        *
        * <code>repeated .nebulaidl.core.WorkflowTemplate subworkflows = 5;</code>
        */
-      public java.util.List<nebulaidl.core.Workflow.WorkflowTemplate.Builder>
+      public java.util.List<nebulaidl.core.Workflow.WorkflowTemplate.Builder> 
            getSubworkflowsBuilderList() {
         return getSubworkflowsFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          nebulaidl.core.Workflow.WorkflowTemplate, nebulaidl.core.Workflow.WorkflowTemplate.Builder, nebulaidl.core.Workflow.WorkflowTemplateOrBuilder>
+          nebulaidl.core.Workflow.WorkflowTemplate, nebulaidl.core.Workflow.WorkflowTemplate.Builder, nebulaidl.core.Workflow.WorkflowTemplateOrBuilder> 
           getSubworkflowsFieldBuilder() {
         if (subworkflowsBuilder_ == null) {
           subworkflowsBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
@@ -2500,17 +2500,17 @@ public final class DynamicJob {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\037nebulaidl/core/dynamic_job.proto\022\rnebula" +
-      "idl.core\032\031nebulaidl/core/tasks.proto\032\034fly" +
-      "teidl/core/workflow.proto\032\034nebulaidl/core" +
-      "/literals.proto\"\327\001\n\016DynamicJobSpec\022\"\n\005no" +
-      "des\030\001 \003(\0132\023.nebulaidl.core.Node\022\025\n\rmin_su" +
-      "ccesses\030\002 \001(\003\022\'\n\007outputs\030\003 \003(\0132\026.nebulaid" +
-      "l.core.Binding\022*\n\005tasks\030\004 \003(\0132\033.nebulaidl" +
-      ".core.TaskTemplate\0225\n\014subworkflows\030\005 \003(\013" +
-      "2\037.nebulaidl.core.WorkflowTemplateB6Z4git" +
-      "hub.com/nebulaclouds/nebulaidl/gen/pb-go/flyt" +
-      "eidl/coreb\006proto3"
+      "\n nebulaidl/core/dynamic_job.proto\022\016nebu" +
+      "laidl.core\032\032nebulaidl/core/tasks.proto\032\035" +
+      "nebulaidl/core/workflow.proto\032\035nebulaidl" +
+      "/core/literals.proto\"\333\001\n\016DynamicJobSpec\022" +
+      "#\n\005nodes\030\001 \003(\0132\024.nebulaidl.core.Node\022\025\n\r" +
+      "min_successes\030\002 \001(\003\022(\n\007outputs\030\003 \003(\0132\027.n" +
+      "ebulaidl.core.Binding\022+\n\005tasks\030\004 \003(\0132\034.n" +
+      "ebulaidl.core.TaskTemplate\0226\n\014subworkflo" +
+      "ws\030\005 \003(\0132 .nebulaidl.core.WorkflowTempla" +
+      "teB<Z:github.com/nebulaclouds/nebulaidl/" +
+      "gen/pb-go/nebulaidl/coreb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

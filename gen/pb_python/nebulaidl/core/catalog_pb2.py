@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 from nebulaidl.core import identifier_pb2 as nebulaidl_dot_core_dot_identifier__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1b\x66lyteidl/core/catalog.proto\x12\rnebulaidl.core\x1a\x1e\x66lyteidl/core/identifier.proto\"I\n\x12\x43\x61talogArtifactTag\x12\x1f\n\x0b\x61rtifact_id\x18\x01 \x01(\tR\nartifactId\x12\x12\n\x04name\x18\x02 \x01(\tR\x04name\"\x83\x02\n\x0f\x43\x61talogMetadata\x12\x38\n\ndataset_id\x18\x01 \x01(\x0b\x32\x19.nebulaidl.core.IdentifierR\tdatasetId\x12\x44\n\x0c\x61rtifact_tag\x18\x02 \x01(\x0b\x32!.nebulaidl.core.CatalogArtifactTagR\x0b\x61rtifactTag\x12\\\n\x15source_task_execution\x18\x03 \x01(\x0b\x32&.nebulaidl.core.TaskExecutionIdentifierH\x00R\x13sourceTaskExecutionB\x12\n\x10source_execution\"\x9e\x01\n\x12\x43\x61talogReservation\"\x87\x01\n\x06Status\x12\x18\n\x14RESERVATION_DISABLED\x10\x00\x12\x18\n\x14RESERVATION_ACQUIRED\x10\x01\x12\x16\n\x12RESERVATION_EXISTS\x10\x02\x12\x18\n\x14RESERVATION_RELEASED\x10\x03\x12\x17\n\x13RESERVATION_FAILURE\x10\x04*\xa0\x01\n\x12\x43\x61talogCacheStatus\x12\x12\n\x0e\x43\x41\x43HE_DISABLED\x10\x00\x12\x0e\n\nCACHE_MISS\x10\x01\x12\r\n\tCACHE_HIT\x10\x02\x12\x13\n\x0f\x43\x41\x43HE_POPULATED\x10\x03\x12\x18\n\x14\x43\x41\x43HE_LOOKUP_FAILURE\x10\x04\x12\x15\n\x11\x43\x41\x43HE_PUT_FAILURE\x10\x05\x12\x11\n\rCACHE_SKIPPED\x10\x06\x42\xac\x01\n\x11\x63om.nebulaidl.coreB\x0c\x43\x61talogProtoP\x01Z4github.com/nebulaclouds/nebulaidl/gen/pb-go/nebulaidl/core\xa2\x02\x03\x46\x43X\xaa\x02\rNebulaidl.Core\xca\x02\rNebulaidl\\Core\xe2\x02\x19\x46lyteidl\\Core\\GPBMetadata\xea\x02\x0e\x46lyteidl::Coreb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1cnebulaidl/core/catalog.proto\x12\x0enebulaidl.core\x1a\x1fnebulaidl/core/identifier.proto\"I\n\x12\x43\x61talogArtifactTag\x12\x1f\n\x0b\x61rtifact_id\x18\x01 \x01(\tR\nartifactId\x12\x12\n\x04name\x18\x02 \x01(\tR\x04name\"\x86\x02\n\x0f\x43\x61talogMetadata\x12\x39\n\ndataset_id\x18\x01 \x01(\x0b\x32\x1a.nebulaidl.core.IdentifierR\tdatasetId\x12\x45\n\x0c\x61rtifact_tag\x18\x02 \x01(\x0b\x32\".nebulaidl.core.CatalogArtifactTagR\x0b\x61rtifactTag\x12]\n\x15source_task_execution\x18\x03 \x01(\x0b\x32\'.nebulaidl.core.TaskExecutionIdentifierH\x00R\x13sourceTaskExecutionB\x12\n\x10source_execution\"\x9e\x01\n\x12\x43\x61talogReservation\"\x87\x01\n\x06Status\x12\x18\n\x14RESERVATION_DISABLED\x10\x00\x12\x18\n\x14RESERVATION_ACQUIRED\x10\x01\x12\x16\n\x12RESERVATION_EXISTS\x10\x02\x12\x18\n\x14RESERVATION_RELEASED\x10\x03\x12\x17\n\x13RESERVATION_FAILURE\x10\x04*\xa0\x01\n\x12\x43\x61talogCacheStatus\x12\x12\n\x0e\x43\x41\x43HE_DISABLED\x10\x00\x12\x0e\n\nCACHE_MISS\x10\x01\x12\r\n\tCACHE_HIT\x10\x02\x12\x13\n\x0f\x43\x41\x43HE_POPULATED\x10\x03\x12\x18\n\x14\x43\x41\x43HE_LOOKUP_FAILURE\x10\x04\x12\x15\n\x11\x43\x41\x43HE_PUT_FAILURE\x10\x05\x12\x11\n\rCACHE_SKIPPED\x10\x06\x42\xb7\x01\n\x12\x63om.nebulaidl.coreB\x0c\x43\x61talogProtoP\x01Z:github.com/nebulaclouds/nebulaidl/gen/pb-go/nebulaidl/core\xa2\x02\x03NCX\xaa\x02\x0eNebulaidl.Core\xca\x02\x0eNebulaidl\\Core\xe2\x02\x1aNebulaidl\\Core\\GPBMetadata\xea\x02\x0fNebulaidl::Coreb\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -22,15 +22,15 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'nebulaidl.core.catalog_pb2'
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\021com.nebulaidl.coreB\014CatalogProtoP\001Z4github.com/nebulaclouds/nebulaidl/gen/pb-go/nebulaidl/core\242\002\003FCX\252\002\rNebulaidl.Core\312\002\rNebulaidl\\Core\342\002\031Nebulaidl\\Core\\GPBMetadata\352\002\016Nebulaidl::Core'
-  _globals['_CATALOGCACHESTATUS']._serialized_start=577
-  _globals['_CATALOGCACHESTATUS']._serialized_end=737
-  _globals['_CATALOGARTIFACTTAG']._serialized_start=78
-  _globals['_CATALOGARTIFACTTAG']._serialized_end=151
-  _globals['_CATALOGMETADATA']._serialized_start=154
-  _globals['_CATALOGMETADATA']._serialized_end=413
-  _globals['_CATALOGRESERVATION']._serialized_start=416
-  _globals['_CATALOGRESERVATION']._serialized_end=574
-  _globals['_CATALOGRESERVATION_STATUS']._serialized_start=439
-  _globals['_CATALOGRESERVATION_STATUS']._serialized_end=574
+  DESCRIPTOR._serialized_options = b'\n\022com.nebulaidl.coreB\014CatalogProtoP\001Z:github.com/nebulaclouds/nebulaidl/gen/pb-go/nebulaidl/core\242\002\003NCX\252\002\016Nebulaidl.Core\312\002\016Nebulaidl\\Core\342\002\032Nebulaidl\\Core\\GPBMetadata\352\002\017Nebulaidl::Core'
+  _globals['_CATALOGCACHESTATUS']._serialized_start=583
+  _globals['_CATALOGCACHESTATUS']._serialized_end=743
+  _globals['_CATALOGARTIFACTTAG']._serialized_start=81
+  _globals['_CATALOGARTIFACTTAG']._serialized_end=154
+  _globals['_CATALOGMETADATA']._serialized_start=157
+  _globals['_CATALOGMETADATA']._serialized_end=419
+  _globals['_CATALOGRESERVATION']._serialized_start=422
+  _globals['_CATALOGRESERVATION']._serialized_end=580
+  _globals['_CATALOGRESERVATION_STATUS']._serialized_start=445
+  _globals['_CATALOGRESERVATION_STATUS']._serialized_end=580
 # @@protoc_insertion_point(module_scope)

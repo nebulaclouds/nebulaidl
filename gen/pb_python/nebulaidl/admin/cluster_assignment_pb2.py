@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\'nebulaidl/admin/cluster_assignment.proto\x12\x0e\x66lyteidl.admin\"K\n\x11\x43lusterAssignment\x12*\n\x11\x63luster_pool_name\x18\x03 \x01(\tR\x0f\x63lusterPoolNameJ\x04\x08\x01\x10\x02J\x04\x08\x02\x10\x03\x42\xbc\x01\n\x12\x63om.nebulaidl.adminB\x16\x43lusterAssignmentProtoP\x01Z5github.com/nebulaclouds/nebulaidl/gen/pb-go/nebulaidl/admin\xa2\x02\x03\x46\x41X\xaa\x02\x0e\x46lyteidl.Admin\xca\x02\x0e\x46lyteidl\\Admin\xe2\x02\x1a\x46lyteidl\\Admin\\GPBMetadata\xea\x02\x0f\x46lyteidl::Adminb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n(nebulaidl/admin/cluster_assignment.proto\x12\x0fnebulaidl.admin\"K\n\x11\x43lusterAssignment\x12*\n\x11\x63luster_pool_name\x18\x03 \x01(\tR\x0f\x63lusterPoolNameJ\x04\x08\x01\x10\x02J\x04\x08\x02\x10\x03\x42\xc7\x01\n\x13\x63om.nebulaidl.adminB\x16\x43lusterAssignmentProtoP\x01Z;github.com/nebulaclouds/nebulaidl/gen/pb-go/nebulaidl/admin\xa2\x02\x03NAX\xaa\x02\x0fNebulaidl.Admin\xca\x02\x0fNebulaidl\\Admin\xe2\x02\x1bNebulaidl\\Admin\\GPBMetadata\xea\x02\x10Nebulaidl::Adminb\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -21,7 +21,7 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'nebulaidl.admin.cluster_ass
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\022com.nebulaidl.adminB\026ClusterAssignmentProtoP\001Z5github.com/nebulaclouds/nebulaidl/gen/pb-go/nebulaidl/admin\242\002\003FAX\252\002\016Nebulaidl.Admin\312\002\016Nebulaidl\\Admin\342\002\032Nebulaidl\\Admin\\GPBMetadata\352\002\017Nebulaidl::Admin'
-  _globals['_CLUSTERASSIGNMENT']._serialized_start=59
-  _globals['_CLUSTERASSIGNMENT']._serialized_end=134
+  DESCRIPTOR._serialized_options = b'\n\023com.nebulaidl.adminB\026ClusterAssignmentProtoP\001Z;github.com/nebulaclouds/nebulaidl/gen/pb-go/nebulaidl/admin\242\002\003NAX\252\002\017Nebulaidl.Admin\312\002\017Nebulaidl\\Admin\342\002\033Nebulaidl\\Admin\\GPBMetadata\352\002\020Nebulaidl::Admin'
+  _globals['_CLUSTERASSIGNMENT']._serialized_start=61
+  _globals['_CLUSTERASSIGNMENT']._serialized_end=136
 # @@protoc_insertion_point(module_scope)

@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 from nebulaidl.event import event_pb2 as nebulaidl_dot_event_dot_event__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1a\x66lyteidl/admin/event.proto\x12\x0e\x66lyteidl.admin\x1a\x1a\x66lyteidl/event/event.proto\"G\n EventErrorAlreadyInTerminalState\x12#\n\rcurrent_phase\x18\x01 \x01(\tR\x0c\x63urrentPhase\"9\n\x1d\x45ventErrorIncompatibleCluster\x12\x18\n\x07\x63luster\x18\x01 \x01(\tR\x07\x63luster\"\xf1\x01\n\x12\x45ventFailureReason\x12m\n\x19\x61lready_in_terminal_state\x18\x01 \x01(\x0b\x32\x30.nebulaidl.admin.EventErrorAlreadyInTerminalStateH\x00R\x16\x61lreadyInTerminalState\x12\x62\n\x14incompatible_cluster\x18\x02 \x01(\x0b\x32-.nebulaidl.admin.EventErrorIncompatibleClusterH\x00R\x13incompatibleClusterB\x08\n\x06reason\"|\n\x1dWorkflowExecutionEventRequest\x12\x1d\n\nrequest_id\x18\x01 \x01(\tR\trequestId\x12<\n\x05\x65vent\x18\x02 \x01(\x0b\x32&.nebulaidl.event.WorkflowExecutionEventR\x05\x65vent\" \n\x1eWorkflowExecutionEventResponse\"t\n\x19NodeExecutionEventRequest\x12\x1d\n\nrequest_id\x18\x01 \x01(\tR\trequestId\x12\x38\n\x05\x65vent\x18\x02 \x01(\x0b\x32\".nebulaidl.event.NodeExecutionEventR\x05\x65vent\"\x1c\n\x1aNodeExecutionEventResponse\"t\n\x19TaskExecutionEventRequest\x12\x1d\n\nrequest_id\x18\x01 \x01(\tR\trequestId\x12\x38\n\x05\x65vent\x18\x02 \x01(\x0b\x32\".nebulaidl.event.TaskExecutionEventR\x05\x65vent\"\x1c\n\x1aTaskExecutionEventResponseB\xb0\x01\n\x12\x63om.nebulaidl.adminB\nEventProtoP\x01Z5github.com/nebulaclouds/nebulaidl/gen/pb-go/nebulaidl/admin\xa2\x02\x03\x46\x41X\xaa\x02\x0e\x46lyteidl.Admin\xca\x02\x0e\x46lyteidl\\Admin\xe2\x02\x1a\x46lyteidl\\Admin\\GPBMetadata\xea\x02\x0f\x46lyteidl::Adminb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1bnebulaidl/admin/event.proto\x12\x0fnebulaidl.admin\x1a\x1bnebulaidl/event/event.proto\"G\n EventErrorAlreadyInTerminalState\x12#\n\rcurrent_phase\x18\x01 \x01(\tR\x0c\x63urrentPhase\"9\n\x1d\x45ventErrorIncompatibleCluster\x12\x18\n\x07\x63luster\x18\x01 \x01(\tR\x07\x63luster\"\xf3\x01\n\x12\x45ventFailureReason\x12n\n\x19\x61lready_in_terminal_state\x18\x01 \x01(\x0b\x32\x31.nebulaidl.admin.EventErrorAlreadyInTerminalStateH\x00R\x16\x61lreadyInTerminalState\x12\x63\n\x14incompatible_cluster\x18\x02 \x01(\x0b\x32..nebulaidl.admin.EventErrorIncompatibleClusterH\x00R\x13incompatibleClusterB\x08\n\x06reason\"}\n\x1dWorkflowExecutionEventRequest\x12\x1d\n\nrequest_id\x18\x01 \x01(\tR\trequestId\x12=\n\x05\x65vent\x18\x02 \x01(\x0b\x32\'.nebulaidl.event.WorkflowExecutionEventR\x05\x65vent\" \n\x1eWorkflowExecutionEventResponse\"u\n\x19NodeExecutionEventRequest\x12\x1d\n\nrequest_id\x18\x01 \x01(\tR\trequestId\x12\x39\n\x05\x65vent\x18\x02 \x01(\x0b\x32#.nebulaidl.event.NodeExecutionEventR\x05\x65vent\"\x1c\n\x1aNodeExecutionEventResponse\"u\n\x19TaskExecutionEventRequest\x12\x1d\n\nrequest_id\x18\x01 \x01(\tR\trequestId\x12\x39\n\x05\x65vent\x18\x02 \x01(\x0b\x32#.nebulaidl.event.TaskExecutionEventR\x05\x65vent\"\x1c\n\x1aTaskExecutionEventResponseB\xbb\x01\n\x13\x63om.nebulaidl.adminB\nEventProtoP\x01Z;github.com/nebulaclouds/nebulaidl/gen/pb-go/nebulaidl/admin\xa2\x02\x03NAX\xaa\x02\x0fNebulaidl.Admin\xca\x02\x0fNebulaidl\\Admin\xe2\x02\x1bNebulaidl\\Admin\\GPBMetadata\xea\x02\x10Nebulaidl::Adminb\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -22,23 +22,23 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'nebulaidl.admin.event_pb2',
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\022com.nebulaidl.adminB\nEventProtoP\001Z5github.com/nebulaclouds/nebulaidl/gen/pb-go/nebulaidl/admin\242\002\003FAX\252\002\016Nebulaidl.Admin\312\002\016Nebulaidl\\Admin\342\002\032Nebulaidl\\Admin\\GPBMetadata\352\002\017Nebulaidl::Admin'
-  _globals['_EVENTERRORALREADYINTERMINALSTATE']._serialized_start=74
-  _globals['_EVENTERRORALREADYINTERMINALSTATE']._serialized_end=145
-  _globals['_EVENTERRORINCOMPATIBLECLUSTER']._serialized_start=147
-  _globals['_EVENTERRORINCOMPATIBLECLUSTER']._serialized_end=204
-  _globals['_EVENTFAILUREREASON']._serialized_start=207
-  _globals['_EVENTFAILUREREASON']._serialized_end=448
-  _globals['_WORKFLOWEXECUTIONEVENTREQUEST']._serialized_start=450
-  _globals['_WORKFLOWEXECUTIONEVENTREQUEST']._serialized_end=574
-  _globals['_WORKFLOWEXECUTIONEVENTRESPONSE']._serialized_start=576
-  _globals['_WORKFLOWEXECUTIONEVENTRESPONSE']._serialized_end=608
-  _globals['_NODEEXECUTIONEVENTREQUEST']._serialized_start=610
-  _globals['_NODEEXECUTIONEVENTREQUEST']._serialized_end=726
-  _globals['_NODEEXECUTIONEVENTRESPONSE']._serialized_start=728
-  _globals['_NODEEXECUTIONEVENTRESPONSE']._serialized_end=756
-  _globals['_TASKEXECUTIONEVENTREQUEST']._serialized_start=758
-  _globals['_TASKEXECUTIONEVENTREQUEST']._serialized_end=874
-  _globals['_TASKEXECUTIONEVENTRESPONSE']._serialized_start=876
-  _globals['_TASKEXECUTIONEVENTRESPONSE']._serialized_end=904
+  DESCRIPTOR._serialized_options = b'\n\023com.nebulaidl.adminB\nEventProtoP\001Z;github.com/nebulaclouds/nebulaidl/gen/pb-go/nebulaidl/admin\242\002\003NAX\252\002\017Nebulaidl.Admin\312\002\017Nebulaidl\\Admin\342\002\033Nebulaidl\\Admin\\GPBMetadata\352\002\020Nebulaidl::Admin'
+  _globals['_EVENTERRORALREADYINTERMINALSTATE']._serialized_start=77
+  _globals['_EVENTERRORALREADYINTERMINALSTATE']._serialized_end=148
+  _globals['_EVENTERRORINCOMPATIBLECLUSTER']._serialized_start=150
+  _globals['_EVENTERRORINCOMPATIBLECLUSTER']._serialized_end=207
+  _globals['_EVENTFAILUREREASON']._serialized_start=210
+  _globals['_EVENTFAILUREREASON']._serialized_end=453
+  _globals['_WORKFLOWEXECUTIONEVENTREQUEST']._serialized_start=455
+  _globals['_WORKFLOWEXECUTIONEVENTREQUEST']._serialized_end=580
+  _globals['_WORKFLOWEXECUTIONEVENTRESPONSE']._serialized_start=582
+  _globals['_WORKFLOWEXECUTIONEVENTRESPONSE']._serialized_end=614
+  _globals['_NODEEXECUTIONEVENTREQUEST']._serialized_start=616
+  _globals['_NODEEXECUTIONEVENTREQUEST']._serialized_end=733
+  _globals['_NODEEXECUTIONEVENTRESPONSE']._serialized_start=735
+  _globals['_NODEEXECUTIONEVENTRESPONSE']._serialized_end=763
+  _globals['_TASKEXECUTIONEVENTREQUEST']._serialized_start=765
+  _globals['_TASKEXECUTIONEVENTREQUEST']._serialized_end=882
+  _globals['_TASKEXECUTIONEVENTRESPONSE']._serialized_start=884
+  _globals['_TASKEXECUTIONEVENTRESPONSE']._serialized_end=912
 # @@protoc_insertion_point(module_scope)

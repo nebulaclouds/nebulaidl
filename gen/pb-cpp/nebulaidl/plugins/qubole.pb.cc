@@ -133,22 +133,22 @@ static ::google::protobuf::Message const * const file_default_instances[] = {
 };
 
 const char descriptor_table_protodef_nebulaidl_2fplugins_2fqubole_2eproto[] =
-  "\n\035nebulaidl/plugins/qubole.proto\022\020nebulaid"
-  "l.plugins\"C\n\tHiveQuery\022\r\n\005query\030\001 \001(\t\022\023\n"
-  "\013timeout_sec\030\002 \001(\r\022\022\n\nretryCount\030\003 \001(\r\"C"
-  "\n\023HiveQueryCollection\022,\n\007queries\030\002 \003(\0132\033"
-  ".nebulaidl.plugins.HiveQuery\"\245\001\n\rQuboleHi"
-  "veJob\022\025\n\rcluster_label\030\001 \001(\t\022C\n\020query_co"
-  "llection\030\002 \001(\0132%.nebulaidl.plugins.HiveQu"
-  "eryCollectionB\002\030\001\022\014\n\004tags\030\003 \003(\t\022*\n\005query"
-  "\030\004 \001(\0132\033.nebulaidl.plugins.HiveQueryB9Z7g"
-  "ithub.com/nebulaclouds/nebulaidl/gen/pb-go/fl"
-  "yteidl/pluginsb\006proto3"
+  "\n\036nebulaidl/plugins/qubole.proto\022\021nebula"
+  "idl.plugins\"C\n\tHiveQuery\022\r\n\005query\030\001 \001(\t\022"
+  "\023\n\013timeout_sec\030\002 \001(\r\022\022\n\nretryCount\030\003 \001(\r"
+  "\"D\n\023HiveQueryCollection\022-\n\007queries\030\002 \003(\013"
+  "2\034.nebulaidl.plugins.HiveQuery\"\247\001\n\rQubol"
+  "eHiveJob\022\025\n\rcluster_label\030\001 \001(\t\022D\n\020query"
+  "_collection\030\002 \001(\0132&.nebulaidl.plugins.Hi"
+  "veQueryCollectionB\002\030\001\022\014\n\004tags\030\003 \003(\t\022+\n\005q"
+  "uery\030\004 \001(\0132\034.nebulaidl.plugins.HiveQuery"
+  "B\?Z=github.com/nebulaclouds/nebulaidl/ge"
+  "n/pb-go/nebulaidl/pluginsb\006proto3"
   ;
 ::google::protobuf::internal::DescriptorTable descriptor_table_nebulaidl_2fplugins_2fqubole_2eproto = {
-  false, InitDefaults_nebulaidl_2fplugins_2fqubole_2eproto,
+  false, InitDefaults_nebulaidl_2fplugins_2fqubole_2eproto, 
   descriptor_table_protodef_nebulaidl_2fplugins_2fqubole_2eproto,
-  "nebulaidl/plugins/qubole.proto", &assign_descriptors_table_nebulaidl_2fplugins_2fqubole_2eproto, 422,
+  "nebulaidl/plugins/qubole.proto", &assign_descriptors_table_nebulaidl_2fplugins_2fqubole_2eproto, 433,
 };
 
 void AddDescriptors_nebulaidl_2fplugins_2fqubole_2eproto() {

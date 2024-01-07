@@ -74,19 +74,19 @@ static ::google::protobuf::Message const * const file_default_instances[] = {
 };
 
 const char descriptor_table_protodef_nebulaidl_2fcore_2fworkflow_5fclosure_2eproto[] =
-  "\n$nebulaidl/core/workflow_closure.proto\022\r"
-  "nebulaidl.core\032\034nebulaidl/core/workflow.pr"
-  "oto\032\031nebulaidl/core/tasks.proto\"p\n\017Workfl"
-  "owClosure\0221\n\010workflow\030\001 \001(\0132\037.nebulaidl.c"
-  "ore.WorkflowTemplate\022*\n\005tasks\030\002 \003(\0132\033.ne"
-  "bulaidl.core.TaskTemplateB6Z4github.com/ne"
-  "bulaclouds/nebulaidl/gen/pb-go/nebulaidl/core"
-  "b\006proto3"
+  "\n%nebulaidl/core/workflow_closure.proto\022"
+  "\016nebulaidl.core\032\035nebulaidl/core/workflow"
+  ".proto\032\032nebulaidl/core/tasks.proto\"r\n\017Wo"
+  "rkflowClosure\0222\n\010workflow\030\001 \001(\0132 .nebula"
+  "idl.core.WorkflowTemplate\022+\n\005tasks\030\002 \003(\013"
+  "2\034.nebulaidl.core.TaskTemplateB<Z:github"
+  ".com/nebulaclouds/nebulaidl/gen/pb-go/ne"
+  "bulaidl/coreb\006proto3"
   ;
 ::google::protobuf::internal::DescriptorTable descriptor_table_nebulaidl_2fcore_2fworkflow_5fclosure_2eproto = {
-  false, InitDefaults_nebulaidl_2fcore_2fworkflow_5fclosure_2eproto,
+  false, InitDefaults_nebulaidl_2fcore_2fworkflow_5fclosure_2eproto, 
   descriptor_table_protodef_nebulaidl_2fcore_2fworkflow_5fclosure_2eproto,
-  "nebulaidl/core/workflow_closure.proto", &assign_descriptors_table_nebulaidl_2fcore_2fworkflow_5fclosure_2eproto, 288,
+  "nebulaidl/core/workflow_closure.proto", &assign_descriptors_table_nebulaidl_2fcore_2fworkflow_5fclosure_2eproto, 300,
 };
 
 void AddDescriptors_nebulaidl_2fcore_2fworkflow_5fclosure_2eproto() {

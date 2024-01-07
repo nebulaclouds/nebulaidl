@@ -22,7 +22,7 @@ from nebulaidl.core import security_pb2 as nebulaidl_dot_core_dot_security__pb2
 from google.protobuf import duration_pb2 as google_dot_protobuf_dot_duration__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1c\x66lyteidl/core/workflow.proto\x12\rnebulaidl.core\x1a\x1d\x66lyteidl/core/condition.proto\x1a\x1d\x66lyteidl/core/execution.proto\x1a\x1e\x66lyteidl/core/identifier.proto\x1a\x1d\x66lyteidl/core/interface.proto\x1a\x1c\x66lyteidl/core/literals.proto\x1a\x19\x66lyteidl/core/tasks.proto\x1a\x19\x66lyteidl/core/types.proto\x1a\x1c\x66lyteidl/core/security.proto\x1a\x1egoogle/protobuf/duration.proto\"{\n\x07IfBlock\x12>\n\tcondition\x18\x01 \x01(\x0b\x32 .nebulaidl.core.BooleanExpressionR\tcondition\x12\x30\n\tthen_node\x18\x02 \x01(\x0b\x32\x13.nebulaidl.core.NodeR\x08thenNode\"\xd4\x01\n\x0bIfElseBlock\x12*\n\x04\x63\x61se\x18\x01 \x01(\x0b\x32\x16.nebulaidl.core.IfBlockR\x04\x63\x61se\x12,\n\x05other\x18\x02 \x03(\x0b\x32\x16.nebulaidl.core.IfBlockR\x05other\x12\x32\n\telse_node\x18\x03 \x01(\x0b\x32\x13.nebulaidl.core.NodeH\x00R\x08\x65lseNode\x12,\n\x05\x65rror\x18\x04 \x01(\x0b\x32\x14.nebulaidl.core.ErrorH\x00R\x05\x65rrorB\t\n\x07\x64\x65\x66\x61ult\"A\n\nBranchNode\x12\x33\n\x07if_else\x18\x01 \x01(\x0b\x32\x1a.nebulaidl.core.IfElseBlockR\x06ifElse\"\x97\x01\n\x08TaskNode\x12>\n\x0creference_id\x18\x01 \x01(\x0b\x32\x19.nebulaidl.core.IdentifierH\x00R\x0breferenceId\x12>\n\toverrides\x18\x02 \x01(\x0b\x32 .nebulaidl.core.TaskNodeOverridesR\toverridesB\x0b\n\treference\"\xa6\x01\n\x0cWorkflowNode\x12\x42\n\x0elaunchplan_ref\x18\x01 \x01(\x0b\x32\x19.nebulaidl.core.IdentifierH\x00R\rlaunchplanRef\x12\x45\n\x10sub_workflow_ref\x18\x02 \x01(\x0b\x32\x19.nebulaidl.core.IdentifierH\x00R\x0esubWorkflowRefB\x0b\n\treference\"/\n\x10\x41pproveCondition\x12\x1b\n\tsignal_id\x18\x01 \x01(\tR\x08signalId\"\x90\x01\n\x0fSignalCondition\x12\x1b\n\tsignal_id\x18\x01 \x01(\tR\x08signalId\x12.\n\x04type\x18\x02 \x01(\x0b\x32\x1a.nebulaidl.core.LiteralTypeR\x04type\x12\x30\n\x14output_variable_name\x18\x03 \x01(\tR\x12outputVariableName\"G\n\x0eSleepCondition\x12\x35\n\x08\x64uration\x18\x01 \x01(\x0b\x32\x19.google.protobuf.DurationR\x08\x64uration\"\xc5\x01\n\x08GateNode\x12;\n\x07\x61pprove\x18\x01 \x01(\x0b\x32\x1f.nebulaidl.core.ApproveConditionH\x00R\x07\x61pprove\x12\x38\n\x06signal\x18\x02 \x01(\x0b\x32\x1e.nebulaidl.core.SignalConditionH\x00R\x06signal\x12\x35\n\x05sleep\x18\x03 \x01(\x0b\x32\x1d.nebulaidl.core.SleepConditionH\x00R\x05sleepB\x0b\n\tcondition\"\xbf\x01\n\tArrayNode\x12\'\n\x04node\x18\x01 \x01(\x0b\x32\x13.nebulaidl.core.NodeR\x04node\x12 \n\x0bparallelism\x18\x02 \x01(\rR\x0bparallelism\x12%\n\rmin_successes\x18\x03 \x01(\rH\x00R\x0cminSuccesses\x12,\n\x11min_success_ratio\x18\x04 \x01(\x02H\x00R\x0fminSuccessRatioB\x12\n\x10success_criteria\"\xce\x01\n\x0cNodeMetadata\x12\x12\n\x04name\x18\x01 \x01(\tR\x04name\x12\x33\n\x07timeout\x18\x04 \x01(\x0b\x32\x19.google.protobuf.DurationR\x07timeout\x12\x36\n\x07retries\x18\x05 \x01(\x0b\x32\x1c.nebulaidl.core.RetryStrategyR\x07retries\x12&\n\rinterruptible\x18\x06 \x01(\x08H\x00R\rinterruptibleB\x15\n\x13interruptible_value\"/\n\x05\x41lias\x12\x10\n\x03var\x18\x01 \x01(\tR\x03var\x12\x14\n\x05\x61lias\x18\x02 \x01(\tR\x05\x61lias\"\x9f\x04\n\x04Node\x12\x0e\n\x02id\x18\x01 \x01(\tR\x02id\x12\x37\n\x08metadata\x18\x02 \x01(\x0b\x32\x1b.nebulaidl.core.NodeMetadataR\x08metadata\x12.\n\x06inputs\x18\x03 \x03(\x0b\x32\x16.nebulaidl.core.BindingR\x06inputs\x12*\n\x11upstream_node_ids\x18\x04 \x03(\tR\x0fupstreamNodeIds\x12;\n\x0eoutput_aliases\x18\x05 \x03(\x0b\x32\x14.nebulaidl.core.AliasR\routputAliases\x12\x36\n\ttask_node\x18\x06 \x01(\x0b\x32\x17.nebulaidl.core.TaskNodeH\x00R\x08taskNode\x12\x42\n\rworkflow_node\x18\x07 \x01(\x0b\x32\x1b.nebulaidl.core.WorkflowNodeH\x00R\x0cworkflowNode\x12<\n\x0b\x62ranch_node\x18\x08 \x01(\x0b\x32\x19.nebulaidl.core.BranchNodeH\x00R\nbranchNode\x12\x36\n\tgate_node\x18\t \x01(\x0b\x32\x17.nebulaidl.core.GateNodeH\x00R\x08gateNode\x12\x39\n\narray_node\x18\n \x01(\x0b\x32\x18.nebulaidl.core.ArrayNodeH\x00R\tarrayNodeB\x08\n\x06target\"\xfc\x02\n\x10WorkflowMetadata\x12M\n\x12quality_of_service\x18\x01 \x01(\x0b\x32\x1f.nebulaidl.core.QualityOfServiceR\x10qualityOfService\x12N\n\non_failure\x18\x02 \x01(\x0e\x32/.nebulaidl.core.WorkflowMetadata.OnFailurePolicyR\tonFailure\x12=\n\x04tags\x18\x03 \x03(\x0b\x32).nebulaidl.core.WorkflowMetadata.TagsEntryR\x04tags\x1a\x37\n\tTagsEntry\x12\x10\n\x03key\x18\x01 \x01(\tR\x03key\x12\x14\n\x05value\x18\x02 \x01(\tR\x05value:\x02\x38\x01\"Q\n\x0fOnFailurePolicy\x12\x14\n\x10\x46\x41IL_IMMEDIATELY\x10\x00\x12(\n$FAIL_AFTER_EXECUTABLE_NODES_COMPLETE\x10\x01\"@\n\x18WorkflowMetadataDefaults\x12$\n\rinterruptible\x18\x01 \x01(\x08R\rinterruptible\"\xa2\x03\n\x10WorkflowTemplate\x12)\n\x02id\x18\x01 \x01(\x0b\x32\x19.nebulaidl.core.IdentifierR\x02id\x12;\n\x08metadata\x18\x02 \x01(\x0b\x32\x1f.nebulaidl.core.WorkflowMetadataR\x08metadata\x12;\n\tinterface\x18\x03 \x01(\x0b\x32\x1d.nebulaidl.core.TypedInterfaceR\tinterface\x12)\n\x05nodes\x18\x04 \x03(\x0b\x32\x13.nebulaidl.core.NodeR\x05nodes\x12\x30\n\x07outputs\x18\x05 \x03(\x0b\x32\x16.nebulaidl.core.BindingR\x07outputs\x12\x36\n\x0c\x66\x61ilure_node\x18\x06 \x01(\x0b\x32\x13.nebulaidl.core.NodeR\x0b\x66\x61ilureNode\x12T\n\x11metadata_defaults\x18\x07 \x01(\x0b\x32\'.nebulaidl.core.WorkflowMetadataDefaultsR\x10metadataDefaults\"K\n\x11TaskNodeOverrides\x12\x36\n\tresources\x18\x01 \x01(\x0b\x32\x18.nebulaidl.core.ResourcesR\tresourcesB\xad\x01\n\x11\x63om.nebulaidl.coreB\rWorkflowProtoP\x01Z4github.com/nebulaclouds/nebulaidl/gen/pb-go/nebulaidl/core\xa2\x02\x03\x46\x43X\xaa\x02\rNebulaidl.Core\xca\x02\rNebulaidl\\Core\xe2\x02\x19\x46lyteidl\\Core\\GPBMetadata\xea\x02\x0e\x46lyteidl::Coreb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1dnebulaidl/core/workflow.proto\x12\x0enebulaidl.core\x1a\x1enebulaidl/core/condition.proto\x1a\x1enebulaidl/core/execution.proto\x1a\x1fnebulaidl/core/identifier.proto\x1a\x1enebulaidl/core/interface.proto\x1a\x1dnebulaidl/core/literals.proto\x1a\x1anebulaidl/core/tasks.proto\x1a\x1anebulaidl/core/types.proto\x1a\x1dnebulaidl/core/security.proto\x1a\x1egoogle/protobuf/duration.proto\"}\n\x07IfBlock\x12?\n\tcondition\x18\x01 \x01(\x0b\x32!.nebulaidl.core.BooleanExpressionR\tcondition\x12\x31\n\tthen_node\x18\x02 \x01(\x0b\x32\x14.nebulaidl.core.NodeR\x08thenNode\"\xd8\x01\n\x0bIfElseBlock\x12+\n\x04\x63\x61se\x18\x01 \x01(\x0b\x32\x17.nebulaidl.core.IfBlockR\x04\x63\x61se\x12-\n\x05other\x18\x02 \x03(\x0b\x32\x17.nebulaidl.core.IfBlockR\x05other\x12\x33\n\telse_node\x18\x03 \x01(\x0b\x32\x14.nebulaidl.core.NodeH\x00R\x08\x65lseNode\x12-\n\x05\x65rror\x18\x04 \x01(\x0b\x32\x15.nebulaidl.core.ErrorH\x00R\x05\x65rrorB\t\n\x07\x64\x65\x66\x61ult\"B\n\nBranchNode\x12\x34\n\x07if_else\x18\x01 \x01(\x0b\x32\x1b.nebulaidl.core.IfElseBlockR\x06ifElse\"\x99\x01\n\x08TaskNode\x12?\n\x0creference_id\x18\x01 \x01(\x0b\x32\x1a.nebulaidl.core.IdentifierH\x00R\x0breferenceId\x12?\n\toverrides\x18\x02 \x01(\x0b\x32!.nebulaidl.core.TaskNodeOverridesR\toverridesB\x0b\n\treference\"\xa8\x01\n\x0cWorkflowNode\x12\x43\n\x0elaunchplan_ref\x18\x01 \x01(\x0b\x32\x1a.nebulaidl.core.IdentifierH\x00R\rlaunchplanRef\x12\x46\n\x10sub_workflow_ref\x18\x02 \x01(\x0b\x32\x1a.nebulaidl.core.IdentifierH\x00R\x0esubWorkflowRefB\x0b\n\treference\"/\n\x10\x41pproveCondition\x12\x1b\n\tsignal_id\x18\x01 \x01(\tR\x08signalId\"\x91\x01\n\x0fSignalCondition\x12\x1b\n\tsignal_id\x18\x01 \x01(\tR\x08signalId\x12/\n\x04type\x18\x02 \x01(\x0b\x32\x1b.nebulaidl.core.LiteralTypeR\x04type\x12\x30\n\x14output_variable_name\x18\x03 \x01(\tR\x12outputVariableName\"G\n\x0eSleepCondition\x12\x35\n\x08\x64uration\x18\x01 \x01(\x0b\x32\x19.google.protobuf.DurationR\x08\x64uration\"\xc8\x01\n\x08GateNode\x12<\n\x07\x61pprove\x18\x01 \x01(\x0b\x32 .nebulaidl.core.ApproveConditionH\x00R\x07\x61pprove\x12\x39\n\x06signal\x18\x02 \x01(\x0b\x32\x1f.nebulaidl.core.SignalConditionH\x00R\x06signal\x12\x36\n\x05sleep\x18\x03 \x01(\x0b\x32\x1e.nebulaidl.core.SleepConditionH\x00R\x05sleepB\x0b\n\tcondition\"\xc0\x01\n\tArrayNode\x12(\n\x04node\x18\x01 \x01(\x0b\x32\x14.nebulaidl.core.NodeR\x04node\x12 \n\x0bparallelism\x18\x02 \x01(\rR\x0bparallelism\x12%\n\rmin_successes\x18\x03 \x01(\rH\x00R\x0cminSuccesses\x12,\n\x11min_success_ratio\x18\x04 \x01(\x02H\x00R\x0fminSuccessRatioB\x12\n\x10success_criteria\"\xcf\x01\n\x0cNodeMetadata\x12\x12\n\x04name\x18\x01 \x01(\tR\x04name\x12\x33\n\x07timeout\x18\x04 \x01(\x0b\x32\x19.google.protobuf.DurationR\x07timeout\x12\x37\n\x07retries\x18\x05 \x01(\x0b\x32\x1d.nebulaidl.core.RetryStrategyR\x07retries\x12&\n\rinterruptible\x18\x06 \x01(\x08H\x00R\rinterruptibleB\x15\n\x13interruptible_value\"/\n\x05\x41lias\x12\x10\n\x03var\x18\x01 \x01(\tR\x03var\x12\x14\n\x05\x61lias\x18\x02 \x01(\tR\x05\x61lias\"\xa7\x04\n\x04Node\x12\x0e\n\x02id\x18\x01 \x01(\tR\x02id\x12\x38\n\x08metadata\x18\x02 \x01(\x0b\x32\x1c.nebulaidl.core.NodeMetadataR\x08metadata\x12/\n\x06inputs\x18\x03 \x03(\x0b\x32\x17.nebulaidl.core.BindingR\x06inputs\x12*\n\x11upstream_node_ids\x18\x04 \x03(\tR\x0fupstreamNodeIds\x12<\n\x0eoutput_aliases\x18\x05 \x03(\x0b\x32\x15.nebulaidl.core.AliasR\routputAliases\x12\x37\n\ttask_node\x18\x06 \x01(\x0b\x32\x18.nebulaidl.core.TaskNodeH\x00R\x08taskNode\x12\x43\n\rworkflow_node\x18\x07 \x01(\x0b\x32\x1c.nebulaidl.core.WorkflowNodeH\x00R\x0cworkflowNode\x12=\n\x0b\x62ranch_node\x18\x08 \x01(\x0b\x32\x1a.nebulaidl.core.BranchNodeH\x00R\nbranchNode\x12\x37\n\tgate_node\x18\t \x01(\x0b\x32\x18.nebulaidl.core.GateNodeH\x00R\x08gateNode\x12:\n\narray_node\x18\n \x01(\x0b\x32\x19.nebulaidl.core.ArrayNodeH\x00R\tarrayNodeB\x08\n\x06target\"\xff\x02\n\x10WorkflowMetadata\x12N\n\x12quality_of_service\x18\x01 \x01(\x0b\x32 .nebulaidl.core.QualityOfServiceR\x10qualityOfService\x12O\n\non_failure\x18\x02 \x01(\x0e\x32\x30.nebulaidl.core.WorkflowMetadata.OnFailurePolicyR\tonFailure\x12>\n\x04tags\x18\x03 \x03(\x0b\x32*.nebulaidl.core.WorkflowMetadata.TagsEntryR\x04tags\x1a\x37\n\tTagsEntry\x12\x10\n\x03key\x18\x01 \x01(\tR\x03key\x12\x14\n\x05value\x18\x02 \x01(\tR\x05value:\x02\x38\x01\"Q\n\x0fOnFailurePolicy\x12\x14\n\x10\x46\x41IL_IMMEDIATELY\x10\x00\x12(\n$FAIL_AFTER_EXECUTABLE_NODES_COMPLETE\x10\x01\"@\n\x18WorkflowMetadataDefaults\x12$\n\rinterruptible\x18\x01 \x01(\x08R\rinterruptible\"\xa9\x03\n\x10WorkflowTemplate\x12*\n\x02id\x18\x01 \x01(\x0b\x32\x1a.nebulaidl.core.IdentifierR\x02id\x12<\n\x08metadata\x18\x02 \x01(\x0b\x32 .nebulaidl.core.WorkflowMetadataR\x08metadata\x12<\n\tinterface\x18\x03 \x01(\x0b\x32\x1e.nebulaidl.core.TypedInterfaceR\tinterface\x12*\n\x05nodes\x18\x04 \x03(\x0b\x32\x14.nebulaidl.core.NodeR\x05nodes\x12\x31\n\x07outputs\x18\x05 \x03(\x0b\x32\x17.nebulaidl.core.BindingR\x07outputs\x12\x37\n\x0c\x66\x61ilure_node\x18\x06 \x01(\x0b\x32\x14.nebulaidl.core.NodeR\x0b\x66\x61ilureNode\x12U\n\x11metadata_defaults\x18\x07 \x01(\x0b\x32(.nebulaidl.core.WorkflowMetadataDefaultsR\x10metadataDefaults\"L\n\x11TaskNodeOverrides\x12\x37\n\tresources\x18\x01 \x01(\x0b\x32\x19.nebulaidl.core.ResourcesR\tresourcesB\xb8\x01\n\x12\x63om.nebulaidl.coreB\rWorkflowProtoP\x01Z:github.com/nebulaclouds/nebulaidl/gen/pb-go/nebulaidl/core\xa2\x02\x03NCX\xaa\x02\x0eNebulaidl.Core\xca\x02\x0eNebulaidl\\Core\xe2\x02\x1aNebulaidl\\Core\\GPBMetadata\xea\x02\x0fNebulaidl::Coreb\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -30,45 +30,45 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'nebulaidl.core.workflow_pb2
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\021com.nebulaidl.coreB\rWorkflowProtoP\001Z4github.com/nebulaclouds/nebulaidl/gen/pb-go/nebulaidl/core\242\002\003FCX\252\002\rNebulaidl.Core\312\002\rNebulaidl\\Core\342\002\031Nebulaidl\\Core\\GPBMetadata\352\002\016Nebulaidl::Core'
+  DESCRIPTOR._serialized_options = b'\n\022com.nebulaidl.coreB\rWorkflowProtoP\001Z:github.com/nebulaclouds/nebulaidl/gen/pb-go/nebulaidl/core\242\002\003NCX\252\002\016Nebulaidl.Core\312\002\016Nebulaidl\\Core\342\002\032Nebulaidl\\Core\\GPBMetadata\352\002\017Nebulaidl::Core'
   _WORKFLOWMETADATA_TAGSENTRY._options = None
   _WORKFLOWMETADATA_TAGSENTRY._serialized_options = b'8\001'
-  _globals['_IFBLOCK']._serialized_start=318
-  _globals['_IFBLOCK']._serialized_end=441
-  _globals['_IFELSEBLOCK']._serialized_start=444
-  _globals['_IFELSEBLOCK']._serialized_end=656
-  _globals['_BRANCHNODE']._serialized_start=658
-  _globals['_BRANCHNODE']._serialized_end=723
-  _globals['_TASKNODE']._serialized_start=726
-  _globals['_TASKNODE']._serialized_end=877
-  _globals['_WORKFLOWNODE']._serialized_start=880
-  _globals['_WORKFLOWNODE']._serialized_end=1046
-  _globals['_APPROVECONDITION']._serialized_start=1048
-  _globals['_APPROVECONDITION']._serialized_end=1095
-  _globals['_SIGNALCONDITION']._serialized_start=1098
-  _globals['_SIGNALCONDITION']._serialized_end=1242
-  _globals['_SLEEPCONDITION']._serialized_start=1244
-  _globals['_SLEEPCONDITION']._serialized_end=1315
-  _globals['_GATENODE']._serialized_start=1318
-  _globals['_GATENODE']._serialized_end=1515
-  _globals['_ARRAYNODE']._serialized_start=1518
-  _globals['_ARRAYNODE']._serialized_end=1709
-  _globals['_NODEMETADATA']._serialized_start=1712
-  _globals['_NODEMETADATA']._serialized_end=1918
-  _globals['_ALIAS']._serialized_start=1920
-  _globals['_ALIAS']._serialized_end=1967
-  _globals['_NODE']._serialized_start=1970
-  _globals['_NODE']._serialized_end=2513
-  _globals['_WORKFLOWMETADATA']._serialized_start=2516
-  _globals['_WORKFLOWMETADATA']._serialized_end=2896
-  _globals['_WORKFLOWMETADATA_TAGSENTRY']._serialized_start=2758
-  _globals['_WORKFLOWMETADATA_TAGSENTRY']._serialized_end=2813
-  _globals['_WORKFLOWMETADATA_ONFAILUREPOLICY']._serialized_start=2815
-  _globals['_WORKFLOWMETADATA_ONFAILUREPOLICY']._serialized_end=2896
-  _globals['_WORKFLOWMETADATADEFAULTS']._serialized_start=2898
-  _globals['_WORKFLOWMETADATADEFAULTS']._serialized_end=2962
-  _globals['_WORKFLOWTEMPLATE']._serialized_start=2965
-  _globals['_WORKFLOWTEMPLATE']._serialized_end=3383
-  _globals['_TASKNODEOVERRIDES']._serialized_start=3385
-  _globals['_TASKNODEOVERRIDES']._serialized_end=3460
+  _globals['_IFBLOCK']._serialized_start=328
+  _globals['_IFBLOCK']._serialized_end=453
+  _globals['_IFELSEBLOCK']._serialized_start=456
+  _globals['_IFELSEBLOCK']._serialized_end=672
+  _globals['_BRANCHNODE']._serialized_start=674
+  _globals['_BRANCHNODE']._serialized_end=740
+  _globals['_TASKNODE']._serialized_start=743
+  _globals['_TASKNODE']._serialized_end=896
+  _globals['_WORKFLOWNODE']._serialized_start=899
+  _globals['_WORKFLOWNODE']._serialized_end=1067
+  _globals['_APPROVECONDITION']._serialized_start=1069
+  _globals['_APPROVECONDITION']._serialized_end=1116
+  _globals['_SIGNALCONDITION']._serialized_start=1119
+  _globals['_SIGNALCONDITION']._serialized_end=1264
+  _globals['_SLEEPCONDITION']._serialized_start=1266
+  _globals['_SLEEPCONDITION']._serialized_end=1337
+  _globals['_GATENODE']._serialized_start=1340
+  _globals['_GATENODE']._serialized_end=1540
+  _globals['_ARRAYNODE']._serialized_start=1543
+  _globals['_ARRAYNODE']._serialized_end=1735
+  _globals['_NODEMETADATA']._serialized_start=1738
+  _globals['_NODEMETADATA']._serialized_end=1945
+  _globals['_ALIAS']._serialized_start=1947
+  _globals['_ALIAS']._serialized_end=1994
+  _globals['_NODE']._serialized_start=1997
+  _globals['_NODE']._serialized_end=2548
+  _globals['_WORKFLOWMETADATA']._serialized_start=2551
+  _globals['_WORKFLOWMETADATA']._serialized_end=2934
+  _globals['_WORKFLOWMETADATA_TAGSENTRY']._serialized_start=2796
+  _globals['_WORKFLOWMETADATA_TAGSENTRY']._serialized_end=2851
+  _globals['_WORKFLOWMETADATA_ONFAILUREPOLICY']._serialized_start=2853
+  _globals['_WORKFLOWMETADATA_ONFAILUREPOLICY']._serialized_end=2934
+  _globals['_WORKFLOWMETADATADEFAULTS']._serialized_start=2936
+  _globals['_WORKFLOWMETADATADEFAULTS']._serialized_end=3000
+  _globals['_WORKFLOWTEMPLATE']._serialized_start=3003
+  _globals['_WORKFLOWTEMPLATE']._serialized_end=3428
+  _globals['_TASKNODEOVERRIDES']._serialized_start=3430
+  _globals['_TASKNODEOVERRIDES']._serialized_end=3506
 # @@protoc_insertion_point(module_scope)

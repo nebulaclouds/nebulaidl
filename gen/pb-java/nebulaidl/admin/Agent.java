@@ -609,7 +609,7 @@ public final class Agent {
           java.lang.String, java.lang.String> defaultEntry =
               com.google.protobuf.MapEntry
               .<java.lang.String, java.lang.String>newDefaultInstance(
-                  nebulaidl.admin.Agent.internal_static_nebulaidl_admin_TaskExecutionMetadata_LabelsEntry_descriptor,
+                  nebulaidl.admin.Agent.internal_static_nebulaidl_admin_TaskExecutionMetadata_LabelsEntry_descriptor, 
                   com.google.protobuf.WireFormat.FieldType.STRING,
                   "",
                   com.google.protobuf.WireFormat.FieldType.STRING,
@@ -701,7 +701,7 @@ public final class Agent {
           java.lang.String, java.lang.String> defaultEntry =
               com.google.protobuf.MapEntry
               .<java.lang.String, java.lang.String>newDefaultInstance(
-                  nebulaidl.admin.Agent.internal_static_nebulaidl_admin_TaskExecutionMetadata_AnnotationsEntry_descriptor,
+                  nebulaidl.admin.Agent.internal_static_nebulaidl_admin_TaskExecutionMetadata_AnnotationsEntry_descriptor, 
                   com.google.protobuf.WireFormat.FieldType.STRING,
                   "",
                   com.google.protobuf.WireFormat.FieldType.STRING,
@@ -835,7 +835,7 @@ public final class Agent {
           java.lang.String, java.lang.String> defaultEntry =
               com.google.protobuf.MapEntry
               .<java.lang.String, java.lang.String>newDefaultInstance(
-                  nebulaidl.admin.Agent.internal_static_nebulaidl_admin_TaskExecutionMetadata_EnvironmentVariablesEntry_descriptor,
+                  nebulaidl.admin.Agent.internal_static_nebulaidl_admin_TaskExecutionMetadata_EnvironmentVariablesEntry_descriptor, 
                   com.google.protobuf.WireFormat.FieldType.STRING,
                   "",
                   com.google.protobuf.WireFormat.FieldType.STRING,
@@ -1529,7 +1529,7 @@ public final class Agent {
        * <code>.nebulaidl.core.TaskExecutionIdentifier task_execution_id = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          nebulaidl.core.IdentifierOuterClass.TaskExecutionIdentifier, nebulaidl.core.IdentifierOuterClass.TaskExecutionIdentifier.Builder, nebulaidl.core.IdentifierOuterClass.TaskExecutionIdentifierOrBuilder>
+          nebulaidl.core.IdentifierOuterClass.TaskExecutionIdentifier, nebulaidl.core.IdentifierOuterClass.TaskExecutionIdentifier.Builder, nebulaidl.core.IdentifierOuterClass.TaskExecutionIdentifierOrBuilder> 
           getTaskExecutionIdFieldBuilder() {
         if (taskExecutionIdBuilder_ == null) {
           taskExecutionIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -3150,7 +3150,7 @@ public final class Agent {
        * <code>.nebulaidl.core.LiteralMap inputs = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          nebulaidl.core.Literals.LiteralMap, nebulaidl.core.Literals.LiteralMap.Builder, nebulaidl.core.Literals.LiteralMapOrBuilder>
+          nebulaidl.core.Literals.LiteralMap, nebulaidl.core.Literals.LiteralMap.Builder, nebulaidl.core.Literals.LiteralMapOrBuilder> 
           getInputsFieldBuilder() {
         if (inputsBuilder_ == null) {
           inputsBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -3303,7 +3303,7 @@ public final class Agent {
        * <code>.nebulaidl.core.TaskTemplate template = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          nebulaidl.core.Tasks.TaskTemplate, nebulaidl.core.Tasks.TaskTemplate.Builder, nebulaidl.core.Tasks.TaskTemplateOrBuilder>
+          nebulaidl.core.Tasks.TaskTemplate, nebulaidl.core.Tasks.TaskTemplate.Builder, nebulaidl.core.Tasks.TaskTemplateOrBuilder> 
           getTemplateFieldBuilder() {
         if (templateBuilder_ == null) {
           templateBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -3545,7 +3545,7 @@ public final class Agent {
        * <code>.nebulaidl.admin.TaskExecutionMetadata task_execution_metadata = 4;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          nebulaidl.admin.Agent.TaskExecutionMetadata, nebulaidl.admin.Agent.TaskExecutionMetadata.Builder, nebulaidl.admin.Agent.TaskExecutionMetadataOrBuilder>
+          nebulaidl.admin.Agent.TaskExecutionMetadata, nebulaidl.admin.Agent.TaskExecutionMetadata.Builder, nebulaidl.admin.Agent.TaskExecutionMetadataOrBuilder> 
           getTaskExecutionMetadataFieldBuilder() {
         if (taskExecutionMetadataBuilder_ == null) {
           taskExecutionMetadataBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -5344,7 +5344,7 @@ public final class Agent {
        * <code>.nebulaidl.admin.Resource resource = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          nebulaidl.admin.Agent.Resource, nebulaidl.admin.Agent.Resource.Builder, nebulaidl.admin.Agent.ResourceOrBuilder>
+          nebulaidl.admin.Agent.Resource, nebulaidl.admin.Agent.Resource.Builder, nebulaidl.admin.Agent.ResourceOrBuilder> 
           getResourceFieldBuilder() {
         if (resourceBuilder_ == null) {
           resourceBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -6170,7 +6170,7 @@ public final class Agent {
        * <code>.nebulaidl.core.LiteralMap outputs = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          nebulaidl.core.Literals.LiteralMap, nebulaidl.core.Literals.LiteralMap.Builder, nebulaidl.core.Literals.LiteralMapOrBuilder>
+          nebulaidl.core.Literals.LiteralMap, nebulaidl.core.Literals.LiteralMap.Builder, nebulaidl.core.Literals.LiteralMapOrBuilder> 
           getOutputsFieldBuilder() {
         if (outputsBuilder_ == null) {
           outputsBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -7397,42 +7397,43 @@ public final class Agent {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\032nebulaidl/admin/agent.proto\022\016nebulaidl.a" +
-      "dmin\032\034nebulaidl/core/literals.proto\032\031flyt" +
-      "eidl/core/tasks.proto\032\035nebulaidl/core/int" +
-      "erface.proto\032\036nebulaidl/core/identifier.p" +
-      "roto\"\232\004\n\025TaskExecutionMetadata\022A\n\021task_e" +
-      "xecution_id\030\001 \001(\0132&.nebulaidl.core.TaskEx" +
-      "ecutionIdentifier\022\021\n\tnamespace\030\002 \001(\t\022A\n\006" +
-      "labels\030\003 \003(\01321.nebulaidl.admin.TaskExecut" +
-      "ionMetadata.LabelsEntry\022K\n\013annotations\030\004" +
-      " \003(\01326.nebulaidl.admin.TaskExecutionMetad" +
-      "ata.AnnotationsEntry\022\033\n\023k8s_service_acco" +
-      "unt\030\005 \001(\t\022^\n\025environment_variables\030\006 \003(\013" +
-      "2?.nebulaidl.admin.TaskExecutionMetadata." +
-      "EnvironmentVariablesEntry\032-\n\013LabelsEntry" +
-      "\022\013\n\003key\030\001 \001(\t\022\r\n\005value\030\002 \001(\t:\0028\001\0322\n\020Anno" +
-      "tationsEntry\022\013\n\003key\030\001 \001(\t\022\r\n\005value\030\002 \001(\t" +
-      ":\0028\001\032;\n\031EnvironmentVariablesEntry\022\013\n\003key" +
-      "\030\001 \001(\t\022\r\n\005value\030\002 \001(\t:\0028\001\"\314\001\n\021CreateTask" +
-      "Request\022)\n\006inputs\030\001 \001(\0132\031.nebulaidl.core." +
-      "LiteralMap\022-\n\010template\030\002 \001(\0132\033.nebulaidl." +
-      "core.TaskTemplate\022\025\n\routput_prefix\030\003 \001(\t" +
-      "\022F\n\027task_execution_metadata\030\004 \001(\0132%.nebul" +
-      "aidl.admin.TaskExecutionMetadata\"+\n\022Crea" +
-      "teTaskResponse\022\025\n\rresource_meta\030\001 \001(\014\":\n" +
-      "\016GetTaskRequest\022\021\n\ttask_type\030\001 \001(\t\022\025\n\rre" +
-      "source_meta\030\002 \001(\014\"=\n\017GetTaskResponse\022*\n\010" +
-      "resource\030\001 \001(\0132\030.nebulaidl.admin.Resource" +
-      "\"\\\n\010Resource\022$\n\005state\030\001 \001(\0162\025.nebulaidl.a" +
-      "dmin.State\022*\n\007outputs\030\002 \001(\0132\031.nebulaidl.c" +
-      "ore.LiteralMap\"=\n\021DeleteTaskRequest\022\021\n\tt" +
-      "ask_type\030\001 \001(\t\022\025\n\rresource_meta\030\002 \001(\014\"\024\n" +
-      "\022DeleteTaskResponse*^\n\005State\022\025\n\021RETRYABL" +
-      "E_FAILURE\020\000\022\025\n\021PERMANENT_FAILURE\020\001\022\013\n\007PE" +
-      "NDING\020\002\022\013\n\007RUNNING\020\003\022\r\n\tSUCCEEDED\020\004B7Z5g" +
-      "ithub.com/nebulaclouds/nebulaidl/gen/pb-go/fl" +
-      "yteidl/adminb\006proto3"
+      "\n\033nebulaidl/admin/agent.proto\022\017nebulaidl" +
+      ".admin\032\035nebulaidl/core/literals.proto\032\032n" +
+      "ebulaidl/core/tasks.proto\032\036nebulaidl/cor" +
+      "e/interface.proto\032\037nebulaidl/core/identi" +
+      "fier.proto\"\236\004\n\025TaskExecutionMetadata\022B\n\021" +
+      "task_execution_id\030\001 \001(\0132\'.nebulaidl.core" +
+      ".TaskExecutionIdentifier\022\021\n\tnamespace\030\002 " +
+      "\001(\t\022B\n\006labels\030\003 \003(\01322.nebulaidl.admin.Ta" +
+      "skExecutionMetadata.LabelsEntry\022L\n\013annot" +
+      "ations\030\004 \003(\01327.nebulaidl.admin.TaskExecu" +
+      "tionMetadata.AnnotationsEntry\022\033\n\023k8s_ser" +
+      "vice_account\030\005 \001(\t\022_\n\025environment_variab" +
+      "les\030\006 \003(\0132@.nebulaidl.admin.TaskExecutio" +
+      "nMetadata.EnvironmentVariablesEntry\032-\n\013L" +
+      "abelsEntry\022\013\n\003key\030\001 \001(\t\022\r\n\005value\030\002 \001(\t:\002" +
+      "8\001\0322\n\020AnnotationsEntry\022\013\n\003key\030\001 \001(\t\022\r\n\005v" +
+      "alue\030\002 \001(\t:\0028\001\032;\n\031EnvironmentVariablesEn" +
+      "try\022\013\n\003key\030\001 \001(\t\022\r\n\005value\030\002 \001(\t:\0028\001\"\317\001\n\021" +
+      "CreateTaskRequest\022*\n\006inputs\030\001 \001(\0132\032.nebu" +
+      "laidl.core.LiteralMap\022.\n\010template\030\002 \001(\0132" +
+      "\034.nebulaidl.core.TaskTemplate\022\025\n\routput_" +
+      "prefix\030\003 \001(\t\022G\n\027task_execution_metadata\030" +
+      "\004 \001(\0132&.nebulaidl.admin.TaskExecutionMet" +
+      "adata\"+\n\022CreateTaskResponse\022\025\n\rresource_" +
+      "meta\030\001 \001(\014\":\n\016GetTaskRequest\022\021\n\ttask_typ" +
+      "e\030\001 \001(\t\022\025\n\rresource_meta\030\002 \001(\014\">\n\017GetTas" +
+      "kResponse\022+\n\010resource\030\001 \001(\0132\031.nebulaidl." +
+      "admin.Resource\"^\n\010Resource\022%\n\005state\030\001 \001(" +
+      "\0162\026.nebulaidl.admin.State\022+\n\007outputs\030\002 \001" +
+      "(\0132\032.nebulaidl.core.LiteralMap\"=\n\021Delete" +
+      "TaskRequest\022\021\n\ttask_type\030\001 \001(\t\022\025\n\rresour" +
+      "ce_meta\030\002 \001(\014\"\024\n\022DeleteTaskResponse*^\n\005S" +
+      "tate\022\025\n\021RETRYABLE_FAILURE\020\000\022\025\n\021PERMANENT" +
+      "_FAILURE\020\001\022\013\n\007PENDING\020\002\022\013\n\007RUNNING\020\003\022\r\n\t" +
+      "SUCCEEDED\020\004B=Z;github.com/nebulaclouds/n" +
+      "ebulaidl/gen/pb-go/nebulaidl/adminb\006prot" +
+      "o3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

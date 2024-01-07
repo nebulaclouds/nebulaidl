@@ -640,7 +640,7 @@ public final class Workflow {
        * <code>.nebulaidl.core.BooleanExpression condition = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          nebulaidl.core.Condition.BooleanExpression, nebulaidl.core.Condition.BooleanExpression.Builder, nebulaidl.core.Condition.BooleanExpressionOrBuilder>
+          nebulaidl.core.Condition.BooleanExpression, nebulaidl.core.Condition.BooleanExpression.Builder, nebulaidl.core.Condition.BooleanExpressionOrBuilder> 
           getConditionFieldBuilder() {
         if (conditionBuilder_ == null) {
           conditionBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -757,7 +757,7 @@ public final class Workflow {
        * <code>.nebulaidl.core.Node then_node = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          nebulaidl.core.Workflow.Node, nebulaidl.core.Workflow.Node.Builder, nebulaidl.core.Workflow.NodeOrBuilder>
+          nebulaidl.core.Workflow.Node, nebulaidl.core.Workflow.Node.Builder, nebulaidl.core.Workflow.NodeOrBuilder> 
           getThenNodeFieldBuilder() {
         if (thenNodeBuilder_ == null) {
           thenNodeBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -858,7 +858,7 @@ public final class Workflow {
      *
      * <code>repeated .nebulaidl.core.IfBlock other = 2;</code>
      */
-    java.util.List<nebulaidl.core.Workflow.IfBlock>
+    java.util.List<nebulaidl.core.Workflow.IfBlock> 
         getOtherList();
     /**
      * <pre>
@@ -883,7 +883,7 @@ public final class Workflow {
      *
      * <code>repeated .nebulaidl.core.IfBlock other = 2;</code>
      */
-    java.util.List<? extends nebulaidl.core.Workflow.IfBlockOrBuilder>
+    java.util.List<? extends nebulaidl.core.Workflow.IfBlockOrBuilder> 
         getOtherOrBuilderList();
     /**
      * <pre>
@@ -1168,7 +1168,7 @@ public final class Workflow {
      *
      * <code>repeated .nebulaidl.core.IfBlock other = 2;</code>
      */
-    public java.util.List<? extends nebulaidl.core.Workflow.IfBlockOrBuilder>
+    public java.util.List<? extends nebulaidl.core.Workflow.IfBlockOrBuilder> 
         getOtherOrBuilderList() {
       return other_;
     }
@@ -1883,7 +1883,7 @@ public final class Workflow {
        * <code>.nebulaidl.core.IfBlock case = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          nebulaidl.core.Workflow.IfBlock, nebulaidl.core.Workflow.IfBlock.Builder, nebulaidl.core.Workflow.IfBlockOrBuilder>
+          nebulaidl.core.Workflow.IfBlock, nebulaidl.core.Workflow.IfBlock.Builder, nebulaidl.core.Workflow.IfBlockOrBuilder> 
           getCaseFieldBuilder() {
         if (caseBuilder_ == null) {
           caseBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -2151,7 +2151,7 @@ public final class Workflow {
        *
        * <code>repeated .nebulaidl.core.IfBlock other = 2;</code>
        */
-      public java.util.List<? extends nebulaidl.core.Workflow.IfBlockOrBuilder>
+      public java.util.List<? extends nebulaidl.core.Workflow.IfBlockOrBuilder> 
            getOtherOrBuilderList() {
         if (otherBuilder_ != null) {
           return otherBuilder_.getMessageOrBuilderList();
@@ -2189,12 +2189,12 @@ public final class Workflow {
        *
        * <code>repeated .nebulaidl.core.IfBlock other = 2;</code>
        */
-      public java.util.List<nebulaidl.core.Workflow.IfBlock.Builder>
+      public java.util.List<nebulaidl.core.Workflow.IfBlock.Builder> 
            getOtherBuilderList() {
         return getOtherFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          nebulaidl.core.Workflow.IfBlock, nebulaidl.core.Workflow.IfBlock.Builder, nebulaidl.core.Workflow.IfBlockOrBuilder>
+          nebulaidl.core.Workflow.IfBlock, nebulaidl.core.Workflow.IfBlock.Builder, nebulaidl.core.Workflow.IfBlockOrBuilder> 
           getOtherFieldBuilder() {
         if (otherBuilder_ == null) {
           otherBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
@@ -2362,7 +2362,7 @@ public final class Workflow {
        * <code>.nebulaidl.core.Node else_node = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          nebulaidl.core.Workflow.Node, nebulaidl.core.Workflow.Node.Builder, nebulaidl.core.Workflow.NodeOrBuilder>
+          nebulaidl.core.Workflow.Node, nebulaidl.core.Workflow.Node.Builder, nebulaidl.core.Workflow.NodeOrBuilder> 
           getElseNodeFieldBuilder() {
         if (elseNodeBuilder_ == null) {
           if (!(defaultCase_ == 3)) {
@@ -2534,7 +2534,7 @@ public final class Workflow {
        * <code>.nebulaidl.core.Error error = 4;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          nebulaidl.core.Types.Error, nebulaidl.core.Types.Error.Builder, nebulaidl.core.Types.ErrorOrBuilder>
+          nebulaidl.core.Types.Error, nebulaidl.core.Types.Error.Builder, nebulaidl.core.Types.ErrorOrBuilder> 
           getErrorFieldBuilder() {
         if (errorBuilder_ == null) {
           if (!(defaultCase_ == 4)) {
@@ -3215,7 +3215,7 @@ public final class Workflow {
        * <code>.nebulaidl.core.IfElseBlock if_else = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          nebulaidl.core.Workflow.IfElseBlock, nebulaidl.core.Workflow.IfElseBlock.Builder, nebulaidl.core.Workflow.IfElseBlockOrBuilder>
+          nebulaidl.core.Workflow.IfElseBlock, nebulaidl.core.Workflow.IfElseBlock.Builder, nebulaidl.core.Workflow.IfElseBlockOrBuilder> 
           getIfElseFieldBuilder() {
         if (ifElseBuilder_ == null) {
           ifElseBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -4076,7 +4076,7 @@ public final class Workflow {
        * <code>.nebulaidl.core.Identifier reference_id = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          nebulaidl.core.IdentifierOuterClass.Identifier, nebulaidl.core.IdentifierOuterClass.Identifier.Builder, nebulaidl.core.IdentifierOuterClass.IdentifierOrBuilder>
+          nebulaidl.core.IdentifierOuterClass.Identifier, nebulaidl.core.IdentifierOuterClass.Identifier.Builder, nebulaidl.core.IdentifierOuterClass.IdentifierOrBuilder> 
           getReferenceIdFieldBuilder() {
         if (referenceIdBuilder_ == null) {
           if (!(referenceCase_ == 1)) {
@@ -4234,7 +4234,7 @@ public final class Workflow {
        * <code>.nebulaidl.core.TaskNodeOverrides overrides = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          nebulaidl.core.Workflow.TaskNodeOverrides, nebulaidl.core.Workflow.TaskNodeOverrides.Builder, nebulaidl.core.Workflow.TaskNodeOverridesOrBuilder>
+          nebulaidl.core.Workflow.TaskNodeOverrides, nebulaidl.core.Workflow.TaskNodeOverrides.Builder, nebulaidl.core.Workflow.TaskNodeOverridesOrBuilder> 
           getOverridesFieldBuilder() {
         if (overridesBuilder_ == null) {
           overridesBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -5099,7 +5099,7 @@ public final class Workflow {
        * <code>.nebulaidl.core.Identifier launchplan_ref = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          nebulaidl.core.IdentifierOuterClass.Identifier, nebulaidl.core.IdentifierOuterClass.Identifier.Builder, nebulaidl.core.IdentifierOuterClass.IdentifierOrBuilder>
+          nebulaidl.core.IdentifierOuterClass.Identifier, nebulaidl.core.IdentifierOuterClass.Identifier.Builder, nebulaidl.core.IdentifierOuterClass.IdentifierOrBuilder> 
           getLaunchplanRefFieldBuilder() {
         if (launchplanRefBuilder_ == null) {
           if (!(referenceCase_ == 1)) {
@@ -5271,7 +5271,7 @@ public final class Workflow {
        * <code>.nebulaidl.core.Identifier sub_workflow_ref = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          nebulaidl.core.IdentifierOuterClass.Identifier, nebulaidl.core.IdentifierOuterClass.Identifier.Builder, nebulaidl.core.IdentifierOuterClass.IdentifierOrBuilder>
+          nebulaidl.core.IdentifierOuterClass.Identifier, nebulaidl.core.IdentifierOuterClass.Identifier.Builder, nebulaidl.core.IdentifierOuterClass.IdentifierOrBuilder> 
           getSubWorkflowRefFieldBuilder() {
         if (subWorkflowRefBuilder_ == null) {
           if (!(referenceCase_ == 2)) {
@@ -6802,7 +6802,7 @@ public final class Workflow {
        * <code>.nebulaidl.core.LiteralType type = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          nebulaidl.core.Types.LiteralType, nebulaidl.core.Types.LiteralType.Builder, nebulaidl.core.Types.LiteralTypeOrBuilder>
+          nebulaidl.core.Types.LiteralType, nebulaidl.core.Types.LiteralType.Builder, nebulaidl.core.Types.LiteralTypeOrBuilder> 
           getTypeFieldBuilder() {
         if (typeBuilder_ == null) {
           typeBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -8535,7 +8535,7 @@ public final class Workflow {
        * <code>.nebulaidl.core.ApproveCondition approve = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          nebulaidl.core.Workflow.ApproveCondition, nebulaidl.core.Workflow.ApproveCondition.Builder, nebulaidl.core.Workflow.ApproveConditionOrBuilder>
+          nebulaidl.core.Workflow.ApproveCondition, nebulaidl.core.Workflow.ApproveCondition.Builder, nebulaidl.core.Workflow.ApproveConditionOrBuilder> 
           getApproveFieldBuilder() {
         if (approveBuilder_ == null) {
           if (!(conditionCase_ == 1)) {
@@ -8707,7 +8707,7 @@ public final class Workflow {
        * <code>.nebulaidl.core.SignalCondition signal = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          nebulaidl.core.Workflow.SignalCondition, nebulaidl.core.Workflow.SignalCondition.Builder, nebulaidl.core.Workflow.SignalConditionOrBuilder>
+          nebulaidl.core.Workflow.SignalCondition, nebulaidl.core.Workflow.SignalCondition.Builder, nebulaidl.core.Workflow.SignalConditionOrBuilder> 
           getSignalFieldBuilder() {
         if (signalBuilder_ == null) {
           if (!(conditionCase_ == 2)) {
@@ -8879,7 +8879,7 @@ public final class Workflow {
        * <code>.nebulaidl.core.SleepCondition sleep = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          nebulaidl.core.Workflow.SleepCondition, nebulaidl.core.Workflow.SleepCondition.Builder, nebulaidl.core.Workflow.SleepConditionOrBuilder>
+          nebulaidl.core.Workflow.SleepCondition, nebulaidl.core.Workflow.SleepCondition.Builder, nebulaidl.core.Workflow.SleepConditionOrBuilder> 
           getSleepFieldBuilder() {
         if (sleepBuilder_ == null) {
           if (!(conditionCase_ == 3)) {
@@ -9800,7 +9800,7 @@ public final class Workflow {
        * <code>.nebulaidl.core.Node node = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          nebulaidl.core.Workflow.Node, nebulaidl.core.Workflow.Node.Builder, nebulaidl.core.Workflow.NodeOrBuilder>
+          nebulaidl.core.Workflow.Node, nebulaidl.core.Workflow.Node.Builder, nebulaidl.core.Workflow.NodeOrBuilder> 
           getNodeFieldBuilder() {
         if (nodeBuilder_ == null) {
           nodeBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -11160,7 +11160,7 @@ public final class Workflow {
        * <code>.nebulaidl.core.RetryStrategy retries = 5;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          nebulaidl.core.Literals.RetryStrategy, nebulaidl.core.Literals.RetryStrategy.Builder, nebulaidl.core.Literals.RetryStrategyOrBuilder>
+          nebulaidl.core.Literals.RetryStrategy, nebulaidl.core.Literals.RetryStrategy.Builder, nebulaidl.core.Literals.RetryStrategyOrBuilder> 
           getRetriesFieldBuilder() {
         if (retriesBuilder_ == null) {
           retriesBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -12078,7 +12078,7 @@ public final class Workflow {
      *
      * <code>repeated .nebulaidl.core.Binding inputs = 3;</code>
      */
-    java.util.List<nebulaidl.core.Literals.Binding>
+    java.util.List<nebulaidl.core.Literals.Binding> 
         getInputsList();
     /**
      * <pre>
@@ -12106,7 +12106,7 @@ public final class Workflow {
      *
      * <code>repeated .nebulaidl.core.Binding inputs = 3;</code>
      */
-    java.util.List<? extends nebulaidl.core.Literals.BindingOrBuilder>
+    java.util.List<? extends nebulaidl.core.Literals.BindingOrBuilder> 
         getInputsOrBuilderList();
     /**
      * <pre>
@@ -12171,7 +12171,7 @@ public final class Workflow {
      *
      * <code>repeated .nebulaidl.core.Alias output_aliases = 5;</code>
      */
-    java.util.List<nebulaidl.core.Workflow.Alias>
+    java.util.List<nebulaidl.core.Workflow.Alias> 
         getOutputAliasesList();
     /**
      * <pre>
@@ -12202,7 +12202,7 @@ public final class Workflow {
      *
      * <code>repeated .nebulaidl.core.Alias output_aliases = 5;</code>
      */
-    java.util.List<? extends nebulaidl.core.Workflow.AliasOrBuilder>
+    java.util.List<? extends nebulaidl.core.Workflow.AliasOrBuilder> 
         getOutputAliasesOrBuilderList();
     /**
      * <pre>
@@ -12694,7 +12694,7 @@ public final class Workflow {
      *
      * <code>repeated .nebulaidl.core.Binding inputs = 3;</code>
      */
-    public java.util.List<? extends nebulaidl.core.Literals.BindingOrBuilder>
+    public java.util.List<? extends nebulaidl.core.Literals.BindingOrBuilder> 
         getInputsOrBuilderList() {
       return inputs_;
     }
@@ -12809,7 +12809,7 @@ public final class Workflow {
      *
      * <code>repeated .nebulaidl.core.Alias output_aliases = 5;</code>
      */
-    public java.util.List<? extends nebulaidl.core.Workflow.AliasOrBuilder>
+    public java.util.List<? extends nebulaidl.core.Workflow.AliasOrBuilder> 
         getOutputAliasesOrBuilderList() {
       return outputAliases_;
     }
@@ -13925,7 +13925,7 @@ public final class Workflow {
        * <code>.nebulaidl.core.NodeMetadata metadata = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          nebulaidl.core.Workflow.NodeMetadata, nebulaidl.core.Workflow.NodeMetadata.Builder, nebulaidl.core.Workflow.NodeMetadataOrBuilder>
+          nebulaidl.core.Workflow.NodeMetadata, nebulaidl.core.Workflow.NodeMetadata.Builder, nebulaidl.core.Workflow.NodeMetadataOrBuilder> 
           getMetadataFieldBuilder() {
         if (metadataBuilder_ == null) {
           metadataBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -14208,7 +14208,7 @@ public final class Workflow {
        *
        * <code>repeated .nebulaidl.core.Binding inputs = 3;</code>
        */
-      public java.util.List<? extends nebulaidl.core.Literals.BindingOrBuilder>
+      public java.util.List<? extends nebulaidl.core.Literals.BindingOrBuilder> 
            getInputsOrBuilderList() {
         if (inputsBuilder_ != null) {
           return inputsBuilder_.getMessageOrBuilderList();
@@ -14249,12 +14249,12 @@ public final class Workflow {
        *
        * <code>repeated .nebulaidl.core.Binding inputs = 3;</code>
        */
-      public java.util.List<nebulaidl.core.Literals.Binding.Builder>
+      public java.util.List<nebulaidl.core.Literals.Binding.Builder> 
            getInputsBuilderList() {
         return getInputsFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          nebulaidl.core.Literals.Binding, nebulaidl.core.Literals.Binding.Builder, nebulaidl.core.Literals.BindingOrBuilder>
+          nebulaidl.core.Literals.Binding, nebulaidl.core.Literals.Binding.Builder, nebulaidl.core.Literals.BindingOrBuilder> 
           getInputsFieldBuilder() {
         if (inputsBuilder_ == null) {
           inputsBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
@@ -14701,7 +14701,7 @@ public final class Workflow {
        *
        * <code>repeated .nebulaidl.core.Alias output_aliases = 5;</code>
        */
-      public java.util.List<? extends nebulaidl.core.Workflow.AliasOrBuilder>
+      public java.util.List<? extends nebulaidl.core.Workflow.AliasOrBuilder> 
            getOutputAliasesOrBuilderList() {
         if (outputAliasesBuilder_ != null) {
           return outputAliasesBuilder_.getMessageOrBuilderList();
@@ -14745,12 +14745,12 @@ public final class Workflow {
        *
        * <code>repeated .nebulaidl.core.Alias output_aliases = 5;</code>
        */
-      public java.util.List<nebulaidl.core.Workflow.Alias.Builder>
+      public java.util.List<nebulaidl.core.Workflow.Alias.Builder> 
            getOutputAliasesBuilderList() {
         return getOutputAliasesFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          nebulaidl.core.Workflow.Alias, nebulaidl.core.Workflow.Alias.Builder, nebulaidl.core.Workflow.AliasOrBuilder>
+          nebulaidl.core.Workflow.Alias, nebulaidl.core.Workflow.Alias.Builder, nebulaidl.core.Workflow.AliasOrBuilder> 
           getOutputAliasesFieldBuilder() {
         if (outputAliasesBuilder_ == null) {
           outputAliasesBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
@@ -14918,7 +14918,7 @@ public final class Workflow {
        * <code>.nebulaidl.core.TaskNode task_node = 6;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          nebulaidl.core.Workflow.TaskNode, nebulaidl.core.Workflow.TaskNode.Builder, nebulaidl.core.Workflow.TaskNodeOrBuilder>
+          nebulaidl.core.Workflow.TaskNode, nebulaidl.core.Workflow.TaskNode.Builder, nebulaidl.core.Workflow.TaskNodeOrBuilder> 
           getTaskNodeFieldBuilder() {
         if (taskNodeBuilder_ == null) {
           if (!(targetCase_ == 6)) {
@@ -15090,7 +15090,7 @@ public final class Workflow {
        * <code>.nebulaidl.core.WorkflowNode workflow_node = 7;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          nebulaidl.core.Workflow.WorkflowNode, nebulaidl.core.Workflow.WorkflowNode.Builder, nebulaidl.core.Workflow.WorkflowNodeOrBuilder>
+          nebulaidl.core.Workflow.WorkflowNode, nebulaidl.core.Workflow.WorkflowNode.Builder, nebulaidl.core.Workflow.WorkflowNodeOrBuilder> 
           getWorkflowNodeFieldBuilder() {
         if (workflowNodeBuilder_ == null) {
           if (!(targetCase_ == 7)) {
@@ -15262,7 +15262,7 @@ public final class Workflow {
        * <code>.nebulaidl.core.BranchNode branch_node = 8;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          nebulaidl.core.Workflow.BranchNode, nebulaidl.core.Workflow.BranchNode.Builder, nebulaidl.core.Workflow.BranchNodeOrBuilder>
+          nebulaidl.core.Workflow.BranchNode, nebulaidl.core.Workflow.BranchNode.Builder, nebulaidl.core.Workflow.BranchNodeOrBuilder> 
           getBranchNodeFieldBuilder() {
         if (branchNodeBuilder_ == null) {
           if (!(targetCase_ == 8)) {
@@ -15434,7 +15434,7 @@ public final class Workflow {
        * <code>.nebulaidl.core.GateNode gate_node = 9;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          nebulaidl.core.Workflow.GateNode, nebulaidl.core.Workflow.GateNode.Builder, nebulaidl.core.Workflow.GateNodeOrBuilder>
+          nebulaidl.core.Workflow.GateNode, nebulaidl.core.Workflow.GateNode.Builder, nebulaidl.core.Workflow.GateNodeOrBuilder> 
           getGateNodeFieldBuilder() {
         if (gateNodeBuilder_ == null) {
           if (!(targetCase_ == 9)) {
@@ -15615,7 +15615,7 @@ public final class Workflow {
        * <code>.nebulaidl.core.ArrayNode array_node = 10;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          nebulaidl.core.Workflow.ArrayNode, nebulaidl.core.Workflow.ArrayNode.Builder, nebulaidl.core.Workflow.ArrayNodeOrBuilder>
+          nebulaidl.core.Workflow.ArrayNode, nebulaidl.core.Workflow.ArrayNode.Builder, nebulaidl.core.Workflow.ArrayNodeOrBuilder> 
           getArrayNodeFieldBuilder() {
         if (arrayNodeBuilder_ == null) {
           if (!(targetCase_ == 10)) {
@@ -16099,7 +16099,7 @@ public final class Workflow {
           java.lang.String, java.lang.String> defaultEntry =
               com.google.protobuf.MapEntry
               .<java.lang.String, java.lang.String>newDefaultInstance(
-                  nebulaidl.core.Workflow.internal_static_nebulaidl_core_WorkflowMetadata_TagsEntry_descriptor,
+                  nebulaidl.core.Workflow.internal_static_nebulaidl_core_WorkflowMetadata_TagsEntry_descriptor, 
                   com.google.protobuf.WireFormat.FieldType.STRING,
                   "",
                   com.google.protobuf.WireFormat.FieldType.STRING,
@@ -16714,7 +16714,7 @@ public final class Workflow {
        * <code>.nebulaidl.core.QualityOfService quality_of_service = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          nebulaidl.core.Execution.QualityOfService, nebulaidl.core.Execution.QualityOfService.Builder, nebulaidl.core.Execution.QualityOfServiceOrBuilder>
+          nebulaidl.core.Execution.QualityOfService, nebulaidl.core.Execution.QualityOfService.Builder, nebulaidl.core.Execution.QualityOfServiceOrBuilder> 
           getQualityOfServiceFieldBuilder() {
         if (qualityOfServiceBuilder_ == null) {
           qualityOfServiceBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -17594,7 +17594,7 @@ public final class Workflow {
      *
      * <code>repeated .nebulaidl.core.Node nodes = 4;</code>
      */
-    java.util.List<nebulaidl.core.Workflow.Node>
+    java.util.List<nebulaidl.core.Workflow.Node> 
         getNodesList();
     /**
      * <pre>
@@ -17619,7 +17619,7 @@ public final class Workflow {
      *
      * <code>repeated .nebulaidl.core.Node nodes = 4;</code>
      */
-    java.util.List<? extends nebulaidl.core.Workflow.NodeOrBuilder>
+    java.util.List<? extends nebulaidl.core.Workflow.NodeOrBuilder> 
         getNodesOrBuilderList();
     /**
      * <pre>
@@ -17644,7 +17644,7 @@ public final class Workflow {
      *
      * <code>repeated .nebulaidl.core.Binding outputs = 5;</code>
      */
-    java.util.List<nebulaidl.core.Literals.Binding>
+    java.util.List<nebulaidl.core.Literals.Binding> 
         getOutputsList();
     /**
      * <pre>
@@ -17687,7 +17687,7 @@ public final class Workflow {
      *
      * <code>repeated .nebulaidl.core.Binding outputs = 5;</code>
      */
-    java.util.List<? extends nebulaidl.core.Literals.BindingOrBuilder>
+    java.util.List<? extends nebulaidl.core.Literals.BindingOrBuilder> 
         getOutputsOrBuilderList();
     /**
      * <pre>
@@ -18047,7 +18047,7 @@ public final class Workflow {
      *
      * <code>repeated .nebulaidl.core.Node nodes = 4;</code>
      */
-    public java.util.List<? extends nebulaidl.core.Workflow.NodeOrBuilder>
+    public java.util.List<? extends nebulaidl.core.Workflow.NodeOrBuilder> 
         getNodesOrBuilderList() {
       return nodes_;
     }
@@ -18114,7 +18114,7 @@ public final class Workflow {
      *
      * <code>repeated .nebulaidl.core.Binding outputs = 5;</code>
      */
-    public java.util.List<? extends nebulaidl.core.Literals.BindingOrBuilder>
+    public java.util.List<? extends nebulaidl.core.Literals.BindingOrBuilder> 
         getOutputsOrBuilderList() {
       return outputs_;
     }
@@ -18934,7 +18934,7 @@ public final class Workflow {
        * <code>.nebulaidl.core.Identifier id = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          nebulaidl.core.IdentifierOuterClass.Identifier, nebulaidl.core.IdentifierOuterClass.Identifier.Builder, nebulaidl.core.IdentifierOuterClass.IdentifierOrBuilder>
+          nebulaidl.core.IdentifierOuterClass.Identifier, nebulaidl.core.IdentifierOuterClass.Identifier.Builder, nebulaidl.core.IdentifierOuterClass.IdentifierOrBuilder> 
           getIdFieldBuilder() {
         if (idBuilder_ == null) {
           idBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -19087,7 +19087,7 @@ public final class Workflow {
        * <code>.nebulaidl.core.WorkflowMetadata metadata = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          nebulaidl.core.Workflow.WorkflowMetadata, nebulaidl.core.Workflow.WorkflowMetadata.Builder, nebulaidl.core.Workflow.WorkflowMetadataOrBuilder>
+          nebulaidl.core.Workflow.WorkflowMetadata, nebulaidl.core.Workflow.WorkflowMetadata.Builder, nebulaidl.core.Workflow.WorkflowMetadataOrBuilder> 
           getMetadataFieldBuilder() {
         if (metadataBuilder_ == null) {
           metadataBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -19240,7 +19240,7 @@ public final class Workflow {
        * <code>.nebulaidl.core.TypedInterface interface = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          nebulaidl.core.Interface.TypedInterface, nebulaidl.core.Interface.TypedInterface.Builder, nebulaidl.core.Interface.TypedInterfaceOrBuilder>
+          nebulaidl.core.Interface.TypedInterface, nebulaidl.core.Interface.TypedInterface.Builder, nebulaidl.core.Interface.TypedInterfaceOrBuilder> 
           getInterfaceFieldBuilder() {
         if (interfaceBuilder_ == null) {
           interfaceBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -19508,7 +19508,7 @@ public final class Workflow {
        *
        * <code>repeated .nebulaidl.core.Node nodes = 4;</code>
        */
-      public java.util.List<? extends nebulaidl.core.Workflow.NodeOrBuilder>
+      public java.util.List<? extends nebulaidl.core.Workflow.NodeOrBuilder> 
            getNodesOrBuilderList() {
         if (nodesBuilder_ != null) {
           return nodesBuilder_.getMessageOrBuilderList();
@@ -19546,12 +19546,12 @@ public final class Workflow {
        *
        * <code>repeated .nebulaidl.core.Node nodes = 4;</code>
        */
-      public java.util.List<nebulaidl.core.Workflow.Node.Builder>
+      public java.util.List<nebulaidl.core.Workflow.Node.Builder> 
            getNodesBuilderList() {
         return getNodesFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          nebulaidl.core.Workflow.Node, nebulaidl.core.Workflow.Node.Builder, nebulaidl.core.Workflow.NodeOrBuilder>
+          nebulaidl.core.Workflow.Node, nebulaidl.core.Workflow.Node.Builder, nebulaidl.core.Workflow.NodeOrBuilder> 
           getNodesFieldBuilder() {
         if (nodesBuilder_ == null) {
           nodesBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
@@ -19910,7 +19910,7 @@ public final class Workflow {
        *
        * <code>repeated .nebulaidl.core.Binding outputs = 5;</code>
        */
-      public java.util.List<? extends nebulaidl.core.Literals.BindingOrBuilder>
+      public java.util.List<? extends nebulaidl.core.Literals.BindingOrBuilder> 
            getOutputsOrBuilderList() {
         if (outputsBuilder_ != null) {
           return outputsBuilder_.getMessageOrBuilderList();
@@ -19966,12 +19966,12 @@ public final class Workflow {
        *
        * <code>repeated .nebulaidl.core.Binding outputs = 5;</code>
        */
-      public java.util.List<nebulaidl.core.Literals.Binding.Builder>
+      public java.util.List<nebulaidl.core.Literals.Binding.Builder> 
            getOutputsBuilderList() {
         return getOutputsFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          nebulaidl.core.Literals.Binding, nebulaidl.core.Literals.Binding.Builder, nebulaidl.core.Literals.BindingOrBuilder>
+          nebulaidl.core.Literals.Binding, nebulaidl.core.Literals.Binding.Builder, nebulaidl.core.Literals.BindingOrBuilder> 
           getOutputsFieldBuilder() {
         if (outputsBuilder_ == null) {
           outputsBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
@@ -20143,7 +20143,7 @@ public final class Workflow {
        * <code>.nebulaidl.core.Node failure_node = 6;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          nebulaidl.core.Workflow.Node, nebulaidl.core.Workflow.Node.Builder, nebulaidl.core.Workflow.NodeOrBuilder>
+          nebulaidl.core.Workflow.Node, nebulaidl.core.Workflow.Node.Builder, nebulaidl.core.Workflow.NodeOrBuilder> 
           getFailureNodeFieldBuilder() {
         if (failureNodeBuilder_ == null) {
           failureNodeBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -20296,7 +20296,7 @@ public final class Workflow {
        * <code>.nebulaidl.core.WorkflowMetadataDefaults metadata_defaults = 7;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          nebulaidl.core.Workflow.WorkflowMetadataDefaults, nebulaidl.core.Workflow.WorkflowMetadataDefaults.Builder, nebulaidl.core.Workflow.WorkflowMetadataDefaultsOrBuilder>
+          nebulaidl.core.Workflow.WorkflowMetadataDefaults, nebulaidl.core.Workflow.WorkflowMetadataDefaults.Builder, nebulaidl.core.Workflow.WorkflowMetadataDefaultsOrBuilder> 
           getMetadataDefaultsFieldBuilder() {
         if (metadataDefaultsBuilder_ == null) {
           metadataDefaultsBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -20970,7 +20970,7 @@ public final class Workflow {
        * <code>.nebulaidl.core.Resources resources = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          nebulaidl.core.Tasks.Resources, nebulaidl.core.Tasks.Resources.Builder, nebulaidl.core.Tasks.ResourcesOrBuilder>
+          nebulaidl.core.Tasks.Resources, nebulaidl.core.Tasks.Resources.Builder, nebulaidl.core.Tasks.ResourcesOrBuilder> 
           getResourcesFieldBuilder() {
         if (resourcesBuilder_ == null) {
           resourcesBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -21134,81 +21134,82 @@ public final class Workflow {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\034nebulaidl/core/workflow.proto\022\rnebulaidl" +
-      ".core\032\035nebulaidl/core/condition.proto\032\035fl" +
-      "yteidl/core/execution.proto\032\036nebulaidl/co" +
-      "re/identifier.proto\032\035nebulaidl/core/inter" +
-      "face.proto\032\034nebulaidl/core/literals.proto" +
-      "\032\031nebulaidl/core/tasks.proto\032\031nebulaidl/co" +
-      "re/types.proto\032\034nebulaidl/core/security.p" +
-      "roto\032\036google/protobuf/duration.proto\"f\n\007" +
-      "IfBlock\0223\n\tcondition\030\001 \001(\0132 .nebulaidl.co" +
-      "re.BooleanExpression\022&\n\tthen_node\030\002 \001(\0132" +
-      "\023.nebulaidl.core.Node\"\266\001\n\013IfElseBlock\022$\n\004" +
-      "case\030\001 \001(\0132\026.nebulaidl.core.IfBlock\022%\n\005ot" +
-      "her\030\002 \003(\0132\026.nebulaidl.core.IfBlock\022(\n\tels" +
-      "e_node\030\003 \001(\0132\023.nebulaidl.core.NodeH\000\022%\n\005e" +
-      "rror\030\004 \001(\0132\024.nebulaidl.core.ErrorH\000B\t\n\007de" +
-      "fault\"9\n\nBranchNode\022+\n\007if_else\030\001 \001(\0132\032.n" +
-      "ebulaidl.core.IfElseBlock\"\177\n\010TaskNode\0221\n\014" +
-      "reference_id\030\001 \001(\0132\031.nebulaidl.core.Ident" +
-      "ifierH\000\0223\n\toverrides\030\002 \001(\0132 .nebulaidl.co" +
-      "re.TaskNodeOverridesB\013\n\treference\"\207\001\n\014Wo" +
-      "rkflowNode\0223\n\016launchplan_ref\030\001 \001(\0132\031.nebu" +
-      "laidl.core.IdentifierH\000\0225\n\020sub_workflow_" +
-      "ref\030\002 \001(\0132\031.nebulaidl.core.IdentifierH\000B\013" +
-      "\n\treference\"%\n\020ApproveCondition\022\021\n\tsigna" +
-      "l_id\030\001 \001(\t\"l\n\017SignalCondition\022\021\n\tsignal_" +
-      "id\030\001 \001(\t\022(\n\004type\030\002 \001(\0132\032.nebulaidl.core.L" +
-      "iteralType\022\034\n\024output_variable_name\030\003 \001(\t" +
-      "\"=\n\016SleepCondition\022+\n\010duration\030\001 \001(\0132\031.g" +
-      "oogle.protobuf.Duration\"\255\001\n\010GateNode\0222\n\007" +
-      "approve\030\001 \001(\0132\037.nebulaidl.core.ApproveCon" +
-      "ditionH\000\0220\n\006signal\030\002 \001(\0132\036.nebulaidl.core" +
-      ".SignalConditionH\000\022.\n\005sleep\030\003 \001(\0132\035.nebul" +
-      "aidl.core.SleepConditionH\000B\013\n\tcondition\"" +
-      "\215\001\n\tArrayNode\022!\n\004node\030\001 \001(\0132\023.nebulaidl.c" +
-      "ore.Node\022\023\n\013parallelism\030\002 \001(\r\022\027\n\rmin_suc" +
-      "cesses\030\003 \001(\rH\000\022\033\n\021min_success_ratio\030\004 \001(" +
-      "\002H\000B\022\n\020success_criteria\"\247\001\n\014NodeMetadata" +
-      "\022\014\n\004name\030\001 \001(\t\022*\n\007timeout\030\004 \001(\0132\031.google" +
-      ".protobuf.Duration\022-\n\007retries\030\005 \001(\0132\034.ne" +
-      "bulaidl.core.RetryStrategy\022\027\n\rinterruptib" +
-      "le\030\006 \001(\010H\000B\025\n\023interruptible_value\"#\n\005Ali" +
-      "as\022\013\n\003var\030\001 \001(\t\022\r\n\005alias\030\002 \001(\t\"\260\003\n\004Node\022" +
-      "\n\n\002id\030\001 \001(\t\022-\n\010metadata\030\002 \001(\0132\033.nebulaidl" +
-      ".core.NodeMetadata\022&\n\006inputs\030\003 \003(\0132\026.nebu" +
-      "laidl.core.Binding\022\031\n\021upstream_node_ids\030" +
-      "\004 \003(\t\022,\n\016output_aliases\030\005 \003(\0132\024.nebulaidl" +
-      ".core.Alias\022,\n\ttask_node\030\006 \001(\0132\027.nebulaid" +
-      "l.core.TaskNodeH\000\0224\n\rworkflow_node\030\007 \001(\013" +
-      "2\033.nebulaidl.core.WorkflowNodeH\000\0220\n\013branc" +
-      "h_node\030\010 \001(\0132\031.nebulaidl.core.BranchNodeH" +
-      "\000\022,\n\tgate_node\030\t \001(\0132\027.nebulaidl.core.Gat" +
-      "eNodeH\000\022.\n\narray_node\030\n \001(\0132\030.nebulaidl.c" +
-      "ore.ArrayNodeH\000B\010\n\006target\"\315\002\n\020WorkflowMe" +
-      "tadata\022;\n\022quality_of_service\030\001 \001(\0132\037.neb" +
-      "teidl.core.QualityOfService\022C\n\non_failur" +
-      "e\030\002 \001(\0162/.nebulaidl.core.WorkflowMetadata" +
-      ".OnFailurePolicy\0227\n\004tags\030\003 \003(\0132).nebulaid" +
-      "l.core.WorkflowMetadata.TagsEntry\032+\n\tTag" +
-      "sEntry\022\013\n\003key\030\001 \001(\t\022\r\n\005value\030\002 \001(\t:\0028\001\"Q" +
-      "\n\017OnFailurePolicy\022\024\n\020FAIL_IMMEDIATELY\020\000\022" +
-      "(\n$FAIL_AFTER_EXECUTABLE_NODES_COMPLETE\020" +
-      "\001\"1\n\030WorkflowMetadataDefaults\022\025\n\rinterru" +
-      "ptible\030\001 \001(\010\"\332\002\n\020WorkflowTemplate\022%\n\002id\030" +
-      "\001 \001(\0132\031.nebulaidl.core.Identifier\0221\n\010meta" +
-      "data\030\002 \001(\0132\037.nebulaidl.core.WorkflowMetad" +
-      "ata\0220\n\tinterface\030\003 \001(\0132\035.nebulaidl.core.T" +
-      "ypedInterface\022\"\n\005nodes\030\004 \003(\0132\023.nebulaidl." +
-      "core.Node\022\'\n\007outputs\030\005 \003(\0132\026.nebulaidl.co" +
-      "re.Binding\022)\n\014failure_node\030\006 \001(\0132\023.nebula" +
-      "idl.core.Node\022B\n\021metadata_defaults\030\007 \001(\013" +
-      "2\'.nebulaidl.core.WorkflowMetadataDefault" +
-      "s\"@\n\021TaskNodeOverrides\022+\n\tresources\030\001 \001(" +
-      "\0132\030.nebulaidl.core.ResourcesB6Z4github.co" +
-      "m/nebulaclouds/nebulaidl/gen/pb-go/nebulaidl/c" +
-      "oreb\006proto3"
+      "\n\035nebulaidl/core/workflow.proto\022\016nebulai" +
+      "dl.core\032\036nebulaidl/core/condition.proto\032" +
+      "\036nebulaidl/core/execution.proto\032\037nebulai" +
+      "dl/core/identifier.proto\032\036nebulaidl/core" +
+      "/interface.proto\032\035nebulaidl/core/literal" +
+      "s.proto\032\032nebulaidl/core/tasks.proto\032\032neb" +
+      "ulaidl/core/types.proto\032\035nebulaidl/core/" +
+      "security.proto\032\036google/protobuf/duration" +
+      ".proto\"h\n\007IfBlock\0224\n\tcondition\030\001 \001(\0132!.n" +
+      "ebulaidl.core.BooleanExpression\022\'\n\tthen_" +
+      "node\030\002 \001(\0132\024.nebulaidl.core.Node\"\272\001\n\013IfE" +
+      "lseBlock\022%\n\004case\030\001 \001(\0132\027.nebulaidl.core." +
+      "IfBlock\022&\n\005other\030\002 \003(\0132\027.nebulaidl.core." +
+      "IfBlock\022)\n\telse_node\030\003 \001(\0132\024.nebulaidl.c" +
+      "ore.NodeH\000\022&\n\005error\030\004 \001(\0132\025.nebulaidl.co" +
+      "re.ErrorH\000B\t\n\007default\":\n\nBranchNode\022,\n\007i" +
+      "f_else\030\001 \001(\0132\033.nebulaidl.core.IfElseBloc" +
+      "k\"\201\001\n\010TaskNode\0222\n\014reference_id\030\001 \001(\0132\032.n" +
+      "ebulaidl.core.IdentifierH\000\0224\n\toverrides\030" +
+      "\002 \001(\0132!.nebulaidl.core.TaskNodeOverrides" +
+      "B\013\n\treference\"\211\001\n\014WorkflowNode\0224\n\016launch" +
+      "plan_ref\030\001 \001(\0132\032.nebulaidl.core.Identifi" +
+      "erH\000\0226\n\020sub_workflow_ref\030\002 \001(\0132\032.nebulai" +
+      "dl.core.IdentifierH\000B\013\n\treference\"%\n\020App" +
+      "roveCondition\022\021\n\tsignal_id\030\001 \001(\t\"m\n\017Sign" +
+      "alCondition\022\021\n\tsignal_id\030\001 \001(\t\022)\n\004type\030\002" +
+      " \001(\0132\033.nebulaidl.core.LiteralType\022\034\n\024out" +
+      "put_variable_name\030\003 \001(\t\"=\n\016SleepConditio" +
+      "n\022+\n\010duration\030\001 \001(\0132\031.google.protobuf.Du" +
+      "ration\"\260\001\n\010GateNode\0223\n\007approve\030\001 \001(\0132 .n" +
+      "ebulaidl.core.ApproveConditionH\000\0221\n\006sign" +
+      "al\030\002 \001(\0132\037.nebulaidl.core.SignalConditio" +
+      "nH\000\022/\n\005sleep\030\003 \001(\0132\036.nebulaidl.core.Slee" +
+      "pConditionH\000B\013\n\tcondition\"\216\001\n\tArrayNode\022" +
+      "\"\n\004node\030\001 \001(\0132\024.nebulaidl.core.Node\022\023\n\013p" +
+      "arallelism\030\002 \001(\r\022\027\n\rmin_successes\030\003 \001(\rH" +
+      "\000\022\033\n\021min_success_ratio\030\004 \001(\002H\000B\022\n\020succes" +
+      "s_criteria\"\250\001\n\014NodeMetadata\022\014\n\004name\030\001 \001(" +
+      "\t\022*\n\007timeout\030\004 \001(\0132\031.google.protobuf.Dur" +
+      "ation\022.\n\007retries\030\005 \001(\0132\035.nebulaidl.core." +
+      "RetryStrategy\022\027\n\rinterruptible\030\006 \001(\010H\000B\025" +
+      "\n\023interruptible_value\"#\n\005Alias\022\013\n\003var\030\001 " +
+      "\001(\t\022\r\n\005alias\030\002 \001(\t\"\270\003\n\004Node\022\n\n\002id\030\001 \001(\t\022" +
+      ".\n\010metadata\030\002 \001(\0132\034.nebulaidl.core.NodeM" +
+      "etadata\022\'\n\006inputs\030\003 \003(\0132\027.nebulaidl.core" +
+      ".Binding\022\031\n\021upstream_node_ids\030\004 \003(\t\022-\n\016o" +
+      "utput_aliases\030\005 \003(\0132\025.nebulaidl.core.Ali" +
+      "as\022-\n\ttask_node\030\006 \001(\0132\030.nebulaidl.core.T" +
+      "askNodeH\000\0225\n\rworkflow_node\030\007 \001(\0132\034.nebul" +
+      "aidl.core.WorkflowNodeH\000\0221\n\013branch_node\030" +
+      "\010 \001(\0132\032.nebulaidl.core.BranchNodeH\000\022-\n\tg" +
+      "ate_node\030\t \001(\0132\030.nebulaidl.core.GateNode" +
+      "H\000\022/\n\narray_node\030\n \001(\0132\031.nebulaidl.core." +
+      "ArrayNodeH\000B\010\n\006target\"\320\002\n\020WorkflowMetada" +
+      "ta\022<\n\022quality_of_service\030\001 \001(\0132 .nebulai" +
+      "dl.core.QualityOfService\022D\n\non_failure\030\002" +
+      " \001(\01620.nebulaidl.core.WorkflowMetadata.O" +
+      "nFailurePolicy\0228\n\004tags\030\003 \003(\0132*.nebulaidl" +
+      ".core.WorkflowMetadata.TagsEntry\032+\n\tTags" +
+      "Entry\022\013\n\003key\030\001 \001(\t\022\r\n\005value\030\002 \001(\t:\0028\001\"Q\n" +
+      "\017OnFailurePolicy\022\024\n\020FAIL_IMMEDIATELY\020\000\022(" +
+      "\n$FAIL_AFTER_EXECUTABLE_NODES_COMPLETE\020\001" +
+      "\"1\n\030WorkflowMetadataDefaults\022\025\n\rinterrup" +
+      "tible\030\001 \001(\010\"\341\002\n\020WorkflowTemplate\022&\n\002id\030\001" +
+      " \001(\0132\032.nebulaidl.core.Identifier\0222\n\010meta" +
+      "data\030\002 \001(\0132 .nebulaidl.core.WorkflowMeta" +
+      "data\0221\n\tinterface\030\003 \001(\0132\036.nebulaidl.core" +
+      ".TypedInterface\022#\n\005nodes\030\004 \003(\0132\024.nebulai" +
+      "dl.core.Node\022(\n\007outputs\030\005 \003(\0132\027.nebulaid" +
+      "l.core.Binding\022*\n\014failure_node\030\006 \001(\0132\024.n" +
+      "ebulaidl.core.Node\022C\n\021metadata_defaults\030" +
+      "\007 \001(\0132(.nebulaidl.core.WorkflowMetadataD" +
+      "efaults\"A\n\021TaskNodeOverrides\022,\n\tresource" +
+      "s\030\001 \001(\0132\031.nebulaidl.core.ResourcesB<Z:gi" +
+      "thub.com/nebulaclouds/nebulaidl/gen/pb-g" +
+      "o/nebulaidl/coreb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

@@ -1237,7 +1237,7 @@ public final class Event {
        * <code>.nebulaidl.core.WorkflowExecutionIdentifier execution_id = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          nebulaidl.core.IdentifierOuterClass.WorkflowExecutionIdentifier, nebulaidl.core.IdentifierOuterClass.WorkflowExecutionIdentifier.Builder, nebulaidl.core.IdentifierOuterClass.WorkflowExecutionIdentifierOrBuilder>
+          nebulaidl.core.IdentifierOuterClass.WorkflowExecutionIdentifier, nebulaidl.core.IdentifierOuterClass.WorkflowExecutionIdentifier.Builder, nebulaidl.core.IdentifierOuterClass.WorkflowExecutionIdentifierOrBuilder> 
           getExecutionIdFieldBuilder() {
         if (executionIdBuilder_ == null) {
           executionIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -1805,7 +1805,7 @@ public final class Event {
        * <code>.nebulaidl.core.ExecutionError error = 6;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          nebulaidl.core.Execution.ExecutionError, nebulaidl.core.Execution.ExecutionError.Builder, nebulaidl.core.Execution.ExecutionErrorOrBuilder>
+          nebulaidl.core.Execution.ExecutionError, nebulaidl.core.Execution.ExecutionError.Builder, nebulaidl.core.Execution.ExecutionErrorOrBuilder> 
           getErrorFieldBuilder() {
         if (errorBuilder_ == null) {
           if (!(outputResultCase_ == 6)) {
@@ -1977,7 +1977,7 @@ public final class Event {
        * <code>.nebulaidl.core.LiteralMap output_data = 7;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          nebulaidl.core.Literals.LiteralMap, nebulaidl.core.Literals.LiteralMap.Builder, nebulaidl.core.Literals.LiteralMapOrBuilder>
+          nebulaidl.core.Literals.LiteralMap, nebulaidl.core.Literals.LiteralMap.Builder, nebulaidl.core.Literals.LiteralMapOrBuilder> 
           getOutputDataFieldBuilder() {
         if (outputDataBuilder_ == null) {
           if (!(outputResultCase_ == 7)) {
@@ -4548,7 +4548,7 @@ public final class Event {
        * <code>.nebulaidl.core.NodeExecutionIdentifier id = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          nebulaidl.core.IdentifierOuterClass.NodeExecutionIdentifier, nebulaidl.core.IdentifierOuterClass.NodeExecutionIdentifier.Builder, nebulaidl.core.IdentifierOuterClass.NodeExecutionIdentifierOrBuilder>
+          nebulaidl.core.IdentifierOuterClass.NodeExecutionIdentifier, nebulaidl.core.IdentifierOuterClass.NodeExecutionIdentifier.Builder, nebulaidl.core.IdentifierOuterClass.NodeExecutionIdentifierOrBuilder> 
           getIdFieldBuilder() {
         if (idBuilder_ == null) {
           idBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -5091,7 +5091,7 @@ public final class Event {
        * <code>.nebulaidl.core.LiteralMap input_data = 20;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          nebulaidl.core.Literals.LiteralMap, nebulaidl.core.Literals.LiteralMap.Builder, nebulaidl.core.Literals.LiteralMapOrBuilder>
+          nebulaidl.core.Literals.LiteralMap, nebulaidl.core.Literals.LiteralMap.Builder, nebulaidl.core.Literals.LiteralMapOrBuilder> 
           getInputDataFieldBuilder() {
         if (inputDataBuilder_ == null) {
           if (!(inputValueCase_ == 20)) {
@@ -5368,7 +5368,7 @@ public final class Event {
        * <code>.nebulaidl.core.ExecutionError error = 7;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          nebulaidl.core.Execution.ExecutionError, nebulaidl.core.Execution.ExecutionError.Builder, nebulaidl.core.Execution.ExecutionErrorOrBuilder>
+          nebulaidl.core.Execution.ExecutionError, nebulaidl.core.Execution.ExecutionError.Builder, nebulaidl.core.Execution.ExecutionErrorOrBuilder> 
           getErrorFieldBuilder() {
         if (errorBuilder_ == null) {
           if (!(outputResultCase_ == 7)) {
@@ -5540,7 +5540,7 @@ public final class Event {
        * <code>.nebulaidl.core.LiteralMap output_data = 15;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          nebulaidl.core.Literals.LiteralMap, nebulaidl.core.Literals.LiteralMap.Builder, nebulaidl.core.Literals.LiteralMapOrBuilder>
+          nebulaidl.core.Literals.LiteralMap, nebulaidl.core.Literals.LiteralMap.Builder, nebulaidl.core.Literals.LiteralMapOrBuilder> 
           getOutputDataFieldBuilder() {
         if (outputDataBuilder_ == null) {
           if (!(outputResultCase_ == 15)) {
@@ -5676,7 +5676,7 @@ public final class Event {
        * <code>.nebulaidl.event.WorkflowNodeMetadata workflow_node_metadata = 8;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          nebulaidl.event.Event.WorkflowNodeMetadata, nebulaidl.event.Event.WorkflowNodeMetadata.Builder, nebulaidl.event.Event.WorkflowNodeMetadataOrBuilder>
+          nebulaidl.event.Event.WorkflowNodeMetadata, nebulaidl.event.Event.WorkflowNodeMetadata.Builder, nebulaidl.event.Event.WorkflowNodeMetadataOrBuilder> 
           getWorkflowNodeMetadataFieldBuilder() {
         if (workflowNodeMetadataBuilder_ == null) {
           if (!(targetMetadataCase_ == 8)) {
@@ -5812,7 +5812,7 @@ public final class Event {
        * <code>.nebulaidl.event.TaskNodeMetadata task_node_metadata = 14;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          nebulaidl.event.Event.TaskNodeMetadata, nebulaidl.event.Event.TaskNodeMetadata.Builder, nebulaidl.event.Event.TaskNodeMetadataOrBuilder>
+          nebulaidl.event.Event.TaskNodeMetadata, nebulaidl.event.Event.TaskNodeMetadata.Builder, nebulaidl.event.Event.TaskNodeMetadataOrBuilder> 
           getTaskNodeMetadataFieldBuilder() {
         if (taskNodeMetadataBuilder_ == null) {
           if (!(targetMetadataCase_ == 14)) {
@@ -5970,7 +5970,7 @@ public final class Event {
        * <code>.nebulaidl.event.ParentTaskExecutionMetadata parent_task_metadata = 9;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          nebulaidl.event.Event.ParentTaskExecutionMetadata, nebulaidl.event.Event.ParentTaskExecutionMetadata.Builder, nebulaidl.event.Event.ParentTaskExecutionMetadataOrBuilder>
+          nebulaidl.event.Event.ParentTaskExecutionMetadata, nebulaidl.event.Event.ParentTaskExecutionMetadata.Builder, nebulaidl.event.Event.ParentTaskExecutionMetadataOrBuilder> 
           getParentTaskMetadataFieldBuilder() {
         if (parentTaskMetadataBuilder_ == null) {
           parentTaskMetadataBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -6123,7 +6123,7 @@ public final class Event {
        * <code>.nebulaidl.event.ParentNodeExecutionMetadata parent_node_metadata = 10;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          nebulaidl.event.Event.ParentNodeExecutionMetadata, nebulaidl.event.Event.ParentNodeExecutionMetadata.Builder, nebulaidl.event.Event.ParentNodeExecutionMetadataOrBuilder>
+          nebulaidl.event.Event.ParentNodeExecutionMetadata, nebulaidl.event.Event.ParentNodeExecutionMetadata.Builder, nebulaidl.event.Event.ParentNodeExecutionMetadataOrBuilder> 
           getParentNodeMetadataFieldBuilder() {
         if (parentNodeMetadataBuilder_ == null) {
           parentNodeMetadataBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -7385,7 +7385,7 @@ public final class Event {
        * <code>.nebulaidl.core.WorkflowExecutionIdentifier execution_id = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          nebulaidl.core.IdentifierOuterClass.WorkflowExecutionIdentifier, nebulaidl.core.IdentifierOuterClass.WorkflowExecutionIdentifier.Builder, nebulaidl.core.IdentifierOuterClass.WorkflowExecutionIdentifierOrBuilder>
+          nebulaidl.core.IdentifierOuterClass.WorkflowExecutionIdentifier, nebulaidl.core.IdentifierOuterClass.WorkflowExecutionIdentifier.Builder, nebulaidl.core.IdentifierOuterClass.WorkflowExecutionIdentifierOrBuilder> 
           getExecutionIdFieldBuilder() {
         if (executionIdBuilder_ == null) {
           executionIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -8431,7 +8431,7 @@ public final class Event {
        * <code>.nebulaidl.core.CatalogMetadata catalog_key = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          nebulaidl.core.Catalog.CatalogMetadata, nebulaidl.core.Catalog.CatalogMetadata.Builder, nebulaidl.core.Catalog.CatalogMetadataOrBuilder>
+          nebulaidl.core.Catalog.CatalogMetadata, nebulaidl.core.Catalog.CatalogMetadata.Builder, nebulaidl.core.Catalog.CatalogMetadataOrBuilder> 
           getCatalogKeyFieldBuilder() {
         if (catalogKeyBuilder_ == null) {
           catalogKeyBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -8738,7 +8738,7 @@ public final class Event {
        * <code>.nebulaidl.event.DynamicWorkflowNodeMetadata dynamic_workflow = 16;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          nebulaidl.event.Event.DynamicWorkflowNodeMetadata, nebulaidl.event.Event.DynamicWorkflowNodeMetadata.Builder, nebulaidl.event.Event.DynamicWorkflowNodeMetadataOrBuilder>
+          nebulaidl.event.Event.DynamicWorkflowNodeMetadata, nebulaidl.event.Event.DynamicWorkflowNodeMetadata.Builder, nebulaidl.event.Event.DynamicWorkflowNodeMetadataOrBuilder> 
           getDynamicWorkflowFieldBuilder() {
         if (dynamicWorkflowBuilder_ == null) {
           dynamicWorkflowBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -9601,7 +9601,7 @@ public final class Event {
        * <code>.nebulaidl.core.Identifier id = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          nebulaidl.core.IdentifierOuterClass.Identifier, nebulaidl.core.IdentifierOuterClass.Identifier.Builder, nebulaidl.core.IdentifierOuterClass.IdentifierOrBuilder>
+          nebulaidl.core.IdentifierOuterClass.Identifier, nebulaidl.core.IdentifierOuterClass.Identifier.Builder, nebulaidl.core.IdentifierOuterClass.IdentifierOrBuilder> 
           getIdFieldBuilder() {
         if (idBuilder_ == null) {
           idBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -9754,7 +9754,7 @@ public final class Event {
        * <code>.nebulaidl.core.CompiledWorkflowClosure compiled_workflow = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          nebulaidl.core.Compiler.CompiledWorkflowClosure, nebulaidl.core.Compiler.CompiledWorkflowClosure.Builder, nebulaidl.core.Compiler.CompiledWorkflowClosureOrBuilder>
+          nebulaidl.core.Compiler.CompiledWorkflowClosure, nebulaidl.core.Compiler.CompiledWorkflowClosure.Builder, nebulaidl.core.Compiler.CompiledWorkflowClosureOrBuilder> 
           getCompiledWorkflowFieldBuilder() {
         if (compiledWorkflowBuilder_ == null) {
           compiledWorkflowBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -10454,7 +10454,7 @@ public final class Event {
        * <code>.nebulaidl.core.TaskExecutionIdentifier id = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          nebulaidl.core.IdentifierOuterClass.TaskExecutionIdentifier, nebulaidl.core.IdentifierOuterClass.TaskExecutionIdentifier.Builder, nebulaidl.core.IdentifierOuterClass.TaskExecutionIdentifierOrBuilder>
+          nebulaidl.core.IdentifierOuterClass.TaskExecutionIdentifier, nebulaidl.core.IdentifierOuterClass.TaskExecutionIdentifier.Builder, nebulaidl.core.IdentifierOuterClass.TaskExecutionIdentifierOrBuilder> 
           getIdFieldBuilder() {
         if (idBuilder_ == null) {
           idBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -12063,7 +12063,7 @@ public final class Event {
      *
      * <code>repeated .nebulaidl.core.TaskLog logs = 6;</code>
      */
-    java.util.List<nebulaidl.core.Execution.TaskLog>
+    java.util.List<nebulaidl.core.Execution.TaskLog> 
         getLogsList();
     /**
      * <pre>
@@ -12088,7 +12088,7 @@ public final class Event {
      *
      * <code>repeated .nebulaidl.core.TaskLog logs = 6;</code>
      */
-    java.util.List<? extends nebulaidl.core.Execution.TaskLogOrBuilder>
+    java.util.List<? extends nebulaidl.core.Execution.TaskLogOrBuilder> 
         getLogsOrBuilderList();
     /**
      * <pre>
@@ -12306,7 +12306,7 @@ public final class Event {
      *
      * <code>repeated .nebulaidl.event.EventReason reasons = 21;</code>
      */
-    java.util.List<nebulaidl.event.Event.EventReason>
+    java.util.List<nebulaidl.event.Event.EventReason> 
         getReasonsList();
     /**
      * <pre>
@@ -12331,7 +12331,7 @@ public final class Event {
      *
      * <code>repeated .nebulaidl.event.EventReason reasons = 21;</code>
      */
-    java.util.List<? extends nebulaidl.event.Event.EventReasonOrBuilder>
+    java.util.List<? extends nebulaidl.event.Event.EventReasonOrBuilder> 
         getReasonsOrBuilderList();
     /**
      * <pre>
@@ -12966,7 +12966,7 @@ public final class Event {
      *
      * <code>repeated .nebulaidl.core.TaskLog logs = 6;</code>
      */
-    public java.util.List<? extends nebulaidl.core.Execution.TaskLogOrBuilder>
+    public java.util.List<? extends nebulaidl.core.Execution.TaskLogOrBuilder> 
         getLogsOrBuilderList() {
       return logs_;
     }
@@ -13369,7 +13369,7 @@ public final class Event {
      *
      * <code>repeated .nebulaidl.event.EventReason reasons = 21;</code>
      */
-    public java.util.List<? extends nebulaidl.event.Event.EventReasonOrBuilder>
+    public java.util.List<? extends nebulaidl.event.Event.EventReasonOrBuilder> 
         getReasonsOrBuilderList() {
       return reasons_;
     }
@@ -14580,7 +14580,7 @@ public final class Event {
        * <code>.nebulaidl.core.Identifier task_id = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          nebulaidl.core.IdentifierOuterClass.Identifier, nebulaidl.core.IdentifierOuterClass.Identifier.Builder, nebulaidl.core.IdentifierOuterClass.IdentifierOrBuilder>
+          nebulaidl.core.IdentifierOuterClass.Identifier, nebulaidl.core.IdentifierOuterClass.Identifier.Builder, nebulaidl.core.IdentifierOuterClass.IdentifierOrBuilder> 
           getTaskIdFieldBuilder() {
         if (taskIdBuilder_ == null) {
           taskIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -14742,7 +14742,7 @@ public final class Event {
        * <code>.nebulaidl.core.NodeExecutionIdentifier parent_node_execution_id = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          nebulaidl.core.IdentifierOuterClass.NodeExecutionIdentifier, nebulaidl.core.IdentifierOuterClass.NodeExecutionIdentifier.Builder, nebulaidl.core.IdentifierOuterClass.NodeExecutionIdentifierOrBuilder>
+          nebulaidl.core.IdentifierOuterClass.NodeExecutionIdentifier, nebulaidl.core.IdentifierOuterClass.NodeExecutionIdentifier.Builder, nebulaidl.core.IdentifierOuterClass.NodeExecutionIdentifierOrBuilder> 
           getParentNodeExecutionIdFieldBuilder() {
         if (parentNodeExecutionIdBuilder_ == null) {
           parentNodeExecutionIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -15202,7 +15202,7 @@ public final class Event {
        *
        * <code>repeated .nebulaidl.core.TaskLog logs = 6;</code>
        */
-      public java.util.List<? extends nebulaidl.core.Execution.TaskLogOrBuilder>
+      public java.util.List<? extends nebulaidl.core.Execution.TaskLogOrBuilder> 
            getLogsOrBuilderList() {
         if (logsBuilder_ != null) {
           return logsBuilder_.getMessageOrBuilderList();
@@ -15240,12 +15240,12 @@ public final class Event {
        *
        * <code>repeated .nebulaidl.core.TaskLog logs = 6;</code>
        */
-      public java.util.List<nebulaidl.core.Execution.TaskLog.Builder>
+      public java.util.List<nebulaidl.core.Execution.TaskLog.Builder> 
            getLogsBuilderList() {
         return getLogsFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          nebulaidl.core.Execution.TaskLog, nebulaidl.core.Execution.TaskLog.Builder, nebulaidl.core.Execution.TaskLogOrBuilder>
+          nebulaidl.core.Execution.TaskLog, nebulaidl.core.Execution.TaskLog.Builder, nebulaidl.core.Execution.TaskLogOrBuilder> 
           getLogsFieldBuilder() {
         if (logsBuilder_ == null) {
           logsBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
@@ -15680,7 +15680,7 @@ public final class Event {
        * <code>.nebulaidl.core.LiteralMap input_data = 19;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          nebulaidl.core.Literals.LiteralMap, nebulaidl.core.Literals.LiteralMap.Builder, nebulaidl.core.Literals.LiteralMapOrBuilder>
+          nebulaidl.core.Literals.LiteralMap, nebulaidl.core.Literals.LiteralMap.Builder, nebulaidl.core.Literals.LiteralMapOrBuilder> 
           getInputDataFieldBuilder() {
         if (inputDataBuilder_ == null) {
           if (!(inputValueCase_ == 19)) {
@@ -15957,7 +15957,7 @@ public final class Event {
        * <code>.nebulaidl.core.ExecutionError error = 10;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          nebulaidl.core.Execution.ExecutionError, nebulaidl.core.Execution.ExecutionError.Builder, nebulaidl.core.Execution.ExecutionErrorOrBuilder>
+          nebulaidl.core.Execution.ExecutionError, nebulaidl.core.Execution.ExecutionError.Builder, nebulaidl.core.Execution.ExecutionErrorOrBuilder> 
           getErrorFieldBuilder() {
         if (errorBuilder_ == null) {
           if (!(outputResultCase_ == 10)) {
@@ -16129,7 +16129,7 @@ public final class Event {
        * <code>.nebulaidl.core.LiteralMap output_data = 17;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          nebulaidl.core.Literals.LiteralMap, nebulaidl.core.Literals.LiteralMap.Builder, nebulaidl.core.Literals.LiteralMapOrBuilder>
+          nebulaidl.core.Literals.LiteralMap, nebulaidl.core.Literals.LiteralMap.Builder, nebulaidl.core.Literals.LiteralMapOrBuilder> 
           getOutputDataFieldBuilder() {
         if (outputDataBuilder_ == null) {
           if (!(outputResultCase_ == 17)) {
@@ -16693,7 +16693,7 @@ public final class Event {
        *
        * <code>repeated .nebulaidl.event.EventReason reasons = 21;</code>
        */
-      public java.util.List<? extends nebulaidl.event.Event.EventReasonOrBuilder>
+      public java.util.List<? extends nebulaidl.event.Event.EventReasonOrBuilder> 
            getReasonsOrBuilderList() {
         if (reasonsBuilder_ != null) {
           return reasonsBuilder_.getMessageOrBuilderList();
@@ -16731,12 +16731,12 @@ public final class Event {
        *
        * <code>repeated .nebulaidl.event.EventReason reasons = 21;</code>
        */
-      public java.util.List<nebulaidl.event.Event.EventReason.Builder>
+      public java.util.List<nebulaidl.event.Event.EventReason.Builder> 
            getReasonsBuilderList() {
         return getReasonsFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          nebulaidl.event.Event.EventReason, nebulaidl.event.Event.EventReason.Builder, nebulaidl.event.Event.EventReasonOrBuilder>
+          nebulaidl.event.Event.EventReason, nebulaidl.event.Event.EventReason.Builder, nebulaidl.event.Event.EventReasonOrBuilder> 
           getReasonsFieldBuilder() {
         if (reasonsBuilder_ == null) {
           reasonsBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
@@ -16989,7 +16989,7 @@ public final class Event {
        * <code>.nebulaidl.event.TaskExecutionMetadata metadata = 16;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          nebulaidl.event.Event.TaskExecutionMetadata, nebulaidl.event.Event.TaskExecutionMetadata.Builder, nebulaidl.event.Event.TaskExecutionMetadataOrBuilder>
+          nebulaidl.event.Event.TaskExecutionMetadata, nebulaidl.event.Event.TaskExecutionMetadata.Builder, nebulaidl.event.Event.TaskExecutionMetadataOrBuilder> 
           getMetadataFieldBuilder() {
         if (metadataBuilder_ == null) {
           metadataBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -17364,7 +17364,7 @@ public final class Event {
      *
      * <code>repeated .nebulaidl.core.TaskLog logs = 6;</code>
      */
-    java.util.List<nebulaidl.core.Execution.TaskLog>
+    java.util.List<nebulaidl.core.Execution.TaskLog> 
         getLogsList();
     /**
      * <pre>
@@ -17389,7 +17389,7 @@ public final class Event {
      *
      * <code>repeated .nebulaidl.core.TaskLog logs = 6;</code>
      */
-    java.util.List<? extends nebulaidl.core.Execution.TaskLogOrBuilder>
+    java.util.List<? extends nebulaidl.core.Execution.TaskLogOrBuilder> 
         getLogsOrBuilderList();
     /**
      * <pre>
@@ -17660,7 +17660,7 @@ public final class Event {
      *
      * <code>repeated .nebulaidl.core.TaskLog logs = 6;</code>
      */
-    public java.util.List<? extends nebulaidl.core.Execution.TaskLogOrBuilder>
+    public java.util.List<? extends nebulaidl.core.Execution.TaskLogOrBuilder> 
         getLogsOrBuilderList() {
       return logs_;
     }
@@ -18683,7 +18683,7 @@ public final class Event {
        *
        * <code>repeated .nebulaidl.core.TaskLog logs = 6;</code>
        */
-      public java.util.List<? extends nebulaidl.core.Execution.TaskLogOrBuilder>
+      public java.util.List<? extends nebulaidl.core.Execution.TaskLogOrBuilder> 
            getLogsOrBuilderList() {
         if (logsBuilder_ != null) {
           return logsBuilder_.getMessageOrBuilderList();
@@ -18721,12 +18721,12 @@ public final class Event {
        *
        * <code>repeated .nebulaidl.core.TaskLog logs = 6;</code>
        */
-      public java.util.List<nebulaidl.core.Execution.TaskLog.Builder>
+      public java.util.List<nebulaidl.core.Execution.TaskLog.Builder> 
            getLogsBuilderList() {
         return getLogsFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          nebulaidl.core.Execution.TaskLog, nebulaidl.core.Execution.TaskLog.Builder, nebulaidl.core.Execution.TaskLogOrBuilder>
+          nebulaidl.core.Execution.TaskLog, nebulaidl.core.Execution.TaskLog.Builder, nebulaidl.core.Execution.TaskLogOrBuilder> 
           getLogsFieldBuilder() {
         if (logsBuilder_ == null) {
           logsBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
@@ -19589,7 +19589,7 @@ public final class Event {
      *
      * <code>repeated .nebulaidl.event.ExternalResourceInfo external_resources = 2;</code>
      */
-    java.util.List<nebulaidl.event.Event.ExternalResourceInfo>
+    java.util.List<nebulaidl.event.Event.ExternalResourceInfo> 
         getExternalResourcesList();
     /**
      * <pre>
@@ -19614,7 +19614,7 @@ public final class Event {
      *
      * <code>repeated .nebulaidl.event.ExternalResourceInfo external_resources = 2;</code>
      */
-    java.util.List<? extends nebulaidl.event.Event.ExternalResourceInfoOrBuilder>
+    java.util.List<? extends nebulaidl.event.Event.ExternalResourceInfoOrBuilder> 
         getExternalResourcesOrBuilderList();
     /**
      * <pre>
@@ -19634,7 +19634,7 @@ public final class Event {
      *
      * <code>repeated .nebulaidl.event.ResourcePoolInfo resource_pool_info = 3;</code>
      */
-    java.util.List<nebulaidl.event.Event.ResourcePoolInfo>
+    java.util.List<nebulaidl.event.Event.ResourcePoolInfo> 
         getResourcePoolInfoList();
     /**
      * <pre>
@@ -19662,7 +19662,7 @@ public final class Event {
      *
      * <code>repeated .nebulaidl.event.ResourcePoolInfo resource_pool_info = 3;</code>
      */
-    java.util.List<? extends nebulaidl.event.Event.ResourcePoolInfoOrBuilder>
+    java.util.List<? extends nebulaidl.event.Event.ResourcePoolInfoOrBuilder> 
         getResourcePoolInfoOrBuilderList();
     /**
      * <pre>
@@ -20007,7 +20007,7 @@ public final class Event {
      *
      * <code>repeated .nebulaidl.event.ExternalResourceInfo external_resources = 2;</code>
      */
-    public java.util.List<? extends nebulaidl.event.Event.ExternalResourceInfoOrBuilder>
+    public java.util.List<? extends nebulaidl.event.Event.ExternalResourceInfoOrBuilder> 
         getExternalResourcesOrBuilderList() {
       return externalResources_;
     }
@@ -20064,7 +20064,7 @@ public final class Event {
      *
      * <code>repeated .nebulaidl.event.ResourcePoolInfo resource_pool_info = 3;</code>
      */
-    public java.util.List<? extends nebulaidl.event.Event.ResourcePoolInfoOrBuilder>
+    public java.util.List<? extends nebulaidl.event.Event.ResourcePoolInfoOrBuilder> 
         getResourcePoolInfoOrBuilderList() {
       return resourcePoolInfo_;
     }
@@ -20962,7 +20962,7 @@ public final class Event {
        *
        * <code>repeated .nebulaidl.event.ExternalResourceInfo external_resources = 2;</code>
        */
-      public java.util.List<? extends nebulaidl.event.Event.ExternalResourceInfoOrBuilder>
+      public java.util.List<? extends nebulaidl.event.Event.ExternalResourceInfoOrBuilder> 
            getExternalResourcesOrBuilderList() {
         if (externalResourcesBuilder_ != null) {
           return externalResourcesBuilder_.getMessageOrBuilderList();
@@ -21000,12 +21000,12 @@ public final class Event {
        *
        * <code>repeated .nebulaidl.event.ExternalResourceInfo external_resources = 2;</code>
        */
-      public java.util.List<nebulaidl.event.Event.ExternalResourceInfo.Builder>
+      public java.util.List<nebulaidl.event.Event.ExternalResourceInfo.Builder> 
            getExternalResourcesBuilderList() {
         return getExternalResourcesFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          nebulaidl.event.Event.ExternalResourceInfo, nebulaidl.event.Event.ExternalResourceInfo.Builder, nebulaidl.event.Event.ExternalResourceInfoOrBuilder>
+          nebulaidl.event.Event.ExternalResourceInfo, nebulaidl.event.Event.ExternalResourceInfo.Builder, nebulaidl.event.Event.ExternalResourceInfoOrBuilder> 
           getExternalResourcesFieldBuilder() {
         if (externalResourcesBuilder_ == null) {
           externalResourcesBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
@@ -21289,7 +21289,7 @@ public final class Event {
        *
        * <code>repeated .nebulaidl.event.ResourcePoolInfo resource_pool_info = 3;</code>
        */
-      public java.util.List<? extends nebulaidl.event.Event.ResourcePoolInfoOrBuilder>
+      public java.util.List<? extends nebulaidl.event.Event.ResourcePoolInfoOrBuilder> 
            getResourcePoolInfoOrBuilderList() {
         if (resourcePoolInfoBuilder_ != null) {
           return resourcePoolInfoBuilder_.getMessageOrBuilderList();
@@ -21330,12 +21330,12 @@ public final class Event {
        *
        * <code>repeated .nebulaidl.event.ResourcePoolInfo resource_pool_info = 3;</code>
        */
-      public java.util.List<nebulaidl.event.Event.ResourcePoolInfo.Builder>
+      public java.util.List<nebulaidl.event.Event.ResourcePoolInfo.Builder> 
            getResourcePoolInfoBuilderList() {
         return getResourcePoolInfoFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          nebulaidl.event.Event.ResourcePoolInfo, nebulaidl.event.Event.ResourcePoolInfo.Builder, nebulaidl.event.Event.ResourcePoolInfoOrBuilder>
+          nebulaidl.event.Event.ResourcePoolInfo, nebulaidl.event.Event.ResourcePoolInfo.Builder, nebulaidl.event.Event.ResourcePoolInfoOrBuilder> 
           getResourcePoolInfoFieldBuilder() {
         if (resourcePoolInfoBuilder_ == null) {
           resourcePoolInfoBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
@@ -21604,102 +21604,103 @@ public final class Event {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\032nebulaidl/event/event.proto\022\016nebulaidl.e" +
-      "vent\032\034nebulaidl/core/literals.proto\032\034flyt" +
-      "eidl/core/compiler.proto\032\035nebulaidl/core/" +
-      "execution.proto\032\036nebulaidl/core/identifie" +
-      "r.proto\032\033nebulaidl/core/catalog.proto\032\037go" +
-      "ogle/protobuf/timestamp.proto\032\034google/pr" +
-      "otobuf/struct.proto\"\340\002\n\026WorkflowExecutio" +
-      "nEvent\022@\n\014execution_id\030\001 \001(\0132*.nebulaidl." +
-      "core.WorkflowExecutionIdentifier\022\023\n\013prod" +
-      "ucer_id\030\002 \001(\t\0225\n\005phase\030\003 \001(\0162&.nebulaidl." +
-      "core.WorkflowExecution.Phase\022/\n\013occurred" +
-      "_at\030\004 \001(\0132\032.google.protobuf.Timestamp\022\024\n" +
-      "\noutput_uri\030\005 \001(\tH\000\022.\n\005error\030\006 \001(\0132\035.fly" +
-      "teidl.core.ExecutionErrorH\000\0220\n\013output_da" +
-      "ta\030\007 \001(\0132\031.nebulaidl.core.LiteralMapH\000B\017\n" +
-      "\routput_result\"\217\007\n\022NodeExecutionEvent\0222\n" +
-      "\002id\030\001 \001(\0132&.nebulaidl.core.NodeExecutionI" +
-      "dentifier\022\023\n\013producer_id\030\002 \001(\t\0221\n\005phase\030" +
-      "\003 \001(\0162\".nebulaidl.core.NodeExecution.Phas" +
-      "e\022/\n\013occurred_at\030\004 \001(\0132\032.google.protobuf" +
-      ".Timestamp\022\023\n\tinput_uri\030\005 \001(\tH\000\022/\n\ninput" +
-      "_data\030\024 \001(\0132\031.nebulaidl.core.LiteralMapH\000" +
-      "\022\024\n\noutput_uri\030\006 \001(\tH\001\022.\n\005error\030\007 \001(\0132\035." +
-      "nebulaidl.core.ExecutionErrorH\001\0220\n\013output" +
-      "_data\030\017 \001(\0132\031.nebulaidl.core.LiteralMapH\001" +
-      "\022F\n\026workflow_node_metadata\030\010 \001(\0132$.nebula" +
-      "idl.event.WorkflowNodeMetadataH\002\022>\n\022task" +
-      "_node_metadata\030\016 \001(\0132 .nebulaidl.event.Ta" +
-      "skNodeMetadataH\002\022I\n\024parent_task_metadata" +
-      "\030\t \001(\0132+.nebulaidl.event.ParentTaskExecut" +
-      "ionMetadata\022I\n\024parent_node_metadata\030\n \001(" +
-      "\0132+.nebulaidl.event.ParentNodeExecutionMe" +
-      "tadata\022\023\n\013retry_group\030\013 \001(\t\022\024\n\014spec_node" +
-      "_id\030\014 \001(\t\022\021\n\tnode_name\030\r \001(\t\022\025\n\revent_ve" +
-      "rsion\030\020 \001(\005\022\021\n\tis_parent\030\021 \001(\010\022\022\n\nis_dyn" +
-      "amic\030\022 \001(\010\022\020\n\010deck_uri\030\023 \001(\t\022/\n\013reported" +
-      "_at\030\025 \001(\0132\032.google.protobuf.TimestampB\r\n" +
-      "\013input_valueB\017\n\routput_resultB\021\n\017target_" +
-      "metadata\"X\n\024WorkflowNodeMetadata\022@\n\014exec" +
-      "ution_id\030\001 \001(\0132*.nebulaidl.core.WorkflowE" +
-      "xecutionIdentifier\"\245\002\n\020TaskNodeMetadata\022" +
-      "7\n\014cache_status\030\001 \001(\0162!.nebulaidl.core.Ca" +
-      "talogCacheStatus\0223\n\013catalog_key\030\002 \001(\0132\036." +
-      "nebulaidl.core.CatalogMetadata\022D\n\022reserva" +
-      "tion_status\030\003 \001(\0162(.nebulaidl.core.Catalo" +
-      "gReservation.Status\022\026\n\016checkpoint_uri\030\004 " +
-      "\001(\t\022E\n\020dynamic_workflow\030\020 \001(\0132+.nebulaidl" +
-      ".event.DynamicWorkflowNodeMetadata\"\245\001\n\033D" +
-      "ynamicWorkflowNodeMetadata\022%\n\002id\030\001 \001(\0132\031" +
-      ".nebulaidl.core.Identifier\022A\n\021compiled_wo" +
-      "rkflow\030\002 \001(\0132&.nebulaidl.core.CompiledWor" +
-      "kflowClosure\022\034\n\024dynamic_job_spec_uri\030\003 \001" +
-      "(\t\"Q\n\033ParentTaskExecutionMetadata\0222\n\002id\030" +
-      "\001 \001(\0132&.nebulaidl.core.TaskExecutionIdent" +
-      "ifier\".\n\033ParentNodeExecutionMetadata\022\017\n\007" +
-      "node_id\030\001 \001(\t\"N\n\013EventReason\022\016\n\006reason\030\001" +
-      " \001(\t\022/\n\013occurred_at\030\002 \001(\0132\032.google.proto" +
-      "buf.Timestamp\"\271\006\n\022TaskExecutionEvent\022*\n\007" +
-      "task_id\030\001 \001(\0132\031.nebulaidl.core.Identifier" +
-      "\022H\n\030parent_node_execution_id\030\002 \001(\0132&.fly" +
-      "teidl.core.NodeExecutionIdentifier\022\025\n\rre" +
-      "try_attempt\030\003 \001(\r\0221\n\005phase\030\004 \001(\0162\".nebula" +
-      "idl.core.TaskExecution.Phase\022\023\n\013producer" +
-      "_id\030\005 \001(\t\022$\n\004logs\030\006 \003(\0132\026.nebulaidl.core." +
-      "TaskLog\022/\n\013occurred_at\030\007 \001(\0132\032.google.pr" +
-      "otobuf.Timestamp\022\023\n\tinput_uri\030\010 \001(\tH\000\022/\n" +
-      "\ninput_data\030\023 \001(\0132\031.nebulaidl.core.Litera" +
-      "lMapH\000\022\024\n\noutput_uri\030\t \001(\tH\001\022.\n\005error\030\n " +
-      "\001(\0132\035.nebulaidl.core.ExecutionErrorH\001\0220\n\013" +
-      "output_data\030\021 \001(\0132\031.nebulaidl.core.Litera" +
-      "lMapH\001\022,\n\013custom_info\030\013 \001(\0132\027.google.pro" +
-      "tobuf.Struct\022\025\n\rphase_version\030\014 \001(\r\022\022\n\006r" +
-      "eason\030\r \001(\tB\002\030\001\022,\n\007reasons\030\025 \003(\0132\033.nebula" +
-      "idl.event.EventReason\022\021\n\ttask_type\030\016 \001(\t" +
-      "\0227\n\010metadata\030\020 \001(\0132%.nebulaidl.event.Task" +
-      "ExecutionMetadata\022\025\n\revent_version\030\022 \001(\005" +
-      "\022/\n\013reported_at\030\024 \001(\0132\032.google.protobuf." +
-      "TimestampB\r\n\013input_valueB\017\n\routput_resul" +
-      "t\"\343\001\n\024ExternalResourceInfo\022\023\n\013external_i" +
-      "d\030\001 \001(\t\022\r\n\005index\030\002 \001(\r\022\025\n\rretry_attempt\030" +
-      "\003 \001(\r\0221\n\005phase\030\004 \001(\0162\".nebulaidl.core.Tas" +
-      "kExecution.Phase\0227\n\014cache_status\030\005 \001(\0162!" +
-      ".nebulaidl.core.CatalogCacheStatus\022$\n\004log" +
-      "s\030\006 \003(\0132\026.nebulaidl.core.TaskLog\"?\n\020Resou" +
+      "\n\033nebulaidl/event/event.proto\022\017nebulaidl" +
+      ".event\032\035nebulaidl/core/literals.proto\032\035n" +
+      "ebulaidl/core/compiler.proto\032\036nebulaidl/" +
+      "core/execution.proto\032\037nebulaidl/core/ide" +
+      "ntifier.proto\032\034nebulaidl/core/catalog.pr" +
+      "oto\032\037google/protobuf/timestamp.proto\032\034go" +
+      "ogle/protobuf/struct.proto\"\344\002\n\026WorkflowE" +
+      "xecutionEvent\022A\n\014execution_id\030\001 \001(\0132+.ne" +
+      "bulaidl.core.WorkflowExecutionIdentifier" +
+      "\022\023\n\013producer_id\030\002 \001(\t\0226\n\005phase\030\003 \001(\0162\'.n" +
+      "ebulaidl.core.WorkflowExecution.Phase\022/\n" +
+      "\013occurred_at\030\004 \001(\0132\032.google.protobuf.Tim" +
+      "estamp\022\024\n\noutput_uri\030\005 \001(\tH\000\022/\n\005error\030\006 " +
+      "\001(\0132\036.nebulaidl.core.ExecutionErrorH\000\0221\n" +
+      "\013output_data\030\007 \001(\0132\032.nebulaidl.core.Lite" +
+      "ralMapH\000B\017\n\routput_result\"\230\007\n\022NodeExecut" +
+      "ionEvent\0223\n\002id\030\001 \001(\0132\'.nebulaidl.core.No" +
+      "deExecutionIdentifier\022\023\n\013producer_id\030\002 \001" +
+      "(\t\0222\n\005phase\030\003 \001(\0162#.nebulaidl.core.NodeE" +
+      "xecution.Phase\022/\n\013occurred_at\030\004 \001(\0132\032.go" +
+      "ogle.protobuf.Timestamp\022\023\n\tinput_uri\030\005 \001" +
+      "(\tH\000\0220\n\ninput_data\030\024 \001(\0132\032.nebulaidl.cor" +
+      "e.LiteralMapH\000\022\024\n\noutput_uri\030\006 \001(\tH\001\022/\n\005" +
+      "error\030\007 \001(\0132\036.nebulaidl.core.ExecutionEr" +
+      "rorH\001\0221\n\013output_data\030\017 \001(\0132\032.nebulaidl.c" +
+      "ore.LiteralMapH\001\022G\n\026workflow_node_metada" +
+      "ta\030\010 \001(\0132%.nebulaidl.event.WorkflowNodeM" +
+      "etadataH\002\022?\n\022task_node_metadata\030\016 \001(\0132!." +
+      "nebulaidl.event.TaskNodeMetadataH\002\022J\n\024pa" +
+      "rent_task_metadata\030\t \001(\0132,.nebulaidl.eve" +
+      "nt.ParentTaskExecutionMetadata\022J\n\024parent" +
+      "_node_metadata\030\n \001(\0132,.nebulaidl.event.P" +
+      "arentNodeExecutionMetadata\022\023\n\013retry_grou" +
+      "p\030\013 \001(\t\022\024\n\014spec_node_id\030\014 \001(\t\022\021\n\tnode_na" +
+      "me\030\r \001(\t\022\025\n\revent_version\030\020 \001(\005\022\021\n\tis_pa" +
+      "rent\030\021 \001(\010\022\022\n\nis_dynamic\030\022 \001(\010\022\020\n\010deck_u" +
+      "ri\030\023 \001(\t\022/\n\013reported_at\030\025 \001(\0132\032.google.p" +
+      "rotobuf.TimestampB\r\n\013input_valueB\017\n\routp" +
+      "ut_resultB\021\n\017target_metadata\"Y\n\024Workflow" +
+      "NodeMetadata\022A\n\014execution_id\030\001 \001(\0132+.neb" +
+      "ulaidl.core.WorkflowExecutionIdentifier\"" +
+      "\251\002\n\020TaskNodeMetadata\0228\n\014cache_status\030\001 \001" +
+      "(\0162\".nebulaidl.core.CatalogCacheStatus\0224" +
+      "\n\013catalog_key\030\002 \001(\0132\037.nebulaidl.core.Cat" +
+      "alogMetadata\022E\n\022reservation_status\030\003 \001(\016" +
+      "2).nebulaidl.core.CatalogReservation.Sta" +
+      "tus\022\026\n\016checkpoint_uri\030\004 \001(\t\022F\n\020dynamic_w" +
+      "orkflow\030\020 \001(\0132,.nebulaidl.event.DynamicW" +
+      "orkflowNodeMetadata\"\247\001\n\033DynamicWorkflowN" +
+      "odeMetadata\022&\n\002id\030\001 \001(\0132\032.nebulaidl.core" +
+      ".Identifier\022B\n\021compiled_workflow\030\002 \001(\0132\'" +
+      ".nebulaidl.core.CompiledWorkflowClosure\022" +
+      "\034\n\024dynamic_job_spec_uri\030\003 \001(\t\"R\n\033ParentT" +
+      "askExecutionMetadata\0223\n\002id\030\001 \001(\0132\'.nebul" +
+      "aidl.core.TaskExecutionIdentifier\".\n\033Par" +
+      "entNodeExecutionMetadata\022\017\n\007node_id\030\001 \001(" +
+      "\t\"N\n\013EventReason\022\016\n\006reason\030\001 \001(\t\022/\n\013occu" +
+      "rred_at\030\002 \001(\0132\032.google.protobuf.Timestam" +
+      "p\"\302\006\n\022TaskExecutionEvent\022+\n\007task_id\030\001 \001(" +
+      "\0132\032.nebulaidl.core.Identifier\022I\n\030parent_" +
+      "node_execution_id\030\002 \001(\0132\'.nebulaidl.core" +
+      ".NodeExecutionIdentifier\022\025\n\rretry_attemp" +
+      "t\030\003 \001(\r\0222\n\005phase\030\004 \001(\0162#.nebulaidl.core." +
+      "TaskExecution.Phase\022\023\n\013producer_id\030\005 \001(\t" +
+      "\022%\n\004logs\030\006 \003(\0132\027.nebulaidl.core.TaskLog\022" +
+      "/\n\013occurred_at\030\007 \001(\0132\032.google.protobuf.T" +
+      "imestamp\022\023\n\tinput_uri\030\010 \001(\tH\000\0220\n\ninput_d" +
+      "ata\030\023 \001(\0132\032.nebulaidl.core.LiteralMapH\000\022" +
+      "\024\n\noutput_uri\030\t \001(\tH\001\022/\n\005error\030\n \001(\0132\036.n" +
+      "ebulaidl.core.ExecutionErrorH\001\0221\n\013output" +
+      "_data\030\021 \001(\0132\032.nebulaidl.core.LiteralMapH" +
+      "\001\022,\n\013custom_info\030\013 \001(\0132\027.google.protobuf" +
+      ".Struct\022\025\n\rphase_version\030\014 \001(\r\022\022\n\006reason" +
+      "\030\r \001(\tB\002\030\001\022-\n\007reasons\030\025 \003(\0132\034.nebulaidl." +
+      "event.EventReason\022\021\n\ttask_type\030\016 \001(\t\0228\n\010" +
+      "metadata\030\020 \001(\0132&.nebulaidl.event.TaskExe" +
+      "cutionMetadata\022\025\n\revent_version\030\022 \001(\005\022/\n" +
+      "\013reported_at\030\024 \001(\0132\032.google.protobuf.Tim" +
+      "estampB\r\n\013input_valueB\017\n\routput_result\"\346" +
+      "\001\n\024ExternalResourceInfo\022\023\n\013external_id\030\001" +
+      " \001(\t\022\r\n\005index\030\002 \001(\r\022\025\n\rretry_attempt\030\003 \001" +
+      "(\r\0222\n\005phase\030\004 \001(\0162#.nebulaidl.core.TaskE" +
+      "xecution.Phase\0228\n\014cache_status\030\005 \001(\0162\".n" +
+      "ebulaidl.core.CatalogCacheStatus\022%\n\004logs" +
+      "\030\006 \003(\0132\027.nebulaidl.core.TaskLog\"?\n\020Resou" +
       "rcePoolInfo\022\030\n\020allocation_token\030\001 \001(\t\022\021\n" +
-      "\tnamespace\030\002 \001(\t\"\310\002\n\025TaskExecutionMetada" +
-      "ta\022\026\n\016generated_name\030\001 \001(\t\022@\n\022external_r" +
-      "esources\030\002 \003(\0132$.nebulaidl.event.External" +
-      "ResourceInfo\022<\n\022resource_pool_info\030\003 \003(\013" +
-      "2 .nebulaidl.event.ResourcePoolInfo\022\031\n\021pl" +
-      "ugin_identifier\030\004 \001(\t\022K\n\016instance_class\030" +
-      "\020 \001(\01623.nebulaidl.event.TaskExecutionMeta" +
-      "data.InstanceClass\"/\n\rInstanceClass\022\013\n\007D" +
-      "EFAULT\020\000\022\021\n\rINTERRUPTIBLE\020\001B7Z5github.co" +
-      "m/nebulaclouds/nebulaidl/gen/pb-go/nebulaidl/e" +
-      "ventb\006proto3"
+      "\tnamespace\030\002 \001(\t\"\313\002\n\025TaskExecutionMetada" +
+      "ta\022\026\n\016generated_name\030\001 \001(\t\022A\n\022external_r" +
+      "esources\030\002 \003(\0132%.nebulaidl.event.Externa" +
+      "lResourceInfo\022=\n\022resource_pool_info\030\003 \003(" +
+      "\0132!.nebulaidl.event.ResourcePoolInfo\022\031\n\021" +
+      "plugin_identifier\030\004 \001(\t\022L\n\016instance_clas" +
+      "s\030\020 \001(\01624.nebulaidl.event.TaskExecutionM" +
+      "etadata.InstanceClass\"/\n\rInstanceClass\022\013" +
+      "\n\007DEFAULT\020\000\022\021\n\rINTERRUPTIBLE\020\001B=Z;github" +
+      ".com/nebulaclouds/nebulaidl/gen/pb-go/ne" +
+      "bulaidl/eventb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

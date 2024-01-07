@@ -134,22 +134,23 @@ static ::google::protobuf::Message const * const file_default_instances[] = {
 };
 
 const char descriptor_table_protodef_nebulaidl_2fplugins_2fdask_2eproto[] =
-  "\n\033nebulaidl/plugins/dask.proto\022\020nebulaidl."
-  "plugins\032\031nebulaidl/core/tasks.proto\"q\n\007Da"
-  "skJob\0222\n\tscheduler\030\001 \001(\0132\037.nebulaidl.plug"
-  "ins.DaskScheduler\0222\n\007workers\030\002 \001(\0132!.fly"
-  "teidl.plugins.DaskWorkerGroup\"K\n\rDaskSch"
-  "eduler\022\r\n\005image\030\001 \001(\t\022+\n\tresources\030\002 \001(\013"
-  "2\030.nebulaidl.core.Resources\"h\n\017DaskWorker"
-  "Group\022\031\n\021number_of_workers\030\001 \001(\r\022\r\n\005imag"
-  "e\030\002 \001(\t\022+\n\tresources\030\003 \001(\0132\030.nebulaidl.co"
-  "re.ResourcesB9Z7github.com/nebulaclouds/flyt"
-  "eidl/gen/pb-go/nebulaidl/pluginsb\006proto3"
+  "\n\034nebulaidl/plugins/dask.proto\022\021nebulaid"
+  "l.plugins\032\032nebulaidl/core/tasks.proto\"s\n"
+  "\007DaskJob\0223\n\tscheduler\030\001 \001(\0132 .nebulaidl."
+  "plugins.DaskScheduler\0223\n\007workers\030\002 \001(\0132\""
+  ".nebulaidl.plugins.DaskWorkerGroup\"L\n\rDa"
+  "skScheduler\022\r\n\005image\030\001 \001(\t\022,\n\tresources\030"
+  "\002 \001(\0132\031.nebulaidl.core.Resources\"i\n\017Dask"
+  "WorkerGroup\022\031\n\021number_of_workers\030\001 \001(\r\022\r"
+  "\n\005image\030\002 \001(\t\022,\n\tresources\030\003 \001(\0132\031.nebul"
+  "aidl.core.ResourcesB\?Z=github.com/nebula"
+  "clouds/nebulaidl/gen/pb-go/nebulaidl/plu"
+  "ginsb\006proto3"
   ;
 ::google::protobuf::internal::DescriptorTable descriptor_table_nebulaidl_2fplugins_2fdask_2eproto = {
-  false, InitDefaults_nebulaidl_2fplugins_2fdask_2eproto,
+  false, InitDefaults_nebulaidl_2fplugins_2fdask_2eproto, 
   descriptor_table_protodef_nebulaidl_2fplugins_2fdask_2eproto,
-  "nebulaidl/plugins/dask.proto", &assign_descriptors_table_nebulaidl_2fplugins_2fdask_2eproto, 439,
+  "nebulaidl/plugins/dask.proto", &assign_descriptors_table_nebulaidl_2fplugins_2fdask_2eproto, 452,
 };
 
 void AddDescriptors_nebulaidl_2fplugins_2fdask_2eproto() {

@@ -16,8 +16,8 @@
 // @@protoc_insertion_point(includes)
 #include <google/protobuf/port_def.inc>
 
-extern PROTOBUF_INTERNAL_EXPORT_nebulaidl_2fcore_2fexecution_2eproto ::google::protobuf::internal::SCCInfo<1> scc_info_QualityOfServiceSpec_nebulaidl_2fcore_2fexecution_2eproto;
 extern PROTOBUF_INTERNAL_EXPORT_google_2fprotobuf_2fduration_2eproto ::google::protobuf::internal::SCCInfo<0> scc_info_Duration_google_2fprotobuf_2fduration_2eproto;
+extern PROTOBUF_INTERNAL_EXPORT_nebulaidl_2fcore_2fexecution_2eproto ::google::protobuf::internal::SCCInfo<1> scc_info_QualityOfServiceSpec_nebulaidl_2fcore_2fexecution_2eproto;
 namespace nebulaidl {
 namespace core {
 class WorkflowExecutionDefaultTypeInternal {
@@ -243,44 +243,44 @@ static ::google::protobuf::Message const * const file_default_instances[] = {
 };
 
 const char descriptor_table_protodef_nebulaidl_2fcore_2fexecution_2eproto[] =
-  "\n\035nebulaidl/core/execution.proto\022\rnebulaid"
-  "l.core\032\036google/protobuf/duration.proto\"\247"
-  "\001\n\021WorkflowExecution\"\221\001\n\005Phase\022\r\n\tUNDEFI"
-  "NED\020\000\022\n\n\006QUEUED\020\001\022\013\n\007RUNNING\020\002\022\016\n\nSUCCEE"
-  "DING\020\003\022\r\n\tSUCCEEDED\020\004\022\013\n\007FAILING\020\005\022\n\n\006FA"
-  "ILED\020\006\022\013\n\007ABORTED\020\007\022\r\n\tTIMED_OUT\020\010\022\014\n\010AB"
-  "ORTING\020\t\"\266\001\n\rNodeExecution\"\244\001\n\005Phase\022\r\n\t"
-  "UNDEFINED\020\000\022\n\n\006QUEUED\020\001\022\013\n\007RUNNING\020\002\022\r\n\t"
-  "SUCCEEDED\020\003\022\013\n\007FAILING\020\004\022\n\n\006FAILED\020\005\022\013\n\007"
-  "ABORTED\020\006\022\013\n\007SKIPPED\020\007\022\r\n\tTIMED_OUT\020\010\022\023\n"
-  "\017DYNAMIC_RUNNING\020\t\022\r\n\tRECOVERED\020\n\"\226\001\n\rTa"
-  "skExecution\"\204\001\n\005Phase\022\r\n\tUNDEFINED\020\000\022\n\n\006"
-  "QUEUED\020\001\022\013\n\007RUNNING\020\002\022\r\n\tSUCCEEDED\020\003\022\013\n\007"
-  "ABORTED\020\004\022\n\n\006FAILED\020\005\022\020\n\014INITIALIZING\020\006\022"
-  "\031\n\025WAITING_FOR_RESOURCES\020\007\"\251\001\n\016Execution"
-  "Error\022\014\n\004code\030\001 \001(\t\022\017\n\007message\030\002 \001(\t\022\021\n\t"
-  "error_uri\030\003 \001(\t\0225\n\004kind\030\004 \001(\0162\'.nebulaidl"
-  ".core.ExecutionError.ErrorKind\".\n\tErrorK"
-  "ind\022\013\n\007UNKNOWN\020\000\022\010\n\004USER\020\001\022\n\n\006SYSTEM\020\002\"\273"
-  "\001\n\007TaskLog\022\013\n\003uri\030\001 \001(\t\022\014\n\004name\030\002 \001(\t\022<\n"
-  "\016message_format\030\003 \001(\0162$.nebulaidl.core.Ta"
-  "skLog.MessageFormat\022&\n\003ttl\030\004 \001(\0132\031.googl"
-  "e.protobuf.Duration\"/\n\rMessageFormat\022\013\n\007"
-  "UNKNOWN\020\000\022\007\n\003CSV\020\001\022\010\n\004JSON\020\002\"J\n\024QualityO"
-  "fServiceSpec\0222\n\017queueing_budget\030\001 \001(\0132\031."
-  "google.protobuf.Duration\"\302\001\n\020QualityOfSe"
-  "rvice\0224\n\004tier\030\001 \001(\0162$.nebulaidl.core.Qual"
-  "ityOfService.TierH\000\0223\n\004spec\030\002 \001(\0132#.flyt"
-  "eidl.core.QualityOfServiceSpecH\000\"4\n\004Tier"
-  "\022\r\n\tUNDEFINED\020\000\022\010\n\004HIGH\020\001\022\n\n\006MEDIUM\020\002\022\007\n"
-  "\003LOW\020\003B\r\n\013designationB6Z4github.com/nebula"
-  "clouds/nebulaidl/gen/pb-go/nebulaidl/coreb\006p"
-  "roto3"
+  "\n\036nebulaidl/core/execution.proto\022\016nebula"
+  "idl.core\032\036google/protobuf/duration.proto"
+  "\"\247\001\n\021WorkflowExecution\"\221\001\n\005Phase\022\r\n\tUNDE"
+  "FINED\020\000\022\n\n\006QUEUED\020\001\022\013\n\007RUNNING\020\002\022\016\n\nSUCC"
+  "EEDING\020\003\022\r\n\tSUCCEEDED\020\004\022\013\n\007FAILING\020\005\022\n\n\006"
+  "FAILED\020\006\022\013\n\007ABORTED\020\007\022\r\n\tTIMED_OUT\020\010\022\014\n\010"
+  "ABORTING\020\t\"\266\001\n\rNodeExecution\"\244\001\n\005Phase\022\r"
+  "\n\tUNDEFINED\020\000\022\n\n\006QUEUED\020\001\022\013\n\007RUNNING\020\002\022\r"
+  "\n\tSUCCEEDED\020\003\022\013\n\007FAILING\020\004\022\n\n\006FAILED\020\005\022\013"
+  "\n\007ABORTED\020\006\022\013\n\007SKIPPED\020\007\022\r\n\tTIMED_OUT\020\010\022"
+  "\023\n\017DYNAMIC_RUNNING\020\t\022\r\n\tRECOVERED\020\n\"\226\001\n\r"
+  "TaskExecution\"\204\001\n\005Phase\022\r\n\tUNDEFINED\020\000\022\n"
+  "\n\006QUEUED\020\001\022\013\n\007RUNNING\020\002\022\r\n\tSUCCEEDED\020\003\022\013"
+  "\n\007ABORTED\020\004\022\n\n\006FAILED\020\005\022\020\n\014INITIALIZING\020"
+  "\006\022\031\n\025WAITING_FOR_RESOURCES\020\007\"\252\001\n\016Executi"
+  "onError\022\014\n\004code\030\001 \001(\t\022\017\n\007message\030\002 \001(\t\022\021"
+  "\n\terror_uri\030\003 \001(\t\0226\n\004kind\030\004 \001(\0162(.nebula"
+  "idl.core.ExecutionError.ErrorKind\".\n\tErr"
+  "orKind\022\013\n\007UNKNOWN\020\000\022\010\n\004USER\020\001\022\n\n\006SYSTEM\020"
+  "\002\"\274\001\n\007TaskLog\022\013\n\003uri\030\001 \001(\t\022\014\n\004name\030\002 \001(\t"
+  "\022=\n\016message_format\030\003 \001(\0162%.nebulaidl.cor"
+  "e.TaskLog.MessageFormat\022&\n\003ttl\030\004 \001(\0132\031.g"
+  "oogle.protobuf.Duration\"/\n\rMessageFormat"
+  "\022\013\n\007UNKNOWN\020\000\022\007\n\003CSV\020\001\022\010\n\004JSON\020\002\"J\n\024Qual"
+  "ityOfServiceSpec\0222\n\017queueing_budget\030\001 \001("
+  "\0132\031.google.protobuf.Duration\"\304\001\n\020Quality"
+  "OfService\0225\n\004tier\030\001 \001(\0162%.nebulaidl.core"
+  ".QualityOfService.TierH\000\0224\n\004spec\030\002 \001(\0132$"
+  ".nebulaidl.core.QualityOfServiceSpecH\000\"4"
+  "\n\004Tier\022\r\n\tUNDEFINED\020\000\022\010\n\004HIGH\020\001\022\n\n\006MEDIU"
+  "M\020\002\022\007\n\003LOW\020\003B\r\n\013designationB<Z:github.co"
+  "m/nebulaclouds/nebulaidl/gen/pb-go/nebul"
+  "aidl/coreb\006proto3"
   ;
 ::google::protobuf::internal::DescriptorTable descriptor_table_nebulaidl_2fcore_2fexecution_2eproto = {
-  false, InitDefaults_nebulaidl_2fcore_2fexecution_2eproto,
+  false, InitDefaults_nebulaidl_2fcore_2fexecution_2eproto, 
   descriptor_table_protodef_nebulaidl_2fcore_2fexecution_2eproto,
-  "nebulaidl/core/execution.proto", &assign_descriptors_table_nebulaidl_2fcore_2fexecution_2eproto, 1285,
+  "nebulaidl/core/execution.proto", &assign_descriptors_table_nebulaidl_2fcore_2fexecution_2eproto, 1297,
 };
 
 void AddDescriptors_nebulaidl_2fcore_2fexecution_2eproto() {

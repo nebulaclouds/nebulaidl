@@ -11,6 +11,6 @@ package nebulaadmin
 
 // Indicates the priority of an execution.
 type CoreQualityOfService struct {
-	Tier *QualityOfServiceTier     `json:"tier,omitempty"`
+	Tier *QualityOfServiceTier `json:"tier,omitempty"`
 	Spec *CoreQualityOfServiceSpec `json:"spec,omitempty"`
 }

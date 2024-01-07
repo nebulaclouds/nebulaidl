@@ -81,22 +81,22 @@ static ::google::protobuf::Message const * const file_default_instances[] = {
 };
 
 const char descriptor_table_protodef_nebulaidl_2fcore_2fdynamic_5fjob_2eproto[] =
-  "\n\037nebulaidl/core/dynamic_job.proto\022\rnebula"
-  "idl.core\032\031nebulaidl/core/tasks.proto\032\034fly"
-  "teidl/core/workflow.proto\032\034nebulaidl/core"
-  "/literals.proto\"\327\001\n\016DynamicJobSpec\022\"\n\005no"
-  "des\030\001 \003(\0132\023.nebulaidl.core.Node\022\025\n\rmin_su"
-  "ccesses\030\002 \001(\003\022\'\n\007outputs\030\003 \003(\0132\026.nebulaid"
-  "l.core.Binding\022*\n\005tasks\030\004 \003(\0132\033.nebulaidl"
-  ".core.TaskTemplate\0225\n\014subworkflows\030\005 \003(\013"
-  "2\037.nebulaidl.core.WorkflowTemplateB6Z4git"
-  "hub.com/nebulaclouds/nebulaidl/gen/pb-go/flyt"
-  "eidl/coreb\006proto3"
+  "\n nebulaidl/core/dynamic_job.proto\022\016nebu"
+  "laidl.core\032\032nebulaidl/core/tasks.proto\032\035"
+  "nebulaidl/core/workflow.proto\032\035nebulaidl"
+  "/core/literals.proto\"\333\001\n\016DynamicJobSpec\022"
+  "#\n\005nodes\030\001 \003(\0132\024.nebulaidl.core.Node\022\025\n\r"
+  "min_successes\030\002 \001(\003\022(\n\007outputs\030\003 \003(\0132\027.n"
+  "ebulaidl.core.Binding\022+\n\005tasks\030\004 \003(\0132\034.n"
+  "ebulaidl.core.TaskTemplate\0226\n\014subworkflo"
+  "ws\030\005 \003(\0132 .nebulaidl.core.WorkflowTempla"
+  "teB<Z:github.com/nebulaclouds/nebulaidl/"
+  "gen/pb-go/nebulaidl/coreb\006proto3"
   ;
 ::google::protobuf::internal::DescriptorTable descriptor_table_nebulaidl_2fcore_2fdynamic_5fjob_2eproto = {
-  false, InitDefaults_nebulaidl_2fcore_2fdynamic_5fjob_2eproto,
+  false, InitDefaults_nebulaidl_2fcore_2fdynamic_5fjob_2eproto, 
   descriptor_table_protodef_nebulaidl_2fcore_2fdynamic_5fjob_2eproto,
-  "nebulaidl/core/dynamic_job.proto", &assign_descriptors_table_nebulaidl_2fcore_2fdynamic_5fjob_2eproto, 417,
+  "nebulaidl/core/dynamic_job.proto", &assign_descriptors_table_nebulaidl_2fcore_2fdynamic_5fjob_2eproto, 432,
 };
 
 void AddDescriptors_nebulaidl_2fcore_2fdynamic_5fjob_2eproto() {

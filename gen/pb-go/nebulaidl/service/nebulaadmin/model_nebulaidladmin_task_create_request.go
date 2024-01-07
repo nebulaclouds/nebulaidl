@@ -10,6 +10,6 @@
 package nebulaadmin
 
 type NebulaidladminTaskCreateRequest struct {
-	Id   *CoreIdentifier `json:"id,omitempty"`
-	Spec *AdminTaskSpec  `json:"spec,omitempty"`
+	Id *CoreIdentifier `json:"id,omitempty"`
+	Spec *AdminTaskSpec `json:"spec,omitempty"`
 }

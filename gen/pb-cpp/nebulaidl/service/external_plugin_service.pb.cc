@@ -213,38 +213,38 @@ static ::google::protobuf::Message const * const file_default_instances[] = {
 };
 
 const char descriptor_table_protodef_nebulaidl_2fservice_2fexternal_5fplugin_5fservice_2eproto[] =
-  "\n.nebulaidl/service/external_plugin_servi"
-  "ce.proto\022\020nebulaidl.service\032\034nebulaidl/cor"
-  "e/literals.proto\032\031nebulaidl/core/tasks.pr"
-  "oto\032\035nebulaidl/core/interface.proto\"\210\001\n\021T"
-  "askCreateRequest\022)\n\006inputs\030\001 \001(\0132\031.nebula"
-  "idl.core.LiteralMap\022-\n\010template\030\002 \001(\0132\033."
-  "nebulaidl.core.TaskTemplate\022\025\n\routput_pre"
-  "fix\030\003 \001(\t:\002\030\001\"(\n\022TaskCreateResponse\022\016\n\006j"
-  "ob_id\030\001 \001(\t:\002\030\001\"7\n\016TaskGetRequest\022\021\n\ttas"
-  "k_type\030\001 \001(\t\022\016\n\006job_id\030\002 \001(\t:\002\030\001\"i\n\017Task"
-  "GetResponse\022&\n\005state\030\001 \001(\0162\027.nebulaidl.se"
-  "rvice.State\022*\n\007outputs\030\002 \001(\0132\031.nebulaidl."
-  "core.LiteralMap:\002\030\001\":\n\021TaskDeleteRequest"
+  "\n/nebulaidl/service/external_plugin_serv"
+  "ice.proto\022\021nebulaidl.service\032\035nebulaidl/"
+  "core/literals.proto\032\032nebulaidl/core/task"
+  "s.proto\032\036nebulaidl/core/interface.proto\""
+  "\212\001\n\021TaskCreateRequest\022*\n\006inputs\030\001 \001(\0132\032."
+  "nebulaidl.core.LiteralMap\022.\n\010template\030\002 "
+  "\001(\0132\034.nebulaidl.core.TaskTemplate\022\025\n\rout"
+  "put_prefix\030\003 \001(\t:\002\030\001\"(\n\022TaskCreateRespon"
+  "se\022\016\n\006job_id\030\001 \001(\t:\002\030\001\"7\n\016TaskGetRequest"
   "\022\021\n\ttask_type\030\001 \001(\t\022\016\n\006job_id\030\002 \001(\t:\002\030\001\""
-  "\030\n\022TaskDeleteResponse:\002\030\001*b\n\005State\022\025\n\021RE"
-  "TRYABLE_FAILURE\020\000\022\025\n\021PERMANENT_FAILURE\020\001"
-  "\022\013\n\007PENDING\020\002\022\013\n\007RUNNING\020\003\022\r\n\tSUCCEEDED\020"
-  "\004\032\002\030\0012\250\002\n\025ExternalPluginService\022\\\n\nCreat"
-  "eTask\022#.nebulaidl.service.TaskCreateReque"
-  "st\032$.nebulaidl.service.TaskCreateResponse"
-  "\"\003\210\002\001\022S\n\007GetTask\022 .nebulaidl.service.Task"
-  "GetRequest\032!.nebulaidl.service.TaskGetRes"
-  "ponse\"\003\210\002\001\022\\\n\nDeleteTask\022#.nebulaidl.serv"
-  "ice.TaskDeleteRequest\032$.nebulaidl.service"
-  ".TaskDeleteResponse\"\003\210\002\001B9Z7github.com/n"
-  "ebulaclouds/nebulaidl/gen/pb-go/nebulaidl/serv"
-  "iceb\006proto3"
+  "k\n\017TaskGetResponse\022\'\n\005state\030\001 \001(\0162\030.nebu"
+  "laidl.service.State\022+\n\007outputs\030\002 \001(\0132\032.n"
+  "ebulaidl.core.LiteralMap:\002\030\001\":\n\021TaskDele"
+  "teRequest\022\021\n\ttask_type\030\001 \001(\t\022\016\n\006job_id\030\002"
+  " \001(\t:\002\030\001\"\030\n\022TaskDeleteResponse:\002\030\001*b\n\005St"
+  "ate\022\025\n\021RETRYABLE_FAILURE\020\000\022\025\n\021PERMANENT_"
+  "FAILURE\020\001\022\013\n\007PENDING\020\002\022\013\n\007RUNNING\020\003\022\r\n\tS"
+  "UCCEEDED\020\004\032\002\030\0012\256\002\n\025ExternalPluginService"
+  "\022^\n\nCreateTask\022$.nebulaidl.service.TaskC"
+  "reateRequest\032%.nebulaidl.service.TaskCre"
+  "ateResponse\"\003\210\002\001\022U\n\007GetTask\022!.nebulaidl."
+  "service.TaskGetRequest\032\".nebulaidl.servi"
+  "ce.TaskGetResponse\"\003\210\002\001\022^\n\nDeleteTask\022$."
+  "nebulaidl.service.TaskDeleteRequest\032%.ne"
+  "bulaidl.service.TaskDeleteResponse\"\003\210\002\001B"
+  "\?Z=github.com/nebulaclouds/nebulaidl/gen"
+  "/pb-go/nebulaidl/serviceb\006proto3"
   ;
 ::google::protobuf::internal::DescriptorTable descriptor_table_nebulaidl_2fservice_2fexternal_5fplugin_5fservice_2eproto = {
-  false, InitDefaults_nebulaidl_2fservice_2fexternal_5fplugin_5fservice_2eproto,
+  false, InitDefaults_nebulaidl_2fservice_2fexternal_5fplugin_5fservice_2eproto, 
   descriptor_table_protodef_nebulaidl_2fservice_2fexternal_5fplugin_5fservice_2eproto,
-  "nebulaidl/service/external_plugin_service.proto", &assign_descriptors_table_nebulaidl_2fservice_2fexternal_5fplugin_5fservice_2eproto, 1051,
+  "nebulaidl/service/external_plugin_service.proto", &assign_descriptors_table_nebulaidl_2fservice_2fexternal_5fplugin_5fservice_2eproto, 1072,
 };
 
 void AddDescriptors_nebulaidl_2fservice_2fexternal_5fplugin_5fservice_2eproto() {

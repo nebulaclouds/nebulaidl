@@ -5540,7 +5540,7 @@ public final class Dataproxy {
        * <code>.nebulaidl.core.NodeExecutionIdentifier node_execution_id = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          nebulaidl.core.IdentifierOuterClass.NodeExecutionIdentifier, nebulaidl.core.IdentifierOuterClass.NodeExecutionIdentifier.Builder, nebulaidl.core.IdentifierOuterClass.NodeExecutionIdentifierOrBuilder>
+          nebulaidl.core.IdentifierOuterClass.NodeExecutionIdentifier, nebulaidl.core.IdentifierOuterClass.NodeExecutionIdentifier.Builder, nebulaidl.core.IdentifierOuterClass.NodeExecutionIdentifierOrBuilder> 
           getNodeExecutionIdFieldBuilder() {
         if (nodeExecutionIdBuilder_ == null) {
           if (!(sourceCase_ == 3)) {
@@ -6735,7 +6735,7 @@ public final class Dataproxy {
        * <code>.nebulaidl.service.PreSignedURLs pre_signed_urls = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          nebulaidl.service.Dataproxy.PreSignedURLs, nebulaidl.service.Dataproxy.PreSignedURLs.Builder, nebulaidl.service.Dataproxy.PreSignedURLsOrBuilder>
+          nebulaidl.service.Dataproxy.PreSignedURLs, nebulaidl.service.Dataproxy.PreSignedURLs.Builder, nebulaidl.service.Dataproxy.PreSignedURLsOrBuilder> 
           getPreSignedUrlsFieldBuilder() {
         if (preSignedUrlsBuilder_ == null) {
           preSignedUrlsBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -9268,7 +9268,7 @@ public final class Dataproxy {
        * <code>.nebulaidl.core.LiteralMap literal_map = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          nebulaidl.core.Literals.LiteralMap, nebulaidl.core.Literals.LiteralMap.Builder, nebulaidl.core.Literals.LiteralMapOrBuilder>
+          nebulaidl.core.Literals.LiteralMap, nebulaidl.core.Literals.LiteralMap.Builder, nebulaidl.core.Literals.LiteralMapOrBuilder> 
           getLiteralMapFieldBuilder() {
         if (literalMapBuilder_ == null) {
           if (!(dataCase_ == 1)) {
@@ -9440,7 +9440,7 @@ public final class Dataproxy {
        * <code>.nebulaidl.service.PreSignedURLs pre_signed_urls = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          nebulaidl.service.Dataproxy.PreSignedURLs, nebulaidl.service.Dataproxy.PreSignedURLs.Builder, nebulaidl.service.Dataproxy.PreSignedURLsOrBuilder>
+          nebulaidl.service.Dataproxy.PreSignedURLs, nebulaidl.service.Dataproxy.PreSignedURLs.Builder, nebulaidl.service.Dataproxy.PreSignedURLsOrBuilder> 
           getPreSignedUrlsFieldBuilder() {
         if (preSignedUrlsBuilder_ == null) {
           if (!(dataCase_ == 2)) {
@@ -9621,7 +9621,7 @@ public final class Dataproxy {
        * <code>.nebulaidl.core.Literal literal = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          nebulaidl.core.Literals.Literal, nebulaidl.core.Literals.Literal.Builder, nebulaidl.core.Literals.LiteralOrBuilder>
+          nebulaidl.core.Literals.Literal, nebulaidl.core.Literals.Literal.Builder, nebulaidl.core.Literals.LiteralOrBuilder> 
           getLiteralFieldBuilder() {
         if (literalBuilder_ == null) {
           if (!(dataCase_ == 3)) {
@@ -9745,60 +9745,61 @@ public final class Dataproxy {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n nebulaidl/service/dataproxy.proto\022\020flyt" +
-      "eidl.service\032\034google/api/annotations.pro" +
-      "to\032\036google/protobuf/duration.proto\032\037goog" +
-      "le/protobuf/timestamp.proto\032\036nebulaidl/co" +
-      "re/identifier.proto\032\034nebulaidl/core/liter" +
-      "als.proto\"v\n\034CreateUploadLocationRespons" +
-      "e\022\022\n\nsigned_url\030\001 \001(\t\022\022\n\nnative_url\030\002 \001(" +
-      "\t\022.\n\nexpires_at\030\003 \001(\0132\032.google.protobuf." +
-      "Timestamp\"\253\001\n\033CreateUploadLocationReques" +
-      "t\022\017\n\007project\030\001 \001(\t\022\016\n\006domain\030\002 \001(\t\022\020\n\010fi" +
-      "lename\030\003 \001(\t\022-\n\nexpires_in\030\004 \001(\0132\031.googl" +
-      "e.protobuf.Duration\022\023\n\013content_md5\030\005 \001(\014" +
-      "\022\025\n\rfilename_root\030\006 \001(\t\"f\n\035CreateDownloa" +
-      "dLocationRequest\022\022\n\nnative_url\030\001 \001(\t\022-\n\n" +
-      "expires_in\030\002 \001(\0132\031.google.protobuf.Durat" +
-      "ion:\002\030\001\"h\n\036CreateDownloadLocationRespons" +
-      "e\022\022\n\nsigned_url\030\001 \001(\t\022.\n\nexpires_at\030\002 \001(" +
-      "\0132\032.google.protobuf.Timestamp:\002\030\001\"\320\001\n\031Cr" +
-      "eateDownloadLinkRequest\0225\n\rartifact_type" +
-      "\030\001 \001(\0162\036.nebulaidl.service.ArtifactType\022-" +
-      "\n\nexpires_in\030\002 \001(\0132\031.google.protobuf.Dur" +
-      "ation\022C\n\021node_execution_id\030\003 \001(\0132&.nebula" +
-      "idl.core.NodeExecutionIdentifierH\000B\010\n\006so" +
-      "urce\"\242\001\n\032CreateDownloadLinkResponse\022\026\n\ns" +
-      "igned_url\030\001 \003(\tB\002\030\001\0222\n\nexpires_at\030\002 \001(\0132" +
-      "\032.google.protobuf.TimestampB\002\030\001\0228\n\017pre_s" +
-      "igned_urls\030\003 \001(\0132\037.nebulaidl.service.PreS" +
-      "ignedURLs\"S\n\rPreSignedURLs\022\022\n\nsigned_url" +
-      "\030\001 \003(\t\022.\n\nexpires_at\030\002 \001(\0132\032.google.prot" +
-      "obuf.Timestamp\"#\n\016GetDataRequest\022\021\n\tflyt" +
-      "e_url\030\001 \001(\t\"\262\001\n\017GetDataResponse\0220\n\013liter" +
-      "al_map\030\001 \001(\0132\031.nebulaidl.core.LiteralMapH" +
-      "\000\022:\n\017pre_signed_urls\030\002 \001(\0132\037.nebulaidl.se" +
-      "rvice.PreSignedURLsH\000\022)\n\007literal\030\003 \001(\0132\026" +
-      ".nebulaidl.core.LiteralH\000B\006\n\004data*C\n\014Arti" +
-      "factType\022\033\n\027ARTIFACT_TYPE_UNDEFINED\020\000\022\026\n" +
-      "\022ARTIFACT_TYPE_DECK\020\0012\342\004\n\020DataProxyServi" +
-      "ce\022\240\001\n\024CreateUploadLocation\022-.nebulaidl.s" +
-      "ervice.CreateUploadLocationRequest\032..fly" +
-      "teidl.service.CreateUploadLocationRespon" +
-      "se\")\202\323\344\223\002#\"\036/api/v1/dataproxy/artifact_u" +
-      "rn:\001*\022\246\001\n\026CreateDownloadLocation\022/.nebula" +
-      "idl.service.CreateDownloadLocationReques" +
-      "t\0320.nebulaidl.service.CreateDownloadLocat" +
-      "ionResponse\")\210\002\001\202\323\344\223\002 \022\036/api/v1/dataprox" +
-      "y/artifact_urn\022\233\001\n\022CreateDownloadLink\022+." +
-      "nebulaidl.service.CreateDownloadLinkReque" +
-      "st\032,.nebulaidl.service.CreateDownloadLink" +
-      "Response\"*\202\323\344\223\002$\"\037/api/v1/dataproxy/arti" +
-      "fact_link:\001*\022d\n\007GetData\022 .nebulaidl.servi" +
-      "ce.GetDataRequest\032!.nebulaidl.service.Get" +
-      "DataResponse\"\024\202\323\344\223\002\016\022\014/api/v1/dataB9Z7gi" +
-      "thub.com/nebulaclouds/nebulaidl/gen/pb-go/fly" +
-      "teidl/serviceb\006proto3"
+      "\n!nebulaidl/service/dataproxy.proto\022\021neb" +
+      "ulaidl.service\032\034google/api/annotations.p" +
+      "roto\032\036google/protobuf/duration.proto\032\037go" +
+      "ogle/protobuf/timestamp.proto\032\037nebulaidl" +
+      "/core/identifier.proto\032\035nebulaidl/core/l" +
+      "iterals.proto\"v\n\034CreateUploadLocationRes" +
+      "ponse\022\022\n\nsigned_url\030\001 \001(\t\022\022\n\nnative_url\030" +
+      "\002 \001(\t\022.\n\nexpires_at\030\003 \001(\0132\032.google.proto" +
+      "buf.Timestamp\"\253\001\n\033CreateUploadLocationRe" +
+      "quest\022\017\n\007project\030\001 \001(\t\022\016\n\006domain\030\002 \001(\t\022\020" +
+      "\n\010filename\030\003 \001(\t\022-\n\nexpires_in\030\004 \001(\0132\031.g" +
+      "oogle.protobuf.Duration\022\023\n\013content_md5\030\005" +
+      " \001(\014\022\025\n\rfilename_root\030\006 \001(\t\"f\n\035CreateDow" +
+      "nloadLocationRequest\022\022\n\nnative_url\030\001 \001(\t" +
+      "\022-\n\nexpires_in\030\002 \001(\0132\031.google.protobuf.D" +
+      "uration:\002\030\001\"h\n\036CreateDownloadLocationRes" +
+      "ponse\022\022\n\nsigned_url\030\001 \001(\t\022.\n\nexpires_at\030" +
+      "\002 \001(\0132\032.google.protobuf.Timestamp:\002\030\001\"\322\001" +
+      "\n\031CreateDownloadLinkRequest\0226\n\rartifact_" +
+      "type\030\001 \001(\0162\037.nebulaidl.service.ArtifactT" +
+      "ype\022-\n\nexpires_in\030\002 \001(\0132\031.google.protobu" +
+      "f.Duration\022D\n\021node_execution_id\030\003 \001(\0132\'." +
+      "nebulaidl.core.NodeExecutionIdentifierH\000" +
+      "B\010\n\006source\"\243\001\n\032CreateDownloadLinkRespons" +
+      "e\022\026\n\nsigned_url\030\001 \003(\tB\002\030\001\0222\n\nexpires_at\030" +
+      "\002 \001(\0132\032.google.protobuf.TimestampB\002\030\001\0229\n" +
+      "\017pre_signed_urls\030\003 \001(\0132 .nebulaidl.servi" +
+      "ce.PreSignedURLs\"S\n\rPreSignedURLs\022\022\n\nsig" +
+      "ned_url\030\001 \003(\t\022.\n\nexpires_at\030\002 \001(\0132\032.goog" +
+      "le.protobuf.Timestamp\"$\n\016GetDataRequest\022" +
+      "\022\n\nnebula_url\030\001 \001(\t\"\265\001\n\017GetDataResponse\022" +
+      "1\n\013literal_map\030\001 \001(\0132\032.nebulaidl.core.Li" +
+      "teralMapH\000\022;\n\017pre_signed_urls\030\002 \001(\0132 .ne" +
+      "bulaidl.service.PreSignedURLsH\000\022*\n\007liter" +
+      "al\030\003 \001(\0132\027.nebulaidl.core.LiteralH\000B\006\n\004d" +
+      "ata*C\n\014ArtifactType\022\033\n\027ARTIFACT_TYPE_UND" +
+      "EFINED\020\000\022\026\n\022ARTIFACT_TYPE_DECK\020\0012\352\004\n\020Dat" +
+      "aProxyService\022\242\001\n\024CreateUploadLocation\022." +
+      ".nebulaidl.service.CreateUploadLocationR" +
+      "equest\032/.nebulaidl.service.CreateUploadL" +
+      "ocationResponse\")\202\323\344\223\002#\"\036/api/v1/datapro" +
+      "xy/artifact_urn:\001*\022\250\001\n\026CreateDownloadLoc" +
+      "ation\0220.nebulaidl.service.CreateDownload" +
+      "LocationRequest\0321.nebulaidl.service.Crea" +
+      "teDownloadLocationResponse\")\210\002\001\202\323\344\223\002 \022\036/" +
+      "api/v1/dataproxy/artifact_urn\022\235\001\n\022Create" +
+      "DownloadLink\022,.nebulaidl.service.CreateD" +
+      "ownloadLinkRequest\032-.nebulaidl.service.C" +
+      "reateDownloadLinkResponse\"*\202\323\344\223\002$\"\037/api/" +
+      "v1/dataproxy/artifact_link:\001*\022f\n\007GetData" +
+      "\022!.nebulaidl.service.GetDataRequest\032\".ne" +
+      "bulaidl.service.GetDataResponse\"\024\202\323\344\223\002\016\022" +
+      "\014/api/v1/dataB?Z=github.com/nebulaclouds" +
+      "/nebulaidl/gen/pb-go/nebulaidl/serviceb\006" +
+      "proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

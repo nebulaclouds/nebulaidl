@@ -37,22 +37,22 @@ static constexpr ::google::protobuf::Message* const* file_default_instances = nu
 };
 
 const char descriptor_table_protodef_nebulaidl_2fservice_2fagent_2eproto[] =
-  "\n\034nebulaidl/service/agent.proto\022\020nebulaidl"
-  ".service\032\032nebulaidl/admin/agent.proto2\217\002\n"
-  "\021AsyncAgentService\022U\n\nCreateTask\022!.nebula"
-  "idl.admin.CreateTaskRequest\032\".nebulaidl.a"
-  "dmin.CreateTaskResponse\"\000\022L\n\007GetTask\022\036.n"
-  "ebulaidl.admin.GetTaskRequest\032\037.nebulaidl."
-  "admin.GetTaskResponse\"\000\022U\n\nDeleteTask\022!."
-  "nebulaidl.admin.DeleteTaskRequest\032\".nebula"
-  "idl.admin.DeleteTaskResponse\"\000B9Z7github"
-  ".com/nebulaclouds/nebulaidl/gen/pb-go/nebulaid"
-  "l/serviceb\006proto3"
+  "\n\035nebulaidl/service/agent.proto\022\021nebulai"
+  "dl.service\032\033nebulaidl/admin/agent.proto2"
+  "\225\002\n\021AsyncAgentService\022W\n\nCreateTask\022\".ne"
+  "bulaidl.admin.CreateTaskRequest\032#.nebula"
+  "idl.admin.CreateTaskResponse\"\000\022N\n\007GetTas"
+  "k\022\037.nebulaidl.admin.GetTaskRequest\032 .neb"
+  "ulaidl.admin.GetTaskResponse\"\000\022W\n\nDelete"
+  "Task\022\".nebulaidl.admin.DeleteTaskRequest"
+  "\032#.nebulaidl.admin.DeleteTaskResponse\"\000B"
+  "\?Z=github.com/nebulaclouds/nebulaidl/gen"
+  "/pb-go/nebulaidl/serviceb\006proto3"
   ;
 ::google::protobuf::internal::DescriptorTable descriptor_table_nebulaidl_2fservice_2fagent_2eproto = {
-  false, InitDefaults_nebulaidl_2fservice_2fagent_2eproto,
+  false, InitDefaults_nebulaidl_2fservice_2fagent_2eproto, 
   descriptor_table_protodef_nebulaidl_2fservice_2fagent_2eproto,
-  "nebulaidl/service/agent.proto", &assign_descriptors_table_nebulaidl_2fservice_2fagent_2eproto, 417,
+  "nebulaidl/service/agent.proto", &assign_descriptors_table_nebulaidl_2fservice_2fagent_2eproto, 432,
 };
 
 void AddDescriptors_nebulaidl_2fservice_2fagent_2eproto() {

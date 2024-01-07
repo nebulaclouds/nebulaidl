@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 from nebulaidl.core import literals_pb2 as nebulaidl_dot_core_dot_literals__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1d\x66lyteidl/core/condition.proto\x12\rnebulaidl.core\x1a\x1c\x66lyteidl/core/literals.proto\"\x8f\x02\n\x14\x43omparisonExpression\x12H\n\x08operator\x18\x01 \x01(\x0e\x32,.nebulaidl.core.ComparisonExpression.OperatorR\x08operator\x12\x35\n\nleft_value\x18\x02 \x01(\x0b\x32\x16.nebulaidl.core.OperandR\tleftValue\x12\x37\n\x0bright_value\x18\x03 \x01(\x0b\x32\x16.nebulaidl.core.OperandR\nrightValue\"=\n\x08Operator\x12\x06\n\x02\x45Q\x10\x00\x12\x07\n\x03NEQ\x10\x01\x12\x06\n\x02GT\x10\x02\x12\x07\n\x03GTE\x10\x03\x12\x06\n\x02LT\x10\x04\x12\x07\n\x03LTE\x10\x05\"\x93\x01\n\x07Operand\x12<\n\tprimitive\x18\x01 \x01(\x0b\x32\x18.nebulaidl.core.PrimitiveB\x02\x18\x01H\x00R\tprimitive\x12\x12\n\x03var\x18\x02 \x01(\tH\x00R\x03var\x12/\n\x06scalar\x18\x03 \x01(\x0b\x32\x15.nebulaidl.core.ScalarH\x00R\x06scalarB\x05\n\x03val\"\xac\x01\n\x11\x42ooleanExpression\x12H\n\x0b\x63onjunction\x18\x01 \x01(\x0b\x32$.nebulaidl.core.ConjunctionExpressionH\x00R\x0b\x63onjunction\x12\x45\n\ncomparison\x18\x02 \x01(\x0b\x32#.nebulaidl.core.ComparisonExpressionH\x00R\ncomparisonB\x06\n\x04\x65xpr\"\xa5\x02\n\x15\x43onjunctionExpression\x12P\n\x08operator\x18\x01 \x01(\x0e\x32\x34.nebulaidl.core.ConjunctionExpression.LogicalOperatorR\x08operator\x12I\n\x0fleft_expression\x18\x02 \x01(\x0b\x32 .nebulaidl.core.BooleanExpressionR\x0eleftExpression\x12K\n\x10right_expression\x18\x03 \x01(\x0b\x32 .nebulaidl.core.BooleanExpressionR\x0frightExpression\"\"\n\x0fLogicalOperator\x12\x07\n\x03\x41ND\x10\x00\x12\x06\n\x02OR\x10\x01\x42\xae\x01\n\x11\x63om.nebulaidl.coreB\x0e\x43onditionProtoP\x01Z4github.com/nebulaclouds/nebulaidl/gen/pb-go/nebulaidl/core\xa2\x02\x03\x46\x43X\xaa\x02\rNebulaidl.Core\xca\x02\rNebulaidl\\Core\xe2\x02\x19\x46lyteidl\\Core\\GPBMetadata\xea\x02\x0e\x46lyteidl::Coreb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1enebulaidl/core/condition.proto\x12\x0enebulaidl.core\x1a\x1dnebulaidl/core/literals.proto\"\x92\x02\n\x14\x43omparisonExpression\x12I\n\x08operator\x18\x01 \x01(\x0e\x32-.nebulaidl.core.ComparisonExpression.OperatorR\x08operator\x12\x36\n\nleft_value\x18\x02 \x01(\x0b\x32\x17.nebulaidl.core.OperandR\tleftValue\x12\x38\n\x0bright_value\x18\x03 \x01(\x0b\x32\x17.nebulaidl.core.OperandR\nrightValue\"=\n\x08Operator\x12\x06\n\x02\x45Q\x10\x00\x12\x07\n\x03NEQ\x10\x01\x12\x06\n\x02GT\x10\x02\x12\x07\n\x03GTE\x10\x03\x12\x06\n\x02LT\x10\x04\x12\x07\n\x03LTE\x10\x05\"\x95\x01\n\x07Operand\x12=\n\tprimitive\x18\x01 \x01(\x0b\x32\x19.nebulaidl.core.PrimitiveB\x02\x18\x01H\x00R\tprimitive\x12\x12\n\x03var\x18\x02 \x01(\tH\x00R\x03var\x12\x30\n\x06scalar\x18\x03 \x01(\x0b\x32\x16.nebulaidl.core.ScalarH\x00R\x06scalarB\x05\n\x03val\"\xae\x01\n\x11\x42ooleanExpression\x12I\n\x0b\x63onjunction\x18\x01 \x01(\x0b\x32%.nebulaidl.core.ConjunctionExpressionH\x00R\x0b\x63onjunction\x12\x46\n\ncomparison\x18\x02 \x01(\x0b\x32$.nebulaidl.core.ComparisonExpressionH\x00R\ncomparisonB\x06\n\x04\x65xpr\"\xa8\x02\n\x15\x43onjunctionExpression\x12Q\n\x08operator\x18\x01 \x01(\x0e\x32\x35.nebulaidl.core.ConjunctionExpression.LogicalOperatorR\x08operator\x12J\n\x0fleft_expression\x18\x02 \x01(\x0b\x32!.nebulaidl.core.BooleanExpressionR\x0eleftExpression\x12L\n\x10right_expression\x18\x03 \x01(\x0b\x32!.nebulaidl.core.BooleanExpressionR\x0frightExpression\"\"\n\x0fLogicalOperator\x12\x07\n\x03\x41ND\x10\x00\x12\x06\n\x02OR\x10\x01\x42\xb9\x01\n\x12\x63om.nebulaidl.coreB\x0e\x43onditionProtoP\x01Z:github.com/nebulaclouds/nebulaidl/gen/pb-go/nebulaidl/core\xa2\x02\x03NCX\xaa\x02\x0eNebulaidl.Core\xca\x02\x0eNebulaidl\\Core\xe2\x02\x1aNebulaidl\\Core\\GPBMetadata\xea\x02\x0fNebulaidl::Coreb\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -22,19 +22,19 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'nebulaidl.core.condition_pb
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\021com.nebulaidl.coreB\016ConditionProtoP\001Z4github.com/nebulaclouds/nebulaidl/gen/pb-go/nebulaidl/core\242\002\003FCX\252\002\rNebulaidl.Core\312\002\rNebulaidl\\Core\342\002\031Nebulaidl\\Core\\GPBMetadata\352\002\016Nebulaidl::Core'
+  DESCRIPTOR._serialized_options = b'\n\022com.nebulaidl.coreB\016ConditionProtoP\001Z:github.com/nebulaclouds/nebulaidl/gen/pb-go/nebulaidl/core\242\002\003NCX\252\002\016Nebulaidl.Core\312\002\016Nebulaidl\\Core\342\002\032Nebulaidl\\Core\\GPBMetadata\352\002\017Nebulaidl::Core'
   _OPERAND.fields_by_name['primitive']._options = None
   _OPERAND.fields_by_name['primitive']._serialized_options = b'\030\001'
-  _globals['_COMPARISONEXPRESSION']._serialized_start=79
-  _globals['_COMPARISONEXPRESSION']._serialized_end=350
-  _globals['_COMPARISONEXPRESSION_OPERATOR']._serialized_start=289
-  _globals['_COMPARISONEXPRESSION_OPERATOR']._serialized_end=350
-  _globals['_OPERAND']._serialized_start=353
-  _globals['_OPERAND']._serialized_end=500
-  _globals['_BOOLEANEXPRESSION']._serialized_start=503
-  _globals['_BOOLEANEXPRESSION']._serialized_end=675
-  _globals['_CONJUNCTIONEXPRESSION']._serialized_start=678
-  _globals['_CONJUNCTIONEXPRESSION']._serialized_end=971
-  _globals['_CONJUNCTIONEXPRESSION_LOGICALOPERATOR']._serialized_start=937
-  _globals['_CONJUNCTIONEXPRESSION_LOGICALOPERATOR']._serialized_end=971
+  _globals['_COMPARISONEXPRESSION']._serialized_start=82
+  _globals['_COMPARISONEXPRESSION']._serialized_end=356
+  _globals['_COMPARISONEXPRESSION_OPERATOR']._serialized_start=295
+  _globals['_COMPARISONEXPRESSION_OPERATOR']._serialized_end=356
+  _globals['_OPERAND']._serialized_start=359
+  _globals['_OPERAND']._serialized_end=508
+  _globals['_BOOLEANEXPRESSION']._serialized_start=511
+  _globals['_BOOLEANEXPRESSION']._serialized_end=685
+  _globals['_CONJUNCTIONEXPRESSION']._serialized_start=688
+  _globals['_CONJUNCTIONEXPRESSION']._serialized_end=984
+  _globals['_CONJUNCTIONEXPRESSION_LOGICALOPERATOR']._serialized_start=950
+  _globals['_CONJUNCTIONEXPRESSION_LOGICALOPERATOR']._serialized_end=984
 # @@protoc_insertion_point(module_scope)

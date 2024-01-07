@@ -256,33 +256,34 @@ static ::google::protobuf::Message const * const file_default_instances[] = {
 };
 
 const char descriptor_table_protodef_nebulaidl_2fcore_2fcompiler_2eproto[] =
-  "\n\034nebulaidl/core/compiler.proto\022\rnebulaidl"
-  ".core\032\034nebulaidl/core/workflow.proto\032\031fly"
-  "teidl/core/tasks.proto\"\324\002\n\rConnectionSet"
-  "\022@\n\ndownstream\030\007 \003(\0132,.nebulaidl.core.Con"
-  "nectionSet.DownstreamEntry\022<\n\010upstream\030\010"
-  " \003(\0132*.nebulaidl.core.ConnectionSet.Upstr"
-  "eamEntry\032\025\n\006IdList\022\013\n\003ids\030\001 \003(\t\032V\n\017Downs"
-  "treamEntry\022\013\n\003key\030\001 \001(\t\0222\n\005value\030\002 \001(\0132#"
-  ".nebulaidl.core.ConnectionSet.IdList:\0028\001\032"
-  "T\n\rUpstreamEntry\022\013\n\003key\030\001 \001(\t\0222\n\005value\030\002"
-  " \001(\0132#.nebulaidl.core.ConnectionSet.IdLis"
-  "t:\0028\001\"x\n\020CompiledWorkflow\0221\n\010template\030\001 "
-  "\001(\0132\037.nebulaidl.core.WorkflowTemplate\0221\n\013"
-  "connections\030\002 \001(\0132\034.nebulaidl.core.Connec"
-  "tionSet\"=\n\014CompiledTask\022-\n\010template\030\001 \001("
-  "\0132\033.nebulaidl.core.TaskTemplate\"\257\001\n\027Compi"
-  "ledWorkflowClosure\0220\n\007primary\030\001 \001(\0132\037.ne"
-  "bulaidl.core.CompiledWorkflow\0226\n\rsub_work"
-  "flows\030\002 \003(\0132\037.nebulaidl.core.CompiledWork"
-  "flow\022*\n\005tasks\030\003 \003(\0132\033.nebulaidl.core.Comp"
-  "iledTaskB6Z4github.com/nebulaclouds/nebulaidl"
-  "/gen/pb-go/nebulaidl/coreb\006proto3"
+  "\n\035nebulaidl/core/compiler.proto\022\016nebulai"
+  "dl.core\032\035nebulaidl/core/workflow.proto\032\032"
+  "nebulaidl/core/tasks.proto\"\330\002\n\rConnectio"
+  "nSet\022A\n\ndownstream\030\007 \003(\0132-.nebulaidl.cor"
+  "e.ConnectionSet.DownstreamEntry\022=\n\010upstr"
+  "eam\030\010 \003(\0132+.nebulaidl.core.ConnectionSet"
+  ".UpstreamEntry\032\025\n\006IdList\022\013\n\003ids\030\001 \003(\t\032W\n"
+  "\017DownstreamEntry\022\013\n\003key\030\001 \001(\t\0223\n\005value\030\002"
+  " \001(\0132$.nebulaidl.core.ConnectionSet.IdLi"
+  "st:\0028\001\032U\n\rUpstreamEntry\022\013\n\003key\030\001 \001(\t\0223\n\005"
+  "value\030\002 \001(\0132$.nebulaidl.core.ConnectionS"
+  "et.IdList:\0028\001\"z\n\020CompiledWorkflow\0222\n\010tem"
+  "plate\030\001 \001(\0132 .nebulaidl.core.WorkflowTem"
+  "plate\0222\n\013connections\030\002 \001(\0132\035.nebulaidl.c"
+  "ore.ConnectionSet\">\n\014CompiledTask\022.\n\010tem"
+  "plate\030\001 \001(\0132\034.nebulaidl.core.TaskTemplat"
+  "e\"\262\001\n\027CompiledWorkflowClosure\0221\n\007primary"
+  "\030\001 \001(\0132 .nebulaidl.core.CompiledWorkflow"
+  "\0227\n\rsub_workflows\030\002 \003(\0132 .nebulaidl.core"
+  ".CompiledWorkflow\022+\n\005tasks\030\003 \003(\0132\034.nebul"
+  "aidl.core.CompiledTaskB<Z:github.com/neb"
+  "ulaclouds/nebulaidl/gen/pb-go/nebulaidl/"
+  "coreb\006proto3"
   ;
 ::google::protobuf::internal::DescriptorTable descriptor_table_nebulaidl_2fcore_2fcompiler_2eproto = {
-  false, InitDefaults_nebulaidl_2fcore_2fcompiler_2eproto,
+  false, InitDefaults_nebulaidl_2fcore_2fcompiler_2eproto, 
   descriptor_table_protodef_nebulaidl_2fcore_2fcompiler_2eproto,
-  "nebulaidl/core/compiler.proto", &assign_descriptors_table_nebulaidl_2fcore_2fcompiler_2eproto, 872,
+  "nebulaidl/core/compiler.proto", &assign_descriptors_table_nebulaidl_2fcore_2fcompiler_2eproto, 892,
 };
 
 void AddDescriptors_nebulaidl_2fcore_2fcompiler_2eproto() {

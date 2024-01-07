@@ -199,7 +199,7 @@ public final class Types {
      *
      * <code>repeated .nebulaidl.core.SchemaType.SchemaColumn columns = 3;</code>
      */
-    java.util.List<nebulaidl.core.Types.SchemaType.SchemaColumn>
+    java.util.List<nebulaidl.core.Types.SchemaType.SchemaColumn> 
         getColumnsList();
     /**
      * <pre>
@@ -224,7 +224,7 @@ public final class Types {
      *
      * <code>repeated .nebulaidl.core.SchemaType.SchemaColumn columns = 3;</code>
      */
-    java.util.List<? extends nebulaidl.core.Types.SchemaType.SchemaColumnOrBuilder>
+    java.util.List<? extends nebulaidl.core.Types.SchemaType.SchemaColumnOrBuilder> 
         getColumnsOrBuilderList();
     /**
      * <pre>
@@ -1192,7 +1192,7 @@ public final class Types {
      *
      * <code>repeated .nebulaidl.core.SchemaType.SchemaColumn columns = 3;</code>
      */
-    public java.util.List<? extends nebulaidl.core.Types.SchemaType.SchemaColumnOrBuilder>
+    public java.util.List<? extends nebulaidl.core.Types.SchemaType.SchemaColumnOrBuilder> 
         getColumnsOrBuilderList() {
       return columns_;
     }
@@ -1829,7 +1829,7 @@ public final class Types {
        *
        * <code>repeated .nebulaidl.core.SchemaType.SchemaColumn columns = 3;</code>
        */
-      public java.util.List<? extends nebulaidl.core.Types.SchemaType.SchemaColumnOrBuilder>
+      public java.util.List<? extends nebulaidl.core.Types.SchemaType.SchemaColumnOrBuilder> 
            getColumnsOrBuilderList() {
         if (columnsBuilder_ != null) {
           return columnsBuilder_.getMessageOrBuilderList();
@@ -1867,12 +1867,12 @@ public final class Types {
        *
        * <code>repeated .nebulaidl.core.SchemaType.SchemaColumn columns = 3;</code>
        */
-      public java.util.List<nebulaidl.core.Types.SchemaType.SchemaColumn.Builder>
+      public java.util.List<nebulaidl.core.Types.SchemaType.SchemaColumn.Builder> 
            getColumnsBuilderList() {
         return getColumnsFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          nebulaidl.core.Types.SchemaType.SchemaColumn, nebulaidl.core.Types.SchemaType.SchemaColumn.Builder, nebulaidl.core.Types.SchemaType.SchemaColumnOrBuilder>
+          nebulaidl.core.Types.SchemaType.SchemaColumn, nebulaidl.core.Types.SchemaType.SchemaColumn.Builder, nebulaidl.core.Types.SchemaType.SchemaColumnOrBuilder> 
           getColumnsFieldBuilder() {
         if (columnsBuilder_ == null) {
           columnsBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
@@ -1949,7 +1949,7 @@ public final class Types {
      *
      * <code>repeated .nebulaidl.core.StructuredDatasetType.DatasetColumn columns = 1;</code>
      */
-    java.util.List<nebulaidl.core.Types.StructuredDatasetType.DatasetColumn>
+    java.util.List<nebulaidl.core.Types.StructuredDatasetType.DatasetColumn> 
         getColumnsList();
     /**
      * <pre>
@@ -1974,7 +1974,7 @@ public final class Types {
      *
      * <code>repeated .nebulaidl.core.StructuredDatasetType.DatasetColumn columns = 1;</code>
      */
-    java.util.List<? extends nebulaidl.core.Types.StructuredDatasetType.DatasetColumnOrBuilder>
+    java.util.List<? extends nebulaidl.core.Types.StructuredDatasetType.DatasetColumnOrBuilder> 
         getColumnsOrBuilderList();
     /**
      * <pre>
@@ -2916,7 +2916,7 @@ public final class Types {
          * <code>.nebulaidl.core.LiteralType literal_type = 2;</code>
          */
         private com.google.protobuf.SingleFieldBuilderV3<
-            nebulaidl.core.Types.LiteralType, nebulaidl.core.Types.LiteralType.Builder, nebulaidl.core.Types.LiteralTypeOrBuilder>
+            nebulaidl.core.Types.LiteralType, nebulaidl.core.Types.LiteralType.Builder, nebulaidl.core.Types.LiteralTypeOrBuilder> 
             getLiteralTypeFieldBuilder() {
           if (literalTypeBuilder_ == null) {
             literalTypeBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -3001,7 +3001,7 @@ public final class Types {
      *
      * <code>repeated .nebulaidl.core.StructuredDatasetType.DatasetColumn columns = 1;</code>
      */
-    public java.util.List<? extends nebulaidl.core.Types.StructuredDatasetType.DatasetColumnOrBuilder>
+    public java.util.List<? extends nebulaidl.core.Types.StructuredDatasetType.DatasetColumnOrBuilder> 
         getColumnsOrBuilderList() {
       return columns_;
     }
@@ -3791,7 +3791,7 @@ public final class Types {
        *
        * <code>repeated .nebulaidl.core.StructuredDatasetType.DatasetColumn columns = 1;</code>
        */
-      public java.util.List<? extends nebulaidl.core.Types.StructuredDatasetType.DatasetColumnOrBuilder>
+      public java.util.List<? extends nebulaidl.core.Types.StructuredDatasetType.DatasetColumnOrBuilder> 
            getColumnsOrBuilderList() {
         if (columnsBuilder_ != null) {
           return columnsBuilder_.getMessageOrBuilderList();
@@ -3829,12 +3829,12 @@ public final class Types {
        *
        * <code>repeated .nebulaidl.core.StructuredDatasetType.DatasetColumn columns = 1;</code>
        */
-      public java.util.List<nebulaidl.core.Types.StructuredDatasetType.DatasetColumn.Builder>
+      public java.util.List<nebulaidl.core.Types.StructuredDatasetType.DatasetColumn.Builder> 
            getColumnsBuilderList() {
         return getColumnsFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          nebulaidl.core.Types.StructuredDatasetType.DatasetColumn, nebulaidl.core.Types.StructuredDatasetType.DatasetColumn.Builder, nebulaidl.core.Types.StructuredDatasetType.DatasetColumnOrBuilder>
+          nebulaidl.core.Types.StructuredDatasetType.DatasetColumn, nebulaidl.core.Types.StructuredDatasetType.DatasetColumn.Builder, nebulaidl.core.Types.StructuredDatasetType.DatasetColumnOrBuilder> 
           getColumnsFieldBuilder() {
         if (columnsBuilder_ == null) {
           columnsBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
@@ -5625,7 +5625,7 @@ public final class Types {
      *
      * <code>repeated .nebulaidl.core.LiteralType variants = 1;</code>
      */
-    java.util.List<nebulaidl.core.Types.LiteralType>
+    java.util.List<nebulaidl.core.Types.LiteralType> 
         getVariantsList();
     /**
      * <pre>
@@ -5650,7 +5650,7 @@ public final class Types {
      *
      * <code>repeated .nebulaidl.core.LiteralType variants = 1;</code>
      */
-    java.util.List<? extends nebulaidl.core.Types.LiteralTypeOrBuilder>
+    java.util.List<? extends nebulaidl.core.Types.LiteralTypeOrBuilder> 
         getVariantsOrBuilderList();
     /**
      * <pre>
@@ -5777,7 +5777,7 @@ public final class Types {
      *
      * <code>repeated .nebulaidl.core.LiteralType variants = 1;</code>
      */
-    public java.util.List<? extends nebulaidl.core.Types.LiteralTypeOrBuilder>
+    public java.util.List<? extends nebulaidl.core.Types.LiteralTypeOrBuilder> 
         getVariantsOrBuilderList() {
       return variants_;
     }
@@ -6422,7 +6422,7 @@ public final class Types {
        *
        * <code>repeated .nebulaidl.core.LiteralType variants = 1;</code>
        */
-      public java.util.List<? extends nebulaidl.core.Types.LiteralTypeOrBuilder>
+      public java.util.List<? extends nebulaidl.core.Types.LiteralTypeOrBuilder> 
            getVariantsOrBuilderList() {
         if (variantsBuilder_ != null) {
           return variantsBuilder_.getMessageOrBuilderList();
@@ -6460,12 +6460,12 @@ public final class Types {
        *
        * <code>repeated .nebulaidl.core.LiteralType variants = 1;</code>
        */
-      public java.util.List<nebulaidl.core.Types.LiteralType.Builder>
+      public java.util.List<nebulaidl.core.Types.LiteralType.Builder> 
            getVariantsBuilderList() {
         return getVariantsFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          nebulaidl.core.Types.LiteralType, nebulaidl.core.Types.LiteralType.Builder, nebulaidl.core.Types.LiteralTypeOrBuilder>
+          nebulaidl.core.Types.LiteralType, nebulaidl.core.Types.LiteralType.Builder, nebulaidl.core.Types.LiteralTypeOrBuilder> 
           getVariantsFieldBuilder() {
         if (variantsBuilder_ == null) {
           variantsBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
@@ -9594,7 +9594,7 @@ public final class Types {
        * <code>.nebulaidl.core.SchemaType schema = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          nebulaidl.core.Types.SchemaType, nebulaidl.core.Types.SchemaType.Builder, nebulaidl.core.Types.SchemaTypeOrBuilder>
+          nebulaidl.core.Types.SchemaType, nebulaidl.core.Types.SchemaType.Builder, nebulaidl.core.Types.SchemaTypeOrBuilder> 
           getSchemaFieldBuilder() {
         if (schemaBuilder_ == null) {
           if (!(typeCase_ == 2)) {
@@ -9766,7 +9766,7 @@ public final class Types {
        * <code>.nebulaidl.core.LiteralType collection_type = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          nebulaidl.core.Types.LiteralType, nebulaidl.core.Types.LiteralType.Builder, nebulaidl.core.Types.LiteralTypeOrBuilder>
+          nebulaidl.core.Types.LiteralType, nebulaidl.core.Types.LiteralType.Builder, nebulaidl.core.Types.LiteralTypeOrBuilder> 
           getCollectionTypeFieldBuilder() {
         if (collectionTypeBuilder_ == null) {
           if (!(typeCase_ == 3)) {
@@ -9938,7 +9938,7 @@ public final class Types {
        * <code>.nebulaidl.core.LiteralType map_value_type = 4;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          nebulaidl.core.Types.LiteralType, nebulaidl.core.Types.LiteralType.Builder, nebulaidl.core.Types.LiteralTypeOrBuilder>
+          nebulaidl.core.Types.LiteralType, nebulaidl.core.Types.LiteralType.Builder, nebulaidl.core.Types.LiteralTypeOrBuilder> 
           getMapValueTypeFieldBuilder() {
         if (mapValueTypeBuilder_ == null) {
           if (!(typeCase_ == 4)) {
@@ -10110,7 +10110,7 @@ public final class Types {
        * <code>.nebulaidl.core.BlobType blob = 5;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          nebulaidl.core.Types.BlobType, nebulaidl.core.Types.BlobType.Builder, nebulaidl.core.Types.BlobTypeOrBuilder>
+          nebulaidl.core.Types.BlobType, nebulaidl.core.Types.BlobType.Builder, nebulaidl.core.Types.BlobTypeOrBuilder> 
           getBlobFieldBuilder() {
         if (blobBuilder_ == null) {
           if (!(typeCase_ == 5)) {
@@ -10282,7 +10282,7 @@ public final class Types {
        * <code>.nebulaidl.core.EnumType enum_type = 7;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          nebulaidl.core.Types.EnumType, nebulaidl.core.Types.EnumType.Builder, nebulaidl.core.Types.EnumTypeOrBuilder>
+          nebulaidl.core.Types.EnumType, nebulaidl.core.Types.EnumType.Builder, nebulaidl.core.Types.EnumTypeOrBuilder> 
           getEnumTypeFieldBuilder() {
         if (enumTypeBuilder_ == null) {
           if (!(typeCase_ == 7)) {
@@ -10454,7 +10454,7 @@ public final class Types {
        * <code>.nebulaidl.core.StructuredDatasetType structured_dataset_type = 8;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          nebulaidl.core.Types.StructuredDatasetType, nebulaidl.core.Types.StructuredDatasetType.Builder, nebulaidl.core.Types.StructuredDatasetTypeOrBuilder>
+          nebulaidl.core.Types.StructuredDatasetType, nebulaidl.core.Types.StructuredDatasetType.Builder, nebulaidl.core.Types.StructuredDatasetTypeOrBuilder> 
           getStructuredDatasetTypeFieldBuilder() {
         if (structuredDatasetTypeBuilder_ == null) {
           if (!(typeCase_ == 8)) {
@@ -10626,7 +10626,7 @@ public final class Types {
        * <code>.nebulaidl.core.UnionType union_type = 10;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          nebulaidl.core.Types.UnionType, nebulaidl.core.Types.UnionType.Builder, nebulaidl.core.Types.UnionTypeOrBuilder>
+          nebulaidl.core.Types.UnionType, nebulaidl.core.Types.UnionType.Builder, nebulaidl.core.Types.UnionTypeOrBuilder> 
           getUnionTypeFieldBuilder() {
         if (unionTypeBuilder_ == null) {
           if (!(typeCase_ == 10)) {
@@ -10955,7 +10955,7 @@ public final class Types {
        * <code>.nebulaidl.core.TypeAnnotation annotation = 9;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          nebulaidl.core.Types.TypeAnnotation, nebulaidl.core.Types.TypeAnnotation.Builder, nebulaidl.core.Types.TypeAnnotationOrBuilder>
+          nebulaidl.core.Types.TypeAnnotation, nebulaidl.core.Types.TypeAnnotation.Builder, nebulaidl.core.Types.TypeAnnotationOrBuilder> 
           getAnnotationFieldBuilder() {
         if (annotationBuilder_ == null) {
           annotationBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -11108,7 +11108,7 @@ public final class Types {
        * <code>.nebulaidl.core.TypeStructure structure = 11;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          nebulaidl.core.Types.TypeStructure, nebulaidl.core.Types.TypeStructure.Builder, nebulaidl.core.Types.TypeStructureOrBuilder>
+          nebulaidl.core.Types.TypeStructure, nebulaidl.core.Types.TypeStructure.Builder, nebulaidl.core.Types.TypeStructureOrBuilder> 
           getStructureFieldBuilder() {
         if (structureBuilder_ == null) {
           structureBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -11216,7 +11216,7 @@ public final class Types {
     /**
      * <code>repeated .nebulaidl.core.PromiseAttribute attr_path = 3;</code>
      */
-    java.util.List<nebulaidl.core.Types.PromiseAttribute>
+    java.util.List<nebulaidl.core.Types.PromiseAttribute> 
         getAttrPathList();
     /**
      * <code>repeated .nebulaidl.core.PromiseAttribute attr_path = 3;</code>
@@ -11229,7 +11229,7 @@ public final class Types {
     /**
      * <code>repeated .nebulaidl.core.PromiseAttribute attr_path = 3;</code>
      */
-    java.util.List<? extends nebulaidl.core.Types.PromiseAttributeOrBuilder>
+    java.util.List<? extends nebulaidl.core.Types.PromiseAttributeOrBuilder> 
         getAttrPathOrBuilderList();
     /**
      * <code>repeated .nebulaidl.core.PromiseAttribute attr_path = 3;</code>
@@ -11436,7 +11436,7 @@ public final class Types {
     /**
      * <code>repeated .nebulaidl.core.PromiseAttribute attr_path = 3;</code>
      */
-    public java.util.List<? extends nebulaidl.core.Types.PromiseAttributeOrBuilder>
+    public java.util.List<? extends nebulaidl.core.Types.PromiseAttributeOrBuilder> 
         getAttrPathOrBuilderList() {
       return attrPath_;
     }
@@ -12216,7 +12216,7 @@ public final class Types {
       /**
        * <code>repeated .nebulaidl.core.PromiseAttribute attr_path = 3;</code>
        */
-      public java.util.List<? extends nebulaidl.core.Types.PromiseAttributeOrBuilder>
+      public java.util.List<? extends nebulaidl.core.Types.PromiseAttributeOrBuilder> 
            getAttrPathOrBuilderList() {
         if (attrPathBuilder_ != null) {
           return attrPathBuilder_.getMessageOrBuilderList();
@@ -12242,12 +12242,12 @@ public final class Types {
       /**
        * <code>repeated .nebulaidl.core.PromiseAttribute attr_path = 3;</code>
        */
-      public java.util.List<nebulaidl.core.Types.PromiseAttribute.Builder>
+      public java.util.List<nebulaidl.core.Types.PromiseAttribute.Builder> 
            getAttrPathBuilderList() {
         return getAttrPathFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          nebulaidl.core.Types.PromiseAttribute, nebulaidl.core.Types.PromiseAttribute.Builder, nebulaidl.core.Types.PromiseAttributeOrBuilder>
+          nebulaidl.core.Types.PromiseAttribute, nebulaidl.core.Types.PromiseAttribute.Builder, nebulaidl.core.Types.PromiseAttributeOrBuilder> 
           getAttrPathFieldBuilder() {
         if (attrPathBuilder_ == null) {
           attrPathBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
@@ -13874,55 +13874,55 @@ public final class Types {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\031nebulaidl/core/types.proto\022\rnebulaidl.co" +
-      "re\032\034google/protobuf/struct.proto\"\214\002\n\nSch" +
-      "emaType\0227\n\007columns\030\003 \003(\0132&.nebulaidl.core" +
-      ".SchemaType.SchemaColumn\032\304\001\n\014SchemaColum" +
-      "n\022\014\n\004name\030\001 \001(\t\022E\n\004type\030\002 \001(\01627.nebulaidl" +
-      ".core.SchemaType.SchemaColumn.SchemaColu" +
-      "mnType\"_\n\020SchemaColumnType\022\013\n\007INTEGER\020\000\022" +
-      "\t\n\005FLOAT\020\001\022\n\n\006STRING\020\002\022\013\n\007BOOLEAN\020\003\022\014\n\010D" +
-      "ATETIME\020\004\022\014\n\010DURATION\020\005\"\372\001\n\025StructuredDa" +
-      "tasetType\022C\n\007columns\030\001 \003(\01322.nebulaidl.co" +
-      "re.StructuredDatasetType.DatasetColumn\022\016" +
-      "\n\006format\030\002 \001(\t\022\034\n\024external_schema_type\030\003" +
-      " \001(\t\022\035\n\025external_schema_bytes\030\004 \001(\014\032O\n\rD" +
-      "atasetColumn\022\014\n\004name\030\001 \001(\t\0220\n\014literal_ty" +
-      "pe\030\002 \001(\0132\032.nebulaidl.core.LiteralType\"\217\001\n" +
-      "\010BlobType\022\016\n\006format\030\001 \001(\t\022B\n\016dimensional" +
-      "ity\030\002 \001(\0162*.nebulaidl.core.BlobType.BlobD" +
-      "imensionality\"/\n\022BlobDimensionality\022\n\n\006S" +
-      "INGLE\020\000\022\r\n\tMULTIPART\020\001\"\032\n\010EnumType\022\016\n\006va" +
-      "lues\030\001 \003(\t\"9\n\tUnionType\022,\n\010variants\030\001 \003(" +
-      "\0132\032.nebulaidl.core.LiteralType\"\034\n\rTypeStr" +
-      "ucture\022\013\n\003tag\030\001 \001(\t\">\n\016TypeAnnotation\022,\n" +
-      "\013annotations\030\001 \001(\0132\027.google.protobuf.Str" +
-      "uct\"\273\004\n\013LiteralType\022+\n\006simple\030\001 \001(\0162\031.ne" +
-      "bulaidl.core.SimpleTypeH\000\022+\n\006schema\030\002 \001(\013" +
-      "2\031.nebulaidl.core.SchemaTypeH\000\0225\n\017collect" +
-      "ion_type\030\003 \001(\0132\032.nebulaidl.core.LiteralTy" +
-      "peH\000\0224\n\016map_value_type\030\004 \001(\0132\032.nebulaidl." +
-      "core.LiteralTypeH\000\022\'\n\004blob\030\005 \001(\0132\027.nebula" +
-      "idl.core.BlobTypeH\000\022,\n\tenum_type\030\007 \001(\0132\027" +
-      ".nebulaidl.core.EnumTypeH\000\022G\n\027structured_" +
-      "dataset_type\030\010 \001(\0132$.nebulaidl.core.Struc" +
-      "turedDatasetTypeH\000\022.\n\nunion_type\030\n \001(\0132\030" +
-      ".nebulaidl.core.UnionTypeH\000\022)\n\010metadata\030\006" +
-      " \001(\0132\027.google.protobuf.Struct\0221\n\nannotat" +
-      "ion\030\t \001(\0132\035.nebulaidl.core.TypeAnnotation" +
-      "\022/\n\tstructure\030\013 \001(\0132\034.nebulaidl.core.Type" +
-      "StructureB\006\n\004type\"c\n\017OutputReference\022\017\n\007" +
-      "node_id\030\001 \001(\t\022\013\n\003var\030\002 \001(\t\0222\n\tattr_path\030" +
-      "\003 \003(\0132\037.nebulaidl.core.PromiseAttribute\"H" +
-      "\n\020PromiseAttribute\022\026\n\014string_value\030\001 \001(\t" +
-      "H\000\022\023\n\tint_value\030\002 \001(\005H\000B\007\n\005value\"0\n\005Erro" +
-      "r\022\026\n\016failed_node_id\030\001 \001(\t\022\017\n\007message\030\002 \001" +
-      "(\t*\206\001\n\nSimpleType\022\010\n\004NONE\020\000\022\013\n\007INTEGER\020\001" +
-      "\022\t\n\005FLOAT\020\002\022\n\n\006STRING\020\003\022\013\n\007BOOLEAN\020\004\022\014\n\010" +
-      "DATETIME\020\005\022\014\n\010DURATION\020\006\022\n\n\006BINARY\020\007\022\t\n\005" +
-      "ERROR\020\010\022\n\n\006STRUCT\020\tB6Z4github.com/nebulaclou" +
-      "ds/nebulaidl/gen/pb-go/nebulaidl/coreb\006pro" +
-      "to3"
+      "\n\032nebulaidl/core/types.proto\022\016nebulaidl." +
+      "core\032\034google/protobuf/struct.proto\"\216\002\n\nS" +
+      "chemaType\0228\n\007columns\030\003 \003(\0132\'.nebulaidl.c" +
+      "ore.SchemaType.SchemaColumn\032\305\001\n\014SchemaCo" +
+      "lumn\022\014\n\004name\030\001 \001(\t\022F\n\004type\030\002 \001(\01628.nebul" +
+      "aidl.core.SchemaType.SchemaColumn.Schema" +
+      "ColumnType\"_\n\020SchemaColumnType\022\013\n\007INTEGE" +
+      "R\020\000\022\t\n\005FLOAT\020\001\022\n\n\006STRING\020\002\022\013\n\007BOOLEAN\020\003\022" +
+      "\014\n\010DATETIME\020\004\022\014\n\010DURATION\020\005\"\374\001\n\025Structur" +
+      "edDatasetType\022D\n\007columns\030\001 \003(\01323.nebulai" +
+      "dl.core.StructuredDatasetType.DatasetCol" +
+      "umn\022\016\n\006format\030\002 \001(\t\022\034\n\024external_schema_t" +
+      "ype\030\003 \001(\t\022\035\n\025external_schema_bytes\030\004 \001(\014" +
+      "\032P\n\rDatasetColumn\022\014\n\004name\030\001 \001(\t\0221\n\014liter" +
+      "al_type\030\002 \001(\0132\033.nebulaidl.core.LiteralTy" +
+      "pe\"\220\001\n\010BlobType\022\016\n\006format\030\001 \001(\t\022C\n\016dimen" +
+      "sionality\030\002 \001(\0162+.nebulaidl.core.BlobTyp" +
+      "e.BlobDimensionality\"/\n\022BlobDimensionali" +
+      "ty\022\n\n\006SINGLE\020\000\022\r\n\tMULTIPART\020\001\"\032\n\010EnumTyp" +
+      "e\022\016\n\006values\030\001 \003(\t\":\n\tUnionType\022-\n\010varian" +
+      "ts\030\001 \003(\0132\033.nebulaidl.core.LiteralType\"\034\n" +
+      "\rTypeStructure\022\013\n\003tag\030\001 \001(\t\">\n\016TypeAnnot" +
+      "ation\022,\n\013annotations\030\001 \001(\0132\027.google.prot" +
+      "obuf.Struct\"\305\004\n\013LiteralType\022,\n\006simple\030\001 " +
+      "\001(\0162\032.nebulaidl.core.SimpleTypeH\000\022,\n\006sch" +
+      "ema\030\002 \001(\0132\032.nebulaidl.core.SchemaTypeH\000\022" +
+      "6\n\017collection_type\030\003 \001(\0132\033.nebulaidl.cor" +
+      "e.LiteralTypeH\000\0225\n\016map_value_type\030\004 \001(\0132" +
+      "\033.nebulaidl.core.LiteralTypeH\000\022(\n\004blob\030\005" +
+      " \001(\0132\030.nebulaidl.core.BlobTypeH\000\022-\n\tenum" +
+      "_type\030\007 \001(\0132\030.nebulaidl.core.EnumTypeH\000\022" +
+      "H\n\027structured_dataset_type\030\010 \001(\0132%.nebul" +
+      "aidl.core.StructuredDatasetTypeH\000\022/\n\nuni" +
+      "on_type\030\n \001(\0132\031.nebulaidl.core.UnionType" +
+      "H\000\022)\n\010metadata\030\006 \001(\0132\027.google.protobuf.S" +
+      "truct\0222\n\nannotation\030\t \001(\0132\036.nebulaidl.co" +
+      "re.TypeAnnotation\0220\n\tstructure\030\013 \001(\0132\035.n" +
+      "ebulaidl.core.TypeStructureB\006\n\004type\"d\n\017O" +
+      "utputReference\022\017\n\007node_id\030\001 \001(\t\022\013\n\003var\030\002" +
+      " \001(\t\0223\n\tattr_path\030\003 \003(\0132 .nebulaidl.core" +
+      ".PromiseAttribute\"H\n\020PromiseAttribute\022\026\n" +
+      "\014string_value\030\001 \001(\tH\000\022\023\n\tint_value\030\002 \001(\005" +
+      "H\000B\007\n\005value\"0\n\005Error\022\026\n\016failed_node_id\030\001" +
+      " \001(\t\022\017\n\007message\030\002 \001(\t*\206\001\n\nSimpleType\022\010\n\004" +
+      "NONE\020\000\022\013\n\007INTEGER\020\001\022\t\n\005FLOAT\020\002\022\n\n\006STRING" +
+      "\020\003\022\013\n\007BOOLEAN\020\004\022\014\n\010DATETIME\020\005\022\014\n\010DURATIO" +
+      "N\020\006\022\n\n\006BINARY\020\007\022\t\n\005ERROR\020\010\022\n\n\006STRUCT\020\tB<" +
+      "Z:github.com/nebulaclouds/nebulaidl/gen/" +
+      "pb-go/nebulaidl/coreb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

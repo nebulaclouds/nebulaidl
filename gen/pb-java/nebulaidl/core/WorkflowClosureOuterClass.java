@@ -51,7 +51,7 @@ public final class WorkflowClosureOuterClass {
      *
      * <code>repeated .nebulaidl.core.TaskTemplate tasks = 2;</code>
      */
-    java.util.List<nebulaidl.core.Tasks.TaskTemplate>
+    java.util.List<nebulaidl.core.Tasks.TaskTemplate> 
         getTasksList();
     /**
      * <pre>
@@ -79,7 +79,7 @@ public final class WorkflowClosureOuterClass {
      *
      * <code>repeated .nebulaidl.core.TaskTemplate tasks = 2;</code>
      */
-    java.util.List<? extends nebulaidl.core.Tasks.TaskTemplateOrBuilder>
+    java.util.List<? extends nebulaidl.core.Tasks.TaskTemplateOrBuilder> 
         getTasksOrBuilderList();
     /**
      * <pre>
@@ -248,7 +248,7 @@ public final class WorkflowClosureOuterClass {
      *
      * <code>repeated .nebulaidl.core.TaskTemplate tasks = 2;</code>
      */
-    public java.util.List<? extends nebulaidl.core.Tasks.TaskTemplateOrBuilder>
+    public java.util.List<? extends nebulaidl.core.Tasks.TaskTemplateOrBuilder> 
         getTasksOrBuilderList() {
       return tasks_;
     }
@@ -805,7 +805,7 @@ public final class WorkflowClosureOuterClass {
        * <code>.nebulaidl.core.WorkflowTemplate workflow = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          nebulaidl.core.Workflow.WorkflowTemplate, nebulaidl.core.Workflow.WorkflowTemplate.Builder, nebulaidl.core.Workflow.WorkflowTemplateOrBuilder>
+          nebulaidl.core.Workflow.WorkflowTemplate, nebulaidl.core.Workflow.WorkflowTemplate.Builder, nebulaidl.core.Workflow.WorkflowTemplateOrBuilder> 
           getWorkflowFieldBuilder() {
         if (workflowBuilder_ == null) {
           workflowBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -1088,7 +1088,7 @@ public final class WorkflowClosureOuterClass {
        *
        * <code>repeated .nebulaidl.core.TaskTemplate tasks = 2;</code>
        */
-      public java.util.List<? extends nebulaidl.core.Tasks.TaskTemplateOrBuilder>
+      public java.util.List<? extends nebulaidl.core.Tasks.TaskTemplateOrBuilder> 
            getTasksOrBuilderList() {
         if (tasksBuilder_ != null) {
           return tasksBuilder_.getMessageOrBuilderList();
@@ -1129,12 +1129,12 @@ public final class WorkflowClosureOuterClass {
        *
        * <code>repeated .nebulaidl.core.TaskTemplate tasks = 2;</code>
        */
-      public java.util.List<nebulaidl.core.Tasks.TaskTemplate.Builder>
+      public java.util.List<nebulaidl.core.Tasks.TaskTemplate.Builder> 
            getTasksBuilderList() {
         return getTasksFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          nebulaidl.core.Tasks.TaskTemplate, nebulaidl.core.Tasks.TaskTemplate.Builder, nebulaidl.core.Tasks.TaskTemplateOrBuilder>
+          nebulaidl.core.Tasks.TaskTemplate, nebulaidl.core.Tasks.TaskTemplate.Builder, nebulaidl.core.Tasks.TaskTemplateOrBuilder> 
           getTasksFieldBuilder() {
         if (tasksBuilder_ == null) {
           tasksBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
@@ -1214,14 +1214,14 @@ public final class WorkflowClosureOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n$nebulaidl/core/workflow_closure.proto\022\r" +
-      "nebulaidl.core\032\034nebulaidl/core/workflow.pr" +
-      "oto\032\031nebulaidl/core/tasks.proto\"p\n\017Workfl" +
-      "owClosure\0221\n\010workflow\030\001 \001(\0132\037.nebulaidl.c" +
-      "ore.WorkflowTemplate\022*\n\005tasks\030\002 \003(\0132\033.ne" +
-      "bulaidl.core.TaskTemplateB6Z4github.com/n" +
-      "ebulaclouds/nebulaidl/gen/pb-go/nebulaidl/core" +
-      "b\006proto3"
+      "\n%nebulaidl/core/workflow_closure.proto\022" +
+      "\016nebulaidl.core\032\035nebulaidl/core/workflow" +
+      ".proto\032\032nebulaidl/core/tasks.proto\"r\n\017Wo" +
+      "rkflowClosure\0222\n\010workflow\030\001 \001(\0132 .nebula" +
+      "idl.core.WorkflowTemplate\022+\n\005tasks\030\002 \003(\013" +
+      "2\034.nebulaidl.core.TaskTemplateB<Z:github" +
+      ".com/nebulaclouds/nebulaidl/gen/pb-go/ne" +
+      "bulaidl/coreb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

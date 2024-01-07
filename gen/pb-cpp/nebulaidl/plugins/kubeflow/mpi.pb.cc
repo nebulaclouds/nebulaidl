@@ -111,28 +111,29 @@ static ::google::protobuf::Message const * const file_default_instances[] = {
 };
 
 const char descriptor_table_protodef_nebulaidl_2fplugins_2fkubeflow_2fmpi_2eproto[] =
-  "\n#nebulaidl/plugins/kubeflow/mpi.proto\022\031f"
-  "lyteidl.plugins.kubeflow\032\031nebulaidl/core/"
-  "tasks.proto\032&nebulaidl/plugins/kubeflow/c"
-  "ommon.proto\"\225\002\n\032DistributedMPITrainingTa"
-  "sk\022U\n\017worker_replicas\030\001 \001(\0132<.nebulaidl.p"
-  "lugins.kubeflow.DistributedMPITrainingRe"
-  "plicaSpec\022W\n\021launcher_replicas\030\002 \001(\0132<.f"
-  "lyteidl.plugins.kubeflow.DistributedMPIT"
-  "rainingReplicaSpec\0228\n\nrun_policy\030\003 \001(\0132$"
-  ".nebulaidl.plugins.kubeflow.RunPolicy\022\r\n\005"
-  "slots\030\004 \001(\005\"\304\001\n!DistributedMPITrainingRe"
-  "plicaSpec\022\020\n\010replicas\030\001 \001(\005\022\r\n\005image\030\002 \001"
-  "(\t\022+\n\tresources\030\003 \001(\0132\030.nebulaidl.core.Re"
-  "sources\022@\n\016restart_policy\030\004 \001(\0162(.nebulai"
-  "dl.plugins.kubeflow.RestartPolicy\022\017\n\007com"
-  "mand\030\005 \003(\tB9Z7github.com/nebulaclouds/nebulai"
-  "dl/gen/pb-go/nebulaidl/pluginsb\006proto3"
+  "\n$nebulaidl/plugins/kubeflow/mpi.proto\022\032"
+  "nebulaidl.plugins.kubeflow\032\032nebulaidl/co"
+  "re/tasks.proto\032\'nebulaidl/plugins/kubefl"
+  "ow/common.proto\"\230\002\n\032DistributedMPITraini"
+  "ngTask\022V\n\017worker_replicas\030\001 \001(\0132=.nebula"
+  "idl.plugins.kubeflow.DistributedMPITrain"
+  "ingReplicaSpec\022X\n\021launcher_replicas\030\002 \001("
+  "\0132=.nebulaidl.plugins.kubeflow.Distribut"
+  "edMPITrainingReplicaSpec\0229\n\nrun_policy\030\003"
+  " \001(\0132%.nebulaidl.plugins.kubeflow.RunPol"
+  "icy\022\r\n\005slots\030\004 \001(\005\"\306\001\n!DistributedMPITra"
+  "iningReplicaSpec\022\020\n\010replicas\030\001 \001(\005\022\r\n\005im"
+  "age\030\002 \001(\t\022,\n\tresources\030\003 \001(\0132\031.nebulaidl"
+  ".core.Resources\022A\n\016restart_policy\030\004 \001(\0162"
+  ").nebulaidl.plugins.kubeflow.RestartPoli"
+  "cy\022\017\n\007command\030\005 \003(\tB\?Z=github.com/nebula"
+  "clouds/nebulaidl/gen/pb-go/nebulaidl/plu"
+  "ginsb\006proto3"
   ;
 ::google::protobuf::internal::DescriptorTable descriptor_table_nebulaidl_2fplugins_2fkubeflow_2fmpi_2eproto = {
-  false, InitDefaults_nebulaidl_2fplugins_2fkubeflow_2fmpi_2eproto,
+  false, InitDefaults_nebulaidl_2fplugins_2fkubeflow_2fmpi_2eproto, 
   descriptor_table_protodef_nebulaidl_2fplugins_2fkubeflow_2fmpi_2eproto,
-  "nebulaidl/plugins/kubeflow/mpi.proto", &assign_descriptors_table_nebulaidl_2fplugins_2fkubeflow_2fmpi_2eproto, 677,
+  "nebulaidl/plugins/kubeflow/mpi.proto", &assign_descriptors_table_nebulaidl_2fplugins_2fkubeflow_2fmpi_2eproto, 692,
 };
 
 void AddDescriptors_nebulaidl_2fplugins_2fkubeflow_2fmpi_2eproto() {

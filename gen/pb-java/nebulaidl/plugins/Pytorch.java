@@ -1527,7 +1527,7 @@ public final class Pytorch {
        * <code>.nebulaidl.plugins.ElasticConfig elastic_config = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          nebulaidl.plugins.Pytorch.ElasticConfig, nebulaidl.plugins.Pytorch.ElasticConfig.Builder, nebulaidl.plugins.Pytorch.ElasticConfigOrBuilder>
+          nebulaidl.plugins.Pytorch.ElasticConfig, nebulaidl.plugins.Pytorch.ElasticConfig.Builder, nebulaidl.plugins.Pytorch.ElasticConfigOrBuilder> 
           getElasticConfigFieldBuilder() {
         if (elasticConfigBuilder_ == null) {
           elasticConfigBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -1611,15 +1611,16 @@ public final class Pytorch {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\036nebulaidl/plugins/pytorch.proto\022\020nebulai" +
-      "dl.plugins\"\177\n\rElasticConfig\022\024\n\014rdzv_back" +
-      "end\030\001 \001(\t\022\024\n\014min_replicas\030\002 \001(\005\022\024\n\014max_r" +
-      "eplicas\030\003 \001(\005\022\026\n\016nproc_per_node\030\004 \001(\005\022\024\n" +
-      "\014max_restarts\030\005 \001(\005\"j\n\036DistributedPyTorc" +
-      "hTrainingTask\022\017\n\007workers\030\001 \001(\005\0227\n\016elasti" +
-      "c_config\030\002 \001(\0132\037.nebulaidl.plugins.Elasti" +
-      "cConfigB9Z7github.com/nebulaclouds/nebulaidl/" +
-      "gen/pb-go/nebulaidl/pluginsb\006proto3"
+      "\n\037nebulaidl/plugins/pytorch.proto\022\021nebul" +
+      "aidl.plugins\"\177\n\rElasticConfig\022\024\n\014rdzv_ba" +
+      "ckend\030\001 \001(\t\022\024\n\014min_replicas\030\002 \001(\005\022\024\n\014max" +
+      "_replicas\030\003 \001(\005\022\026\n\016nproc_per_node\030\004 \001(\005\022" +
+      "\024\n\014max_restarts\030\005 \001(\005\"k\n\036DistributedPyTo" +
+      "rchTrainingTask\022\017\n\007workers\030\001 \001(\005\0228\n\016elas" +
+      "tic_config\030\002 \001(\0132 .nebulaidl.plugins.Ela" +
+      "sticConfigB?Z=github.com/nebulaclouds/ne" +
+      "bulaidl/gen/pb-go/nebulaidl/pluginsb\006pro" +
+      "to3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

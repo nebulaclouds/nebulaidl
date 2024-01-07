@@ -75,17 +75,18 @@ static ::google::protobuf::Message const * const file_default_instances[] = {
 };
 
 const char descriptor_table_protodef_nebulaidl_2fplugins_2farray_5fjob_2eproto[] =
-  "\n nebulaidl/plugins/array_job.proto\022\020flyt"
-  "eidl.plugins\"w\n\010ArrayJob\022\023\n\013parallelism\030"
-  "\001 \001(\003\022\014\n\004size\030\002 \001(\003\022\027\n\rmin_successes\030\003 \001"
-  "(\003H\000\022\033\n\021min_success_ratio\030\004 \001(\002H\000B\022\n\020suc"
-  "cess_criteriaB9Z7github.com/nebulaclouds/fly"
-  "teidl/gen/pb-go/nebulaidl/pluginsb\006proto3"
+  "\n!nebulaidl/plugins/array_job.proto\022\021neb"
+  "ulaidl.plugins\"w\n\010ArrayJob\022\023\n\013parallelis"
+  "m\030\001 \001(\003\022\014\n\004size\030\002 \001(\003\022\027\n\rmin_successes\030\003"
+  " \001(\003H\000\022\033\n\021min_success_ratio\030\004 \001(\002H\000B\022\n\020s"
+  "uccess_criteriaB\?Z=github.com/nebulaclou"
+  "ds/nebulaidl/gen/pb-go/nebulaidl/plugins"
+  "b\006proto3"
   ;
 ::google::protobuf::internal::DescriptorTable descriptor_table_nebulaidl_2fplugins_2farray_5fjob_2eproto = {
-  false, InitDefaults_nebulaidl_2fplugins_2farray_5fjob_2eproto,
+  false, InitDefaults_nebulaidl_2fplugins_2farray_5fjob_2eproto, 
   descriptor_table_protodef_nebulaidl_2fplugins_2farray_5fjob_2eproto,
-  "nebulaidl/plugins/array_job.proto", &assign_descriptors_table_nebulaidl_2fplugins_2farray_5fjob_2eproto, 240,
+  "nebulaidl/plugins/array_job.proto", &assign_descriptors_table_nebulaidl_2fplugins_2farray_5fjob_2eproto, 248,
 };
 
 void AddDescriptors_nebulaidl_2fplugins_2farray_5fjob_2eproto() {

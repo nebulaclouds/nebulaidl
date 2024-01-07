@@ -624,7 +624,7 @@
         "DATASET"
       ],
       "default": "UNSPECIFIED",
-      "description": "Indicates a resource type within Nebula.\n\n - DATASET: A dataset represents an entity modeled in Nebula DataCatalog. A Dataset is also a versioned entity and can be a compilation of multiple individual objects.\nEventually all Catalog objects should be modeled similar to Nebula Objects. The Dataset entities makes it possible for the UI  and CLI to act on the objects \nin a similar manner to other Nebula objects"
+      "description": "Indicates a resource type within Nebula.\n\n - DATASET: A dataset represents an entity modeled in Nebula DataCatalog. A Dataset is also a versioned entity and can be a compilation of multiple individual objects.\nEventually all Catalog objects should be modeled similar to Nebula Objects. The Dataset entities makes it possible for the UI  and CLI to act on the objects\nin a similar manner to other Nebula objects"
     },
     "coreResources": {
       "type": "object",

@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1a\x66lyteidl/plugins/mpi.proto\x12\x10\x66lyteidl.plugins\"\x87\x01\n\x1a\x44istributedMPITrainingTask\x12\x1f\n\x0bnum_workers\x18\x01 \x01(\x05R\nnumWorkers\x12\x32\n\x15num_launcher_replicas\x18\x02 \x01(\x05R\x13numLauncherReplicas\x12\x14\n\x05slots\x18\x03 \x01(\x05R\x05slotsB\xba\x01\n\x14\x63om.nebulaidl.pluginsB\x08MpiProtoP\x01Z7github.com/nebulaclouds/nebulaidl/gen/pb-go/nebulaidl/plugins\xa2\x02\x03\x46PX\xaa\x02\x10\x46lyteidl.Plugins\xca\x02\x10\x46lyteidl\\Plugins\xe2\x02\x1c\x46lyteidl\\Plugins\\GPBMetadata\xea\x02\x11\x46lyteidl::Pluginsb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1bnebulaidl/plugins/mpi.proto\x12\x11nebulaidl.plugins\"\x87\x01\n\x1a\x44istributedMPITrainingTask\x12\x1f\n\x0bnum_workers\x18\x01 \x01(\x05R\nnumWorkers\x12\x32\n\x15num_launcher_replicas\x18\x02 \x01(\x05R\x13numLauncherReplicas\x12\x14\n\x05slots\x18\x03 \x01(\x05R\x05slotsB\xc5\x01\n\x15\x63om.nebulaidl.pluginsB\x08MpiProtoP\x01Z=github.com/nebulaclouds/nebulaidl/gen/pb-go/nebulaidl/plugins\xa2\x02\x03NPX\xaa\x02\x11Nebulaidl.Plugins\xca\x02\x11Nebulaidl\\Plugins\xe2\x02\x1dNebulaidl\\Plugins\\GPBMetadata\xea\x02\x12Nebulaidl::Pluginsb\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -21,7 +21,7 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'nebulaidl.plugins.mpi_pb2',
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\024com.nebulaidl.pluginsB\010MpiProtoP\001Z7github.com/nebulaclouds/nebulaidl/gen/pb-go/nebulaidl/plugins\242\002\003FPX\252\002\020Nebulaidl.Plugins\312\002\020Nebulaidl\\Plugins\342\002\034Nebulaidl\\Plugins\\GPBMetadata\352\002\021Nebulaidl::Plugins'
-  _globals['_DISTRIBUTEDMPITRAININGTASK']._serialized_start=49
-  _globals['_DISTRIBUTEDMPITRAININGTASK']._serialized_end=184
+  DESCRIPTOR._serialized_options = b'\n\025com.nebulaidl.pluginsB\010MpiProtoP\001Z=github.com/nebulaclouds/nebulaidl/gen/pb-go/nebulaidl/plugins\242\002\003NPX\252\002\021Nebulaidl.Plugins\312\002\021Nebulaidl\\Plugins\342\002\035Nebulaidl\\Plugins\\GPBMetadata\352\002\022Nebulaidl::Plugins'
+  _globals['_DISTRIBUTEDMPITRAININGTASK']._serialized_start=51
+  _globals['_DISTRIBUTEDMPITRAININGTASK']._serialized_end=186
 # @@protoc_insertion_point(module_scope)

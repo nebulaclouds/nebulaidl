@@ -25,7 +25,7 @@ public final class Tasks {
      *
      * <code>repeated .nebulaidl.core.Resources.ResourceEntry requests = 1;</code>
      */
-    java.util.List<nebulaidl.core.Tasks.Resources.ResourceEntry>
+    java.util.List<nebulaidl.core.Tasks.Resources.ResourceEntry> 
         getRequestsList();
     /**
      * <pre>
@@ -50,7 +50,7 @@ public final class Tasks {
      *
      * <code>repeated .nebulaidl.core.Resources.ResourceEntry requests = 1;</code>
      */
-    java.util.List<? extends nebulaidl.core.Tasks.Resources.ResourceEntryOrBuilder>
+    java.util.List<? extends nebulaidl.core.Tasks.Resources.ResourceEntryOrBuilder> 
         getRequestsOrBuilderList();
     /**
      * <pre>
@@ -70,7 +70,7 @@ public final class Tasks {
      *
      * <code>repeated .nebulaidl.core.Resources.ResourceEntry limits = 2;</code>
      */
-    java.util.List<nebulaidl.core.Tasks.Resources.ResourceEntry>
+    java.util.List<nebulaidl.core.Tasks.Resources.ResourceEntry> 
         getLimitsList();
     /**
      * <pre>
@@ -98,7 +98,7 @@ public final class Tasks {
      *
      * <code>repeated .nebulaidl.core.Resources.ResourceEntry limits = 2;</code>
      */
-    java.util.List<? extends nebulaidl.core.Tasks.Resources.ResourceEntryOrBuilder>
+    java.util.List<? extends nebulaidl.core.Tasks.Resources.ResourceEntryOrBuilder> 
         getLimitsOrBuilderList();
     /**
      * <pre>
@@ -1110,7 +1110,7 @@ public final class Tasks {
      *
      * <code>repeated .nebulaidl.core.Resources.ResourceEntry requests = 1;</code>
      */
-    public java.util.List<? extends nebulaidl.core.Tasks.Resources.ResourceEntryOrBuilder>
+    public java.util.List<? extends nebulaidl.core.Tasks.Resources.ResourceEntryOrBuilder> 
         getRequestsOrBuilderList() {
       return requests_;
     }
@@ -1167,7 +1167,7 @@ public final class Tasks {
      *
      * <code>repeated .nebulaidl.core.Resources.ResourceEntry limits = 2;</code>
      */
-    public java.util.List<? extends nebulaidl.core.Tasks.Resources.ResourceEntryOrBuilder>
+    public java.util.List<? extends nebulaidl.core.Tasks.Resources.ResourceEntryOrBuilder> 
         getLimitsOrBuilderList() {
       return limits_;
     }
@@ -1863,7 +1863,7 @@ public final class Tasks {
        *
        * <code>repeated .nebulaidl.core.Resources.ResourceEntry requests = 1;</code>
        */
-      public java.util.List<? extends nebulaidl.core.Tasks.Resources.ResourceEntryOrBuilder>
+      public java.util.List<? extends nebulaidl.core.Tasks.Resources.ResourceEntryOrBuilder> 
            getRequestsOrBuilderList() {
         if (requestsBuilder_ != null) {
           return requestsBuilder_.getMessageOrBuilderList();
@@ -1901,12 +1901,12 @@ public final class Tasks {
        *
        * <code>repeated .nebulaidl.core.Resources.ResourceEntry requests = 1;</code>
        */
-      public java.util.List<nebulaidl.core.Tasks.Resources.ResourceEntry.Builder>
+      public java.util.List<nebulaidl.core.Tasks.Resources.ResourceEntry.Builder> 
            getRequestsBuilderList() {
         return getRequestsFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          nebulaidl.core.Tasks.Resources.ResourceEntry, nebulaidl.core.Tasks.Resources.ResourceEntry.Builder, nebulaidl.core.Tasks.Resources.ResourceEntryOrBuilder>
+          nebulaidl.core.Tasks.Resources.ResourceEntry, nebulaidl.core.Tasks.Resources.ResourceEntry.Builder, nebulaidl.core.Tasks.Resources.ResourceEntryOrBuilder> 
           getRequestsFieldBuilder() {
         if (requestsBuilder_ == null) {
           requestsBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
@@ -2190,7 +2190,7 @@ public final class Tasks {
        *
        * <code>repeated .nebulaidl.core.Resources.ResourceEntry limits = 2;</code>
        */
-      public java.util.List<? extends nebulaidl.core.Tasks.Resources.ResourceEntryOrBuilder>
+      public java.util.List<? extends nebulaidl.core.Tasks.Resources.ResourceEntryOrBuilder> 
            getLimitsOrBuilderList() {
         if (limitsBuilder_ != null) {
           return limitsBuilder_.getMessageOrBuilderList();
@@ -2231,12 +2231,12 @@ public final class Tasks {
        *
        * <code>repeated .nebulaidl.core.Resources.ResourceEntry limits = 2;</code>
        */
-      public java.util.List<nebulaidl.core.Tasks.Resources.ResourceEntry.Builder>
+      public java.util.List<nebulaidl.core.Tasks.Resources.ResourceEntry.Builder> 
            getLimitsBuilderList() {
         return getLimitsFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          nebulaidl.core.Tasks.Resources.ResourceEntry, nebulaidl.core.Tasks.Resources.ResourceEntry.Builder, nebulaidl.core.Tasks.Resources.ResourceEntryOrBuilder>
+          nebulaidl.core.Tasks.Resources.ResourceEntry, nebulaidl.core.Tasks.Resources.ResourceEntry.Builder, nebulaidl.core.Tasks.Resources.ResourceEntryOrBuilder> 
           getLimitsFieldBuilder() {
         if (limitsBuilder_ == null) {
           limitsBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
@@ -3990,7 +3990,7 @@ public final class Tasks {
           java.lang.String, java.lang.String> defaultEntry =
               com.google.protobuf.MapEntry
               .<java.lang.String, java.lang.String>newDefaultInstance(
-                  nebulaidl.core.Tasks.internal_static_nebulaidl_core_TaskMetadata_TagsEntry_descriptor,
+                  nebulaidl.core.Tasks.internal_static_nebulaidl_core_TaskMetadata_TagsEntry_descriptor, 
                   com.google.protobuf.WireFormat.FieldType.STRING,
                   "",
                   com.google.protobuf.WireFormat.FieldType.STRING,
@@ -4894,7 +4894,7 @@ public final class Tasks {
        * <code>.nebulaidl.core.RuntimeMetadata runtime = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          nebulaidl.core.Tasks.RuntimeMetadata, nebulaidl.core.Tasks.RuntimeMetadata.Builder, nebulaidl.core.Tasks.RuntimeMetadataOrBuilder>
+          nebulaidl.core.Tasks.RuntimeMetadata, nebulaidl.core.Tasks.RuntimeMetadata.Builder, nebulaidl.core.Tasks.RuntimeMetadataOrBuilder> 
           getRuntimeFieldBuilder() {
         if (runtimeBuilder_ == null) {
           runtimeBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -5200,7 +5200,7 @@ public final class Tasks {
        * <code>.nebulaidl.core.RetryStrategy retries = 5;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          nebulaidl.core.Literals.RetryStrategy, nebulaidl.core.Literals.RetryStrategy.Builder, nebulaidl.core.Literals.RetryStrategyOrBuilder>
+          nebulaidl.core.Literals.RetryStrategy, nebulaidl.core.Literals.RetryStrategy.Builder, nebulaidl.core.Literals.RetryStrategyOrBuilder> 
           getRetriesFieldBuilder() {
         if (retriesBuilder_ == null) {
           retriesBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -6644,7 +6644,7 @@ public final class Tasks {
           java.lang.String, java.lang.String> defaultEntry =
               com.google.protobuf.MapEntry
               .<java.lang.String, java.lang.String>newDefaultInstance(
-                  nebulaidl.core.Tasks.internal_static_nebulaidl_core_TaskTemplate_ConfigEntry_descriptor,
+                  nebulaidl.core.Tasks.internal_static_nebulaidl_core_TaskTemplate_ConfigEntry_descriptor, 
                   com.google.protobuf.WireFormat.FieldType.STRING,
                   "",
                   com.google.protobuf.WireFormat.FieldType.STRING,
@@ -7515,7 +7515,7 @@ public final class Tasks {
        * <code>.nebulaidl.core.Identifier id = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          nebulaidl.core.IdentifierOuterClass.Identifier, nebulaidl.core.IdentifierOuterClass.Identifier.Builder, nebulaidl.core.IdentifierOuterClass.IdentifierOrBuilder>
+          nebulaidl.core.IdentifierOuterClass.Identifier, nebulaidl.core.IdentifierOuterClass.Identifier.Builder, nebulaidl.core.IdentifierOuterClass.IdentifierOrBuilder> 
           getIdFieldBuilder() {
         if (idBuilder_ == null) {
           idBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -7767,7 +7767,7 @@ public final class Tasks {
        * <code>.nebulaidl.core.TaskMetadata metadata = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          nebulaidl.core.Tasks.TaskMetadata, nebulaidl.core.Tasks.TaskMetadata.Builder, nebulaidl.core.Tasks.TaskMetadataOrBuilder>
+          nebulaidl.core.Tasks.TaskMetadata, nebulaidl.core.Tasks.TaskMetadata.Builder, nebulaidl.core.Tasks.TaskMetadataOrBuilder> 
           getMetadataFieldBuilder() {
         if (metadataBuilder_ == null) {
           metadataBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -7929,7 +7929,7 @@ public final class Tasks {
        * <code>.nebulaidl.core.TypedInterface interface = 4;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          nebulaidl.core.Interface.TypedInterface, nebulaidl.core.Interface.TypedInterface.Builder, nebulaidl.core.Interface.TypedInterfaceOrBuilder>
+          nebulaidl.core.Interface.TypedInterface, nebulaidl.core.Interface.TypedInterface.Builder, nebulaidl.core.Interface.TypedInterfaceOrBuilder> 
           getInterfaceFieldBuilder() {
         if (interfaceBuilder_ == null) {
           interfaceBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -8213,7 +8213,7 @@ public final class Tasks {
        * <code>.nebulaidl.core.Container container = 6;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          nebulaidl.core.Tasks.Container, nebulaidl.core.Tasks.Container.Builder, nebulaidl.core.Tasks.ContainerOrBuilder>
+          nebulaidl.core.Tasks.Container, nebulaidl.core.Tasks.Container.Builder, nebulaidl.core.Tasks.ContainerOrBuilder> 
           getContainerFieldBuilder() {
         if (containerBuilder_ == null) {
           if (!(targetCase_ == 6)) {
@@ -8349,7 +8349,7 @@ public final class Tasks {
        * <code>.nebulaidl.core.K8sPod k8s_pod = 17;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          nebulaidl.core.Tasks.K8sPod, nebulaidl.core.Tasks.K8sPod.Builder, nebulaidl.core.Tasks.K8sPodOrBuilder>
+          nebulaidl.core.Tasks.K8sPod, nebulaidl.core.Tasks.K8sPod.Builder, nebulaidl.core.Tasks.K8sPodOrBuilder> 
           getK8SPodFieldBuilder() {
         if (k8SPodBuilder_ == null) {
           if (!(targetCase_ == 17)) {
@@ -8485,7 +8485,7 @@ public final class Tasks {
        * <code>.nebulaidl.core.Sql sql = 18;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          nebulaidl.core.Tasks.Sql, nebulaidl.core.Tasks.Sql.Builder, nebulaidl.core.Tasks.SqlOrBuilder>
+          nebulaidl.core.Tasks.Sql, nebulaidl.core.Tasks.Sql.Builder, nebulaidl.core.Tasks.SqlOrBuilder> 
           getSqlFieldBuilder() {
         if (sqlBuilder_ == null) {
           if (!(targetCase_ == 18)) {
@@ -8681,7 +8681,7 @@ public final class Tasks {
        * <code>.nebulaidl.core.SecurityContext security_context = 8;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          nebulaidl.core.Security.SecurityContext, nebulaidl.core.Security.SecurityContext.Builder, nebulaidl.core.Security.SecurityContextOrBuilder>
+          nebulaidl.core.Security.SecurityContext, nebulaidl.core.Security.SecurityContext.Builder, nebulaidl.core.Security.SecurityContextOrBuilder> 
           getSecurityContextFieldBuilder() {
         if (securityContextBuilder_ == null) {
           securityContextBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -9550,7 +9550,7 @@ public final class Tasks {
      *
      * <code>repeated .nebulaidl.core.KeyValuePair env = 5;</code>
      */
-    java.util.List<nebulaidl.core.Literals.KeyValuePair>
+    java.util.List<nebulaidl.core.Literals.KeyValuePair> 
         getEnvList();
     /**
      * <pre>
@@ -9575,7 +9575,7 @@ public final class Tasks {
      *
      * <code>repeated .nebulaidl.core.KeyValuePair env = 5;</code>
      */
-    java.util.List<? extends nebulaidl.core.Literals.KeyValuePairOrBuilder>
+    java.util.List<? extends nebulaidl.core.Literals.KeyValuePairOrBuilder> 
         getEnvOrBuilderList();
     /**
      * <pre>
@@ -9596,7 +9596,7 @@ public final class Tasks {
      *
      * <code>repeated .nebulaidl.core.KeyValuePair config = 6 [deprecated = true];</code>
      */
-    @java.lang.Deprecated java.util.List<nebulaidl.core.Literals.KeyValuePair>
+    @java.lang.Deprecated java.util.List<nebulaidl.core.Literals.KeyValuePair> 
         getConfigList();
     /**
      * <pre>
@@ -9627,7 +9627,7 @@ public final class Tasks {
      *
      * <code>repeated .nebulaidl.core.KeyValuePair config = 6 [deprecated = true];</code>
      */
-    @java.lang.Deprecated java.util.List<? extends nebulaidl.core.Literals.KeyValuePairOrBuilder>
+    @java.lang.Deprecated java.util.List<? extends nebulaidl.core.Literals.KeyValuePairOrBuilder> 
         getConfigOrBuilderList();
     /**
      * <pre>
@@ -9650,7 +9650,7 @@ public final class Tasks {
      *
      * <code>repeated .nebulaidl.core.ContainerPort ports = 7;</code>
      */
-    java.util.List<nebulaidl.core.Tasks.ContainerPort>
+    java.util.List<nebulaidl.core.Tasks.ContainerPort> 
         getPortsList();
     /**
      * <pre>
@@ -9681,7 +9681,7 @@ public final class Tasks {
      *
      * <code>repeated .nebulaidl.core.ContainerPort ports = 7;</code>
      */
-    java.util.List<? extends nebulaidl.core.Tasks.ContainerPortOrBuilder>
+    java.util.List<? extends nebulaidl.core.Tasks.ContainerPortOrBuilder> 
         getPortsOrBuilderList();
     /**
      * <pre>
@@ -10245,7 +10245,7 @@ public final class Tasks {
      *
      * <code>repeated .nebulaidl.core.KeyValuePair env = 5;</code>
      */
-    public java.util.List<? extends nebulaidl.core.Literals.KeyValuePairOrBuilder>
+    public java.util.List<? extends nebulaidl.core.Literals.KeyValuePairOrBuilder> 
         getEnvOrBuilderList() {
       return env_;
     }
@@ -10304,7 +10304,7 @@ public final class Tasks {
      *
      * <code>repeated .nebulaidl.core.KeyValuePair config = 6 [deprecated = true];</code>
      */
-    @java.lang.Deprecated public java.util.List<? extends nebulaidl.core.Literals.KeyValuePairOrBuilder>
+    @java.lang.Deprecated public java.util.List<? extends nebulaidl.core.Literals.KeyValuePairOrBuilder> 
         getConfigOrBuilderList() {
       return config_;
     }
@@ -10369,7 +10369,7 @@ public final class Tasks {
      *
      * <code>repeated .nebulaidl.core.ContainerPort ports = 7;</code>
      */
-    public java.util.List<? extends nebulaidl.core.Tasks.ContainerPortOrBuilder>
+    public java.util.List<? extends nebulaidl.core.Tasks.ContainerPortOrBuilder> 
         getPortsOrBuilderList() {
       return ports_;
     }
@@ -11601,7 +11601,7 @@ public final class Tasks {
        * <code>.nebulaidl.core.Resources resources = 4;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          nebulaidl.core.Tasks.Resources, nebulaidl.core.Tasks.Resources.Builder, nebulaidl.core.Tasks.ResourcesOrBuilder>
+          nebulaidl.core.Tasks.Resources, nebulaidl.core.Tasks.Resources.Builder, nebulaidl.core.Tasks.ResourcesOrBuilder> 
           getResourcesFieldBuilder() {
         if (resourcesBuilder_ == null) {
           resourcesBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -11869,7 +11869,7 @@ public final class Tasks {
        *
        * <code>repeated .nebulaidl.core.KeyValuePair env = 5;</code>
        */
-      public java.util.List<? extends nebulaidl.core.Literals.KeyValuePairOrBuilder>
+      public java.util.List<? extends nebulaidl.core.Literals.KeyValuePairOrBuilder> 
            getEnvOrBuilderList() {
         if (envBuilder_ != null) {
           return envBuilder_.getMessageOrBuilderList();
@@ -11907,12 +11907,12 @@ public final class Tasks {
        *
        * <code>repeated .nebulaidl.core.KeyValuePair env = 5;</code>
        */
-      public java.util.List<nebulaidl.core.Literals.KeyValuePair.Builder>
+      public java.util.List<nebulaidl.core.Literals.KeyValuePair.Builder> 
            getEnvBuilderList() {
         return getEnvFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          nebulaidl.core.Literals.KeyValuePair, nebulaidl.core.Literals.KeyValuePair.Builder, nebulaidl.core.Literals.KeyValuePairOrBuilder>
+          nebulaidl.core.Literals.KeyValuePair, nebulaidl.core.Literals.KeyValuePair.Builder, nebulaidl.core.Literals.KeyValuePairOrBuilder> 
           getEnvFieldBuilder() {
         if (envBuilder_ == null) {
           envBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
@@ -12211,7 +12211,7 @@ public final class Tasks {
        *
        * <code>repeated .nebulaidl.core.KeyValuePair config = 6 [deprecated = true];</code>
        */
-      @java.lang.Deprecated public java.util.List<? extends nebulaidl.core.Literals.KeyValuePairOrBuilder>
+      @java.lang.Deprecated public java.util.List<? extends nebulaidl.core.Literals.KeyValuePairOrBuilder> 
            getConfigOrBuilderList() {
         if (configBuilder_ != null) {
           return configBuilder_.getMessageOrBuilderList();
@@ -12255,12 +12255,12 @@ public final class Tasks {
        *
        * <code>repeated .nebulaidl.core.KeyValuePair config = 6 [deprecated = true];</code>
        */
-      @java.lang.Deprecated public java.util.List<nebulaidl.core.Literals.KeyValuePair.Builder>
+      @java.lang.Deprecated public java.util.List<nebulaidl.core.Literals.KeyValuePair.Builder> 
            getConfigBuilderList() {
         return getConfigFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          nebulaidl.core.Literals.KeyValuePair, nebulaidl.core.Literals.KeyValuePair.Builder, nebulaidl.core.Literals.KeyValuePairOrBuilder>
+          nebulaidl.core.Literals.KeyValuePair, nebulaidl.core.Literals.KeyValuePair.Builder, nebulaidl.core.Literals.KeyValuePairOrBuilder> 
           getConfigFieldBuilder() {
         if (configBuilder_ == null) {
           configBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
@@ -12559,7 +12559,7 @@ public final class Tasks {
        *
        * <code>repeated .nebulaidl.core.ContainerPort ports = 7;</code>
        */
-      public java.util.List<? extends nebulaidl.core.Tasks.ContainerPortOrBuilder>
+      public java.util.List<? extends nebulaidl.core.Tasks.ContainerPortOrBuilder> 
            getPortsOrBuilderList() {
         if (portsBuilder_ != null) {
           return portsBuilder_.getMessageOrBuilderList();
@@ -12603,12 +12603,12 @@ public final class Tasks {
        *
        * <code>repeated .nebulaidl.core.ContainerPort ports = 7;</code>
        */
-      public java.util.List<nebulaidl.core.Tasks.ContainerPort.Builder>
+      public java.util.List<nebulaidl.core.Tasks.ContainerPort.Builder> 
            getPortsBuilderList() {
         return getPortsFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          nebulaidl.core.Tasks.ContainerPort, nebulaidl.core.Tasks.ContainerPort.Builder, nebulaidl.core.Tasks.ContainerPortOrBuilder>
+          nebulaidl.core.Tasks.ContainerPort, nebulaidl.core.Tasks.ContainerPort.Builder, nebulaidl.core.Tasks.ContainerPortOrBuilder> 
           getPortsFieldBuilder() {
         if (portsBuilder_ == null) {
           portsBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
@@ -12816,7 +12816,7 @@ public final class Tasks {
        * <code>.nebulaidl.core.DataLoadingConfig data_config = 9;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          nebulaidl.core.Tasks.DataLoadingConfig, nebulaidl.core.Tasks.DataLoadingConfig.Builder, nebulaidl.core.Tasks.DataLoadingConfigOrBuilder>
+          nebulaidl.core.Tasks.DataLoadingConfig, nebulaidl.core.Tasks.DataLoadingConfig.Builder, nebulaidl.core.Tasks.DataLoadingConfigOrBuilder> 
           getDataConfigFieldBuilder() {
         if (dataConfigBuilder_ == null) {
           dataConfigBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -15181,7 +15181,7 @@ public final class Tasks {
        * <code>.nebulaidl.core.IOStrategy io_strategy = 5;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          nebulaidl.core.Tasks.IOStrategy, nebulaidl.core.Tasks.IOStrategy.Builder, nebulaidl.core.Tasks.IOStrategyOrBuilder>
+          nebulaidl.core.Tasks.IOStrategy, nebulaidl.core.Tasks.IOStrategy.Builder, nebulaidl.core.Tasks.IOStrategyOrBuilder> 
           getIoStrategyFieldBuilder() {
         if (ioStrategyBuilder_ == null) {
           ioStrategyBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -16111,7 +16111,7 @@ public final class Tasks {
        * <code>.nebulaidl.core.K8sObjectMetadata metadata = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          nebulaidl.core.Tasks.K8sObjectMetadata, nebulaidl.core.Tasks.K8sObjectMetadata.Builder, nebulaidl.core.Tasks.K8sObjectMetadataOrBuilder>
+          nebulaidl.core.Tasks.K8sObjectMetadata, nebulaidl.core.Tasks.K8sObjectMetadata.Builder, nebulaidl.core.Tasks.K8sObjectMetadataOrBuilder> 
           getMetadataFieldBuilder() {
         if (metadataBuilder_ == null) {
           metadataBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -16498,7 +16498,7 @@ public final class Tasks {
        * <code>.nebulaidl.core.DataLoadingConfig data_config = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          nebulaidl.core.Tasks.DataLoadingConfig, nebulaidl.core.Tasks.DataLoadingConfig.Builder, nebulaidl.core.Tasks.DataLoadingConfigOrBuilder>
+          nebulaidl.core.Tasks.DataLoadingConfig, nebulaidl.core.Tasks.DataLoadingConfig.Builder, nebulaidl.core.Tasks.DataLoadingConfigOrBuilder> 
           getDataConfigFieldBuilder() {
         if (dataConfigBuilder_ == null) {
           dataConfigBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -16796,7 +16796,7 @@ public final class Tasks {
           java.lang.String, java.lang.String> defaultEntry =
               com.google.protobuf.MapEntry
               .<java.lang.String, java.lang.String>newDefaultInstance(
-                  nebulaidl.core.Tasks.internal_static_nebulaidl_core_K8sObjectMetadata_LabelsEntry_descriptor,
+                  nebulaidl.core.Tasks.internal_static_nebulaidl_core_K8sObjectMetadata_LabelsEntry_descriptor, 
                   com.google.protobuf.WireFormat.FieldType.STRING,
                   "",
                   com.google.protobuf.WireFormat.FieldType.STRING,
@@ -16888,7 +16888,7 @@ public final class Tasks {
           java.lang.String, java.lang.String> defaultEntry =
               com.google.protobuf.MapEntry
               .<java.lang.String, java.lang.String>newDefaultInstance(
-                  nebulaidl.core.Tasks.internal_static_nebulaidl_core_K8sObjectMetadata_AnnotationsEntry_descriptor,
+                  nebulaidl.core.Tasks.internal_static_nebulaidl_core_K8sObjectMetadata_AnnotationsEntry_descriptor, 
                   com.google.protobuf.WireFormat.FieldType.STRING,
                   "",
                   com.google.protobuf.WireFormat.FieldType.STRING,
@@ -18669,89 +18669,90 @@ public final class Tasks {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\031nebulaidl/core/tasks.proto\022\rnebulaidl.co" +
-      "re\032\036nebulaidl/core/identifier.proto\032\035flyt" +
-      "eidl/core/interface.proto\032\034nebulaidl/core" +
-      "/literals.proto\032\034nebulaidl/core/security." +
-      "proto\032\036google/protobuf/duration.proto\032\034g" +
-      "oogle/protobuf/struct.proto\"\261\002\n\tResource" +
-      "s\0228\n\010requests\030\001 \003(\0132&.nebulaidl.core.Reso" +
-      "urces.ResourceEntry\0226\n\006limits\030\002 \003(\0132&.ne" +
-      "bulaidl.core.Resources.ResourceEntry\032S\n\rR" +
-      "esourceEntry\0223\n\004name\030\001 \001(\0162%.nebulaidl.co" +
-      "re.Resources.ResourceName\022\r\n\005value\030\002 \001(\t" +
-      "\"]\n\014ResourceName\022\013\n\007UNKNOWN\020\000\022\007\n\003CPU\020\001\022\007" +
-      "\n\003GPU\020\002\022\n\n\006MEMORY\020\003\022\013\n\007STORAGE\020\004\022\025\n\021EPHE" +
-      "MERAL_STORAGE\020\005\"\225\001\n\017RuntimeMetadata\0228\n\004t" +
-      "ype\030\001 \001(\0162*.nebulaidl.core.RuntimeMetadat" +
-      "a.RuntimeType\022\017\n\007version\030\002 \001(\t\022\016\n\006flavor" +
-      "\030\003 \001(\t\"\'\n\013RuntimeType\022\t\n\005OTHER\020\000\022\r\n\tFLYT" +
-      "E_SDK\020\001\"\316\003\n\014TaskMetadata\022\024\n\014discoverable" +
-      "\030\001 \001(\010\022/\n\007runtime\030\002 \001(\0132\036.nebulaidl.core." +
-      "RuntimeMetadata\022*\n\007timeout\030\004 \001(\0132\031.googl" +
-      "e.protobuf.Duration\022-\n\007retries\030\005 \001(\0132\034.n" +
-      "ebulaidl.core.RetryStrategy\022\031\n\021discovery_" +
-      "version\030\006 \001(\t\022 \n\030deprecated_error_messag" +
-      "e\030\007 \001(\t\022\027\n\rinterruptible\030\010 \001(\010H\000\022\032\n\022cach" +
-      "e_serializable\030\t \001(\010\022\026\n\016generates_deck\030\n" +
-      " \001(\010\0223\n\004tags\030\013 \003(\0132%.nebulaidl.core.TaskM" +
-      "etadata.TagsEntry\022\031\n\021pod_template_name\030\014" +
-      " \001(\t\032+\n\tTagsEntry\022\013\n\003key\030\001 \001(\t\022\r\n\005value\030" +
-      "\002 \001(\t:\0028\001B\025\n\023interruptible_value\"\220\004\n\014Tas" +
-      "kTemplate\022%\n\002id\030\001 \001(\0132\031.nebulaidl.core.Id" +
-      "entifier\022\014\n\004type\030\002 \001(\t\022-\n\010metadata\030\003 \001(\013" +
-      "2\033.nebulaidl.core.TaskMetadata\0220\n\tinterfa" +
-      "ce\030\004 \001(\0132\035.nebulaidl.core.TypedInterface\022" +
-      "\'\n\006custom\030\005 \001(\0132\027.google.protobuf.Struct" +
-      "\022-\n\tcontainer\030\006 \001(\0132\030.nebulaidl.core.Cont" +
-      "ainerH\000\022(\n\007k8s_pod\030\021 \001(\0132\025.nebulaidl.core" +
-      ".K8sPodH\000\022!\n\003sql\030\022 \001(\0132\022.nebulaidl.core.S" +
-      "qlH\000\022\031\n\021task_type_version\030\007 \001(\005\0228\n\020secur" +
-      "ity_context\030\010 \001(\0132\036.nebulaidl.core.Securi" +
-      "tyContext\0227\n\006config\030\020 \003(\0132\'.nebulaidl.cor" +
-      "e.TaskTemplate.ConfigEntry\032-\n\013ConfigEntr" +
-      "y\022\013\n\003key\030\001 \001(\t\022\r\n\005value\030\002 \001(\t:\0028\001B\010\n\006tar" +
-      "get\"\'\n\rContainerPort\022\026\n\016container_port\030\001" +
-      " \001(\r\"\255\003\n\tContainer\022\r\n\005image\030\001 \001(\t\022\017\n\007com" +
-      "mand\030\002 \003(\t\022\014\n\004args\030\003 \003(\t\022+\n\tresources\030\004 " +
-      "\001(\0132\030.nebulaidl.core.Resources\022(\n\003env\030\005 \003" +
-      "(\0132\033.nebulaidl.core.KeyValuePair\022/\n\006confi" +
-      "g\030\006 \003(\0132\033.nebulaidl.core.KeyValuePairB\002\030\001" +
-      "\022+\n\005ports\030\007 \003(\0132\034.nebulaidl.core.Containe" +
-      "rPort\0225\n\013data_config\030\t \001(\0132 .nebulaidl.co" +
-      "re.DataLoadingConfig\022;\n\014architecture\030\n \001" +
-      "(\0162%.nebulaidl.core.Container.Architectur" +
-      "e\"I\n\014Architecture\022\013\n\007UNKNOWN\020\000\022\t\n\005AMD64\020" +
-      "\001\022\t\n\005ARM64\020\002\022\n\n\006ARM_V6\020\003\022\n\n\006ARM_V7\020\004\"\233\002\n" +
-      "\nIOStrategy\022=\n\rdownload_mode\030\001 \001(\0162&.neb" +
-      "ulaidl.core.IOStrategy.DownloadMode\0229\n\013up" +
-      "load_mode\030\002 \001(\0162$.nebulaidl.core.IOStrate" +
-      "gy.UploadMode\"L\n\014DownloadMode\022\022\n\016DOWNLOA" +
-      "D_EAGER\020\000\022\023\n\017DOWNLOAD_STREAM\020\001\022\023\n\017DO_NOT" +
-      "_DOWNLOAD\020\002\"E\n\nUploadMode\022\022\n\016UPLOAD_ON_E" +
-      "XIT\020\000\022\020\n\014UPLOAD_EAGER\020\001\022\021\n\rDO_NOT_UPLOAD" +
-      "\020\002\"\363\001\n\021DataLoadingConfig\022\017\n\007enabled\030\001 \001(" +
-      "\010\022\022\n\ninput_path\030\002 \001(\t\022\023\n\013output_path\030\003 \001" +
-      "(\t\022A\n\006format\030\004 \001(\01621.nebulaidl.core.DataL" +
-      "oadingConfig.LiteralMapFormat\022.\n\013io_stra" +
-      "tegy\030\005 \001(\0132\031.nebulaidl.core.IOStrategy\"1\n" +
-      "\020LiteralMapFormat\022\010\n\004JSON\020\000\022\010\n\004YAML\020\001\022\t\n" +
-      "\005PROTO\020\002\"\236\001\n\006K8sPod\0222\n\010metadata\030\001 \001(\0132 ." +
-      "nebulaidl.core.K8sObjectMetadata\022)\n\010pod_s" +
-      "pec\030\002 \001(\0132\027.google.protobuf.Struct\0225\n\013da" +
-      "ta_config\030\003 \001(\0132 .nebulaidl.core.DataLoad" +
-      "ingConfig\"\374\001\n\021K8sObjectMetadata\022<\n\006label" +
-      "s\030\001 \003(\0132,.nebulaidl.core.K8sObjectMetadat" +
-      "a.LabelsEntry\022F\n\013annotations\030\002 \003(\01321.neb" +
-      "ulaidl.core.K8sObjectMetadata.Annotations" +
-      "Entry\032-\n\013LabelsEntry\022\013\n\003key\030\001 \001(\t\022\r\n\005val" +
-      "ue\030\002 \001(\t:\0028\001\0322\n\020AnnotationsEntry\022\013\n\003key\030" +
-      "\001 \001(\t\022\r\n\005value\030\002 \001(\t:\0028\001\"~\n\003Sql\022\021\n\tstate" +
-      "ment\030\001 \001(\t\022+\n\007dialect\030\002 \001(\0162\032.nebulaidl.c" +
-      "ore.Sql.Dialect\"7\n\007Dialect\022\r\n\tUNDEFINED\020" +
-      "\000\022\010\n\004ANSI\020\001\022\010\n\004HIVE\020\002\022\t\n\005OTHER\020\003B6Z4gith" +
-      "ub.com/nebulaclouds/nebulaidl/gen/pb-go/nebula" +
-      "idl/coreb\006proto3"
+      "\n\032nebulaidl/core/tasks.proto\022\016nebulaidl." +
+      "core\032\037nebulaidl/core/identifier.proto\032\036n" +
+      "ebulaidl/core/interface.proto\032\035nebulaidl" +
+      "/core/literals.proto\032\035nebulaidl/core/sec" +
+      "urity.proto\032\036google/protobuf/duration.pr" +
+      "oto\032\034google/protobuf/struct.proto\"\264\002\n\tRe" +
+      "sources\0229\n\010requests\030\001 \003(\0132\'.nebulaidl.co" +
+      "re.Resources.ResourceEntry\0227\n\006limits\030\002 \003" +
+      "(\0132\'.nebulaidl.core.Resources.ResourceEn" +
+      "try\032T\n\rResourceEntry\0224\n\004name\030\001 \001(\0162&.neb" +
+      "ulaidl.core.Resources.ResourceName\022\r\n\005va" +
+      "lue\030\002 \001(\t\"]\n\014ResourceName\022\013\n\007UNKNOWN\020\000\022\007" +
+      "\n\003CPU\020\001\022\007\n\003GPU\020\002\022\n\n\006MEMORY\020\003\022\013\n\007STORAGE\020" +
+      "\004\022\025\n\021EPHEMERAL_STORAGE\020\005\"\227\001\n\017RuntimeMeta" +
+      "data\0229\n\004type\030\001 \001(\0162+.nebulaidl.core.Runt" +
+      "imeMetadata.RuntimeType\022\017\n\007version\030\002 \001(\t" +
+      "\022\016\n\006flavor\030\003 \001(\t\"(\n\013RuntimeType\022\t\n\005OTHER" +
+      "\020\000\022\016\n\nNEBULA_SDK\020\001\"\321\003\n\014TaskMetadata\022\024\n\014d" +
+      "iscoverable\030\001 \001(\010\0220\n\007runtime\030\002 \001(\0132\037.neb" +
+      "ulaidl.core.RuntimeMetadata\022*\n\007timeout\030\004" +
+      " \001(\0132\031.google.protobuf.Duration\022.\n\007retri" +
+      "es\030\005 \001(\0132\035.nebulaidl.core.RetryStrategy\022" +
+      "\031\n\021discovery_version\030\006 \001(\t\022 \n\030deprecated" +
+      "_error_message\030\007 \001(\t\022\027\n\rinterruptible\030\010 " +
+      "\001(\010H\000\022\032\n\022cache_serializable\030\t \001(\010\022\026\n\016gen" +
+      "erates_deck\030\n \001(\010\0224\n\004tags\030\013 \003(\0132&.nebula" +
+      "idl.core.TaskMetadata.TagsEntry\022\031\n\021pod_t" +
+      "emplate_name\030\014 \001(\t\032+\n\tTagsEntry\022\013\n\003key\030\001" +
+      " \001(\t\022\r\n\005value\030\002 \001(\t:\0028\001B\025\n\023interruptible" +
+      "_value\"\230\004\n\014TaskTemplate\022&\n\002id\030\001 \001(\0132\032.ne" +
+      "bulaidl.core.Identifier\022\014\n\004type\030\002 \001(\t\022.\n" +
+      "\010metadata\030\003 \001(\0132\034.nebulaidl.core.TaskMet" +
+      "adata\0221\n\tinterface\030\004 \001(\0132\036.nebulaidl.cor" +
+      "e.TypedInterface\022\'\n\006custom\030\005 \001(\0132\027.googl" +
+      "e.protobuf.Struct\022.\n\tcontainer\030\006 \001(\0132\031.n" +
+      "ebulaidl.core.ContainerH\000\022)\n\007k8s_pod\030\021 \001" +
+      "(\0132\026.nebulaidl.core.K8sPodH\000\022\"\n\003sql\030\022 \001(" +
+      "\0132\023.nebulaidl.core.SqlH\000\022\031\n\021task_type_ve" +
+      "rsion\030\007 \001(\005\0229\n\020security_context\030\010 \001(\0132\037." +
+      "nebulaidl.core.SecurityContext\0228\n\006config" +
+      "\030\020 \003(\0132(.nebulaidl.core.TaskTemplate.Con" +
+      "figEntry\032-\n\013ConfigEntry\022\013\n\003key\030\001 \001(\t\022\r\n\005" +
+      "value\030\002 \001(\t:\0028\001B\010\n\006target\"\'\n\rContainerPo" +
+      "rt\022\026\n\016container_port\030\001 \001(\r\"\263\003\n\tContainer" +
+      "\022\r\n\005image\030\001 \001(\t\022\017\n\007command\030\002 \003(\t\022\014\n\004args" +
+      "\030\003 \003(\t\022,\n\tresources\030\004 \001(\0132\031.nebulaidl.co" +
+      "re.Resources\022)\n\003env\030\005 \003(\0132\034.nebulaidl.co" +
+      "re.KeyValuePair\0220\n\006config\030\006 \003(\0132\034.nebula" +
+      "idl.core.KeyValuePairB\002\030\001\022,\n\005ports\030\007 \003(\013" +
+      "2\035.nebulaidl.core.ContainerPort\0226\n\013data_" +
+      "config\030\t \001(\0132!.nebulaidl.core.DataLoadin" +
+      "gConfig\022<\n\014architecture\030\n \001(\0162&.nebulaid" +
+      "l.core.Container.Architecture\"I\n\014Archite" +
+      "cture\022\013\n\007UNKNOWN\020\000\022\t\n\005AMD64\020\001\022\t\n\005ARM64\020\002" +
+      "\022\n\n\006ARM_V6\020\003\022\n\n\006ARM_V7\020\004\"\235\002\n\nIOStrategy\022" +
+      ">\n\rdownload_mode\030\001 \001(\0162\'.nebulaidl.core." +
+      "IOStrategy.DownloadMode\022:\n\013upload_mode\030\002" +
+      " \001(\0162%.nebulaidl.core.IOStrategy.UploadM" +
+      "ode\"L\n\014DownloadMode\022\022\n\016DOWNLOAD_EAGER\020\000\022" +
+      "\023\n\017DOWNLOAD_STREAM\020\001\022\023\n\017DO_NOT_DOWNLOAD\020" +
+      "\002\"E\n\nUploadMode\022\022\n\016UPLOAD_ON_EXIT\020\000\022\020\n\014U" +
+      "PLOAD_EAGER\020\001\022\021\n\rDO_NOT_UPLOAD\020\002\"\365\001\n\021Dat" +
+      "aLoadingConfig\022\017\n\007enabled\030\001 \001(\010\022\022\n\ninput" +
+      "_path\030\002 \001(\t\022\023\n\013output_path\030\003 \001(\t\022B\n\006form" +
+      "at\030\004 \001(\01622.nebulaidl.core.DataLoadingCon" +
+      "fig.LiteralMapFormat\022/\n\013io_strategy\030\005 \001(" +
+      "\0132\032.nebulaidl.core.IOStrategy\"1\n\020Literal" +
+      "MapFormat\022\010\n\004JSON\020\000\022\010\n\004YAML\020\001\022\t\n\005PROTO\020\002" +
+      "\"\240\001\n\006K8sPod\0223\n\010metadata\030\001 \001(\0132!.nebulaid" +
+      "l.core.K8sObjectMetadata\022)\n\010pod_spec\030\002 \001" +
+      "(\0132\027.google.protobuf.Struct\0226\n\013data_conf" +
+      "ig\030\003 \001(\0132!.nebulaidl.core.DataLoadingCon" +
+      "fig\"\376\001\n\021K8sObjectMetadata\022=\n\006labels\030\001 \003(" +
+      "\0132-.nebulaidl.core.K8sObjectMetadata.Lab" +
+      "elsEntry\022G\n\013annotations\030\002 \003(\01322.nebulaid" +
+      "l.core.K8sObjectMetadata.AnnotationsEntr" +
+      "y\032-\n\013LabelsEntry\022\013\n\003key\030\001 \001(\t\022\r\n\005value\030\002" +
+      " \001(\t:\0028\001\0322\n\020AnnotationsEntry\022\013\n\003key\030\001 \001(" +
+      "\t\022\r\n\005value\030\002 \001(\t:\0028\001\"\177\n\003Sql\022\021\n\tstatement" +
+      "\030\001 \001(\t\022,\n\007dialect\030\002 \001(\0162\033.nebulaidl.core" +
+      ".Sql.Dialect\"7\n\007Dialect\022\r\n\tUNDEFINED\020\000\022\010" +
+      "\n\004ANSI\020\001\022\010\n\004HIVE\020\002\022\t\n\005OTHER\020\003B<Z:github." +
+      "com/nebulaclouds/nebulaidl/gen/pb-go/neb" +
+      "ulaidl/coreb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

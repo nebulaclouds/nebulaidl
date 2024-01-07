@@ -136,23 +136,24 @@ static ::google::protobuf::Message const * const file_default_instances[] = {
 };
 
 const char descriptor_table_protodef_nebulaidl_2fadmin_2fschedule_2eproto[] =
-  "\n\035nebulaidl/admin/schedule.proto\022\016nebulaid"
-  "l.admin\"G\n\tFixedRate\022\r\n\005value\030\001 \001(\r\022+\n\004u"
-  "nit\030\002 \001(\0162\035.nebulaidl.admin.FixedRateUnit"
-  "\"0\n\014CronSchedule\022\020\n\010schedule\030\001 \001(\t\022\016\n\006of"
-  "fset\030\002 \001(\t\"\301\001\n\010Schedule\022\035\n\017cron_expressi"
-  "on\030\001 \001(\tB\002\030\001H\000\022)\n\004rate\030\002 \001(\0132\031.nebulaidl."
-  "admin.FixedRateH\000\0225\n\rcron_schedule\030\004 \001(\013"
-  "2\034.nebulaidl.admin.CronScheduleH\000\022\036\n\026kick"
-  "off_time_input_arg\030\003 \001(\tB\024\n\022ScheduleExpr"
-  "ession*.\n\rFixedRateUnit\022\n\n\006MINUTE\020\000\022\010\n\004H"
-  "OUR\020\001\022\007\n\003DAY\020\002B7Z5github.com/nebulaclouds/fl"
-  "yteidl/gen/pb-go/nebulaidl/adminb\006proto3"
+  "\n\036nebulaidl/admin/schedule.proto\022\017nebula"
+  "idl.admin\"H\n\tFixedRate\022\r\n\005value\030\001 \001(\r\022,\n"
+  "\004unit\030\002 \001(\0162\036.nebulaidl.admin.FixedRateU"
+  "nit\"0\n\014CronSchedule\022\020\n\010schedule\030\001 \001(\t\022\016\n"
+  "\006offset\030\002 \001(\t\"\303\001\n\010Schedule\022\035\n\017cron_expre"
+  "ssion\030\001 \001(\tB\002\030\001H\000\022*\n\004rate\030\002 \001(\0132\032.nebula"
+  "idl.admin.FixedRateH\000\0226\n\rcron_schedule\030\004"
+  " \001(\0132\035.nebulaidl.admin.CronScheduleH\000\022\036\n"
+  "\026kickoff_time_input_arg\030\003 \001(\tB\024\n\022Schedul"
+  "eExpression*.\n\rFixedRateUnit\022\n\n\006MINUTE\020\000"
+  "\022\010\n\004HOUR\020\001\022\007\n\003DAY\020\002B=Z;github.com/nebula"
+  "clouds/nebulaidl/gen/pb-go/nebulaidl/adm"
+  "inb\006proto3"
   ;
 ::google::protobuf::internal::DescriptorTable descriptor_table_nebulaidl_2fadmin_2fschedule_2eproto = {
-  false, InitDefaults_nebulaidl_2fadmin_2fschedule_2eproto,
+  false, InitDefaults_nebulaidl_2fadmin_2fschedule_2eproto, 
   descriptor_table_protodef_nebulaidl_2fadmin_2fschedule_2eproto,
-  "nebulaidl/admin/schedule.proto", &assign_descriptors_table_nebulaidl_2fadmin_2fschedule_2eproto, 479,
+  "nebulaidl/admin/schedule.proto", &assign_descriptors_table_nebulaidl_2fadmin_2fschedule_2eproto, 490,
 };
 
 void AddDescriptors_nebulaidl_2fadmin_2fschedule_2eproto() {

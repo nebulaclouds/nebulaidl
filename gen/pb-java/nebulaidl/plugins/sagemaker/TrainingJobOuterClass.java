@@ -2415,7 +2415,7 @@ public final class TrainingJobOuterClass {
      *
      * <code>repeated .nebulaidl.plugins.sagemaker.MetricDefinition metric_definitions = 4;</code>
      */
-    java.util.List<nebulaidl.plugins.sagemaker.TrainingJobOuterClass.MetricDefinition>
+    java.util.List<nebulaidl.plugins.sagemaker.TrainingJobOuterClass.MetricDefinition> 
         getMetricDefinitionsList();
     /**
      * <pre>
@@ -2446,7 +2446,7 @@ public final class TrainingJobOuterClass {
      *
      * <code>repeated .nebulaidl.plugins.sagemaker.MetricDefinition metric_definitions = 4;</code>
      */
-    java.util.List<? extends nebulaidl.plugins.sagemaker.TrainingJobOuterClass.MetricDefinitionOrBuilder>
+    java.util.List<? extends nebulaidl.plugins.sagemaker.TrainingJobOuterClass.MetricDefinitionOrBuilder> 
         getMetricDefinitionsOrBuilderList();
     /**
      * <pre>
@@ -2721,7 +2721,7 @@ public final class TrainingJobOuterClass {
      *
      * <code>repeated .nebulaidl.plugins.sagemaker.MetricDefinition metric_definitions = 4;</code>
      */
-    public java.util.List<? extends nebulaidl.plugins.sagemaker.TrainingJobOuterClass.MetricDefinitionOrBuilder>
+    public java.util.List<? extends nebulaidl.plugins.sagemaker.TrainingJobOuterClass.MetricDefinitionOrBuilder> 
         getMetricDefinitionsOrBuilderList() {
       return metricDefinitions_;
     }
@@ -3720,7 +3720,7 @@ public final class TrainingJobOuterClass {
        *
        * <code>repeated .nebulaidl.plugins.sagemaker.MetricDefinition metric_definitions = 4;</code>
        */
-      public java.util.List<? extends nebulaidl.plugins.sagemaker.TrainingJobOuterClass.MetricDefinitionOrBuilder>
+      public java.util.List<? extends nebulaidl.plugins.sagemaker.TrainingJobOuterClass.MetricDefinitionOrBuilder> 
            getMetricDefinitionsOrBuilderList() {
         if (metricDefinitionsBuilder_ != null) {
           return metricDefinitionsBuilder_.getMessageOrBuilderList();
@@ -3764,12 +3764,12 @@ public final class TrainingJobOuterClass {
        *
        * <code>repeated .nebulaidl.plugins.sagemaker.MetricDefinition metric_definitions = 4;</code>
        */
-      public java.util.List<nebulaidl.plugins.sagemaker.TrainingJobOuterClass.MetricDefinition.Builder>
+      public java.util.List<nebulaidl.plugins.sagemaker.TrainingJobOuterClass.MetricDefinition.Builder> 
            getMetricDefinitionsBuilderList() {
         return getMetricDefinitionsFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          nebulaidl.plugins.sagemaker.TrainingJobOuterClass.MetricDefinition, nebulaidl.plugins.sagemaker.TrainingJobOuterClass.MetricDefinition.Builder, nebulaidl.plugins.sagemaker.TrainingJobOuterClass.MetricDefinitionOrBuilder>
+          nebulaidl.plugins.sagemaker.TrainingJobOuterClass.MetricDefinition, nebulaidl.plugins.sagemaker.TrainingJobOuterClass.MetricDefinition.Builder, nebulaidl.plugins.sagemaker.TrainingJobOuterClass.MetricDefinitionOrBuilder> 
           getMetricDefinitionsFieldBuilder() {
         if (metricDefinitionsBuilder_ == null) {
           metricDefinitionsBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
@@ -5992,7 +5992,7 @@ public final class TrainingJobOuterClass {
        * <code>.nebulaidl.plugins.sagemaker.AlgorithmSpecification algorithm_specification = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          nebulaidl.plugins.sagemaker.TrainingJobOuterClass.AlgorithmSpecification, nebulaidl.plugins.sagemaker.TrainingJobOuterClass.AlgorithmSpecification.Builder, nebulaidl.plugins.sagemaker.TrainingJobOuterClass.AlgorithmSpecificationOrBuilder>
+          nebulaidl.plugins.sagemaker.TrainingJobOuterClass.AlgorithmSpecification, nebulaidl.plugins.sagemaker.TrainingJobOuterClass.AlgorithmSpecification.Builder, nebulaidl.plugins.sagemaker.TrainingJobOuterClass.AlgorithmSpecificationOrBuilder> 
           getAlgorithmSpecificationFieldBuilder() {
         if (algorithmSpecificationBuilder_ == null) {
           algorithmSpecificationBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -6109,7 +6109,7 @@ public final class TrainingJobOuterClass {
        * <code>.nebulaidl.plugins.sagemaker.TrainingJobResourceConfig training_job_resource_config = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          nebulaidl.plugins.sagemaker.TrainingJobOuterClass.TrainingJobResourceConfig, nebulaidl.plugins.sagemaker.TrainingJobOuterClass.TrainingJobResourceConfig.Builder, nebulaidl.plugins.sagemaker.TrainingJobOuterClass.TrainingJobResourceConfigOrBuilder>
+          nebulaidl.plugins.sagemaker.TrainingJobOuterClass.TrainingJobResourceConfig, nebulaidl.plugins.sagemaker.TrainingJobOuterClass.TrainingJobResourceConfig.Builder, nebulaidl.plugins.sagemaker.TrainingJobOuterClass.TrainingJobResourceConfigOrBuilder> 
           getTrainingJobResourceConfigFieldBuilder() {
         if (trainingJobResourceConfigBuilder_ == null) {
           trainingJobResourceConfigBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -6223,35 +6223,36 @@ public final class TrainingJobOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n-nebulaidl/plugins/sagemaker/training_jo" +
-      "b.proto\022\032nebulaidl.plugins.sagemaker\032\036goo" +
-      "gle/protobuf/duration.proto\"(\n\tInputMode" +
-      "\"\033\n\005Value\022\010\n\004FILE\020\000\022\010\n\004PIPE\020\001\"1\n\rAlgorit" +
-      "hmName\" \n\005Value\022\n\n\006CUSTOM\020\000\022\013\n\007XGBOOST\020\001" +
-      "\")\n\020InputContentType\"\025\n\005Value\022\014\n\010TEXT_CS" +
-      "V\020\000\"/\n\020MetricDefinition\022\014\n\004name\030\001 \001(\t\022\r\n" +
-      "\005regex\030\002 \001(\t\"\327\002\n\026AlgorithmSpecification\022" +
-      "?\n\ninput_mode\030\001 \001(\0162+.nebulaidl.plugins.s" +
-      "agemaker.InputMode.Value\022G\n\016algorithm_na" +
-      "me\030\002 \001(\0162/.nebulaidl.plugins.sagemaker.Al" +
-      "gorithmName.Value\022\031\n\021algorithm_version\030\003" +
-      " \001(\t\022H\n\022metric_definitions\030\004 \003(\0132,.nebula" +
-      "idl.plugins.sagemaker.MetricDefinition\022N" +
-      "\n\022input_content_type\030\005 \001(\01622.nebulaidl.pl" +
-      "ugins.sagemaker.InputContentType.Value\"8" +
-      "\n\023DistributedProtocol\"!\n\005Value\022\017\n\013UNSPEC" +
-      "IFIED\020\000\022\007\n\003MPI\020\001\"\272\001\n\031TrainingJobResource" +
-      "Config\022\026\n\016instance_count\030\001 \001(\003\022\025\n\rinstan" +
-      "ce_type\030\002 \001(\t\022\031\n\021volume_size_in_gb\030\003 \001(\003" +
-      "\022S\n\024distributed_protocol\030\004 \001(\01625.nebulaid" +
-      "l.plugins.sagemaker.DistributedProtocol." +
-      "Value\"\277\001\n\013TrainingJob\022S\n\027algorithm_speci" +
-      "fication\030\001 \001(\01322.nebulaidl.plugins.sagema" +
-      "ker.AlgorithmSpecification\022[\n\034training_j" +
-      "ob_resource_config\030\002 \001(\01325.nebulaidl.plug" +
-      "ins.sagemaker.TrainingJobResourceConfigB" +
-      "9Z7github.com/nebulaclouds/nebulaidl/gen/pb-g" +
-      "o/nebulaidl/pluginsb\006proto3"
+      "\n.nebulaidl/plugins/sagemaker/training_j" +
+      "ob.proto\022\033nebulaidl.plugins.sagemaker\032\036g" +
+      "oogle/protobuf/duration.proto\"(\n\tInputMo" +
+      "de\"\033\n\005Value\022\010\n\004FILE\020\000\022\010\n\004PIPE\020\001\"1\n\rAlgor" +
+      "ithmName\" \n\005Value\022\n\n\006CUSTOM\020\000\022\013\n\007XGBOOST" +
+      "\020\001\")\n\020InputContentType\"\025\n\005Value\022\014\n\010TEXT_" +
+      "CSV\020\000\"/\n\020MetricDefinition\022\014\n\004name\030\001 \001(\t\022" +
+      "\r\n\005regex\030\002 \001(\t\"\333\002\n\026AlgorithmSpecificatio" +
+      "n\022@\n\ninput_mode\030\001 \001(\0162,.nebulaidl.plugin" +
+      "s.sagemaker.InputMode.Value\022H\n\016algorithm" +
+      "_name\030\002 \001(\01620.nebulaidl.plugins.sagemake" +
+      "r.AlgorithmName.Value\022\031\n\021algorithm_versi" +
+      "on\030\003 \001(\t\022I\n\022metric_definitions\030\004 \003(\0132-.n" +
+      "ebulaidl.plugins.sagemaker.MetricDefinit" +
+      "ion\022O\n\022input_content_type\030\005 \001(\01623.nebula" +
+      "idl.plugins.sagemaker.InputContentType.V" +
+      "alue\"8\n\023DistributedProtocol\"!\n\005Value\022\017\n\013" +
+      "UNSPECIFIED\020\000\022\007\n\003MPI\020\001\"\273\001\n\031TrainingJobRe" +
+      "sourceConfig\022\026\n\016instance_count\030\001 \001(\003\022\025\n\r" +
+      "instance_type\030\002 \001(\t\022\031\n\021volume_size_in_gb" +
+      "\030\003 \001(\003\022T\n\024distributed_protocol\030\004 \001(\01626.n" +
+      "ebulaidl.plugins.sagemaker.DistributedPr" +
+      "otocol.Value\"\301\001\n\013TrainingJob\022T\n\027algorith" +
+      "m_specification\030\001 \001(\01323.nebulaidl.plugin" +
+      "s.sagemaker.AlgorithmSpecification\022\\\n\034tr" +
+      "aining_job_resource_config\030\002 \001(\01326.nebul" +
+      "aidl.plugins.sagemaker.TrainingJobResour" +
+      "ceConfigB?Z=github.com/nebulaclouds/nebu" +
+      "laidl/gen/pb-go/nebulaidl/pluginsb\006proto" +
+      "3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

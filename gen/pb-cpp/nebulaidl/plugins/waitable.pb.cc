@@ -73,20 +73,20 @@ static ::google::protobuf::Message const * const file_default_instances[] = {
 };
 
 const char descriptor_table_protodef_nebulaidl_2fplugins_2fwaitable_2eproto[] =
-  "\n\037nebulaidl/plugins/waitable.proto\022\020nebula"
-  "idl.plugins\032\035nebulaidl/core/execution.pro"
-  "to\032\036nebulaidl/core/identifier.proto\"\226\001\n\010W"
-  "aitable\022>\n\nwf_exec_id\030\001 \001(\0132*.nebulaidl.c"
-  "ore.WorkflowExecutionIdentifier\0225\n\005phase"
-  "\030\002 \001(\0162&.nebulaidl.core.WorkflowExecution"
-  ".Phase\022\023\n\013workflow_id\030\003 \001(\tB9Z7github.co"
-  "m/nebulaclouds/nebulaidl/gen/pb-go/nebulaidl/p"
-  "luginsb\006proto3"
+  "\n nebulaidl/plugins/waitable.proto\022\021nebu"
+  "laidl.plugins\032\036nebulaidl/core/execution."
+  "proto\032\037nebulaidl/core/identifier.proto\"\230"
+  "\001\n\010Waitable\022\?\n\nwf_exec_id\030\001 \001(\0132+.nebula"
+  "idl.core.WorkflowExecutionIdentifier\0226\n\005"
+  "phase\030\002 \001(\0162\'.nebulaidl.core.WorkflowExe"
+  "cution.Phase\022\023\n\013workflow_id\030\003 \001(\tB\?Z=git"
+  "hub.com/nebulaclouds/nebulaidl/gen/pb-go"
+  "/nebulaidl/pluginsb\006proto3"
   ;
 ::google::protobuf::internal::DescriptorTable descriptor_table_nebulaidl_2fplugins_2fwaitable_2eproto = {
-  false, InitDefaults_nebulaidl_2fplugins_2fwaitable_2eproto,
+  false, InitDefaults_nebulaidl_2fplugins_2fwaitable_2eproto, 
   descriptor_table_protodef_nebulaidl_2fplugins_2fwaitable_2eproto,
-  "nebulaidl/plugins/waitable.proto", &assign_descriptors_table_nebulaidl_2fplugins_2fwaitable_2eproto, 334,
+  "nebulaidl/plugins/waitable.proto", &assign_descriptors_table_nebulaidl_2fplugins_2fwaitable_2eproto, 346,
 };
 
 void AddDescriptors_nebulaidl_2fplugins_2fwaitable_2eproto() {

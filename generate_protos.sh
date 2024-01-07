@@ -4,7 +4,7 @@ set -e
 DIR=`pwd`
 rm -rf $DIR/gen
 LYFT_IMAGE="lyft/protocgenerator:8167e11d3b3439373c2f033080a4b550078884a2"
-SWAGGER_CLI_IMAGE="ghcr.io/nebulaclouds/swagger-codegen-cli:latest"
+SWAGGER_CLI_IMAGE="streamlineio.jfrog.io/nebula-docker/swagger-codegen-cli:latest"
 PROTOC_GEN_DOC_IMAGE="pseudomuto/protoc-gen-doc:1.4.1"
 
 # Override system locale during protos/docs generation to ensure consistent sorting (differences in system locale could e.g. lead to differently ordered docs)

@@ -69,16 +69,16 @@ static ::google::protobuf::Message const * const file_default_instances[] = {
 };
 
 const char descriptor_table_protodef_nebulaidl_2fadmin_2fcluster_5fassignment_2eproto[] =
-  "\n\'nebulaidl/admin/cluster_assignment.prot"
-  "o\022\016nebulaidl.admin\":\n\021ClusterAssignment\022\031"
-  "\n\021cluster_pool_name\030\003 \001(\tJ\004\010\001\020\002J\004\010\002\020\003B7Z"
-  "5github.com/nebulaclouds/nebulaidl/gen/pb-go/"
-  "nebulaidl/adminb\006proto3"
+  "\n(nebulaidl/admin/cluster_assignment.pro"
+  "to\022\017nebulaidl.admin\":\n\021ClusterAssignment"
+  "\022\031\n\021cluster_pool_name\030\003 \001(\tJ\004\010\001\020\002J\004\010\002\020\003B"
+  "=Z;github.com/nebulaclouds/nebulaidl/gen"
+  "/pb-go/nebulaidl/adminb\006proto3"
   ;
 ::google::protobuf::internal::DescriptorTable descriptor_table_nebulaidl_2fadmin_2fcluster_5fassignment_2eproto = {
-  false, InitDefaults_nebulaidl_2fadmin_2fcluster_5fassignment_2eproto,
+  false, InitDefaults_nebulaidl_2fadmin_2fcluster_5fassignment_2eproto, 
   descriptor_table_protodef_nebulaidl_2fadmin_2fcluster_5fassignment_2eproto,
-  "nebulaidl/admin/cluster_assignment.proto", &assign_descriptors_table_nebulaidl_2fadmin_2fcluster_5fassignment_2eproto, 182,
+  "nebulaidl/admin/cluster_assignment.proto", &assign_descriptors_table_nebulaidl_2fadmin_2fcluster_5fassignment_2eproto, 190,
 };
 
 void AddDescriptors_nebulaidl_2fadmin_2fcluster_5fassignment_2eproto() {

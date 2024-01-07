@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1d\x66lyteidl/admin/schedule.proto\x12\x0e\x66lyteidl.admin\"T\n\tFixedRate\x12\x14\n\x05value\x18\x01 \x01(\rR\x05value\x12\x31\n\x04unit\x18\x02 \x01(\x0e\x32\x1d.nebulaidl.admin.FixedRateUnitR\x04unit\"B\n\x0c\x43ronSchedule\x12\x1a\n\x08schedule\x18\x01 \x01(\tR\x08schedule\x12\x16\n\x06offset\x18\x02 \x01(\tR\x06offset\"\xfa\x01\n\x08Schedule\x12-\n\x0f\x63ron_expression\x18\x01 \x01(\tB\x02\x18\x01H\x00R\x0e\x63ronExpression\x12/\n\x04rate\x18\x02 \x01(\x0b\x32\x19.nebulaidl.admin.FixedRateH\x00R\x04rate\x12\x43\n\rcron_schedule\x18\x04 \x01(\x0b\x32\x1c.nebulaidl.admin.CronScheduleH\x00R\x0c\x63ronSchedule\x12\x33\n\x16kickoff_time_input_arg\x18\x03 \x01(\tR\x13kickoffTimeInputArgB\x14\n\x12ScheduleExpression*.\n\rFixedRateUnit\x12\n\n\x06MINUTE\x10\x00\x12\x08\n\x04HOUR\x10\x01\x12\x07\n\x03\x44\x41Y\x10\x02\x42\xb3\x01\n\x12\x63om.nebulaidl.adminB\rScheduleProtoP\x01Z5github.com/nebulaclouds/nebulaidl/gen/pb-go/nebulaidl/admin\xa2\x02\x03\x46\x41X\xaa\x02\x0e\x46lyteidl.Admin\xca\x02\x0e\x46lyteidl\\Admin\xe2\x02\x1a\x46lyteidl\\Admin\\GPBMetadata\xea\x02\x0f\x46lyteidl::Adminb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1enebulaidl/admin/schedule.proto\x12\x0fnebulaidl.admin\"U\n\tFixedRate\x12\x14\n\x05value\x18\x01 \x01(\rR\x05value\x12\x32\n\x04unit\x18\x02 \x01(\x0e\x32\x1e.nebulaidl.admin.FixedRateUnitR\x04unit\"B\n\x0c\x43ronSchedule\x12\x1a\n\x08schedule\x18\x01 \x01(\tR\x08schedule\x12\x16\n\x06offset\x18\x02 \x01(\tR\x06offset\"\xfc\x01\n\x08Schedule\x12-\n\x0f\x63ron_expression\x18\x01 \x01(\tB\x02\x18\x01H\x00R\x0e\x63ronExpression\x12\x30\n\x04rate\x18\x02 \x01(\x0b\x32\x1a.nebulaidl.admin.FixedRateH\x00R\x04rate\x12\x44\n\rcron_schedule\x18\x04 \x01(\x0b\x32\x1d.nebulaidl.admin.CronScheduleH\x00R\x0c\x63ronSchedule\x12\x33\n\x16kickoff_time_input_arg\x18\x03 \x01(\tR\x13kickoffTimeInputArgB\x14\n\x12ScheduleExpression*.\n\rFixedRateUnit\x12\n\n\x06MINUTE\x10\x00\x12\x08\n\x04HOUR\x10\x01\x12\x07\n\x03\x44\x41Y\x10\x02\x42\xbe\x01\n\x13\x63om.nebulaidl.adminB\rScheduleProtoP\x01Z;github.com/nebulaclouds/nebulaidl/gen/pb-go/nebulaidl/admin\xa2\x02\x03NAX\xaa\x02\x0fNebulaidl.Admin\xca\x02\x0fNebulaidl\\Admin\xe2\x02\x1bNebulaidl\\Admin\\GPBMetadata\xea\x02\x10Nebulaidl::Adminb\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -21,15 +21,15 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'nebulaidl.admin.schedule_pb
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\022com.nebulaidl.adminB\rScheduleProtoP\001Z5github.com/nebulaclouds/nebulaidl/gen/pb-go/nebulaidl/admin\242\002\003FAX\252\002\016Nebulaidl.Admin\312\002\016Nebulaidl\\Admin\342\002\032Nebulaidl\\Admin\\GPBMetadata\352\002\017Nebulaidl::Admin'
+  DESCRIPTOR._serialized_options = b'\n\023com.nebulaidl.adminB\rScheduleProtoP\001Z;github.com/nebulaclouds/nebulaidl/gen/pb-go/nebulaidl/admin\242\002\003NAX\252\002\017Nebulaidl.Admin\312\002\017Nebulaidl\\Admin\342\002\033Nebulaidl\\Admin\\GPBMetadata\352\002\020Nebulaidl::Admin'
   _SCHEDULE.fields_by_name['cron_expression']._options = None
   _SCHEDULE.fields_by_name['cron_expression']._serialized_options = b'\030\001'
-  _globals['_FIXEDRATEUNIT']._serialized_start=456
-  _globals['_FIXEDRATEUNIT']._serialized_end=502
-  _globals['_FIXEDRATE']._serialized_start=49
-  _globals['_FIXEDRATE']._serialized_end=133
-  _globals['_CRONSCHEDULE']._serialized_start=135
-  _globals['_CRONSCHEDULE']._serialized_end=201
-  _globals['_SCHEDULE']._serialized_start=204
-  _globals['_SCHEDULE']._serialized_end=454
+  _globals['_FIXEDRATEUNIT']._serialized_start=461
+  _globals['_FIXEDRATEUNIT']._serialized_end=507
+  _globals['_FIXEDRATE']._serialized_start=51
+  _globals['_FIXEDRATE']._serialized_end=136
+  _globals['_CRONSCHEDULE']._serialized_start=138
+  _globals['_CRONSCHEDULE']._serialized_end=204
+  _globals['_SCHEDULE']._serialized_start=207
+  _globals['_SCHEDULE']._serialized_end=459
 # @@protoc_insertion_point(module_scope)

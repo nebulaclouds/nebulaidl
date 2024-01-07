@@ -916,12 +916,13 @@ public final class ArrayJobOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n nebulaidl/plugins/array_job.proto\022\020flyt" +
-      "eidl.plugins\"w\n\010ArrayJob\022\023\n\013parallelism\030" +
-      "\001 \001(\003\022\014\n\004size\030\002 \001(\003\022\027\n\rmin_successes\030\003 \001" +
-      "(\003H\000\022\033\n\021min_success_ratio\030\004 \001(\002H\000B\022\n\020suc" +
-      "cess_criteriaB9Z7github.com/nebulaclouds/fly" +
-      "teidl/gen/pb-go/nebulaidl/pluginsb\006proto3"
+      "\n!nebulaidl/plugins/array_job.proto\022\021neb" +
+      "ulaidl.plugins\"w\n\010ArrayJob\022\023\n\013parallelis" +
+      "m\030\001 \001(\003\022\014\n\004size\030\002 \001(\003\022\027\n\rmin_successes\030\003" +
+      " \001(\003H\000\022\033\n\021min_success_ratio\030\004 \001(\002H\000B\022\n\020s" +
+      "uccess_criteriaB?Z=github.com/nebulaclou" +
+      "ds/nebulaidl/gen/pb-go/nebulaidl/plugins" +
+      "b\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

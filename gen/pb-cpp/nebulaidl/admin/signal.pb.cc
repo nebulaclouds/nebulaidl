@@ -228,33 +228,33 @@ static ::google::protobuf::Message const * const file_default_instances[] = {
 };
 
 const char descriptor_table_protodef_nebulaidl_2fadmin_2fsignal_2eproto[] =
-  "\n\033nebulaidl/admin/signal.proto\022\016nebulaidl."
-  "admin\032\033nebulaidl/admin/common.proto\032\036flyt"
-  "eidl/core/identifier.proto\032\034nebulaidl/cor"
-  "e/literals.proto\032\031nebulaidl/core/types.pr"
-  "oto\"q\n\030SignalGetOrCreateRequest\022+\n\002id\030\001 "
-  "\001(\0132\037.nebulaidl.core.SignalIdentifier\022(\n\004"
-  "type\030\002 \001(\0132\032.nebulaidl.core.LiteralType\"\264"
-  "\001\n\021SignalListRequest\022I\n\025workflow_executi"
-  "on_id\030\001 \001(\0132*.nebulaidl.core.WorkflowExec"
-  "utionIdentifier\022\r\n\005limit\030\002 \001(\r\022\r\n\005token\030"
-  "\003 \001(\t\022\017\n\007filters\030\004 \001(\t\022%\n\007sort_by\030\005 \001(\0132"
-  "\024.nebulaidl.admin.Sort\"D\n\nSignalList\022\'\n\007s"
-  "ignals\030\001 \003(\0132\026.nebulaidl.admin.Signal\022\r\n\005"
-  "token\030\002 \001(\t\"f\n\020SignalSetRequest\022+\n\002id\030\001 "
-  "\001(\0132\037.nebulaidl.core.SignalIdentifier\022%\n\005"
-  "value\030\002 \001(\0132\026.nebulaidl.core.Literal\"\023\n\021S"
-  "ignalSetResponse\"\206\001\n\006Signal\022+\n\002id\030\001 \001(\0132"
-  "\037.nebulaidl.core.SignalIdentifier\022(\n\004type"
-  "\030\002 \001(\0132\032.nebulaidl.core.LiteralType\022%\n\005va"
-  "lue\030\003 \001(\0132\026.nebulaidl.core.LiteralB7Z5git"
-  "hub.com/nebulaclouds/nebulaidl/gen/pb-go/flyt"
-  "eidl/adminb\006proto3"
+  "\n\034nebulaidl/admin/signal.proto\022\017nebulaid"
+  "l.admin\032\034nebulaidl/admin/common.proto\032\037n"
+  "ebulaidl/core/identifier.proto\032\035nebulaid"
+  "l/core/literals.proto\032\032nebulaidl/core/ty"
+  "pes.proto\"s\n\030SignalGetOrCreateRequest\022,\n"
+  "\002id\030\001 \001(\0132 .nebulaidl.core.SignalIdentif"
+  "ier\022)\n\004type\030\002 \001(\0132\033.nebulaidl.core.Liter"
+  "alType\"\266\001\n\021SignalListRequest\022J\n\025workflow"
+  "_execution_id\030\001 \001(\0132+.nebulaidl.core.Wor"
+  "kflowExecutionIdentifier\022\r\n\005limit\030\002 \001(\r\022"
+  "\r\n\005token\030\003 \001(\t\022\017\n\007filters\030\004 \001(\t\022&\n\007sort_"
+  "by\030\005 \001(\0132\025.nebulaidl.admin.Sort\"E\n\nSigna"
+  "lList\022(\n\007signals\030\001 \003(\0132\027.nebulaidl.admin"
+  ".Signal\022\r\n\005token\030\002 \001(\t\"h\n\020SignalSetReque"
+  "st\022,\n\002id\030\001 \001(\0132 .nebulaidl.core.SignalId"
+  "entifier\022&\n\005value\030\002 \001(\0132\027.nebulaidl.core"
+  ".Literal\"\023\n\021SignalSetResponse\"\211\001\n\006Signal"
+  "\022,\n\002id\030\001 \001(\0132 .nebulaidl.core.SignalIden"
+  "tifier\022)\n\004type\030\002 \001(\0132\033.nebulaidl.core.Li"
+  "teralType\022&\n\005value\030\003 \001(\0132\027.nebulaidl.cor"
+  "e.LiteralB=Z;github.com/nebulaclouds/neb"
+  "ulaidl/gen/pb-go/nebulaidl/adminb\006proto3"
   ;
 ::google::protobuf::internal::DescriptorTable descriptor_table_nebulaidl_2fadmin_2fsignal_2eproto = {
-  false, InitDefaults_nebulaidl_2fadmin_2fsignal_2eproto,
+  false, InitDefaults_nebulaidl_2fadmin_2fsignal_2eproto, 
   descriptor_table_protodef_nebulaidl_2fadmin_2fsignal_2eproto,
-  "nebulaidl/admin/signal.proto", &assign_descriptors_table_nebulaidl_2fadmin_2fsignal_2eproto, 858,
+  "nebulaidl/admin/signal.proto", &assign_descriptors_table_nebulaidl_2fadmin_2fsignal_2eproto, 880,
 };
 
 void AddDescriptors_nebulaidl_2fadmin_2fsignal_2eproto() {

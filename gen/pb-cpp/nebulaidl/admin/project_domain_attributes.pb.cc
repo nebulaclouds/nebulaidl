@@ -240,32 +240,33 @@ static ::google::protobuf::Message const * const file_default_instances[] = {
 };
 
 const char descriptor_table_protodef_nebulaidl_2fadmin_2fproject_5fdomain_5fattributes_2eproto[] =
-  "\n.nebulaidl/admin/project_domain_attribut"
-  "es.proto\022\016nebulaidl.admin\032\'nebulaidl/admin"
-  "/matchable_resource.proto\"{\n\027ProjectDoma"
-  "inAttributes\022\017\n\007project\030\001 \001(\t\022\016\n\006domain\030"
-  "\002 \001(\t\022\?\n\023matching_attributes\030\003 \001(\0132\".fly"
-  "teidl.admin.MatchingAttributes\"c\n$Projec"
-  "tDomainAttributesUpdateRequest\022;\n\nattrib"
-  "utes\030\001 \001(\0132\'.nebulaidl.admin.ProjectDomai"
-  "nAttributes\"\'\n%ProjectDomainAttributesUp"
-  "dateResponse\"~\n!ProjectDomainAttributesG"
-  "etRequest\022\017\n\007project\030\001 \001(\t\022\016\n\006domain\030\002 \001"
-  "(\t\0228\n\rresource_type\030\003 \001(\0162!.nebulaidl.adm"
-  "in.MatchableResource\"a\n\"ProjectDomainAtt"
-  "ributesGetResponse\022;\n\nattributes\030\001 \001(\0132\'"
-  ".nebulaidl.admin.ProjectDomainAttributes\""
-  "\201\001\n$ProjectDomainAttributesDeleteRequest"
-  "\022\017\n\007project\030\001 \001(\t\022\016\n\006domain\030\002 \001(\t\0228\n\rres"
-  "ource_type\030\003 \001(\0162!.nebulaidl.admin.Matcha"
-  "bleResource\"\'\n%ProjectDomainAttributesDe"
-  "leteResponseB7Z5github.com/nebulaclouds/flyt"
-  "eidl/gen/pb-go/nebulaidl/adminb\006proto3"
+  "\n/nebulaidl/admin/project_domain_attribu"
+  "tes.proto\022\017nebulaidl.admin\032(nebulaidl/ad"
+  "min/matchable_resource.proto\"|\n\027ProjectD"
+  "omainAttributes\022\017\n\007project\030\001 \001(\t\022\016\n\006doma"
+  "in\030\002 \001(\t\022@\n\023matching_attributes\030\003 \001(\0132#."
+  "nebulaidl.admin.MatchingAttributes\"d\n$Pr"
+  "ojectDomainAttributesUpdateRequest\022<\n\nat"
+  "tributes\030\001 \001(\0132(.nebulaidl.admin.Project"
+  "DomainAttributes\"\'\n%ProjectDomainAttribu"
+  "tesUpdateResponse\"\177\n!ProjectDomainAttrib"
+  "utesGetRequest\022\017\n\007project\030\001 \001(\t\022\016\n\006domai"
+  "n\030\002 \001(\t\0229\n\rresource_type\030\003 \001(\0162\".nebulai"
+  "dl.admin.MatchableResource\"b\n\"ProjectDom"
+  "ainAttributesGetResponse\022<\n\nattributes\030\001"
+  " \001(\0132(.nebulaidl.admin.ProjectDomainAttr"
+  "ibutes\"\202\001\n$ProjectDomainAttributesDelete"
+  "Request\022\017\n\007project\030\001 \001(\t\022\016\n\006domain\030\002 \001(\t"
+  "\0229\n\rresource_type\030\003 \001(\0162\".nebulaidl.admi"
+  "n.MatchableResource\"\'\n%ProjectDomainAttr"
+  "ibutesDeleteResponseB=Z;github.com/nebul"
+  "aclouds/nebulaidl/gen/pb-go/nebulaidl/ad"
+  "minb\006proto3"
   ;
 ::google::protobuf::internal::DescriptorTable descriptor_table_nebulaidl_2fadmin_2fproject_5fdomain_5fattributes_2eproto = {
-  false, InitDefaults_nebulaidl_2fadmin_2fproject_5fdomain_5fattributes_2eproto,
+  false, InitDefaults_nebulaidl_2fadmin_2fproject_5fdomain_5fattributes_2eproto, 
   descriptor_table_protodef_nebulaidl_2fadmin_2fproject_5fdomain_5fattributes_2eproto,
-  "nebulaidl/admin/project_domain_attributes.proto", &assign_descriptors_table_nebulaidl_2fadmin_2fproject_5fdomain_5fattributes_2eproto, 837,
+  "nebulaidl/admin/project_domain_attributes.proto", &assign_descriptors_table_nebulaidl_2fadmin_2fproject_5fdomain_5fattributes_2eproto, 851,
 };
 
 void AddDescriptors_nebulaidl_2fadmin_2fproject_5fdomain_5fattributes_2eproto() {

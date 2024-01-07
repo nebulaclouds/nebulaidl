@@ -13,6 +13,6 @@ type RuntimeMetadataRuntimeType string
 
 // List of RuntimeMetadataRuntimeType
 const (
-	RuntimeMetadataRuntimeTypeOTHER      RuntimeMetadataRuntimeType = "OTHER"
+	RuntimeMetadataRuntimeTypeOTHER RuntimeMetadataRuntimeType = "OTHER"
 	RuntimeMetadataRuntimeTypeNEBULA_SDK RuntimeMetadataRuntimeType = "NEBULA_SDK"
 )

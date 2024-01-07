@@ -16,6 +16,9 @@
 // @@protoc_insertion_point(includes)
 #include <google/protobuf/port_def.inc>
 
+extern PROTOBUF_INTERNAL_EXPORT_google_2fprotobuf_2fduration_2eproto ::google::protobuf::internal::SCCInfo<0> scc_info_Duration_google_2fprotobuf_2fduration_2eproto;
+extern PROTOBUF_INTERNAL_EXPORT_google_2fprotobuf_2fstruct_2eproto ::google::protobuf::internal::SCCInfo<0> scc_info_ListValue_google_2fprotobuf_2fstruct_2eproto;
+extern PROTOBUF_INTERNAL_EXPORT_google_2fprotobuf_2ftimestamp_2eproto ::google::protobuf::internal::SCCInfo<0> scc_info_Timestamp_google_2fprotobuf_2ftimestamp_2eproto;
 extern PROTOBUF_INTERNAL_EXPORT_nebulaidl_2fcore_2fliterals_2eproto ::google::protobuf::internal::SCCInfo<0> scc_info_Binary_nebulaidl_2fcore_2fliterals_2eproto;
 extern PROTOBUF_INTERNAL_EXPORT_nebulaidl_2fcore_2fliterals_2eproto ::google::protobuf::internal::SCCInfo<0> scc_info_Void_nebulaidl_2fcore_2fliterals_2eproto;
 extern PROTOBUF_INTERNAL_EXPORT_nebulaidl_2fcore_2fliterals_2eproto ::google::protobuf::internal::SCCInfo<1> scc_info_BlobMetadata_nebulaidl_2fcore_2fliterals_2eproto;
@@ -32,9 +35,6 @@ extern PROTOBUF_INTERNAL_EXPORT_nebulaidl_2fcore_2ftypes_2eproto ::google::proto
 extern PROTOBUF_INTERNAL_EXPORT_nebulaidl_2fcore_2ftypes_2eproto ::google::protobuf::internal::SCCInfo<1> scc_info_OutputReference_nebulaidl_2fcore_2ftypes_2eproto;
 extern PROTOBUF_INTERNAL_EXPORT_nebulaidl_2fcore_2ftypes_2eproto ::google::protobuf::internal::SCCInfo<1> scc_info_SchemaType_nebulaidl_2fcore_2ftypes_2eproto;
 extern PROTOBUF_INTERNAL_EXPORT_nebulaidl_2fcore_2ftypes_2eproto ::google::protobuf::internal::SCCInfo<6> scc_info_LiteralType_nebulaidl_2fcore_2ftypes_2eproto;
-extern PROTOBUF_INTERNAL_EXPORT_google_2fprotobuf_2fduration_2eproto ::google::protobuf::internal::SCCInfo<0> scc_info_Duration_google_2fprotobuf_2fduration_2eproto;
-extern PROTOBUF_INTERNAL_EXPORT_google_2fprotobuf_2fstruct_2eproto ::google::protobuf::internal::SCCInfo<0> scc_info_ListValue_google_2fprotobuf_2fstruct_2eproto;
-extern PROTOBUF_INTERNAL_EXPORT_google_2fprotobuf_2ftimestamp_2eproto ::google::protobuf::internal::SCCInfo<0> scc_info_Timestamp_google_2fprotobuf_2ftimestamp_2eproto;
 namespace nebulaidl {
 namespace core {
 class PrimitiveDefaultTypeInternal {
@@ -660,73 +660,74 @@ static ::google::protobuf::Message const * const file_default_instances[] = {
 };
 
 const char descriptor_table_protodef_nebulaidl_2fcore_2fliterals_2eproto[] =
-  "\n\034nebulaidl/core/literals.proto\022\rnebulaidl"
-  ".core\032\037google/protobuf/timestamp.proto\032\036"
-  "google/protobuf/duration.proto\032\034google/p"
-  "rotobuf/struct.proto\032\031nebulaidl/core/type"
-  "s.proto\"\310\001\n\tPrimitive\022\021\n\007integer\030\001 \001(\003H\000"
-  "\022\025\n\013float_value\030\002 \001(\001H\000\022\026\n\014string_value\030"
-  "\003 \001(\tH\000\022\021\n\007boolean\030\004 \001(\010H\000\022.\n\010datetime\030\005"
-  " \001(\0132\032.google.protobuf.TimestampH\000\022-\n\010du"
-  "ration\030\006 \001(\0132\031.google.protobuf.DurationH"
-  "\000B\007\n\005value\"\006\n\004Void\"B\n\004Blob\022-\n\010metadata\030\001"
-  " \001(\0132\033.nebulaidl.core.BlobMetadata\022\013\n\003uri"
-  "\030\003 \001(\t\"5\n\014BlobMetadata\022%\n\004type\030\001 \001(\0132\027.n"
-  "ebulaidl.core.BlobType\"$\n\006Binary\022\r\n\005value"
-  "\030\001 \001(\014\022\013\n\003tag\030\002 \001(\t\">\n\006Schema\022\013\n\003uri\030\001 \001"
-  "(\t\022\'\n\004type\030\003 \001(\0132\031.nebulaidl.core.SchemaT"
-  "ype\"X\n\005Union\022%\n\005value\030\001 \001(\0132\026.nebulaidl.c"
-  "ore.Literal\022(\n\004type\030\002 \001(\0132\032.nebulaidl.cor"
-  "e.LiteralType\"b\n\031StructuredDatasetMetada"
-  "ta\022E\n\027structured_dataset_type\030\001 \001(\0132$.ne"
-  "bulaidl.core.StructuredDatasetType\"\\\n\021Str"
-  "ucturedDataset\022\013\n\003uri\030\001 \001(\t\022:\n\010metadata\030"
-  "\002 \001(\0132(.nebulaidl.core.StructuredDatasetM"
-  "etadata\"\233\003\n\006Scalar\022-\n\tprimitive\030\001 \001(\0132\030."
-  "nebulaidl.core.PrimitiveH\000\022#\n\004blob\030\002 \001(\0132"
-  "\023.nebulaidl.core.BlobH\000\022\'\n\006binary\030\003 \001(\0132\025"
-  ".nebulaidl.core.BinaryH\000\022\'\n\006schema\030\004 \001(\0132"
-  "\025.nebulaidl.core.SchemaH\000\022(\n\tnone_type\030\005 "
-  "\001(\0132\023.nebulaidl.core.VoidH\000\022%\n\005error\030\006 \001("
-  "\0132\024.nebulaidl.core.ErrorH\000\022*\n\007generic\030\007 \001"
-  "(\0132\027.google.protobuf.StructH\000\022>\n\022structu"
-  "red_dataset\030\010 \001(\0132 .nebulaidl.core.Struct"
-  "uredDatasetH\000\022%\n\005union\030\t \001(\0132\024.nebulaidl."
-  "core.UnionH\000B\007\n\005value\"\253\001\n\007Literal\022\'\n\006sca"
-  "lar\030\001 \001(\0132\025.nebulaidl.core.ScalarH\000\0226\n\nco"
-  "llection\030\002 \001(\0132 .nebulaidl.core.LiteralCo"
-  "llectionH\000\022(\n\003map\030\003 \001(\0132\031.nebulaidl.core."
-  "LiteralMapH\000\022\014\n\004hash\030\004 \001(\tB\007\n\005value\"=\n\021L"
-  "iteralCollection\022(\n\010literals\030\001 \003(\0132\026.neb"
-  "ulaidl.core.Literal\"\220\001\n\nLiteralMap\0229\n\010lit"
-  "erals\030\001 \003(\0132\'.nebulaidl.core.LiteralMap.L"
-  "iteralsEntry\032G\n\rLiteralsEntry\022\013\n\003key\030\001 \001"
-  "(\t\022%\n\005value\030\002 \001(\0132\026.nebulaidl.core.Litera"
-  "l:\0028\001\"E\n\025BindingDataCollection\022,\n\010bindin"
-  "gs\030\001 \003(\0132\032.nebulaidl.core.BindingData\"\234\001\n"
-  "\016BindingDataMap\022=\n\010bindings\030\001 \003(\0132+.nebu"
-  "laidl.core.BindingDataMap.BindingsEntry\032K"
-  "\n\rBindingsEntry\022\013\n\003key\030\001 \001(\t\022)\n\005value\030\002 "
-  "\001(\0132\032.nebulaidl.core.BindingData:\0028\001\";\n\tU"
-  "nionInfo\022.\n\ntargetType\030\001 \001(\0132\032.nebulaidl."
-  "core.LiteralType\"\205\002\n\013BindingData\022\'\n\006scal"
-  "ar\030\001 \001(\0132\025.nebulaidl.core.ScalarH\000\022:\n\ncol"
-  "lection\030\002 \001(\0132$.nebulaidl.core.BindingDat"
-  "aCollectionH\000\0221\n\007promise\030\003 \001(\0132\036.nebulaid"
-  "l.core.OutputReferenceH\000\022,\n\003map\030\004 \001(\0132\035."
-  "nebulaidl.core.BindingDataMapH\000\022\'\n\005union\030"
-  "\005 \001(\0132\030.nebulaidl.core.UnionInfoB\007\n\005value"
-  "\"C\n\007Binding\022\013\n\003var\030\001 \001(\t\022+\n\007binding\030\002 \001("
-  "\0132\032.nebulaidl.core.BindingData\"*\n\014KeyValu"
-  "ePair\022\013\n\003key\030\001 \001(\t\022\r\n\005value\030\002 \001(\t\" \n\rRet"
-  "ryStrategy\022\017\n\007retries\030\005 \001(\rB6Z4github.co"
-  "m/nebulaclouds/nebulaidl/gen/pb-go/nebulaidl/c"
+  "\n\035nebulaidl/core/literals.proto\022\016nebulai"
+  "dl.core\032\037google/protobuf/timestamp.proto"
+  "\032\036google/protobuf/duration.proto\032\034google"
+  "/protobuf/struct.proto\032\032nebulaidl/core/t"
+  "ypes.proto\"\310\001\n\tPrimitive\022\021\n\007integer\030\001 \001("
+  "\003H\000\022\025\n\013float_value\030\002 \001(\001H\000\022\026\n\014string_val"
+  "ue\030\003 \001(\tH\000\022\021\n\007boolean\030\004 \001(\010H\000\022.\n\010datetim"
+  "e\030\005 \001(\0132\032.google.protobuf.TimestampH\000\022-\n"
+  "\010duration\030\006 \001(\0132\031.google.protobuf.Durati"
+  "onH\000B\007\n\005value\"\006\n\004Void\"C\n\004Blob\022.\n\010metadat"
+  "a\030\001 \001(\0132\034.nebulaidl.core.BlobMetadata\022\013\n"
+  "\003uri\030\003 \001(\t\"6\n\014BlobMetadata\022&\n\004type\030\001 \001(\013"
+  "2\030.nebulaidl.core.BlobType\"$\n\006Binary\022\r\n\005"
+  "value\030\001 \001(\014\022\013\n\003tag\030\002 \001(\t\"\?\n\006Schema\022\013\n\003ur"
+  "i\030\001 \001(\t\022(\n\004type\030\003 \001(\0132\032.nebulaidl.core.S"
+  "chemaType\"Z\n\005Union\022&\n\005value\030\001 \001(\0132\027.nebu"
+  "laidl.core.Literal\022)\n\004type\030\002 \001(\0132\033.nebul"
+  "aidl.core.LiteralType\"c\n\031StructuredDatas"
+  "etMetadata\022F\n\027structured_dataset_type\030\001 "
+  "\001(\0132%.nebulaidl.core.StructuredDatasetTy"
+  "pe\"]\n\021StructuredDataset\022\013\n\003uri\030\001 \001(\t\022;\n\010"
+  "metadata\030\002 \001(\0132).nebulaidl.core.Structur"
+  "edDatasetMetadata\"\243\003\n\006Scalar\022.\n\tprimitiv"
+  "e\030\001 \001(\0132\031.nebulaidl.core.PrimitiveH\000\022$\n\004"
+  "blob\030\002 \001(\0132\024.nebulaidl.core.BlobH\000\022(\n\006bi"
+  "nary\030\003 \001(\0132\026.nebulaidl.core.BinaryH\000\022(\n\006"
+  "schema\030\004 \001(\0132\026.nebulaidl.core.SchemaH\000\022)"
+  "\n\tnone_type\030\005 \001(\0132\024.nebulaidl.core.VoidH"
+  "\000\022&\n\005error\030\006 \001(\0132\025.nebulaidl.core.ErrorH"
+  "\000\022*\n\007generic\030\007 \001(\0132\027.google.protobuf.Str"
+  "uctH\000\022\?\n\022structured_dataset\030\010 \001(\0132!.nebu"
+  "laidl.core.StructuredDatasetH\000\022&\n\005union\030"
+  "\t \001(\0132\025.nebulaidl.core.UnionH\000B\007\n\005value\""
+  "\256\001\n\007Literal\022(\n\006scalar\030\001 \001(\0132\026.nebulaidl."
+  "core.ScalarH\000\0227\n\ncollection\030\002 \001(\0132!.nebu"
+  "laidl.core.LiteralCollectionH\000\022)\n\003map\030\003 "
+  "\001(\0132\032.nebulaidl.core.LiteralMapH\000\022\014\n\004has"
+  "h\030\004 \001(\tB\007\n\005value\">\n\021LiteralCollection\022)\n"
+  "\010literals\030\001 \003(\0132\027.nebulaidl.core.Literal"
+  "\"\222\001\n\nLiteralMap\022:\n\010literals\030\001 \003(\0132(.nebu"
+  "laidl.core.LiteralMap.LiteralsEntry\032H\n\rL"
+  "iteralsEntry\022\013\n\003key\030\001 \001(\t\022&\n\005value\030\002 \001(\013"
+  "2\027.nebulaidl.core.Literal:\0028\001\"F\n\025Binding"
+  "DataCollection\022-\n\010bindings\030\001 \003(\0132\033.nebul"
+  "aidl.core.BindingData\"\236\001\n\016BindingDataMap"
+  "\022>\n\010bindings\030\001 \003(\0132,.nebulaidl.core.Bind"
+  "ingDataMap.BindingsEntry\032L\n\rBindingsEntr"
+  "y\022\013\n\003key\030\001 \001(\t\022*\n\005value\030\002 \001(\0132\033.nebulaid"
+  "l.core.BindingData:\0028\001\"<\n\tUnionInfo\022/\n\nt"
+  "argetType\030\001 \001(\0132\033.nebulaidl.core.Literal"
+  "Type\"\212\002\n\013BindingData\022(\n\006scalar\030\001 \001(\0132\026.n"
+  "ebulaidl.core.ScalarH\000\022;\n\ncollection\030\002 \001"
+  "(\0132%.nebulaidl.core.BindingDataCollectio"
+  "nH\000\0222\n\007promise\030\003 \001(\0132\037.nebulaidl.core.Ou"
+  "tputReferenceH\000\022-\n\003map\030\004 \001(\0132\036.nebulaidl"
+  ".core.BindingDataMapH\000\022(\n\005union\030\005 \001(\0132\031."
+  "nebulaidl.core.UnionInfoB\007\n\005value\"D\n\007Bin"
+  "ding\022\013\n\003var\030\001 \001(\t\022,\n\007binding\030\002 \001(\0132\033.neb"
+  "ulaidl.core.BindingData\"*\n\014KeyValuePair\022"
+  "\013\n\003key\030\001 \001(\t\022\r\n\005value\030\002 \001(\t\" \n\rRetryStra"
+  "tegy\022\017\n\007retries\030\005 \001(\rB<Z:github.com/nebu"
+  "laclouds/nebulaidl/gen/pb-go/nebulaidl/c"
   "oreb\006proto3"
   ;
 ::google::protobuf::internal::DescriptorTable descriptor_table_nebulaidl_2fcore_2fliterals_2eproto = {
-  false, InitDefaults_nebulaidl_2fcore_2fliterals_2eproto,
+  false, InitDefaults_nebulaidl_2fcore_2fliterals_2eproto, 
   descriptor_table_protodef_nebulaidl_2fcore_2fliterals_2eproto,
-  "nebulaidl/core/literals.proto", &assign_descriptors_table_nebulaidl_2fcore_2fliterals_2eproto, 2451,
+  "nebulaidl/core/literals.proto", &assign_descriptors_table_nebulaidl_2fcore_2fliterals_2eproto, 2491,
 };
 
 void AddDescriptors_nebulaidl_2fcore_2fliterals_2eproto() {

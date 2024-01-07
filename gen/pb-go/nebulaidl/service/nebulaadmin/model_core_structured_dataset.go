@@ -10,6 +10,6 @@
 package nebulaadmin
 
 type CoreStructuredDataset struct {
-	Uri      string                         `json:"uri,omitempty"`
+	Uri string `json:"uri,omitempty"`
 	Metadata *CoreStructuredDatasetMetadata `json:"metadata,omitempty"`
 }

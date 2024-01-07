@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n!nebulaidl/plugins/tensorflow.proto\x12\x10\x66lyteidl.plugins\"\x85\x01\n!DistributedTensorflowTrainingTask\x12\x18\n\x07workers\x18\x01 \x01(\x05R\x07workers\x12\x1f\n\x0bps_replicas\x18\x02 \x01(\x05R\npsReplicas\x12%\n\x0e\x63hief_replicas\x18\x03 \x01(\x05R\rchiefReplicasB\xc1\x01\n\x14\x63om.nebulaidl.pluginsB\x0fTensorflowProtoP\x01Z7github.com/nebulaclouds/nebulaidl/gen/pb-go/nebulaidl/plugins\xa2\x02\x03\x46PX\xaa\x02\x10\x46lyteidl.Plugins\xca\x02\x10\x46lyteidl\\Plugins\xe2\x02\x1c\x46lyteidl\\Plugins\\GPBMetadata\xea\x02\x11\x46lyteidl::Pluginsb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\"nebulaidl/plugins/tensorflow.proto\x12\x11nebulaidl.plugins\"\x85\x01\n!DistributedTensorflowTrainingTask\x12\x18\n\x07workers\x18\x01 \x01(\x05R\x07workers\x12\x1f\n\x0bps_replicas\x18\x02 \x01(\x05R\npsReplicas\x12%\n\x0e\x63hief_replicas\x18\x03 \x01(\x05R\rchiefReplicasB\xcc\x01\n\x15\x63om.nebulaidl.pluginsB\x0fTensorflowProtoP\x01Z=github.com/nebulaclouds/nebulaidl/gen/pb-go/nebulaidl/plugins\xa2\x02\x03NPX\xaa\x02\x11Nebulaidl.Plugins\xca\x02\x11Nebulaidl\\Plugins\xe2\x02\x1dNebulaidl\\Plugins\\GPBMetadata\xea\x02\x12Nebulaidl::Pluginsb\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -21,7 +21,7 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'nebulaidl.plugins.tensorflo
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\024com.nebulaidl.pluginsB\017TensorflowProtoP\001Z7github.com/nebulaclouds/nebulaidl/gen/pb-go/nebulaidl/plugins\242\002\003FPX\252\002\020Nebulaidl.Plugins\312\002\020Nebulaidl\\Plugins\342\002\034Nebulaidl\\Plugins\\GPBMetadata\352\002\021Nebulaidl::Plugins'
-  _globals['_DISTRIBUTEDTENSORFLOWTRAININGTASK']._serialized_start=56
-  _globals['_DISTRIBUTEDTENSORFLOWTRAININGTASK']._serialized_end=189
+  DESCRIPTOR._serialized_options = b'\n\025com.nebulaidl.pluginsB\017TensorflowProtoP\001Z=github.com/nebulaclouds/nebulaidl/gen/pb-go/nebulaidl/plugins\242\002\003NPX\252\002\021Nebulaidl.Plugins\312\002\021Nebulaidl\\Plugins\342\002\035Nebulaidl\\Plugins\\GPBMetadata\352\002\022Nebulaidl::Plugins'
+  _globals['_DISTRIBUTEDTENSORFLOWTRAININGTASK']._serialized_start=58
+  _globals['_DISTRIBUTEDTENSORFLOWTRAININGTASK']._serialized_end=191
 # @@protoc_insertion_point(module_scope)

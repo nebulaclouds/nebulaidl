@@ -104,24 +104,25 @@ static ::google::protobuf::Message const * const file_default_instances[] = {
 };
 
 const char descriptor_table_protodef_nebulaidl_2fservice_2fidentity_2eproto[] =
-  "\n\037nebulaidl/service/identity.proto\022\020nebula"
-  "idl.service\032\034google/api/annotations.prot"
-  "o\032\034google/protobuf/struct.proto\"\021\n\017UserI"
-  "nfoRequest\"\312\001\n\020UserInfoResponse\022\017\n\007subje"
-  "ct\030\001 \001(\t\022\014\n\004name\030\002 \001(\t\022\032\n\022preferred_user"
-  "name\030\003 \001(\t\022\022\n\ngiven_name\030\004 \001(\t\022\023\n\013family"
-  "_name\030\005 \001(\t\022\r\n\005email\030\006 \001(\t\022\017\n\007picture\030\007 "
-  "\001(\t\0222\n\021additional_claims\030\010 \001(\0132\027.google."
-  "protobuf.Struct2q\n\017IdentityService\022^\n\010Us"
-  "erInfo\022!.nebulaidl.service.UserInfoReques"
-  "t\032\".nebulaidl.service.UserInfoResponse\"\013\202"
-  "\323\344\223\002\005\022\003/meB9Z7github.com/nebulaclouds/nebulai"
-  "dl/gen/pb-go/nebulaidl/serviceb\006proto3"
+  "\n nebulaidl/service/identity.proto\022\021nebu"
+  "laidl.service\032\034google/api/annotations.pr"
+  "oto\032\034google/protobuf/struct.proto\"\021\n\017Use"
+  "rInfoRequest\"\312\001\n\020UserInfoResponse\022\017\n\007sub"
+  "ject\030\001 \001(\t\022\014\n\004name\030\002 \001(\t\022\032\n\022preferred_us"
+  "ername\030\003 \001(\t\022\022\n\ngiven_name\030\004 \001(\t\022\023\n\013fami"
+  "ly_name\030\005 \001(\t\022\r\n\005email\030\006 \001(\t\022\017\n\007picture\030"
+  "\007 \001(\t\0222\n\021additional_claims\030\010 \001(\0132\027.googl"
+  "e.protobuf.Struct2s\n\017IdentityService\022`\n\010"
+  "UserInfo\022\".nebulaidl.service.UserInfoReq"
+  "uest\032#.nebulaidl.service.UserInfoRespons"
+  "e\"\013\202\323\344\223\002\005\022\003/meB\?Z=github.com/nebulacloud"
+  "s/nebulaidl/gen/pb-go/nebulaidl/serviceb"
+  "\006proto3"
   ;
 ::google::protobuf::internal::DescriptorTable descriptor_table_nebulaidl_2fservice_2fidentity_2eproto = {
-  false, InitDefaults_nebulaidl_2fservice_2fidentity_2eproto,
+  false, InitDefaults_nebulaidl_2fservice_2fidentity_2eproto, 
   descriptor_table_protodef_nebulaidl_2fservice_2fidentity_2eproto,
-  "nebulaidl/service/identity.proto", &assign_descriptors_table_nebulaidl_2fservice_2fidentity_2eproto, 517,
+  "nebulaidl/service/identity.proto", &assign_descriptors_table_nebulaidl_2fservice_2fidentity_2eproto, 527,
 };
 
 void AddDescriptors_nebulaidl_2fservice_2fidentity_2eproto() {

@@ -2375,7 +2375,7 @@ public final class Literals {
        * <code>.nebulaidl.core.BlobMetadata metadata = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          nebulaidl.core.Literals.BlobMetadata, nebulaidl.core.Literals.BlobMetadata.Builder, nebulaidl.core.Literals.BlobMetadataOrBuilder>
+          nebulaidl.core.Literals.BlobMetadata, nebulaidl.core.Literals.BlobMetadata.Builder, nebulaidl.core.Literals.BlobMetadataOrBuilder> 
           getMetadataFieldBuilder() {
         if (metadataBuilder_ == null) {
           metadataBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -3050,7 +3050,7 @@ public final class Literals {
        * <code>.nebulaidl.core.BlobType type = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          nebulaidl.core.Types.BlobType, nebulaidl.core.Types.BlobType.Builder, nebulaidl.core.Types.BlobTypeOrBuilder>
+          nebulaidl.core.Types.BlobType, nebulaidl.core.Types.BlobType.Builder, nebulaidl.core.Types.BlobTypeOrBuilder> 
           getTypeFieldBuilder() {
         if (typeBuilder_ == null) {
           typeBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -4426,7 +4426,7 @@ public final class Literals {
        * <code>.nebulaidl.core.SchemaType type = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          nebulaidl.core.Types.SchemaType, nebulaidl.core.Types.SchemaType.Builder, nebulaidl.core.Types.SchemaTypeOrBuilder>
+          nebulaidl.core.Types.SchemaType, nebulaidl.core.Types.SchemaType.Builder, nebulaidl.core.Types.SchemaTypeOrBuilder> 
           getTypeFieldBuilder() {
         if (typeBuilder_ == null) {
           typeBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -5117,7 +5117,7 @@ public final class Literals {
        * <code>.nebulaidl.core.Literal value = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          nebulaidl.core.Literals.Literal, nebulaidl.core.Literals.Literal.Builder, nebulaidl.core.Literals.LiteralOrBuilder>
+          nebulaidl.core.Literals.Literal, nebulaidl.core.Literals.Literal.Builder, nebulaidl.core.Literals.LiteralOrBuilder> 
           getValueFieldBuilder() {
         if (valueBuilder_ == null) {
           valueBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -5234,7 +5234,7 @@ public final class Literals {
        * <code>.nebulaidl.core.LiteralType type = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          nebulaidl.core.Types.LiteralType, nebulaidl.core.Types.LiteralType.Builder, nebulaidl.core.Types.LiteralTypeOrBuilder>
+          nebulaidl.core.Types.LiteralType, nebulaidl.core.Types.LiteralType.Builder, nebulaidl.core.Types.LiteralTypeOrBuilder> 
           getTypeFieldBuilder() {
         if (typeBuilder_ == null) {
           typeBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -5990,7 +5990,7 @@ public final class Literals {
        * <code>.nebulaidl.core.StructuredDatasetType structured_dataset_type = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          nebulaidl.core.Types.StructuredDatasetType, nebulaidl.core.Types.StructuredDatasetType.Builder, nebulaidl.core.Types.StructuredDatasetTypeOrBuilder>
+          nebulaidl.core.Types.StructuredDatasetType, nebulaidl.core.Types.StructuredDatasetType.Builder, nebulaidl.core.Types.StructuredDatasetTypeOrBuilder> 
           getStructuredDatasetTypeFieldBuilder() {
         if (structuredDatasetTypeBuilder_ == null) {
           structuredDatasetTypeBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -6778,7 +6778,7 @@ public final class Literals {
        * <code>.nebulaidl.core.StructuredDatasetMetadata metadata = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          nebulaidl.core.Literals.StructuredDatasetMetadata, nebulaidl.core.Literals.StructuredDatasetMetadata.Builder, nebulaidl.core.Literals.StructuredDatasetMetadataOrBuilder>
+          nebulaidl.core.Literals.StructuredDatasetMetadata, nebulaidl.core.Literals.StructuredDatasetMetadata.Builder, nebulaidl.core.Literals.StructuredDatasetMetadataOrBuilder> 
           getMetadataFieldBuilder() {
         if (metadataBuilder_ == null) {
           metadataBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -8118,7 +8118,7 @@ public final class Literals {
        * <code>.nebulaidl.core.Primitive primitive = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          nebulaidl.core.Literals.Primitive, nebulaidl.core.Literals.Primitive.Builder, nebulaidl.core.Literals.PrimitiveOrBuilder>
+          nebulaidl.core.Literals.Primitive, nebulaidl.core.Literals.Primitive.Builder, nebulaidl.core.Literals.PrimitiveOrBuilder> 
           getPrimitiveFieldBuilder() {
         if (primitiveBuilder_ == null) {
           if (!(valueCase_ == 1)) {
@@ -8254,7 +8254,7 @@ public final class Literals {
        * <code>.nebulaidl.core.Blob blob = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          nebulaidl.core.Literals.Blob, nebulaidl.core.Literals.Blob.Builder, nebulaidl.core.Literals.BlobOrBuilder>
+          nebulaidl.core.Literals.Blob, nebulaidl.core.Literals.Blob.Builder, nebulaidl.core.Literals.BlobOrBuilder> 
           getBlobFieldBuilder() {
         if (blobBuilder_ == null) {
           if (!(valueCase_ == 2)) {
@@ -8390,7 +8390,7 @@ public final class Literals {
        * <code>.nebulaidl.core.Binary binary = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          nebulaidl.core.Literals.Binary, nebulaidl.core.Literals.Binary.Builder, nebulaidl.core.Literals.BinaryOrBuilder>
+          nebulaidl.core.Literals.Binary, nebulaidl.core.Literals.Binary.Builder, nebulaidl.core.Literals.BinaryOrBuilder> 
           getBinaryFieldBuilder() {
         if (binaryBuilder_ == null) {
           if (!(valueCase_ == 3)) {
@@ -8526,7 +8526,7 @@ public final class Literals {
        * <code>.nebulaidl.core.Schema schema = 4;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          nebulaidl.core.Literals.Schema, nebulaidl.core.Literals.Schema.Builder, nebulaidl.core.Literals.SchemaOrBuilder>
+          nebulaidl.core.Literals.Schema, nebulaidl.core.Literals.Schema.Builder, nebulaidl.core.Literals.SchemaOrBuilder> 
           getSchemaFieldBuilder() {
         if (schemaBuilder_ == null) {
           if (!(valueCase_ == 4)) {
@@ -8662,7 +8662,7 @@ public final class Literals {
        * <code>.nebulaidl.core.Void none_type = 5;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          nebulaidl.core.Literals.Void, nebulaidl.core.Literals.Void.Builder, nebulaidl.core.Literals.VoidOrBuilder>
+          nebulaidl.core.Literals.Void, nebulaidl.core.Literals.Void.Builder, nebulaidl.core.Literals.VoidOrBuilder> 
           getNoneTypeFieldBuilder() {
         if (noneTypeBuilder_ == null) {
           if (!(valueCase_ == 5)) {
@@ -8798,7 +8798,7 @@ public final class Literals {
        * <code>.nebulaidl.core.Error error = 6;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          nebulaidl.core.Types.Error, nebulaidl.core.Types.Error.Builder, nebulaidl.core.Types.ErrorOrBuilder>
+          nebulaidl.core.Types.Error, nebulaidl.core.Types.Error.Builder, nebulaidl.core.Types.ErrorOrBuilder> 
           getErrorFieldBuilder() {
         if (errorBuilder_ == null) {
           if (!(valueCase_ == 6)) {
@@ -9070,7 +9070,7 @@ public final class Literals {
        * <code>.nebulaidl.core.StructuredDataset structured_dataset = 8;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          nebulaidl.core.Literals.StructuredDataset, nebulaidl.core.Literals.StructuredDataset.Builder, nebulaidl.core.Literals.StructuredDatasetOrBuilder>
+          nebulaidl.core.Literals.StructuredDataset, nebulaidl.core.Literals.StructuredDataset.Builder, nebulaidl.core.Literals.StructuredDatasetOrBuilder> 
           getStructuredDatasetFieldBuilder() {
         if (structuredDatasetBuilder_ == null) {
           if (!(valueCase_ == 8)) {
@@ -9206,7 +9206,7 @@ public final class Literals {
        * <code>.nebulaidl.core.Union union = 9;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          nebulaidl.core.Literals.Union, nebulaidl.core.Literals.Union.Builder, nebulaidl.core.Literals.UnionOrBuilder>
+          nebulaidl.core.Literals.Union, nebulaidl.core.Literals.Union.Builder, nebulaidl.core.Literals.UnionOrBuilder> 
           getUnionFieldBuilder() {
         if (unionBuilder_ == null) {
           if (!(valueCase_ == 9)) {
@@ -10273,7 +10273,7 @@ public final class Literals {
        * <code>.nebulaidl.core.Scalar scalar = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          nebulaidl.core.Literals.Scalar, nebulaidl.core.Literals.Scalar.Builder, nebulaidl.core.Literals.ScalarOrBuilder>
+          nebulaidl.core.Literals.Scalar, nebulaidl.core.Literals.Scalar.Builder, nebulaidl.core.Literals.ScalarOrBuilder> 
           getScalarFieldBuilder() {
         if (scalarBuilder_ == null) {
           if (!(valueCase_ == 1)) {
@@ -10445,7 +10445,7 @@ public final class Literals {
        * <code>.nebulaidl.core.LiteralCollection collection = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          nebulaidl.core.Literals.LiteralCollection, nebulaidl.core.Literals.LiteralCollection.Builder, nebulaidl.core.Literals.LiteralCollectionOrBuilder>
+          nebulaidl.core.Literals.LiteralCollection, nebulaidl.core.Literals.LiteralCollection.Builder, nebulaidl.core.Literals.LiteralCollectionOrBuilder> 
           getCollectionFieldBuilder() {
         if (collectionBuilder_ == null) {
           if (!(valueCase_ == 2)) {
@@ -10617,7 +10617,7 @@ public final class Literals {
        * <code>.nebulaidl.core.LiteralMap map = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          nebulaidl.core.Literals.LiteralMap, nebulaidl.core.Literals.LiteralMap.Builder, nebulaidl.core.Literals.LiteralMapOrBuilder>
+          nebulaidl.core.Literals.LiteralMap, nebulaidl.core.Literals.LiteralMap.Builder, nebulaidl.core.Literals.LiteralMapOrBuilder> 
           getMapFieldBuilder() {
         if (mapBuilder_ == null) {
           if (!(valueCase_ == 3)) {
@@ -10793,7 +10793,7 @@ public final class Literals {
     /**
      * <code>repeated .nebulaidl.core.Literal literals = 1;</code>
      */
-    java.util.List<nebulaidl.core.Literals.Literal>
+    java.util.List<nebulaidl.core.Literals.Literal> 
         getLiteralsList();
     /**
      * <code>repeated .nebulaidl.core.Literal literals = 1;</code>
@@ -10806,7 +10806,7 @@ public final class Literals {
     /**
      * <code>repeated .nebulaidl.core.Literal literals = 1;</code>
      */
-    java.util.List<? extends nebulaidl.core.Literals.LiteralOrBuilder>
+    java.util.List<? extends nebulaidl.core.Literals.LiteralOrBuilder> 
         getLiteralsOrBuilderList();
     /**
      * <code>repeated .nebulaidl.core.Literal literals = 1;</code>
@@ -10913,7 +10913,7 @@ public final class Literals {
     /**
      * <code>repeated .nebulaidl.core.Literal literals = 1;</code>
      */
-    public java.util.List<? extends nebulaidl.core.Literals.LiteralOrBuilder>
+    public java.util.List<? extends nebulaidl.core.Literals.LiteralOrBuilder> 
         getLiteralsOrBuilderList() {
       return literals_;
     }
@@ -11478,7 +11478,7 @@ public final class Literals {
       /**
        * <code>repeated .nebulaidl.core.Literal literals = 1;</code>
        */
-      public java.util.List<? extends nebulaidl.core.Literals.LiteralOrBuilder>
+      public java.util.List<? extends nebulaidl.core.Literals.LiteralOrBuilder> 
            getLiteralsOrBuilderList() {
         if (literalsBuilder_ != null) {
           return literalsBuilder_.getMessageOrBuilderList();
@@ -11504,12 +11504,12 @@ public final class Literals {
       /**
        * <code>repeated .nebulaidl.core.Literal literals = 1;</code>
        */
-      public java.util.List<nebulaidl.core.Literals.Literal.Builder>
+      public java.util.List<nebulaidl.core.Literals.Literal.Builder> 
            getLiteralsBuilderList() {
         return getLiteralsFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          nebulaidl.core.Literals.Literal, nebulaidl.core.Literals.Literal.Builder, nebulaidl.core.Literals.LiteralOrBuilder>
+          nebulaidl.core.Literals.Literal, nebulaidl.core.Literals.Literal.Builder, nebulaidl.core.Literals.LiteralOrBuilder> 
           getLiteralsFieldBuilder() {
         if (literalsBuilder_ == null) {
           literalsBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
@@ -11719,7 +11719,7 @@ public final class Literals {
           java.lang.String, nebulaidl.core.Literals.Literal> defaultEntry =
               com.google.protobuf.MapEntry
               .<java.lang.String, nebulaidl.core.Literals.Literal>newDefaultInstance(
-                  nebulaidl.core.Literals.internal_static_nebulaidl_core_LiteralMap_LiteralsEntry_descriptor,
+                  nebulaidl.core.Literals.internal_static_nebulaidl_core_LiteralMap_LiteralsEntry_descriptor, 
                   com.google.protobuf.WireFormat.FieldType.STRING,
                   "",
                   com.google.protobuf.WireFormat.FieldType.MESSAGE,
@@ -12311,7 +12311,7 @@ public final class Literals {
     /**
      * <code>repeated .nebulaidl.core.BindingData bindings = 1;</code>
      */
-    java.util.List<nebulaidl.core.Literals.BindingData>
+    java.util.List<nebulaidl.core.Literals.BindingData> 
         getBindingsList();
     /**
      * <code>repeated .nebulaidl.core.BindingData bindings = 1;</code>
@@ -12324,7 +12324,7 @@ public final class Literals {
     /**
      * <code>repeated .nebulaidl.core.BindingData bindings = 1;</code>
      */
-    java.util.List<? extends nebulaidl.core.Literals.BindingDataOrBuilder>
+    java.util.List<? extends nebulaidl.core.Literals.BindingDataOrBuilder> 
         getBindingsOrBuilderList();
     /**
      * <code>repeated .nebulaidl.core.BindingData bindings = 1;</code>
@@ -12431,7 +12431,7 @@ public final class Literals {
     /**
      * <code>repeated .nebulaidl.core.BindingData bindings = 1;</code>
      */
-    public java.util.List<? extends nebulaidl.core.Literals.BindingDataOrBuilder>
+    public java.util.List<? extends nebulaidl.core.Literals.BindingDataOrBuilder> 
         getBindingsOrBuilderList() {
       return bindings_;
     }
@@ -12996,7 +12996,7 @@ public final class Literals {
       /**
        * <code>repeated .nebulaidl.core.BindingData bindings = 1;</code>
        */
-      public java.util.List<? extends nebulaidl.core.Literals.BindingDataOrBuilder>
+      public java.util.List<? extends nebulaidl.core.Literals.BindingDataOrBuilder> 
            getBindingsOrBuilderList() {
         if (bindingsBuilder_ != null) {
           return bindingsBuilder_.getMessageOrBuilderList();
@@ -13022,12 +13022,12 @@ public final class Literals {
       /**
        * <code>repeated .nebulaidl.core.BindingData bindings = 1;</code>
        */
-      public java.util.List<nebulaidl.core.Literals.BindingData.Builder>
+      public java.util.List<nebulaidl.core.Literals.BindingData.Builder> 
            getBindingsBuilderList() {
         return getBindingsFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          nebulaidl.core.Literals.BindingData, nebulaidl.core.Literals.BindingData.Builder, nebulaidl.core.Literals.BindingDataOrBuilder>
+          nebulaidl.core.Literals.BindingData, nebulaidl.core.Literals.BindingData.Builder, nebulaidl.core.Literals.BindingDataOrBuilder> 
           getBindingsFieldBuilder() {
         if (bindingsBuilder_ == null) {
           bindingsBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
@@ -13237,7 +13237,7 @@ public final class Literals {
           java.lang.String, nebulaidl.core.Literals.BindingData> defaultEntry =
               com.google.protobuf.MapEntry
               .<java.lang.String, nebulaidl.core.Literals.BindingData>newDefaultInstance(
-                  nebulaidl.core.Literals.internal_static_nebulaidl_core_BindingDataMap_BindingsEntry_descriptor,
+                  nebulaidl.core.Literals.internal_static_nebulaidl_core_BindingDataMap_BindingsEntry_descriptor, 
                   com.google.protobuf.WireFormat.FieldType.STRING,
                   "",
                   com.google.protobuf.WireFormat.FieldType.MESSAGE,
@@ -14363,7 +14363,7 @@ public final class Literals {
        * <code>.nebulaidl.core.LiteralType targetType = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          nebulaidl.core.Types.LiteralType, nebulaidl.core.Types.LiteralType.Builder, nebulaidl.core.Types.LiteralTypeOrBuilder>
+          nebulaidl.core.Types.LiteralType, nebulaidl.core.Types.LiteralType.Builder, nebulaidl.core.Types.LiteralTypeOrBuilder> 
           getTargetTypeFieldBuilder() {
         if (targetTypeBuilder_ == null) {
           targetTypeBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -15521,7 +15521,7 @@ public final class Literals {
        * <code>.nebulaidl.core.Scalar scalar = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          nebulaidl.core.Literals.Scalar, nebulaidl.core.Literals.Scalar.Builder, nebulaidl.core.Literals.ScalarOrBuilder>
+          nebulaidl.core.Literals.Scalar, nebulaidl.core.Literals.Scalar.Builder, nebulaidl.core.Literals.ScalarOrBuilder> 
           getScalarFieldBuilder() {
         if (scalarBuilder_ == null) {
           if (!(valueCase_ == 1)) {
@@ -15702,7 +15702,7 @@ public final class Literals {
        * <code>.nebulaidl.core.BindingDataCollection collection = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          nebulaidl.core.Literals.BindingDataCollection, nebulaidl.core.Literals.BindingDataCollection.Builder, nebulaidl.core.Literals.BindingDataCollectionOrBuilder>
+          nebulaidl.core.Literals.BindingDataCollection, nebulaidl.core.Literals.BindingDataCollection.Builder, nebulaidl.core.Literals.BindingDataCollectionOrBuilder> 
           getCollectionFieldBuilder() {
         if (collectionBuilder_ == null) {
           if (!(valueCase_ == 2)) {
@@ -15874,7 +15874,7 @@ public final class Literals {
        * <code>.nebulaidl.core.OutputReference promise = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          nebulaidl.core.Types.OutputReference, nebulaidl.core.Types.OutputReference.Builder, nebulaidl.core.Types.OutputReferenceOrBuilder>
+          nebulaidl.core.Types.OutputReference, nebulaidl.core.Types.OutputReference.Builder, nebulaidl.core.Types.OutputReferenceOrBuilder> 
           getPromiseFieldBuilder() {
         if (promiseBuilder_ == null) {
           if (!(valueCase_ == 3)) {
@@ -16046,7 +16046,7 @@ public final class Literals {
        * <code>.nebulaidl.core.BindingDataMap map = 4;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          nebulaidl.core.Literals.BindingDataMap, nebulaidl.core.Literals.BindingDataMap.Builder, nebulaidl.core.Literals.BindingDataMapOrBuilder>
+          nebulaidl.core.Literals.BindingDataMap, nebulaidl.core.Literals.BindingDataMap.Builder, nebulaidl.core.Literals.BindingDataMapOrBuilder> 
           getMapFieldBuilder() {
         if (mapBuilder_ == null) {
           if (!(valueCase_ == 4)) {
@@ -16168,7 +16168,7 @@ public final class Literals {
        * <code>.nebulaidl.core.UnionInfo union = 5;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          nebulaidl.core.Literals.UnionInfo, nebulaidl.core.Literals.UnionInfo.Builder, nebulaidl.core.Literals.UnionInfoOrBuilder>
+          nebulaidl.core.Literals.UnionInfo, nebulaidl.core.Literals.UnionInfo.Builder, nebulaidl.core.Literals.UnionInfoOrBuilder> 
           getUnionFieldBuilder() {
         if (unionBuilder_ == null) {
           unionBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -17015,7 +17015,7 @@ public final class Literals {
        * <code>.nebulaidl.core.BindingData binding = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          nebulaidl.core.Literals.BindingData, nebulaidl.core.Literals.BindingData.Builder, nebulaidl.core.Literals.BindingDataOrBuilder>
+          nebulaidl.core.Literals.BindingData, nebulaidl.core.Literals.BindingData.Builder, nebulaidl.core.Literals.BindingDataOrBuilder> 
           getBindingFieldBuilder() {
         if (bindingBuilder_ == null) {
           bindingBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -18472,67 +18472,68 @@ public final class Literals {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\034nebulaidl/core/literals.proto\022\rnebulaidl" +
-      ".core\032\037google/protobuf/timestamp.proto\032\036" +
-      "google/protobuf/duration.proto\032\034google/p" +
-      "rotobuf/struct.proto\032\031nebulaidl/core/type" +
-      "s.proto\"\310\001\n\tPrimitive\022\021\n\007integer\030\001 \001(\003H\000" +
-      "\022\025\n\013float_value\030\002 \001(\001H\000\022\026\n\014string_value\030" +
-      "\003 \001(\tH\000\022\021\n\007boolean\030\004 \001(\010H\000\022.\n\010datetime\030\005" +
-      " \001(\0132\032.google.protobuf.TimestampH\000\022-\n\010du" +
-      "ration\030\006 \001(\0132\031.google.protobuf.DurationH" +
-      "\000B\007\n\005value\"\006\n\004Void\"B\n\004Blob\022-\n\010metadata\030\001" +
-      " \001(\0132\033.nebulaidl.core.BlobMetadata\022\013\n\003uri" +
-      "\030\003 \001(\t\"5\n\014BlobMetadata\022%\n\004type\030\001 \001(\0132\027.n" +
-      "ebulaidl.core.BlobType\"$\n\006Binary\022\r\n\005value" +
-      "\030\001 \001(\014\022\013\n\003tag\030\002 \001(\t\">\n\006Schema\022\013\n\003uri\030\001 \001" +
-      "(\t\022\'\n\004type\030\003 \001(\0132\031.nebulaidl.core.SchemaT" +
-      "ype\"X\n\005Union\022%\n\005value\030\001 \001(\0132\026.nebulaidl.c" +
-      "ore.Literal\022(\n\004type\030\002 \001(\0132\032.nebulaidl.cor" +
-      "e.LiteralType\"b\n\031StructuredDatasetMetada" +
-      "ta\022E\n\027structured_dataset_type\030\001 \001(\0132$.ne" +
-      "bulaidl.core.StructuredDatasetType\"\\\n\021Str" +
-      "ucturedDataset\022\013\n\003uri\030\001 \001(\t\022:\n\010metadata\030" +
-      "\002 \001(\0132(.nebulaidl.core.StructuredDatasetM" +
-      "etadata\"\233\003\n\006Scalar\022-\n\tprimitive\030\001 \001(\0132\030." +
-      "nebulaidl.core.PrimitiveH\000\022#\n\004blob\030\002 \001(\0132" +
-      "\023.nebulaidl.core.BlobH\000\022\'\n\006binary\030\003 \001(\0132\025" +
-      ".nebulaidl.core.BinaryH\000\022\'\n\006schema\030\004 \001(\0132" +
-      "\025.nebulaidl.core.SchemaH\000\022(\n\tnone_type\030\005 " +
-      "\001(\0132\023.nebulaidl.core.VoidH\000\022%\n\005error\030\006 \001(" +
-      "\0132\024.nebulaidl.core.ErrorH\000\022*\n\007generic\030\007 \001" +
-      "(\0132\027.google.protobuf.StructH\000\022>\n\022structu" +
-      "red_dataset\030\010 \001(\0132 .nebulaidl.core.Struct" +
-      "uredDatasetH\000\022%\n\005union\030\t \001(\0132\024.nebulaidl." +
-      "core.UnionH\000B\007\n\005value\"\253\001\n\007Literal\022\'\n\006sca" +
-      "lar\030\001 \001(\0132\025.nebulaidl.core.ScalarH\000\0226\n\nco" +
-      "llection\030\002 \001(\0132 .nebulaidl.core.LiteralCo" +
-      "llectionH\000\022(\n\003map\030\003 \001(\0132\031.nebulaidl.core." +
-      "LiteralMapH\000\022\014\n\004hash\030\004 \001(\tB\007\n\005value\"=\n\021L" +
-      "iteralCollection\022(\n\010literals\030\001 \003(\0132\026.neb" +
-      "ulaidl.core.Literal\"\220\001\n\nLiteralMap\0229\n\010lit" +
-      "erals\030\001 \003(\0132\'.nebulaidl.core.LiteralMap.L" +
-      "iteralsEntry\032G\n\rLiteralsEntry\022\013\n\003key\030\001 \001" +
-      "(\t\022%\n\005value\030\002 \001(\0132\026.nebulaidl.core.Litera" +
-      "l:\0028\001\"E\n\025BindingDataCollection\022,\n\010bindin" +
-      "gs\030\001 \003(\0132\032.nebulaidl.core.BindingData\"\234\001\n" +
-      "\016BindingDataMap\022=\n\010bindings\030\001 \003(\0132+.nebul" +
-      "aidl.core.BindingDataMap.BindingsEntry\032K" +
-      "\n\rBindingsEntry\022\013\n\003key\030\001 \001(\t\022)\n\005value\030\002 " +
-      "\001(\0132\032.nebulaidl.core.BindingData:\0028\001\";\n\tU" +
-      "nionInfo\022.\n\ntargetType\030\001 \001(\0132\032.nebulaidl." +
-      "core.LiteralType\"\205\002\n\013BindingData\022\'\n\006scal" +
-      "ar\030\001 \001(\0132\025.nebulaidl.core.ScalarH\000\022:\n\ncol" +
-      "lection\030\002 \001(\0132$.nebulaidl.core.BindingDat" +
-      "aCollectionH\000\0221\n\007promise\030\003 \001(\0132\036.nebulaid" +
-      "l.core.OutputReferenceH\000\022,\n\003map\030\004 \001(\0132\035." +
-      "nebulaidl.core.BindingDataMapH\000\022\'\n\005union\030" +
-      "\005 \001(\0132\030.nebulaidl.core.UnionInfoB\007\n\005value" +
-      "\"C\n\007Binding\022\013\n\003var\030\001 \001(\t\022+\n\007binding\030\002 \001(" +
-      "\0132\032.nebulaidl.core.BindingData\"*\n\014KeyValu" +
-      "ePair\022\013\n\003key\030\001 \001(\t\022\r\n\005value\030\002 \001(\t\" \n\rRet" +
-      "ryStrategy\022\017\n\007retries\030\005 \001(\rB6Z4github.co" +
-      "m/nebulaclouds/nebulaidl/gen/pb-go/nebulaidl/c" +
+      "\n\035nebulaidl/core/literals.proto\022\016nebulai" +
+      "dl.core\032\037google/protobuf/timestamp.proto" +
+      "\032\036google/protobuf/duration.proto\032\034google" +
+      "/protobuf/struct.proto\032\032nebulaidl/core/t" +
+      "ypes.proto\"\310\001\n\tPrimitive\022\021\n\007integer\030\001 \001(" +
+      "\003H\000\022\025\n\013float_value\030\002 \001(\001H\000\022\026\n\014string_val" +
+      "ue\030\003 \001(\tH\000\022\021\n\007boolean\030\004 \001(\010H\000\022.\n\010datetim" +
+      "e\030\005 \001(\0132\032.google.protobuf.TimestampH\000\022-\n" +
+      "\010duration\030\006 \001(\0132\031.google.protobuf.Durati" +
+      "onH\000B\007\n\005value\"\006\n\004Void\"C\n\004Blob\022.\n\010metadat" +
+      "a\030\001 \001(\0132\034.nebulaidl.core.BlobMetadata\022\013\n" +
+      "\003uri\030\003 \001(\t\"6\n\014BlobMetadata\022&\n\004type\030\001 \001(\013" +
+      "2\030.nebulaidl.core.BlobType\"$\n\006Binary\022\r\n\005" +
+      "value\030\001 \001(\014\022\013\n\003tag\030\002 \001(\t\"?\n\006Schema\022\013\n\003ur" +
+      "i\030\001 \001(\t\022(\n\004type\030\003 \001(\0132\032.nebulaidl.core.S" +
+      "chemaType\"Z\n\005Union\022&\n\005value\030\001 \001(\0132\027.nebu" +
+      "laidl.core.Literal\022)\n\004type\030\002 \001(\0132\033.nebul" +
+      "aidl.core.LiteralType\"c\n\031StructuredDatas" +
+      "etMetadata\022F\n\027structured_dataset_type\030\001 " +
+      "\001(\0132%.nebulaidl.core.StructuredDatasetTy" +
+      "pe\"]\n\021StructuredDataset\022\013\n\003uri\030\001 \001(\t\022;\n\010" +
+      "metadata\030\002 \001(\0132).nebulaidl.core.Structur" +
+      "edDatasetMetadata\"\243\003\n\006Scalar\022.\n\tprimitiv" +
+      "e\030\001 \001(\0132\031.nebulaidl.core.PrimitiveH\000\022$\n\004" +
+      "blob\030\002 \001(\0132\024.nebulaidl.core.BlobH\000\022(\n\006bi" +
+      "nary\030\003 \001(\0132\026.nebulaidl.core.BinaryH\000\022(\n\006" +
+      "schema\030\004 \001(\0132\026.nebulaidl.core.SchemaH\000\022)" +
+      "\n\tnone_type\030\005 \001(\0132\024.nebulaidl.core.VoidH" +
+      "\000\022&\n\005error\030\006 \001(\0132\025.nebulaidl.core.ErrorH" +
+      "\000\022*\n\007generic\030\007 \001(\0132\027.google.protobuf.Str" +
+      "uctH\000\022?\n\022structured_dataset\030\010 \001(\0132!.nebu" +
+      "laidl.core.StructuredDatasetH\000\022&\n\005union\030" +
+      "\t \001(\0132\025.nebulaidl.core.UnionH\000B\007\n\005value\"" +
+      "\256\001\n\007Literal\022(\n\006scalar\030\001 \001(\0132\026.nebulaidl." +
+      "core.ScalarH\000\0227\n\ncollection\030\002 \001(\0132!.nebu" +
+      "laidl.core.LiteralCollectionH\000\022)\n\003map\030\003 " +
+      "\001(\0132\032.nebulaidl.core.LiteralMapH\000\022\014\n\004has" +
+      "h\030\004 \001(\tB\007\n\005value\">\n\021LiteralCollection\022)\n" +
+      "\010literals\030\001 \003(\0132\027.nebulaidl.core.Literal" +
+      "\"\222\001\n\nLiteralMap\022:\n\010literals\030\001 \003(\0132(.nebu" +
+      "laidl.core.LiteralMap.LiteralsEntry\032H\n\rL" +
+      "iteralsEntry\022\013\n\003key\030\001 \001(\t\022&\n\005value\030\002 \001(\013" +
+      "2\027.nebulaidl.core.Literal:\0028\001\"F\n\025Binding" +
+      "DataCollection\022-\n\010bindings\030\001 \003(\0132\033.nebul" +
+      "aidl.core.BindingData\"\236\001\n\016BindingDataMap" +
+      "\022>\n\010bindings\030\001 \003(\0132,.nebulaidl.core.Bind" +
+      "ingDataMap.BindingsEntry\032L\n\rBindingsEntr" +
+      "y\022\013\n\003key\030\001 \001(\t\022*\n\005value\030\002 \001(\0132\033.nebulaid" +
+      "l.core.BindingData:\0028\001\"<\n\tUnionInfo\022/\n\nt" +
+      "argetType\030\001 \001(\0132\033.nebulaidl.core.Literal" +
+      "Type\"\212\002\n\013BindingData\022(\n\006scalar\030\001 \001(\0132\026.n" +
+      "ebulaidl.core.ScalarH\000\022;\n\ncollection\030\002 \001" +
+      "(\0132%.nebulaidl.core.BindingDataCollectio" +
+      "nH\000\0222\n\007promise\030\003 \001(\0132\037.nebulaidl.core.Ou" +
+      "tputReferenceH\000\022-\n\003map\030\004 \001(\0132\036.nebulaidl" +
+      ".core.BindingDataMapH\000\022(\n\005union\030\005 \001(\0132\031." +
+      "nebulaidl.core.UnionInfoB\007\n\005value\"D\n\007Bin" +
+      "ding\022\013\n\003var\030\001 \001(\t\022,\n\007binding\030\002 \001(\0132\033.neb" +
+      "ulaidl.core.BindingData\"*\n\014KeyValuePair\022" +
+      "\013\n\003key\030\001 \001(\t\022\r\n\005value\030\002 \001(\t\" \n\rRetryStra" +
+      "tegy\022\017\n\007retries\030\005 \001(\rB<Z:github.com/nebu" +
+      "laclouds/nebulaidl/gen/pb-go/nebulaidl/c" +
       "oreb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =

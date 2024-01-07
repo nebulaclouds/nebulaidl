@@ -738,7 +738,7 @@ public final class ProjectAttributesOuterClass {
        * <code>.nebulaidl.admin.MatchingAttributes matching_attributes = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          nebulaidl.admin.MatchableResourceOuterClass.MatchingAttributes, nebulaidl.admin.MatchableResourceOuterClass.MatchingAttributes.Builder, nebulaidl.admin.MatchableResourceOuterClass.MatchingAttributesOrBuilder>
+          nebulaidl.admin.MatchableResourceOuterClass.MatchingAttributes, nebulaidl.admin.MatchableResourceOuterClass.MatchingAttributes.Builder, nebulaidl.admin.MatchableResourceOuterClass.MatchingAttributesOrBuilder> 
           getMatchingAttributesFieldBuilder() {
         if (matchingAttributesBuilder_ == null) {
           matchingAttributesBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -1414,7 +1414,7 @@ public final class ProjectAttributesOuterClass {
        * <code>.nebulaidl.admin.ProjectAttributes attributes = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          nebulaidl.admin.ProjectAttributesOuterClass.ProjectAttributes, nebulaidl.admin.ProjectAttributesOuterClass.ProjectAttributes.Builder, nebulaidl.admin.ProjectAttributesOuterClass.ProjectAttributesOrBuilder>
+          nebulaidl.admin.ProjectAttributesOuterClass.ProjectAttributes, nebulaidl.admin.ProjectAttributesOuterClass.ProjectAttributes.Builder, nebulaidl.admin.ProjectAttributesOuterClass.ProjectAttributesOrBuilder> 
           getAttributesFieldBuilder() {
         if (attributesBuilder_ == null) {
           attributesBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -3192,7 +3192,7 @@ public final class ProjectAttributesOuterClass {
        * <code>.nebulaidl.admin.ProjectAttributes attributes = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          nebulaidl.admin.ProjectAttributesOuterClass.ProjectAttributes, nebulaidl.admin.ProjectAttributesOuterClass.ProjectAttributes.Builder, nebulaidl.admin.ProjectAttributesOuterClass.ProjectAttributesOrBuilder>
+          nebulaidl.admin.ProjectAttributesOuterClass.ProjectAttributes, nebulaidl.admin.ProjectAttributesOuterClass.ProjectAttributes.Builder, nebulaidl.admin.ProjectAttributesOuterClass.ProjectAttributesOrBuilder> 
           getAttributesFieldBuilder() {
         if (attributesBuilder_ == null) {
           attributesBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -4463,25 +4463,25 @@ public final class ProjectAttributesOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\'nebulaidl/admin/project_attributes.prot" +
-      "o\022\016nebulaidl.admin\032\'nebulaidl/admin/matcha" +
-      "ble_resource.proto\"e\n\021ProjectAttributes\022" +
-      "\017\n\007project\030\001 \001(\t\022?\n\023matching_attributes\030" +
-      "\002 \001(\0132\".nebulaidl.admin.MatchingAttribute" +
-      "s\"W\n\036ProjectAttributesUpdateRequest\0225\n\na" +
-      "ttributes\030\001 \001(\0132!.nebulaidl.admin.Project" +
-      "Attributes\"!\n\037ProjectAttributesUpdateRes" +
-      "ponse\"h\n\033ProjectAttributesGetRequest\022\017\n\007" +
-      "project\030\001 \001(\t\0228\n\rresource_type\030\002 \001(\0162!.n" +
-      "ebulaidl.admin.MatchableResource\"U\n\034Proje" +
-      "ctAttributesGetResponse\0225\n\nattributes\030\001 " +
-      "\001(\0132!.nebulaidl.admin.ProjectAttributes\"k" +
-      "\n\036ProjectAttributesDeleteRequest\022\017\n\007proj" +
-      "ect\030\001 \001(\t\0228\n\rresource_type\030\002 \001(\0162!.nebula" +
-      "idl.admin.MatchableResource\"!\n\037ProjectAt" +
-      "tributesDeleteResponseB7Z5github.com/neb" +
-      "ulaclouds/nebulaidl/gen/pb-go/nebulaidl/adminb" +
-      "\006proto3"
+      "\n(nebulaidl/admin/project_attributes.pro" +
+      "to\022\017nebulaidl.admin\032(nebulaidl/admin/mat" +
+      "chable_resource.proto\"f\n\021ProjectAttribut" +
+      "es\022\017\n\007project\030\001 \001(\t\022@\n\023matching_attribut" +
+      "es\030\002 \001(\0132#.nebulaidl.admin.MatchingAttri" +
+      "butes\"X\n\036ProjectAttributesUpdateRequest\022" +
+      "6\n\nattributes\030\001 \001(\0132\".nebulaidl.admin.Pr" +
+      "ojectAttributes\"!\n\037ProjectAttributesUpda" +
+      "teResponse\"i\n\033ProjectAttributesGetReques" +
+      "t\022\017\n\007project\030\001 \001(\t\0229\n\rresource_type\030\002 \001(" +
+      "\0162\".nebulaidl.admin.MatchableResource\"V\n" +
+      "\034ProjectAttributesGetResponse\0226\n\nattribu" +
+      "tes\030\001 \001(\0132\".nebulaidl.admin.ProjectAttri" +
+      "butes\"l\n\036ProjectAttributesDeleteRequest\022" +
+      "\017\n\007project\030\001 \001(\t\0229\n\rresource_type\030\002 \001(\0162" +
+      "\".nebulaidl.admin.MatchableResource\"!\n\037P" +
+      "rojectAttributesDeleteResponseB=Z;github" +
+      ".com/nebulaclouds/nebulaidl/gen/pb-go/ne" +
+      "bulaidl/adminb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

@@ -8,12 +8,11 @@
  */
 
 package nebulaadmin
-
 // ConjunctionExpressionLogicalOperator : - AND: Conjunction
 type ConjunctionExpressionLogicalOperator string
 
 // List of ConjunctionExpressionLogicalOperator
 const (
 	ConjunctionExpressionLogicalOperatorAND ConjunctionExpressionLogicalOperator = "AND"
-	ConjunctionExpressionLogicalOperatorOR  ConjunctionExpressionLogicalOperator = "OR"
+	ConjunctionExpressionLogicalOperatorOR ConjunctionExpressionLogicalOperator = "OR"
 )

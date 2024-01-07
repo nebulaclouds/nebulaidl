@@ -143,33 +143,33 @@ static ::google::protobuf::Message const * const file_default_instances[] = {
 };
 
 const char descriptor_table_protodef_nebulaidl_2fplugins_2fkubeflow_2fpytorch_2eproto[] =
-  "\n\'nebulaidl/plugins/kubeflow/pytorch.prot"
-  "o\022\031nebulaidl.plugins.kubeflow\032\031nebulaidl/c"
-  "ore/tasks.proto\032&nebulaidl/plugins/kubefl"
-  "ow/common.proto\"\177\n\rElasticConfig\022\024\n\014rdzv"
-  "_backend\030\001 \001(\t\022\024\n\014min_replicas\030\002 \001(\005\022\024\n\014"
-  "max_replicas\030\003 \001(\005\022\026\n\016nproc_per_node\030\004 \001"
-  "(\005\022\024\n\014max_restarts\030\005 \001(\005\"\322\002\n\036Distributed"
-  "PyTorchTrainingTask\022Y\n\017worker_replicas\030\001"
-  " \001(\0132@.nebulaidl.plugins.kubeflow.Distrib"
-  "utedPyTorchTrainingReplicaSpec\022Y\n\017master"
-  "_replicas\030\002 \001(\0132@.nebulaidl.plugins.kubef"
-  "low.DistributedPyTorchTrainingReplicaSpe"
-  "c\0228\n\nrun_policy\030\003 \001(\0132$.nebulaidl.plugins"
-  ".kubeflow.RunPolicy\022@\n\016elastic_config\030\004 "
-  "\001(\0132(.nebulaidl.plugins.kubeflow.ElasticC"
-  "onfig\"\267\001\n%DistributedPyTorchTrainingRepl"
-  "icaSpec\022\020\n\010replicas\030\001 \001(\005\022\r\n\005image\030\002 \001(\t"
-  "\022+\n\tresources\030\003 \001(\0132\030.nebulaidl.core.Reso"
-  "urces\022@\n\016restart_policy\030\004 \001(\0162(.nebulaidl"
-  ".plugins.kubeflow.RestartPolicyB9Z7githu"
-  "b.com/nebulaclouds/nebulaidl/gen/pb-go/nebulai"
-  "dl/pluginsb\006proto3"
+  "\n(nebulaidl/plugins/kubeflow/pytorch.pro"
+  "to\022\032nebulaidl.plugins.kubeflow\032\032nebulaid"
+  "l/core/tasks.proto\032\'nebulaidl/plugins/ku"
+  "beflow/common.proto\"\177\n\rElasticConfig\022\024\n\014"
+  "rdzv_backend\030\001 \001(\t\022\024\n\014min_replicas\030\002 \001(\005"
+  "\022\024\n\014max_replicas\030\003 \001(\005\022\026\n\016nproc_per_node"
+  "\030\004 \001(\005\022\024\n\014max_restarts\030\005 \001(\005\"\326\002\n\036Distrib"
+  "utedPyTorchTrainingTask\022Z\n\017worker_replic"
+  "as\030\001 \001(\0132A.nebulaidl.plugins.kubeflow.Di"
+  "stributedPyTorchTrainingReplicaSpec\022Z\n\017m"
+  "aster_replicas\030\002 \001(\0132A.nebulaidl.plugins"
+  ".kubeflow.DistributedPyTorchTrainingRepl"
+  "icaSpec\0229\n\nrun_policy\030\003 \001(\0132%.nebulaidl."
+  "plugins.kubeflow.RunPolicy\022A\n\016elastic_co"
+  "nfig\030\004 \001(\0132).nebulaidl.plugins.kubeflow."
+  "ElasticConfig\"\271\001\n%DistributedPyTorchTrai"
+  "ningReplicaSpec\022\020\n\010replicas\030\001 \001(\005\022\r\n\005ima"
+  "ge\030\002 \001(\t\022,\n\tresources\030\003 \001(\0132\031.nebulaidl."
+  "core.Resources\022A\n\016restart_policy\030\004 \001(\0162)"
+  ".nebulaidl.plugins.kubeflow.RestartPolic"
+  "yB\?Z=github.com/nebulaclouds/nebulaidl/g"
+  "en/pb-go/nebulaidl/pluginsb\006proto3"
   ;
 ::google::protobuf::internal::DescriptorTable descriptor_table_nebulaidl_2fplugins_2fkubeflow_2fpytorch_2eproto = {
-  false, InitDefaults_nebulaidl_2fplugins_2fkubeflow_2fpytorch_2eproto,
+  false, InitDefaults_nebulaidl_2fplugins_2fkubeflow_2fpytorch_2eproto, 
   descriptor_table_protodef_nebulaidl_2fplugins_2fkubeflow_2fpytorch_2eproto,
-  "nebulaidl/plugins/kubeflow/pytorch.proto", &assign_descriptors_table_nebulaidl_2fplugins_2fkubeflow_2fpytorch_2eproto, 858,
+  "nebulaidl/plugins/kubeflow/pytorch.proto", &assign_descriptors_table_nebulaidl_2fplugins_2fkubeflow_2fpytorch_2eproto, 874,
 };
 
 void AddDescriptors_nebulaidl_2fplugins_2fkubeflow_2fpytorch_2eproto() {

@@ -74,24 +74,24 @@ static ::google::protobuf::Message const * const file_default_instances[] = {
 };
 
 const char descriptor_table_protodef_nebulaidl_2fplugins_2fkubeflow_2fcommon_2eproto[] =
-  "\n&nebulaidl/plugins/kubeflow/common.proto"
-  "\022\031nebulaidl.plugins.kubeflow\"\254\001\n\tRunPolic"
-  "y\022C\n\020clean_pod_policy\030\001 \001(\0162).nebulaidl.p"
-  "lugins.kubeflow.CleanPodPolicy\022\"\n\032ttl_se"
-  "conds_after_finished\030\002 \001(\005\022\037\n\027active_dea"
-  "dline_seconds\030\003 \001(\005\022\025\n\rbackoff_limit\030\004 \001"
-  "(\005*c\n\rRestartPolicy\022\030\n\024RESTART_POLICY_NE"
-  "VER\020\000\022\035\n\031RESTART_POLICY_ON_FAILURE\020\001\022\031\n\025"
-  "RESTART_POLICY_ALWAYS\020\002*`\n\016CleanPodPolic"
-  "y\022\030\n\024CLEANPOD_POLICY_NONE\020\000\022\033\n\027CLEANPOD_"
-  "POLICY_RUNNING\020\001\022\027\n\023CLEANPOD_POLICY_ALL\020"
-  "\002B9Z7github.com/nebulaclouds/nebulaidl/gen/pb"
-  "-go/nebulaidl/pluginsb\006proto3"
+  "\n\'nebulaidl/plugins/kubeflow/common.prot"
+  "o\022\032nebulaidl.plugins.kubeflow\"\255\001\n\tRunPol"
+  "icy\022D\n\020clean_pod_policy\030\001 \001(\0162*.nebulaid"
+  "l.plugins.kubeflow.CleanPodPolicy\022\"\n\032ttl"
+  "_seconds_after_finished\030\002 \001(\005\022\037\n\027active_"
+  "deadline_seconds\030\003 \001(\005\022\025\n\rbackoff_limit\030"
+  "\004 \001(\005*c\n\rRestartPolicy\022\030\n\024RESTART_POLICY"
+  "_NEVER\020\000\022\035\n\031RESTART_POLICY_ON_FAILURE\020\001\022"
+  "\031\n\025RESTART_POLICY_ALWAYS\020\002*`\n\016CleanPodPo"
+  "licy\022\030\n\024CLEANPOD_POLICY_NONE\020\000\022\033\n\027CLEANP"
+  "OD_POLICY_RUNNING\020\001\022\027\n\023CLEANPOD_POLICY_A"
+  "LL\020\002B\?Z=github.com/nebulaclouds/nebulaid"
+  "l/gen/pb-go/nebulaidl/pluginsb\006proto3"
   ;
 ::google::protobuf::internal::DescriptorTable descriptor_table_nebulaidl_2fplugins_2fkubeflow_2fcommon_2eproto = {
-  false, InitDefaults_nebulaidl_2fplugins_2fkubeflow_2fcommon_2eproto,
+  false, InitDefaults_nebulaidl_2fplugins_2fkubeflow_2fcommon_2eproto, 
   descriptor_table_protodef_nebulaidl_2fplugins_2fkubeflow_2fcommon_2eproto,
-  "nebulaidl/plugins/kubeflow/common.proto", &assign_descriptors_table_nebulaidl_2fplugins_2fkubeflow_2fcommon_2eproto, 508,
+  "nebulaidl/plugins/kubeflow/common.proto", &assign_descriptors_table_nebulaidl_2fplugins_2fkubeflow_2fcommon_2eproto, 517,
 };
 
 void AddDescriptors_nebulaidl_2fplugins_2fkubeflow_2fcommon_2eproto() {

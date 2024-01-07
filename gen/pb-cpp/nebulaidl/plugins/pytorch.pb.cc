@@ -103,20 +103,21 @@ static ::google::protobuf::Message const * const file_default_instances[] = {
 };
 
 const char descriptor_table_protodef_nebulaidl_2fplugins_2fpytorch_2eproto[] =
-  "\n\036nebulaidl/plugins/pytorch.proto\022\020nebulai"
-  "dl.plugins\"\177\n\rElasticConfig\022\024\n\014rdzv_back"
-  "end\030\001 \001(\t\022\024\n\014min_replicas\030\002 \001(\005\022\024\n\014max_r"
-  "eplicas\030\003 \001(\005\022\026\n\016nproc_per_node\030\004 \001(\005\022\024\n"
-  "\014max_restarts\030\005 \001(\005\"j\n\036DistributedPyTorc"
-  "hTrainingTask\022\017\n\007workers\030\001 \001(\005\0227\n\016elasti"
-  "c_config\030\002 \001(\0132\037.nebulaidl.plugins.Elasti"
-  "cConfigB9Z7github.com/nebulaclouds/nebulaidl/"
-  "gen/pb-go/nebulaidl/pluginsb\006proto3"
+  "\n\037nebulaidl/plugins/pytorch.proto\022\021nebul"
+  "aidl.plugins\"\177\n\rElasticConfig\022\024\n\014rdzv_ba"
+  "ckend\030\001 \001(\t\022\024\n\014min_replicas\030\002 \001(\005\022\024\n\014max"
+  "_replicas\030\003 \001(\005\022\026\n\016nproc_per_node\030\004 \001(\005\022"
+  "\024\n\014max_restarts\030\005 \001(\005\"k\n\036DistributedPyTo"
+  "rchTrainingTask\022\017\n\007workers\030\001 \001(\005\0228\n\016elas"
+  "tic_config\030\002 \001(\0132 .nebulaidl.plugins.Ela"
+  "sticConfigB\?Z=github.com/nebulaclouds/ne"
+  "bulaidl/gen/pb-go/nebulaidl/pluginsb\006pro"
+  "to3"
   ;
 ::google::protobuf::internal::DescriptorTable descriptor_table_nebulaidl_2fplugins_2fpytorch_2eproto = {
-  false, InitDefaults_nebulaidl_2fplugins_2fpytorch_2eproto,
+  false, InitDefaults_nebulaidl_2fplugins_2fpytorch_2eproto, 
   descriptor_table_protodef_nebulaidl_2fplugins_2fpytorch_2eproto,
-  "nebulaidl/plugins/pytorch.proto", &assign_descriptors_table_nebulaidl_2fplugins_2fpytorch_2eproto, 354,
+  "nebulaidl/plugins/pytorch.proto", &assign_descriptors_table_nebulaidl_2fplugins_2fpytorch_2eproto, 363,
 };
 
 void AddDescriptors_nebulaidl_2fplugins_2fpytorch_2eproto() {

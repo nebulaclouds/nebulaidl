@@ -717,7 +717,7 @@ public final class HyperparameterTuningJobOuterClass {
        * <code>.nebulaidl.plugins.sagemaker.TrainingJob training_job = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          nebulaidl.plugins.sagemaker.TrainingJobOuterClass.TrainingJob, nebulaidl.plugins.sagemaker.TrainingJobOuterClass.TrainingJob.Builder, nebulaidl.plugins.sagemaker.TrainingJobOuterClass.TrainingJobOrBuilder>
+          nebulaidl.plugins.sagemaker.TrainingJobOuterClass.TrainingJob, nebulaidl.plugins.sagemaker.TrainingJobOuterClass.TrainingJob.Builder, nebulaidl.plugins.sagemaker.TrainingJobOuterClass.TrainingJobOrBuilder> 
           getTrainingJobFieldBuilder() {
         if (trainingJobBuilder_ == null) {
           trainingJobBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -4016,7 +4016,7 @@ public final class HyperparameterTuningJobOuterClass {
        * <code>.nebulaidl.plugins.sagemaker.ParameterRanges hyperparameter_ranges = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          nebulaidl.plugins.sagemaker.ParameterRangesOuterClass.ParameterRanges, nebulaidl.plugins.sagemaker.ParameterRangesOuterClass.ParameterRanges.Builder, nebulaidl.plugins.sagemaker.ParameterRangesOuterClass.ParameterRangesOrBuilder>
+          nebulaidl.plugins.sagemaker.ParameterRangesOuterClass.ParameterRanges, nebulaidl.plugins.sagemaker.ParameterRangesOuterClass.ParameterRanges.Builder, nebulaidl.plugins.sagemaker.ParameterRangesOuterClass.ParameterRangesOrBuilder> 
           getHyperparameterRangesFieldBuilder() {
         if (hyperparameterRangesBuilder_ == null) {
           hyperparameterRangesBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -4234,7 +4234,7 @@ public final class HyperparameterTuningJobOuterClass {
        * <code>.nebulaidl.plugins.sagemaker.HyperparameterTuningObjective tuning_objective = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          nebulaidl.plugins.sagemaker.HyperparameterTuningJobOuterClass.HyperparameterTuningObjective, nebulaidl.plugins.sagemaker.HyperparameterTuningJobOuterClass.HyperparameterTuningObjective.Builder, nebulaidl.plugins.sagemaker.HyperparameterTuningJobOuterClass.HyperparameterTuningObjectiveOrBuilder>
+          nebulaidl.plugins.sagemaker.HyperparameterTuningJobOuterClass.HyperparameterTuningObjective, nebulaidl.plugins.sagemaker.HyperparameterTuningJobOuterClass.HyperparameterTuningObjective.Builder, nebulaidl.plugins.sagemaker.HyperparameterTuningJobOuterClass.HyperparameterTuningObjectiveOrBuilder> 
           getTuningObjectiveFieldBuilder() {
         if (tuningObjectiveBuilder_ == null) {
           tuningObjectiveBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -4408,35 +4408,36 @@ public final class HyperparameterTuningJobOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n:nebulaidl/plugins/sagemaker/hyperparame" +
-      "ter_tuning_job.proto\022\032nebulaidl.plugins.s" +
-      "agemaker\0321nebulaidl/plugins/sagemaker/par" +
-      "ameter_ranges.proto\032-nebulaidl/plugins/sa" +
-      "gemaker/training_job.proto\"\241\001\n\027Hyperpara" +
-      "meterTuningJob\022=\n\014training_job\030\001 \001(\0132\'.f" +
-      "lyteidl.plugins.sagemaker.TrainingJob\022#\n" +
-      "\033max_number_of_training_jobs\030\002 \001(\003\022\"\n\032ma" +
-      "x_parallel_training_jobs\030\003 \001(\003\"H\n!Hyperp" +
-      "arameterTuningObjectiveType\"#\n\005Value\022\014\n\010" +
-      "MINIMIZE\020\000\022\014\n\010MAXIMIZE\020\001\"\221\001\n\035Hyperparame" +
-      "terTuningObjective\022[\n\016objective_type\030\001 \001" +
-      "(\0162C.nebulaidl.plugins.sagemaker.Hyperpar" +
-      "ameterTuningObjectiveType.Value\022\023\n\013metri" +
-      "c_name\030\002 \001(\t\"A\n\034HyperparameterTuningStra" +
-      "tegy\"!\n\005Value\022\014\n\010BAYESIAN\020\000\022\n\n\006RANDOM\020\001\"" +
-      ":\n\034TrainingJobEarlyStoppingType\"\032\n\005Value" +
-      "\022\007\n\003OFF\020\000\022\010\n\004AUTO\020\001\"\203\003\n\035HyperparameterTu" +
-      "ningJobConfig\022J\n\025hyperparameter_ranges\030\001" +
-      " \001(\0132+.nebulaidl.plugins.sagemaker.Parame" +
-      "terRanges\022W\n\017tuning_strategy\030\002 \001(\0162>.fly" +
-      "teidl.plugins.sagemaker.HyperparameterTu" +
-      "ningStrategy.Value\022S\n\020tuning_objective\030\003" +
-      " \001(\01329.nebulaidl.plugins.sagemaker.Hyperp" +
-      "arameterTuningObjective\022h\n training_job_" +
-      "early_stopping_type\030\004 \001(\0162>.nebulaidl.plu" +
-      "gins.sagemaker.TrainingJobEarlyStoppingT" +
-      "ype.ValueB9Z7github.com/nebulaclouds/nebulaid" +
-      "l/gen/pb-go/nebulaidl/pluginsb\006proto3"
+      "\n;nebulaidl/plugins/sagemaker/hyperparam" +
+      "eter_tuning_job.proto\022\033nebulaidl.plugins" +
+      ".sagemaker\0322nebulaidl/plugins/sagemaker/" +
+      "parameter_ranges.proto\032.nebulaidl/plugin" +
+      "s/sagemaker/training_job.proto\"\242\001\n\027Hyper" +
+      "parameterTuningJob\022>\n\014training_job\030\001 \001(\013" +
+      "2(.nebulaidl.plugins.sagemaker.TrainingJ" +
+      "ob\022#\n\033max_number_of_training_jobs\030\002 \001(\003\022" +
+      "\"\n\032max_parallel_training_jobs\030\003 \001(\003\"H\n!H" +
+      "yperparameterTuningObjectiveType\"#\n\005Valu" +
+      "e\022\014\n\010MINIMIZE\020\000\022\014\n\010MAXIMIZE\020\001\"\222\001\n\035Hyperp" +
+      "arameterTuningObjective\022\\\n\016objective_typ" +
+      "e\030\001 \001(\0162D.nebulaidl.plugins.sagemaker.Hy" +
+      "perparameterTuningObjectiveType.Value\022\023\n" +
+      "\013metric_name\030\002 \001(\t\"A\n\034HyperparameterTuni" +
+      "ngStrategy\"!\n\005Value\022\014\n\010BAYESIAN\020\000\022\n\n\006RAN" +
+      "DOM\020\001\":\n\034TrainingJobEarlyStoppingType\"\032\n" +
+      "\005Value\022\007\n\003OFF\020\000\022\010\n\004AUTO\020\001\"\207\003\n\035Hyperparam" +
+      "eterTuningJobConfig\022K\n\025hyperparameter_ra" +
+      "nges\030\001 \001(\0132,.nebulaidl.plugins.sagemaker" +
+      ".ParameterRanges\022X\n\017tuning_strategy\030\002 \001(" +
+      "\0162?.nebulaidl.plugins.sagemaker.Hyperpar" +
+      "ameterTuningStrategy.Value\022T\n\020tuning_obj" +
+      "ective\030\003 \001(\0132:.nebulaidl.plugins.sagemak" +
+      "er.HyperparameterTuningObjective\022i\n trai" +
+      "ning_job_early_stopping_type\030\004 \001(\0162?.neb" +
+      "ulaidl.plugins.sagemaker.TrainingJobEarl" +
+      "yStoppingType.ValueB?Z=github.com/nebula" +
+      "clouds/nebulaidl/gen/pb-go/nebulaidl/plu" +
+      "ginsb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

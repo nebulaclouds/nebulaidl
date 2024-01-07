@@ -299,33 +299,33 @@ static ::google::protobuf::Message const * const file_default_instances[] = {
 };
 
 const char descriptor_table_protodef_nebulaidl_2fadmin_2fevent_2eproto[] =
-  "\n\032nebulaidl/admin/event.proto\022\016nebulaidl.a"
-  "dmin\032\032nebulaidl/event/event.proto\"9\n Even"
-  "tErrorAlreadyInTerminalState\022\025\n\rcurrent_"
-  "phase\030\001 \001(\t\"0\n\035EventErrorIncompatibleClu"
-  "ster\022\017\n\007cluster\030\001 \001(\t\"\304\001\n\022EventFailureRe"
-  "ason\022U\n\031already_in_terminal_state\030\001 \001(\0132"
-  "0.nebulaidl.admin.EventErrorAlreadyInTerm"
-  "inalStateH\000\022M\n\024incompatible_cluster\030\002 \001("
-  "\0132-.nebulaidl.admin.EventErrorIncompatibl"
-  "eClusterH\000B\010\n\006reason\"j\n\035WorkflowExecutio"
-  "nEventRequest\022\022\n\nrequest_id\030\001 \001(\t\0225\n\005eve"
-  "nt\030\002 \001(\0132&.nebulaidl.event.WorkflowExecut"
-  "ionEvent\" \n\036WorkflowExecutionEventRespon"
-  "se\"b\n\031NodeExecutionEventRequest\022\022\n\nreque"
-  "st_id\030\001 \001(\t\0221\n\005event\030\002 \001(\0132\".nebulaidl.ev"
-  "ent.NodeExecutionEvent\"\034\n\032NodeExecutionE"
-  "ventResponse\"b\n\031TaskExecutionEventReques"
-  "t\022\022\n\nrequest_id\030\001 \001(\t\0221\n\005event\030\002 \001(\0132\".n"
-  "nebulaidl.event.TaskExecutionEvent\"\034\n\032Task"
-  "ExecutionEventResponseB7Z5github.com/neb"
-  "ulaclouds/nebulaidl/gen/pb-go/nebulaidl/adminb"
-  "\006proto3"
+  "\n\033nebulaidl/admin/event.proto\022\017nebulaidl"
+  ".admin\032\033nebulaidl/event/event.proto\"9\n E"
+  "ventErrorAlreadyInTerminalState\022\025\n\rcurre"
+  "nt_phase\030\001 \001(\t\"0\n\035EventErrorIncompatible"
+  "Cluster\022\017\n\007cluster\030\001 \001(\t\"\306\001\n\022EventFailur"
+  "eReason\022V\n\031already_in_terminal_state\030\001 \001"
+  "(\01321.nebulaidl.admin.EventErrorAlreadyIn"
+  "TerminalStateH\000\022N\n\024incompatible_cluster\030"
+  "\002 \001(\0132..nebulaidl.admin.EventErrorIncomp"
+  "atibleClusterH\000B\010\n\006reason\"k\n\035WorkflowExe"
+  "cutionEventRequest\022\022\n\nrequest_id\030\001 \001(\t\0226"
+  "\n\005event\030\002 \001(\0132\'.nebulaidl.event.Workflow"
+  "ExecutionEvent\" \n\036WorkflowExecutionEvent"
+  "Response\"c\n\031NodeExecutionEventRequest\022\022\n"
+  "\nrequest_id\030\001 \001(\t\0222\n\005event\030\002 \001(\0132#.nebul"
+  "aidl.event.NodeExecutionEvent\"\034\n\032NodeExe"
+  "cutionEventResponse\"c\n\031TaskExecutionEven"
+  "tRequest\022\022\n\nrequest_id\030\001 \001(\t\0222\n\005event\030\002 "
+  "\001(\0132#.nebulaidl.event.TaskExecutionEvent"
+  "\"\034\n\032TaskExecutionEventResponseB=Z;github"
+  ".com/nebulaclouds/nebulaidl/gen/pb-go/ne"
+  "bulaidl/adminb\006proto3"
   ;
 ::google::protobuf::internal::DescriptorTable descriptor_table_nebulaidl_2fadmin_2fevent_2eproto = {
-  false, InitDefaults_nebulaidl_2fadmin_2fevent_2eproto,
+  false, InitDefaults_nebulaidl_2fadmin_2fevent_2eproto, 
   descriptor_table_protodef_nebulaidl_2fadmin_2fevent_2eproto,
-  "nebulaidl/admin/event.proto", &assign_descriptors_table_nebulaidl_2fadmin_2fevent_2eproto, 847,
+  "nebulaidl/admin/event.proto", &assign_descriptors_table_nebulaidl_2fadmin_2fevent_2eproto, 861,
 };
 
 void AddDescriptors_nebulaidl_2fadmin_2fevent_2eproto() {

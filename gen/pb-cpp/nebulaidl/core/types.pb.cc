@@ -16,6 +16,7 @@
 // @@protoc_insertion_point(includes)
 #include <google/protobuf/port_def.inc>
 
+extern PROTOBUF_INTERNAL_EXPORT_google_2fprotobuf_2fstruct_2eproto ::google::protobuf::internal::SCCInfo<0> scc_info_ListValue_google_2fprotobuf_2fstruct_2eproto;
 extern PROTOBUF_INTERNAL_EXPORT_nebulaidl_2fcore_2ftypes_2eproto ::google::protobuf::internal::SCCInfo<0> scc_info_BlobType_nebulaidl_2fcore_2ftypes_2eproto;
 extern PROTOBUF_INTERNAL_EXPORT_nebulaidl_2fcore_2ftypes_2eproto ::google::protobuf::internal::SCCInfo<0> scc_info_EnumType_nebulaidl_2fcore_2ftypes_2eproto;
 extern PROTOBUF_INTERNAL_EXPORT_nebulaidl_2fcore_2ftypes_2eproto ::google::protobuf::internal::SCCInfo<0> scc_info_PromiseAttribute_nebulaidl_2fcore_2ftypes_2eproto;
@@ -24,7 +25,6 @@ extern PROTOBUF_INTERNAL_EXPORT_nebulaidl_2fcore_2ftypes_2eproto ::google::proto
 extern PROTOBUF_INTERNAL_EXPORT_nebulaidl_2fcore_2ftypes_2eproto ::google::protobuf::internal::SCCInfo<1> scc_info_SchemaType_nebulaidl_2fcore_2ftypes_2eproto;
 extern PROTOBUF_INTERNAL_EXPORT_nebulaidl_2fcore_2ftypes_2eproto ::google::protobuf::internal::SCCInfo<1> scc_info_TypeAnnotation_nebulaidl_2fcore_2ftypes_2eproto;
 extern PROTOBUF_INTERNAL_EXPORT_nebulaidl_2fcore_2ftypes_2eproto ::google::protobuf::internal::SCCInfo<6> scc_info_LiteralType_nebulaidl_2fcore_2ftypes_2eproto;
-extern PROTOBUF_INTERNAL_EXPORT_google_2fprotobuf_2fstruct_2eproto ::google::protobuf::internal::SCCInfo<0> scc_info_ListValue_google_2fprotobuf_2fstruct_2eproto;
 namespace nebulaidl {
 namespace core {
 class SchemaType_SchemaColumnDefaultTypeInternal {
@@ -416,60 +416,60 @@ static ::google::protobuf::Message const * const file_default_instances[] = {
 };
 
 const char descriptor_table_protodef_nebulaidl_2fcore_2ftypes_2eproto[] =
-  "\n\031nebulaidl/core/types.proto\022\rnebulaidl.co"
-  "re\032\034google/protobuf/struct.proto\"\214\002\n\nSch"
-  "emaType\0227\n\007columns\030\003 \003(\0132&.nebulaidl.core"
-  ".SchemaType.SchemaColumn\032\304\001\n\014SchemaColum"
-  "n\022\014\n\004name\030\001 \001(\t\022E\n\004type\030\002 \001(\01627.nebulaidl"
-  ".core.SchemaType.SchemaColumn.SchemaColu"
-  "mnType\"_\n\020SchemaColumnType\022\013\n\007INTEGER\020\000\022"
-  "\t\n\005FLOAT\020\001\022\n\n\006STRING\020\002\022\013\n\007BOOLEAN\020\003\022\014\n\010D"
-  "ATETIME\020\004\022\014\n\010DURATION\020\005\"\372\001\n\025StructuredDa"
-  "tasetType\022C\n\007columns\030\001 \003(\01322.nebulaidl.co"
-  "re.StructuredDatasetType.DatasetColumn\022\016"
-  "\n\006format\030\002 \001(\t\022\034\n\024external_schema_type\030\003"
-  " \001(\t\022\035\n\025external_schema_bytes\030\004 \001(\014\032O\n\rD"
-  "atasetColumn\022\014\n\004name\030\001 \001(\t\0220\n\014literal_ty"
-  "pe\030\002 \001(\0132\032.nebulaidl.core.LiteralType\"\217\001\n"
-  "\010BlobType\022\016\n\006format\030\001 \001(\t\022B\n\016dimensional"
-  "ity\030\002 \001(\0162*.nebulaidl.core.BlobType.BlobD"
-  "imensionality\"/\n\022BlobDimensionality\022\n\n\006S"
-  "INGLE\020\000\022\r\n\tMULTIPART\020\001\"\032\n\010EnumType\022\016\n\006va"
-  "lues\030\001 \003(\t\"9\n\tUnionType\022,\n\010variants\030\001 \003("
-  "\0132\032.nebulaidl.core.LiteralType\"\034\n\rTypeStr"
-  "ucture\022\013\n\003tag\030\001 \001(\t\">\n\016TypeAnnotation\022,\n"
-  "\013annotations\030\001 \001(\0132\027.google.protobuf.Str"
-  "uct\"\273\004\n\013LiteralType\022+\n\006simple\030\001 \001(\0162\031.ne"
-  "bulaidl.core.SimpleTypeH\000\022+\n\006schema\030\002 \001(\013"
-  "2\031.nebulaidl.core.SchemaTypeH\000\0225\n\017collect"
-  "ion_type\030\003 \001(\0132\032.nebulaidl.core.LiteralTy"
-  "peH\000\0224\n\016map_value_type\030\004 \001(\0132\032.nebulaidl."
-  "core.LiteralTypeH\000\022\'\n\004blob\030\005 \001(\0132\027.nebula"
-  "idl.core.BlobTypeH\000\022,\n\tenum_type\030\007 \001(\0132\027"
-  ".nebulaidl.core.EnumTypeH\000\022G\n\027structured_"
-  "dataset_type\030\010 \001(\0132$.nebulaidl.core.Struc"
-  "turedDatasetTypeH\000\022.\n\nunion_type\030\n \001(\0132\030"
-  ".nebulaidl.core.UnionTypeH\000\022)\n\010metadata\030\006"
-  " \001(\0132\027.google.protobuf.Struct\0221\n\nannotat"
-  "ion\030\t \001(\0132\035.nebulaidl.core.TypeAnnotation"
-  "\022/\n\tstructure\030\013 \001(\0132\034.nebulaidl.core.Type"
-  "StructureB\006\n\004type\"c\n\017OutputReference\022\017\n\007"
-  "node_id\030\001 \001(\t\022\013\n\003var\030\002 \001(\t\0222\n\tattr_path\030"
-  "\003 \003(\0132\037.nebulaidl.core.PromiseAttribute\"H"
-  "\n\020PromiseAttribute\022\026\n\014string_value\030\001 \001(\t"
-  "H\000\022\023\n\tint_value\030\002 \001(\005H\000B\007\n\005value\"0\n\005Erro"
-  "r\022\026\n\016failed_node_id\030\001 \001(\t\022\017\n\007message\030\002 \001"
-  "(\t*\206\001\n\nSimpleType\022\010\n\004NONE\020\000\022\013\n\007INTEGER\020\001"
-  "\022\t\n\005FLOAT\020\002\022\n\n\006STRING\020\003\022\013\n\007BOOLEAN\020\004\022\014\n\010"
-  "DATETIME\020\005\022\014\n\010DURATION\020\006\022\n\n\006BINARY\020\007\022\t\n\005"
-  "ERROR\020\010\022\n\n\006STRUCT\020\tB6Z4github.com/nebulao"
-  "rg/nebulaidl/gen/pb-go/nebulaidl/coreb\006pro"
-  "to3"
+  "\n\032nebulaidl/core/types.proto\022\016nebulaidl."
+  "core\032\034google/protobuf/struct.proto\"\216\002\n\nS"
+  "chemaType\0228\n\007columns\030\003 \003(\0132\'.nebulaidl.c"
+  "ore.SchemaType.SchemaColumn\032\305\001\n\014SchemaCo"
+  "lumn\022\014\n\004name\030\001 \001(\t\022F\n\004type\030\002 \001(\01628.nebul"
+  "aidl.core.SchemaType.SchemaColumn.Schema"
+  "ColumnType\"_\n\020SchemaColumnType\022\013\n\007INTEGE"
+  "R\020\000\022\t\n\005FLOAT\020\001\022\n\n\006STRING\020\002\022\013\n\007BOOLEAN\020\003\022"
+  "\014\n\010DATETIME\020\004\022\014\n\010DURATION\020\005\"\374\001\n\025Structur"
+  "edDatasetType\022D\n\007columns\030\001 \003(\01323.nebulai"
+  "dl.core.StructuredDatasetType.DatasetCol"
+  "umn\022\016\n\006format\030\002 \001(\t\022\034\n\024external_schema_t"
+  "ype\030\003 \001(\t\022\035\n\025external_schema_bytes\030\004 \001(\014"
+  "\032P\n\rDatasetColumn\022\014\n\004name\030\001 \001(\t\0221\n\014liter"
+  "al_type\030\002 \001(\0132\033.nebulaidl.core.LiteralTy"
+  "pe\"\220\001\n\010BlobType\022\016\n\006format\030\001 \001(\t\022C\n\016dimen"
+  "sionality\030\002 \001(\0162+.nebulaidl.core.BlobTyp"
+  "e.BlobDimensionality\"/\n\022BlobDimensionali"
+  "ty\022\n\n\006SINGLE\020\000\022\r\n\tMULTIPART\020\001\"\032\n\010EnumTyp"
+  "e\022\016\n\006values\030\001 \003(\t\":\n\tUnionType\022-\n\010varian"
+  "ts\030\001 \003(\0132\033.nebulaidl.core.LiteralType\"\034\n"
+  "\rTypeStructure\022\013\n\003tag\030\001 \001(\t\">\n\016TypeAnnot"
+  "ation\022,\n\013annotations\030\001 \001(\0132\027.google.prot"
+  "obuf.Struct\"\305\004\n\013LiteralType\022,\n\006simple\030\001 "
+  "\001(\0162\032.nebulaidl.core.SimpleTypeH\000\022,\n\006sch"
+  "ema\030\002 \001(\0132\032.nebulaidl.core.SchemaTypeH\000\022"
+  "6\n\017collection_type\030\003 \001(\0132\033.nebulaidl.cor"
+  "e.LiteralTypeH\000\0225\n\016map_value_type\030\004 \001(\0132"
+  "\033.nebulaidl.core.LiteralTypeH\000\022(\n\004blob\030\005"
+  " \001(\0132\030.nebulaidl.core.BlobTypeH\000\022-\n\tenum"
+  "_type\030\007 \001(\0132\030.nebulaidl.core.EnumTypeH\000\022"
+  "H\n\027structured_dataset_type\030\010 \001(\0132%.nebul"
+  "aidl.core.StructuredDatasetTypeH\000\022/\n\nuni"
+  "on_type\030\n \001(\0132\031.nebulaidl.core.UnionType"
+  "H\000\022)\n\010metadata\030\006 \001(\0132\027.google.protobuf.S"
+  "truct\0222\n\nannotation\030\t \001(\0132\036.nebulaidl.co"
+  "re.TypeAnnotation\0220\n\tstructure\030\013 \001(\0132\035.n"
+  "ebulaidl.core.TypeStructureB\006\n\004type\"d\n\017O"
+  "utputReference\022\017\n\007node_id\030\001 \001(\t\022\013\n\003var\030\002"
+  " \001(\t\0223\n\tattr_path\030\003 \003(\0132 .nebulaidl.core"
+  ".PromiseAttribute\"H\n\020PromiseAttribute\022\026\n"
+  "\014string_value\030\001 \001(\tH\000\022\023\n\tint_value\030\002 \001(\005"
+  "H\000B\007\n\005value\"0\n\005Error\022\026\n\016failed_node_id\030\001"
+  " \001(\t\022\017\n\007message\030\002 \001(\t*\206\001\n\nSimpleType\022\010\n\004"
+  "NONE\020\000\022\013\n\007INTEGER\020\001\022\t\n\005FLOAT\020\002\022\n\n\006STRING"
+  "\020\003\022\013\n\007BOOLEAN\020\004\022\014\n\010DATETIME\020\005\022\014\n\010DURATIO"
+  "N\020\006\022\n\n\006BINARY\020\007\022\t\n\005ERROR\020\010\022\n\n\006STRUCT\020\tB<"
+  "Z:github.com/nebulaclouds/nebulaidl/gen/"
+  "pb-go/nebulaidl/coreb\006proto3"
   ;
 ::google::protobuf::internal::DescriptorTable descriptor_table_nebulaidl_2fcore_2ftypes_2eproto = {
-  false, InitDefaults_nebulaidl_2fcore_2ftypes_2eproto,
+  false, InitDefaults_nebulaidl_2fcore_2ftypes_2eproto, 
   descriptor_table_protodef_nebulaidl_2fcore_2ftypes_2eproto,
-  "nebulaidl/core/types.proto", &assign_descriptors_table_nebulaidl_2fcore_2ftypes_2eproto, 1923,
+  "nebulaidl/core/types.proto", &assign_descriptors_table_nebulaidl_2fcore_2ftypes_2eproto, 1948,
 };
 
 void AddDescriptors_nebulaidl_2fcore_2ftypes_2eproto() {

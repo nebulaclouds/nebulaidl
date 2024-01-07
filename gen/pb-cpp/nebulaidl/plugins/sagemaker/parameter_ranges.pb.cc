@@ -254,40 +254,40 @@ static ::google::protobuf::Message const * const file_default_instances[] = {
 };
 
 const char descriptor_table_protodef_nebulaidl_2fplugins_2fsagemaker_2fparameter_5franges_2eproto[] =
-  "\n1nebulaidl/plugins/sagemaker/parameter_r"
-  "anges.proto\022\032nebulaidl.plugins.sagemaker\""
-  "c\n\031HyperparameterScalingType\"F\n\005Value\022\010\n"
-  "\004AUTO\020\000\022\n\n\006LINEAR\020\001\022\017\n\013LOGARITHMIC\020\002\022\026\n\022"
-  "REVERSELOGARITHMIC\020\003\"\223\001\n\030ContinuousParam"
-  "eterRange\022\021\n\tmax_value\030\001 \001(\001\022\021\n\tmin_valu"
-  "e\030\002 \001(\001\022Q\n\014scaling_type\030\003 \001(\0162;.nebulaidl"
-  ".plugins.sagemaker.HyperparameterScaling"
-  "Type.Value\"\220\001\n\025IntegerParameterRange\022\021\n\t"
-  "max_value\030\001 \001(\003\022\021\n\tmin_value\030\002 \001(\003\022Q\n\014sc"
-  "aling_type\030\003 \001(\0162;.nebulaidl.plugins.sage"
-  "maker.HyperparameterScalingType.Value\"+\n"
-  "\031CategoricalParameterRange\022\016\n\006values\030\001 \003"
-  "(\t\"\275\002\n\023ParameterRangeOneOf\022Z\n\032continuous"
-  "_parameter_range\030\001 \001(\01324.nebulaidl.plugin"
-  "s.sagemaker.ContinuousParameterRangeH\000\022T"
-  "\n\027integer_parameter_range\030\002 \001(\01321.nebulai"
-  "dl.plugins.sagemaker.IntegerParameterRan"
-  "geH\000\022\\\n\033categorical_parameter_range\030\003 \001("
-  "\01325.nebulaidl.plugins.sagemaker.Categoric"
-  "alParameterRangeH\000B\026\n\024parameter_range_ty"
-  "pe\"\335\001\n\017ParameterRanges\022_\n\023parameter_rang"
-  "e_map\030\001 \003(\0132B.nebulaidl.plugins.sagemaker"
-  ".ParameterRanges.ParameterRangeMapEntry\032"
-  "i\n\026ParameterRangeMapEntry\022\013\n\003key\030\001 \001(\t\022>"
-  "\n\005value\030\002 \001(\0132/.nebulaidl.plugins.sagemak"
-  "er.ParameterRangeOneOf:\0028\001B9Z7github.com"
-  "/nebulaclouds/nebulaidl/gen/pb-go/nebulaidl/pl"
-  "uginsb\006proto3"
+  "\n2nebulaidl/plugins/sagemaker/parameter_"
+  "ranges.proto\022\033nebulaidl.plugins.sagemake"
+  "r\"c\n\031HyperparameterScalingType\"F\n\005Value\022"
+  "\010\n\004AUTO\020\000\022\n\n\006LINEAR\020\001\022\017\n\013LOGARITHMIC\020\002\022\026"
+  "\n\022REVERSELOGARITHMIC\020\003\"\224\001\n\030ContinuousPar"
+  "ameterRange\022\021\n\tmax_value\030\001 \001(\001\022\021\n\tmin_va"
+  "lue\030\002 \001(\001\022R\n\014scaling_type\030\003 \001(\0162<.nebula"
+  "idl.plugins.sagemaker.HyperparameterScal"
+  "ingType.Value\"\221\001\n\025IntegerParameterRange\022"
+  "\021\n\tmax_value\030\001 \001(\003\022\021\n\tmin_value\030\002 \001(\003\022R\n"
+  "\014scaling_type\030\003 \001(\0162<.nebulaidl.plugins."
+  "sagemaker.HyperparameterScalingType.Valu"
+  "e\"+\n\031CategoricalParameterRange\022\016\n\006values"
+  "\030\001 \003(\t\"\300\002\n\023ParameterRangeOneOf\022[\n\032contin"
+  "uous_parameter_range\030\001 \001(\01325.nebulaidl.p"
+  "lugins.sagemaker.ContinuousParameterRang"
+  "eH\000\022U\n\027integer_parameter_range\030\002 \001(\01322.n"
+  "ebulaidl.plugins.sagemaker.IntegerParame"
+  "terRangeH\000\022]\n\033categorical_parameter_rang"
+  "e\030\003 \001(\01326.nebulaidl.plugins.sagemaker.Ca"
+  "tegoricalParameterRangeH\000B\026\n\024parameter_r"
+  "ange_type\"\337\001\n\017ParameterRanges\022`\n\023paramet"
+  "er_range_map\030\001 \003(\0132C.nebulaidl.plugins.s"
+  "agemaker.ParameterRanges.ParameterRangeM"
+  "apEntry\032j\n\026ParameterRangeMapEntry\022\013\n\003key"
+  "\030\001 \001(\t\022\?\n\005value\030\002 \001(\01320.nebulaidl.plugin"
+  "s.sagemaker.ParameterRangeOneOf:\0028\001B\?Z=g"
+  "ithub.com/nebulaclouds/nebulaidl/gen/pb-"
+  "go/nebulaidl/pluginsb\006proto3"
   ;
 ::google::protobuf::internal::DescriptorTable descriptor_table_nebulaidl_2fplugins_2fsagemaker_2fparameter_5franges_2eproto = {
-  false, InitDefaults_nebulaidl_2fplugins_2fsagemaker_2fparameter_5franges_2eproto,
+  false, InitDefaults_nebulaidl_2fplugins_2fsagemaker_2fparameter_5franges_2eproto, 
   descriptor_table_protodef_nebulaidl_2fplugins_2fsagemaker_2fparameter_5franges_2eproto,
-  "nebulaidl/plugins/sagemaker/parameter_ranges.proto", &assign_descriptors_table_nebulaidl_2fplugins_2fsagemaker_2fparameter_5franges_2eproto, 1133,
+  "nebulaidl/plugins/sagemaker/parameter_ranges.proto", &assign_descriptors_table_nebulaidl_2fplugins_2fsagemaker_2fparameter_5franges_2eproto, 1148,
 };
 
 void AddDescriptors_nebulaidl_2fplugins_2fsagemaker_2fparameter_5franges_2eproto() {

@@ -1858,7 +1858,7 @@ public final class Catalog {
        * <code>.nebulaidl.core.Identifier dataset_id = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          nebulaidl.core.IdentifierOuterClass.Identifier, nebulaidl.core.IdentifierOuterClass.Identifier.Builder, nebulaidl.core.IdentifierOuterClass.IdentifierOrBuilder>
+          nebulaidl.core.IdentifierOuterClass.Identifier, nebulaidl.core.IdentifierOuterClass.Identifier.Builder, nebulaidl.core.IdentifierOuterClass.IdentifierOrBuilder> 
           getDatasetIdFieldBuilder() {
         if (datasetIdBuilder_ == null) {
           datasetIdBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -2011,7 +2011,7 @@ public final class Catalog {
        * <code>.nebulaidl.core.CatalogArtifactTag artifact_tag = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          nebulaidl.core.Catalog.CatalogArtifactTag, nebulaidl.core.Catalog.CatalogArtifactTag.Builder, nebulaidl.core.Catalog.CatalogArtifactTagOrBuilder>
+          nebulaidl.core.Catalog.CatalogArtifactTag, nebulaidl.core.Catalog.CatalogArtifactTag.Builder, nebulaidl.core.Catalog.CatalogArtifactTagOrBuilder> 
           getArtifactTagFieldBuilder() {
         if (artifactTagBuilder_ == null) {
           artifactTagBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -2178,7 +2178,7 @@ public final class Catalog {
        * <code>.nebulaidl.core.TaskExecutionIdentifier source_task_execution = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          nebulaidl.core.IdentifierOuterClass.TaskExecutionIdentifier, nebulaidl.core.IdentifierOuterClass.TaskExecutionIdentifier.Builder, nebulaidl.core.IdentifierOuterClass.TaskExecutionIdentifierOrBuilder>
+          nebulaidl.core.IdentifierOuterClass.TaskExecutionIdentifier, nebulaidl.core.IdentifierOuterClass.TaskExecutionIdentifier.Builder, nebulaidl.core.IdentifierOuterClass.TaskExecutionIdentifierOrBuilder> 
           getSourceTaskExecutionFieldBuilder() {
         if (sourceTaskExecutionBuilder_ == null) {
           if (!(sourceExecutionCase_ == 3)) {
@@ -2852,25 +2852,25 @@ public final class Catalog {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\033nebulaidl/core/catalog.proto\022\rnebulaidl." +
-      "core\032\036nebulaidl/core/identifier.proto\"7\n\022" +
-      "CatalogArtifactTag\022\023\n\013artifact_id\030\001 \001(\t\022" +
-      "\014\n\004name\030\002 \001(\t\"\326\001\n\017CatalogMetadata\022-\n\ndat" +
-      "aset_id\030\001 \001(\0132\031.nebulaidl.core.Identifier" +
-      "\0227\n\014artifact_tag\030\002 \001(\0132!.nebulaidl.core.C" +
-      "atalogArtifactTag\022G\n\025source_task_executi" +
-      "on\030\003 \001(\0132&.nebulaidl.core.TaskExecutionId" +
-      "entifierH\000B\022\n\020source_execution\"\236\001\n\022Catal" +
-      "ogReservation\"\207\001\n\006Status\022\030\n\024RESERVATION_" +
-      "DISABLED\020\000\022\030\n\024RESERVATION_ACQUIRED\020\001\022\026\n\022" +
-      "RESERVATION_EXISTS\020\002\022\030\n\024RESERVATION_RELE" +
-      "ASED\020\003\022\027\n\023RESERVATION_FAILURE\020\004*\240\001\n\022Cata" +
-      "logCacheStatus\022\022\n\016CACHE_DISABLED\020\000\022\016\n\nCA" +
-      "CHE_MISS\020\001\022\r\n\tCACHE_HIT\020\002\022\023\n\017CACHE_POPUL" +
-      "ATED\020\003\022\030\n\024CACHE_LOOKUP_FAILURE\020\004\022\025\n\021CACH" +
-      "E_PUT_FAILURE\020\005\022\021\n\rCACHE_SKIPPED\020\006B6Z4gi" +
-      "thub.com/nebulaclouds/nebulaidl/gen/pb-go/fly" +
-      "teidl/coreb\006proto3"
+      "\n\034nebulaidl/core/catalog.proto\022\016nebulaid" +
+      "l.core\032\037nebulaidl/core/identifier.proto\"" +
+      "7\n\022CatalogArtifactTag\022\023\n\013artifact_id\030\001 \001" +
+      "(\t\022\014\n\004name\030\002 \001(\t\"\331\001\n\017CatalogMetadata\022.\n\n" +
+      "dataset_id\030\001 \001(\0132\032.nebulaidl.core.Identi" +
+      "fier\0228\n\014artifact_tag\030\002 \001(\0132\".nebulaidl.c" +
+      "ore.CatalogArtifactTag\022H\n\025source_task_ex" +
+      "ecution\030\003 \001(\0132\'.nebulaidl.core.TaskExecu" +
+      "tionIdentifierH\000B\022\n\020source_execution\"\236\001\n" +
+      "\022CatalogReservation\"\207\001\n\006Status\022\030\n\024RESERV" +
+      "ATION_DISABLED\020\000\022\030\n\024RESERVATION_ACQUIRED" +
+      "\020\001\022\026\n\022RESERVATION_EXISTS\020\002\022\030\n\024RESERVATIO" +
+      "N_RELEASED\020\003\022\027\n\023RESERVATION_FAILURE\020\004*\240\001" +
+      "\n\022CatalogCacheStatus\022\022\n\016CACHE_DISABLED\020\000" +
+      "\022\016\n\nCACHE_MISS\020\001\022\r\n\tCACHE_HIT\020\002\022\023\n\017CACHE" +
+      "_POPULATED\020\003\022\030\n\024CACHE_LOOKUP_FAILURE\020\004\022\025" +
+      "\n\021CACHE_PUT_FAILURE\020\005\022\021\n\rCACHE_SKIPPED\020\006" +
+      "B<Z:github.com/nebulaclouds/nebulaidl/ge" +
+      "n/pb-go/nebulaidl/coreb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

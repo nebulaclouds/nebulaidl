@@ -938,7 +938,7 @@ public final class Tensorflow {
        * <code>.nebulaidl.plugins.kubeflow.DistributedTensorflowTrainingReplicaSpec worker_replicas = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          nebulaidl.plugins.kubeflow.Tensorflow.DistributedTensorflowTrainingReplicaSpec, nebulaidl.plugins.kubeflow.Tensorflow.DistributedTensorflowTrainingReplicaSpec.Builder, nebulaidl.plugins.kubeflow.Tensorflow.DistributedTensorflowTrainingReplicaSpecOrBuilder>
+          nebulaidl.plugins.kubeflow.Tensorflow.DistributedTensorflowTrainingReplicaSpec, nebulaidl.plugins.kubeflow.Tensorflow.DistributedTensorflowTrainingReplicaSpec.Builder, nebulaidl.plugins.kubeflow.Tensorflow.DistributedTensorflowTrainingReplicaSpecOrBuilder> 
           getWorkerReplicasFieldBuilder() {
         if (workerReplicasBuilder_ == null) {
           workerReplicasBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -1091,7 +1091,7 @@ public final class Tensorflow {
        * <code>.nebulaidl.plugins.kubeflow.DistributedTensorflowTrainingReplicaSpec ps_replicas = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          nebulaidl.plugins.kubeflow.Tensorflow.DistributedTensorflowTrainingReplicaSpec, nebulaidl.plugins.kubeflow.Tensorflow.DistributedTensorflowTrainingReplicaSpec.Builder, nebulaidl.plugins.kubeflow.Tensorflow.DistributedTensorflowTrainingReplicaSpecOrBuilder>
+          nebulaidl.plugins.kubeflow.Tensorflow.DistributedTensorflowTrainingReplicaSpec, nebulaidl.plugins.kubeflow.Tensorflow.DistributedTensorflowTrainingReplicaSpec.Builder, nebulaidl.plugins.kubeflow.Tensorflow.DistributedTensorflowTrainingReplicaSpecOrBuilder> 
           getPsReplicasFieldBuilder() {
         if (psReplicasBuilder_ == null) {
           psReplicasBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -1244,7 +1244,7 @@ public final class Tensorflow {
        * <code>.nebulaidl.plugins.kubeflow.DistributedTensorflowTrainingReplicaSpec chief_replicas = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          nebulaidl.plugins.kubeflow.Tensorflow.DistributedTensorflowTrainingReplicaSpec, nebulaidl.plugins.kubeflow.Tensorflow.DistributedTensorflowTrainingReplicaSpec.Builder, nebulaidl.plugins.kubeflow.Tensorflow.DistributedTensorflowTrainingReplicaSpecOrBuilder>
+          nebulaidl.plugins.kubeflow.Tensorflow.DistributedTensorflowTrainingReplicaSpec, nebulaidl.plugins.kubeflow.Tensorflow.DistributedTensorflowTrainingReplicaSpec.Builder, nebulaidl.plugins.kubeflow.Tensorflow.DistributedTensorflowTrainingReplicaSpecOrBuilder> 
           getChiefReplicasFieldBuilder() {
         if (chiefReplicasBuilder_ == null) {
           chiefReplicasBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -1415,7 +1415,7 @@ public final class Tensorflow {
        * <code>.nebulaidl.plugins.kubeflow.RunPolicy run_policy = 4;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          nebulaidl.plugins.kubeflow.Common.RunPolicy, nebulaidl.plugins.kubeflow.Common.RunPolicy.Builder, nebulaidl.plugins.kubeflow.Common.RunPolicyOrBuilder>
+          nebulaidl.plugins.kubeflow.Common.RunPolicy, nebulaidl.plugins.kubeflow.Common.RunPolicy.Builder, nebulaidl.plugins.kubeflow.Common.RunPolicyOrBuilder> 
           getRunPolicyFieldBuilder() {
         if (runPolicyBuilder_ == null) {
           runPolicyBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -2401,7 +2401,7 @@ public final class Tensorflow {
        * <code>.nebulaidl.core.Resources resources = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          nebulaidl.core.Tasks.Resources, nebulaidl.core.Tasks.Resources.Builder, nebulaidl.core.Tasks.ResourcesOrBuilder>
+          nebulaidl.core.Tasks.Resources, nebulaidl.core.Tasks.Resources.Builder, nebulaidl.core.Tasks.ResourcesOrBuilder> 
           getResourcesFieldBuilder() {
         if (resourcesBuilder_ == null) {
           resourcesBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -2550,26 +2550,26 @@ public final class Tensorflow {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n*nebulaidl/plugins/kubeflow/tensorflow.p" +
-      "roto\022\031nebulaidl.plugins.kubeflow\032\031nebulaid" +
-      "l/core/tasks.proto\032&nebulaidl/plugins/kub" +
-      "eflow/common.proto\"\362\002\n!DistributedTensor" +
-      "flowTrainingTask\022\\\n\017worker_replicas\030\001 \001(" +
-      "\0132C.nebulaidl.plugins.kubeflow.Distribute" +
-      "dTensorflowTrainingReplicaSpec\022X\n\013ps_rep" +
-      "licas\030\002 \001(\0132C.nebulaidl.plugins.kubeflow." +
-      "DistributedTensorflowTrainingReplicaSpec" +
-      "\022[\n\016chief_replicas\030\003 \001(\0132C.nebulaidl.plug" +
-      "ins.kubeflow.DistributedTensorflowTraini" +
-      "ngReplicaSpec\0228\n\nrun_policy\030\004 \001(\0132$.flyt" +
-      "eidl.plugins.kubeflow.RunPolicy\"\272\001\n(Dist" +
-      "ributedTensorflowTrainingReplicaSpec\022\020\n\010" +
-      "replicas\030\001 \001(\005\022\r\n\005image\030\002 \001(\t\022+\n\tresourc" +
-      "es\030\003 \001(\0132\030.nebulaidl.core.Resources\022@\n\016re" +
-      "start_policy\030\004 \001(\0162(.nebulaidl.plugins.ku" +
-      "beflow.RestartPolicyB9Z7github.com/nebula" +
-      "org/nebulaidl/gen/pb-go/nebulaidl/pluginsb" +
-      "\006proto3"
+      "\n+nebulaidl/plugins/kubeflow/tensorflow." +
+      "proto\022\032nebulaidl.plugins.kubeflow\032\032nebul" +
+      "aidl/core/tasks.proto\032\'nebulaidl/plugins" +
+      "/kubeflow/common.proto\"\366\002\n!DistributedTe" +
+      "nsorflowTrainingTask\022]\n\017worker_replicas\030" +
+      "\001 \001(\0132D.nebulaidl.plugins.kubeflow.Distr" +
+      "ibutedTensorflowTrainingReplicaSpec\022Y\n\013p" +
+      "s_replicas\030\002 \001(\0132D.nebulaidl.plugins.kub" +
+      "eflow.DistributedTensorflowTrainingRepli" +
+      "caSpec\022\\\n\016chief_replicas\030\003 \001(\0132D.nebulai" +
+      "dl.plugins.kubeflow.DistributedTensorflo" +
+      "wTrainingReplicaSpec\0229\n\nrun_policy\030\004 \001(\013" +
+      "2%.nebulaidl.plugins.kubeflow.RunPolicy\"" +
+      "\274\001\n(DistributedTensorflowTrainingReplica" +
+      "Spec\022\020\n\010replicas\030\001 \001(\005\022\r\n\005image\030\002 \001(\t\022,\n" +
+      "\tresources\030\003 \001(\0132\031.nebulaidl.core.Resour" +
+      "ces\022A\n\016restart_policy\030\004 \001(\0162).nebulaidl." +
+      "plugins.kubeflow.RestartPolicyB?Z=github" +
+      ".com/nebulaclouds/nebulaidl/gen/pb-go/ne" +
+      "bulaidl/pluginsb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

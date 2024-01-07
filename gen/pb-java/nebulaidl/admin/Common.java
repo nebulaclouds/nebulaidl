@@ -2646,7 +2646,7 @@ public final class Common {
        * <code>.nebulaidl.admin.NamedEntityIdentifier id = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          nebulaidl.admin.Common.NamedEntityIdentifier, nebulaidl.admin.Common.NamedEntityIdentifier.Builder, nebulaidl.admin.Common.NamedEntityIdentifierOrBuilder>
+          nebulaidl.admin.Common.NamedEntityIdentifier, nebulaidl.admin.Common.NamedEntityIdentifier.Builder, nebulaidl.admin.Common.NamedEntityIdentifierOrBuilder> 
           getIdFieldBuilder() {
         if (idBuilder_ == null) {
           idBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -2799,7 +2799,7 @@ public final class Common {
        * <code>.nebulaidl.admin.NamedEntityMetadata metadata = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          nebulaidl.admin.Common.NamedEntityMetadata, nebulaidl.admin.Common.NamedEntityMetadata.Builder, nebulaidl.admin.Common.NamedEntityMetadataOrBuilder>
+          nebulaidl.admin.Common.NamedEntityMetadata, nebulaidl.admin.Common.NamedEntityMetadata.Builder, nebulaidl.admin.Common.NamedEntityMetadataOrBuilder> 
           getMetadataFieldBuilder() {
         if (metadataBuilder_ == null) {
           metadataBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -5065,7 +5065,7 @@ public final class Common {
        * <code>.nebulaidl.admin.Sort sort_by = 5;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          nebulaidl.admin.Common.Sort, nebulaidl.admin.Common.Sort.Builder, nebulaidl.admin.Common.SortOrBuilder>
+          nebulaidl.admin.Common.Sort, nebulaidl.admin.Common.Sort.Builder, nebulaidl.admin.Common.SortOrBuilder> 
           getSortByFieldBuilder() {
         if (sortByBuilder_ == null) {
           sortByBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -6703,7 +6703,7 @@ public final class Common {
        * <code>.nebulaidl.admin.Sort sort_by = 6;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          nebulaidl.admin.Common.Sort, nebulaidl.admin.Common.Sort.Builder, nebulaidl.admin.Common.SortOrBuilder>
+          nebulaidl.admin.Common.Sort, nebulaidl.admin.Common.Sort.Builder, nebulaidl.admin.Common.SortOrBuilder> 
           getSortByFieldBuilder() {
         if (sortByBuilder_ == null) {
           sortByBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -6873,7 +6873,7 @@ public final class Common {
      *
      * <code>repeated .nebulaidl.admin.NamedEntityIdentifier entities = 1;</code>
      */
-    java.util.List<nebulaidl.admin.Common.NamedEntityIdentifier>
+    java.util.List<nebulaidl.admin.Common.NamedEntityIdentifier> 
         getEntitiesList();
     /**
      * <pre>
@@ -6898,7 +6898,7 @@ public final class Common {
      *
      * <code>repeated .nebulaidl.admin.NamedEntityIdentifier entities = 1;</code>
      */
-    java.util.List<? extends nebulaidl.admin.Common.NamedEntityIdentifierOrBuilder>
+    java.util.List<? extends nebulaidl.admin.Common.NamedEntityIdentifierOrBuilder> 
         getEntitiesOrBuilderList();
     /**
      * <pre>
@@ -7045,7 +7045,7 @@ public final class Common {
      *
      * <code>repeated .nebulaidl.admin.NamedEntityIdentifier entities = 1;</code>
      */
-    public java.util.List<? extends nebulaidl.admin.Common.NamedEntityIdentifierOrBuilder>
+    public java.util.List<? extends nebulaidl.admin.Common.NamedEntityIdentifierOrBuilder> 
         getEntitiesOrBuilderList() {
       return entities_;
     }
@@ -7745,7 +7745,7 @@ public final class Common {
        *
        * <code>repeated .nebulaidl.admin.NamedEntityIdentifier entities = 1;</code>
        */
-      public java.util.List<? extends nebulaidl.admin.Common.NamedEntityIdentifierOrBuilder>
+      public java.util.List<? extends nebulaidl.admin.Common.NamedEntityIdentifierOrBuilder> 
            getEntitiesOrBuilderList() {
         if (entitiesBuilder_ != null) {
           return entitiesBuilder_.getMessageOrBuilderList();
@@ -7783,12 +7783,12 @@ public final class Common {
        *
        * <code>repeated .nebulaidl.admin.NamedEntityIdentifier entities = 1;</code>
        */
-      public java.util.List<nebulaidl.admin.Common.NamedEntityIdentifier.Builder>
+      public java.util.List<nebulaidl.admin.Common.NamedEntityIdentifier.Builder> 
            getEntitiesBuilderList() {
         return getEntitiesFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          nebulaidl.admin.Common.NamedEntityIdentifier, nebulaidl.admin.Common.NamedEntityIdentifier.Builder, nebulaidl.admin.Common.NamedEntityIdentifierOrBuilder>
+          nebulaidl.admin.Common.NamedEntityIdentifier, nebulaidl.admin.Common.NamedEntityIdentifier.Builder, nebulaidl.admin.Common.NamedEntityIdentifierOrBuilder> 
           getEntitiesFieldBuilder() {
         if (entitiesBuilder_ == null) {
           entitiesBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
@@ -7959,7 +7959,7 @@ public final class Common {
      *
      * <code>repeated .nebulaidl.admin.NamedEntity entities = 1;</code>
      */
-    java.util.List<nebulaidl.admin.Common.NamedEntity>
+    java.util.List<nebulaidl.admin.Common.NamedEntity> 
         getEntitiesList();
     /**
      * <pre>
@@ -7984,7 +7984,7 @@ public final class Common {
      *
      * <code>repeated .nebulaidl.admin.NamedEntity entities = 1;</code>
      */
-    java.util.List<? extends nebulaidl.admin.Common.NamedEntityOrBuilder>
+    java.util.List<? extends nebulaidl.admin.Common.NamedEntityOrBuilder> 
         getEntitiesOrBuilderList();
     /**
      * <pre>
@@ -8131,7 +8131,7 @@ public final class Common {
      *
      * <code>repeated .nebulaidl.admin.NamedEntity entities = 1;</code>
      */
-    public java.util.List<? extends nebulaidl.admin.Common.NamedEntityOrBuilder>
+    public java.util.List<? extends nebulaidl.admin.Common.NamedEntityOrBuilder> 
         getEntitiesOrBuilderList() {
       return entities_;
     }
@@ -8831,7 +8831,7 @@ public final class Common {
        *
        * <code>repeated .nebulaidl.admin.NamedEntity entities = 1;</code>
        */
-      public java.util.List<? extends nebulaidl.admin.Common.NamedEntityOrBuilder>
+      public java.util.List<? extends nebulaidl.admin.Common.NamedEntityOrBuilder> 
            getEntitiesOrBuilderList() {
         if (entitiesBuilder_ != null) {
           return entitiesBuilder_.getMessageOrBuilderList();
@@ -8869,12 +8869,12 @@ public final class Common {
        *
        * <code>repeated .nebulaidl.admin.NamedEntity entities = 1;</code>
        */
-      public java.util.List<nebulaidl.admin.Common.NamedEntity.Builder>
+      public java.util.List<nebulaidl.admin.Common.NamedEntity.Builder> 
            getEntitiesBuilderList() {
         return getEntitiesFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          nebulaidl.admin.Common.NamedEntity, nebulaidl.admin.Common.NamedEntity.Builder, nebulaidl.admin.Common.NamedEntityOrBuilder>
+          nebulaidl.admin.Common.NamedEntity, nebulaidl.admin.Common.NamedEntity.Builder, nebulaidl.admin.Common.NamedEntityOrBuilder> 
           getEntitiesFieldBuilder() {
         if (entitiesBuilder_ == null) {
           entitiesBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
@@ -9797,7 +9797,7 @@ public final class Common {
        * <code>.nebulaidl.admin.NamedEntityIdentifier id = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          nebulaidl.admin.Common.NamedEntityIdentifier, nebulaidl.admin.Common.NamedEntityIdentifier.Builder, nebulaidl.admin.Common.NamedEntityIdentifierOrBuilder>
+          nebulaidl.admin.Common.NamedEntityIdentifier, nebulaidl.admin.Common.NamedEntityIdentifier.Builder, nebulaidl.admin.Common.NamedEntityIdentifierOrBuilder> 
           getIdFieldBuilder() {
         if (idBuilder_ == null) {
           idBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -10732,7 +10732,7 @@ public final class Common {
        * <code>.nebulaidl.admin.NamedEntityIdentifier id = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          nebulaidl.admin.Common.NamedEntityIdentifier, nebulaidl.admin.Common.NamedEntityIdentifier.Builder, nebulaidl.admin.Common.NamedEntityIdentifierOrBuilder>
+          nebulaidl.admin.Common.NamedEntityIdentifier, nebulaidl.admin.Common.NamedEntityIdentifier.Builder, nebulaidl.admin.Common.NamedEntityIdentifierOrBuilder> 
           getIdFieldBuilder() {
         if (idBuilder_ == null) {
           idBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -10894,7 +10894,7 @@ public final class Common {
        * <code>.nebulaidl.admin.NamedEntityMetadata metadata = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          nebulaidl.admin.Common.NamedEntityMetadata, nebulaidl.admin.Common.NamedEntityMetadata.Builder, nebulaidl.admin.Common.NamedEntityMetadataOrBuilder>
+          nebulaidl.admin.Common.NamedEntityMetadata, nebulaidl.admin.Common.NamedEntityMetadata.Builder, nebulaidl.admin.Common.NamedEntityMetadataOrBuilder> 
           getMetadataFieldBuilder() {
         if (metadataBuilder_ == null) {
           metadataBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -12004,7 +12004,7 @@ public final class Common {
        * <code>.nebulaidl.core.Identifier id = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          nebulaidl.core.IdentifierOuterClass.Identifier, nebulaidl.core.IdentifierOuterClass.Identifier.Builder, nebulaidl.core.IdentifierOuterClass.IdentifierOrBuilder>
+          nebulaidl.core.IdentifierOuterClass.Identifier, nebulaidl.core.IdentifierOuterClass.Identifier.Builder, nebulaidl.core.IdentifierOuterClass.IdentifierOrBuilder> 
           getIdFieldBuilder() {
         if (idBuilder_ == null) {
           idBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -13032,7 +13032,7 @@ public final class Common {
        * <code>.nebulaidl.admin.NamedEntityIdentifier id = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          nebulaidl.admin.Common.NamedEntityIdentifier, nebulaidl.admin.Common.NamedEntityIdentifier.Builder, nebulaidl.admin.Common.NamedEntityIdentifierOrBuilder>
+          nebulaidl.admin.Common.NamedEntityIdentifier, nebulaidl.admin.Common.NamedEntityIdentifier.Builder, nebulaidl.admin.Common.NamedEntityIdentifierOrBuilder> 
           getIdFieldBuilder() {
         if (idBuilder_ == null) {
           idBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -13433,7 +13433,7 @@ public final class Common {
        * <code>.nebulaidl.admin.Sort sort_by = 5;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          nebulaidl.admin.Common.Sort, nebulaidl.admin.Common.Sort.Builder, nebulaidl.admin.Common.SortOrBuilder>
+          nebulaidl.admin.Common.Sort, nebulaidl.admin.Common.Sort.Builder, nebulaidl.admin.Common.SortOrBuilder> 
           getSortByFieldBuilder() {
         if (sortByBuilder_ == null) {
           sortByBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -16757,7 +16757,7 @@ public final class Common {
        * <code>.nebulaidl.admin.EmailNotification email = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          nebulaidl.admin.Common.EmailNotification, nebulaidl.admin.Common.EmailNotification.Builder, nebulaidl.admin.Common.EmailNotificationOrBuilder>
+          nebulaidl.admin.Common.EmailNotification, nebulaidl.admin.Common.EmailNotification.Builder, nebulaidl.admin.Common.EmailNotificationOrBuilder> 
           getEmailFieldBuilder() {
         if (emailBuilder_ == null) {
           if (!(typeCase_ == 2)) {
@@ -16893,7 +16893,7 @@ public final class Common {
        * <code>.nebulaidl.admin.PagerDutyNotification pager_duty = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          nebulaidl.admin.Common.PagerDutyNotification, nebulaidl.admin.Common.PagerDutyNotification.Builder, nebulaidl.admin.Common.PagerDutyNotificationOrBuilder>
+          nebulaidl.admin.Common.PagerDutyNotification, nebulaidl.admin.Common.PagerDutyNotification.Builder, nebulaidl.admin.Common.PagerDutyNotificationOrBuilder> 
           getPagerDutyFieldBuilder() {
         if (pagerDutyBuilder_ == null) {
           if (!(typeCase_ == 3)) {
@@ -17029,7 +17029,7 @@ public final class Common {
        * <code>.nebulaidl.admin.SlackNotification slack = 4;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          nebulaidl.admin.Common.SlackNotification, nebulaidl.admin.Common.SlackNotification.Builder, nebulaidl.admin.Common.SlackNotificationOrBuilder>
+          nebulaidl.admin.Common.SlackNotification, nebulaidl.admin.Common.SlackNotification.Builder, nebulaidl.admin.Common.SlackNotificationOrBuilder> 
           getSlackFieldBuilder() {
         if (slackBuilder_ == null) {
           if (!(typeCase_ == 4)) {
@@ -17941,7 +17941,7 @@ public final class Common {
           java.lang.String, java.lang.String> defaultEntry =
               com.google.protobuf.MapEntry
               .<java.lang.String, java.lang.String>newDefaultInstance(
-                  nebulaidl.admin.Common.internal_static_nebulaidl_admin_Labels_ValuesEntry_descriptor,
+                  nebulaidl.admin.Common.internal_static_nebulaidl_admin_Labels_ValuesEntry_descriptor, 
                   com.google.protobuf.WireFormat.FieldType.STRING,
                   "",
                   com.google.protobuf.WireFormat.FieldType.STRING,
@@ -18738,7 +18738,7 @@ public final class Common {
           java.lang.String, java.lang.String> defaultEntry =
               com.google.protobuf.MapEntry
               .<java.lang.String, java.lang.String>newDefaultInstance(
-                  nebulaidl.admin.Common.internal_static_nebulaidl_admin_Annotations_ValuesEntry_descriptor,
+                  nebulaidl.admin.Common.internal_static_nebulaidl_admin_Annotations_ValuesEntry_descriptor, 
                   com.google.protobuf.WireFormat.FieldType.STRING,
                   "",
                   com.google.protobuf.WireFormat.FieldType.STRING,
@@ -19380,7 +19380,7 @@ public final class Common {
      *
      * <code>repeated .nebulaidl.core.KeyValuePair values = 1;</code>
      */
-    java.util.List<nebulaidl.core.Literals.KeyValuePair>
+    java.util.List<nebulaidl.core.Literals.KeyValuePair> 
         getValuesList();
     /**
      * <pre>
@@ -19405,7 +19405,7 @@ public final class Common {
      *
      * <code>repeated .nebulaidl.core.KeyValuePair values = 1;</code>
      */
-    java.util.List<? extends nebulaidl.core.Literals.KeyValuePairOrBuilder>
+    java.util.List<? extends nebulaidl.core.Literals.KeyValuePairOrBuilder> 
         getValuesOrBuilderList();
     /**
      * <pre>
@@ -19526,7 +19526,7 @@ public final class Common {
      *
      * <code>repeated .nebulaidl.core.KeyValuePair values = 1;</code>
      */
-    public java.util.List<? extends nebulaidl.core.Literals.KeyValuePairOrBuilder>
+    public java.util.List<? extends nebulaidl.core.Literals.KeyValuePairOrBuilder> 
         getValuesOrBuilderList() {
       return values_;
     }
@@ -20165,7 +20165,7 @@ public final class Common {
        *
        * <code>repeated .nebulaidl.core.KeyValuePair values = 1;</code>
        */
-      public java.util.List<? extends nebulaidl.core.Literals.KeyValuePairOrBuilder>
+      public java.util.List<? extends nebulaidl.core.Literals.KeyValuePairOrBuilder> 
            getValuesOrBuilderList() {
         if (valuesBuilder_ != null) {
           return valuesBuilder_.getMessageOrBuilderList();
@@ -20203,12 +20203,12 @@ public final class Common {
        *
        * <code>repeated .nebulaidl.core.KeyValuePair values = 1;</code>
        */
-      public java.util.List<nebulaidl.core.Literals.KeyValuePair.Builder>
+      public java.util.List<nebulaidl.core.Literals.KeyValuePair.Builder> 
            getValuesBuilderList() {
         return getValuesFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          nebulaidl.core.Literals.KeyValuePair, nebulaidl.core.Literals.KeyValuePair.Builder, nebulaidl.core.Literals.KeyValuePairOrBuilder>
+          nebulaidl.core.Literals.KeyValuePair, nebulaidl.core.Literals.KeyValuePair.Builder, nebulaidl.core.Literals.KeyValuePairOrBuilder> 
           getValuesFieldBuilder() {
         if (valuesBuilder_ == null) {
           valuesBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
@@ -22618,76 +22618,77 @@ public final class Common {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\033nebulaidl/admin/common.proto\022\016nebulaidl." +
-      "admin\032\035nebulaidl/core/execution.proto\032\036fl" +
-      "yteidl/core/identifier.proto\032\034nebulaidl/c" +
-      "ore/literals.proto\032\037google/protobuf/time" +
-      "stamp.proto\"F\n\025NamedEntityIdentifier\022\017\n\007" +
-      "project\030\001 \001(\t\022\016\n\006domain\030\002 \001(\t\022\014\n\004name\030\003 " +
-      "\001(\t\"[\n\023NamedEntityMetadata\022\023\n\013descriptio" +
-      "n\030\001 \001(\t\022/\n\005state\030\002 \001(\0162 .nebulaidl.admin." +
-      "NamedEntityState\"\253\001\n\013NamedEntity\0222\n\rreso" +
-      "urce_type\030\001 \001(\0162\033.nebulaidl.core.Resource" +
-      "Type\0221\n\002id\030\002 \001(\0132%.nebulaidl.admin.NamedE" +
-      "ntityIdentifier\0225\n\010metadata\030\003 \001(\0132#.flyt" +
-      "eidl.admin.NamedEntityMetadata\"r\n\004Sort\022\013" +
-      "\n\003key\030\001 \001(\t\0221\n\tdirection\030\002 \001(\0162\036.nebulaid" +
-      "l.admin.Sort.Direction\"*\n\tDirection\022\016\n\nD" +
-      "ESCENDING\020\000\022\r\n\tASCENDING\020\001\"\231\001\n NamedEnti" +
-      "tyIdentifierListRequest\022\017\n\007project\030\001 \001(\t" +
-      "\022\016\n\006domain\030\002 \001(\t\022\r\n\005limit\030\003 \001(\r\022\r\n\005token" +
-      "\030\004 \001(\t\022%\n\007sort_by\030\005 \001(\0132\024.nebulaidl.admin" +
-      ".Sort\022\017\n\007filters\030\006 \001(\t\"\303\001\n\026NamedEntityLi" +
-      "stRequest\0222\n\rresource_type\030\001 \001(\0162\033.nebula" +
-      "idl.core.ResourceType\022\017\n\007project\030\002 \001(\t\022\016" +
-      "\n\006domain\030\003 \001(\t\022\r\n\005limit\030\004 \001(\r\022\r\n\005token\030\005" +
-      " \001(\t\022%\n\007sort_by\030\006 \001(\0132\024.nebulaidl.admin.S" +
-      "ort\022\017\n\007filters\030\007 \001(\t\"c\n\031NamedEntityIdent" +
-      "ifierList\0227\n\010entities\030\001 \003(\0132%.nebulaidl.a" +
-      "dmin.NamedEntityIdentifier\022\r\n\005token\030\002 \001(" +
-      "\t\"O\n\017NamedEntityList\022-\n\010entities\030\001 \003(\0132\033" +
-      ".nebulaidl.admin.NamedEntity\022\r\n\005token\030\002 \001" +
-      "(\t\"~\n\025NamedEntityGetRequest\0222\n\rresource_" +
-      "type\030\001 \001(\0162\033.nebulaidl.core.ResourceType\022" +
-      "1\n\002id\030\002 \001(\0132%.nebulaidl.admin.NamedEntity" +
-      "Identifier\"\270\001\n\030NamedEntityUpdateRequest\022" +
-      "2\n\rresource_type\030\001 \001(\0162\033.nebulaidl.core.R" +
-      "esourceType\0221\n\002id\030\002 \001(\0132%.nebulaidl.admin" +
-      ".NamedEntityIdentifier\0225\n\010metadata\030\003 \001(\013" +
-      "2#.nebulaidl.admin.NamedEntityMetadata\"\033\n" +
-      "\031NamedEntityUpdateResponse\"9\n\020ObjectGetR" +
-      "equest\022%\n\002id\030\001 \001(\0132\031.nebulaidl.core.Ident" +
-      "ifier\"\236\001\n\023ResourceListRequest\0221\n\002id\030\001 \001(" +
-      "\0132%.nebulaidl.admin.NamedEntityIdentifier" +
-      "\022\r\n\005limit\030\002 \001(\r\022\r\n\005token\030\003 \001(\t\022\017\n\007filter" +
-      "s\030\004 \001(\t\022%\n\007sort_by\030\005 \001(\0132\024.nebulaidl.admi" +
-      "n.Sort\"-\n\021EmailNotification\022\030\n\020recipient" +
-      "s_email\030\001 \003(\t\"1\n\025PagerDutyNotification\022\030" +
-      "\n\020recipients_email\030\001 \003(\t\"-\n\021SlackNotific" +
-      "ation\022\030\n\020recipients_email\030\001 \003(\t\"\363\001\n\014Noti" +
-      "fication\0226\n\006phases\030\001 \003(\0162&.nebulaidl.core" +
-      ".WorkflowExecution.Phase\0222\n\005email\030\002 \001(\0132" +
-      "!.nebulaidl.admin.EmailNotificationH\000\022;\n\n" +
-      "pager_duty\030\003 \001(\0132%.nebulaidl.admin.PagerD" +
-      "utyNotificationH\000\0222\n\005slack\030\004 \001(\0132!.nebula" +
-      "idl.admin.SlackNotificationH\000B\006\n\004type\")\n" +
-      "\007UrlBlob\022\013\n\003url\030\001 \001(\t\022\r\n\005bytes\030\002 \001(\003:\002\030\001" +
-      "\"k\n\006Labels\0222\n\006values\030\001 \003(\0132\".nebulaidl.ad" +
-      "min.Labels.ValuesEntry\032-\n\013ValuesEntry\022\013\n" +
-      "\003key\030\001 \001(\t\022\r\n\005value\030\002 \001(\t:\0028\001\"u\n\013Annotat" +
-      "ions\0227\n\006values\030\001 \003(\0132\'.nebulaidl.admin.An" +
-      "notations.ValuesEntry\032-\n\013ValuesEntry\022\013\n\003" +
-      "key\030\001 \001(\t\022\r\n\005value\030\002 \001(\t:\0028\001\"3\n\004Envs\022+\n\006" +
-      "values\030\001 \003(\0132\033.nebulaidl.core.KeyValuePai" +
-      "r\"N\n\010AuthRole\022\032\n\022assumable_iam_role\030\001 \001(" +
-      "\t\022\"\n\032kubernetes_service_account\030\002 \001(\t:\002\030" +
-      "\001\"5\n\023RawOutputDataConfig\022\036\n\026output_locat" +
-      "ion_prefix\030\001 \001(\t\":\n\tNebulaURLs\022\016\n\006inputs\030" +
-      "\001 \001(\t\022\017\n\007outputs\030\002 \001(\t\022\014\n\004deck\030\003 \001(\t*\\\n\020" +
-      "NamedEntityState\022\027\n\023NAMED_ENTITY_ACTIVE\020" +
-      "\000\022\031\n\025NAMED_ENTITY_ARCHIVED\020\001\022\024\n\020SYSTEM_G" +
-      "ENERATED\020\002B7Z5github.com/nebulaclouds/nebulai" +
-      "dl/gen/pb-go/nebulaidl/adminb\006proto3"
+      "\n\034nebulaidl/admin/common.proto\022\017nebulaid" +
+      "l.admin\032\036nebulaidl/core/execution.proto\032" +
+      "\037nebulaidl/core/identifier.proto\032\035nebula" +
+      "idl/core/literals.proto\032\037google/protobuf" +
+      "/timestamp.proto\"F\n\025NamedEntityIdentifie" +
+      "r\022\017\n\007project\030\001 \001(\t\022\016\n\006domain\030\002 \001(\t\022\014\n\004na" +
+      "me\030\003 \001(\t\"\\\n\023NamedEntityMetadata\022\023\n\013descr" +
+      "iption\030\001 \001(\t\0220\n\005state\030\002 \001(\0162!.nebulaidl." +
+      "admin.NamedEntityState\"\256\001\n\013NamedEntity\0223" +
+      "\n\rresource_type\030\001 \001(\0162\034.nebulaidl.core.R" +
+      "esourceType\0222\n\002id\030\002 \001(\0132&.nebulaidl.admi" +
+      "n.NamedEntityIdentifier\0226\n\010metadata\030\003 \001(" +
+      "\0132$.nebulaidl.admin.NamedEntityMetadata\"" +
+      "s\n\004Sort\022\013\n\003key\030\001 \001(\t\0222\n\tdirection\030\002 \001(\0162" +
+      "\037.nebulaidl.admin.Sort.Direction\"*\n\tDire" +
+      "ction\022\016\n\nDESCENDING\020\000\022\r\n\tASCENDING\020\001\"\232\001\n" +
+      " NamedEntityIdentifierListRequest\022\017\n\007pro" +
+      "ject\030\001 \001(\t\022\016\n\006domain\030\002 \001(\t\022\r\n\005limit\030\003 \001(" +
+      "\r\022\r\n\005token\030\004 \001(\t\022&\n\007sort_by\030\005 \001(\0132\025.nebu" +
+      "laidl.admin.Sort\022\017\n\007filters\030\006 \001(\t\"\305\001\n\026Na" +
+      "medEntityListRequest\0223\n\rresource_type\030\001 " +
+      "\001(\0162\034.nebulaidl.core.ResourceType\022\017\n\007pro" +
+      "ject\030\002 \001(\t\022\016\n\006domain\030\003 \001(\t\022\r\n\005limit\030\004 \001(" +
+      "\r\022\r\n\005token\030\005 \001(\t\022&\n\007sort_by\030\006 \001(\0132\025.nebu" +
+      "laidl.admin.Sort\022\017\n\007filters\030\007 \001(\t\"d\n\031Nam" +
+      "edEntityIdentifierList\0228\n\010entities\030\001 \003(\013" +
+      "2&.nebulaidl.admin.NamedEntityIdentifier" +
+      "\022\r\n\005token\030\002 \001(\t\"P\n\017NamedEntityList\022.\n\010en" +
+      "tities\030\001 \003(\0132\034.nebulaidl.admin.NamedEnti" +
+      "ty\022\r\n\005token\030\002 \001(\t\"\200\001\n\025NamedEntityGetRequ" +
+      "est\0223\n\rresource_type\030\001 \001(\0162\034.nebulaidl.c" +
+      "ore.ResourceType\0222\n\002id\030\002 \001(\0132&.nebulaidl" +
+      ".admin.NamedEntityIdentifier\"\273\001\n\030NamedEn" +
+      "tityUpdateRequest\0223\n\rresource_type\030\001 \001(\016" +
+      "2\034.nebulaidl.core.ResourceType\0222\n\002id\030\002 \001" +
+      "(\0132&.nebulaidl.admin.NamedEntityIdentifi" +
+      "er\0226\n\010metadata\030\003 \001(\0132$.nebulaidl.admin.N" +
+      "amedEntityMetadata\"\033\n\031NamedEntityUpdateR" +
+      "esponse\":\n\020ObjectGetRequest\022&\n\002id\030\001 \001(\0132" +
+      "\032.nebulaidl.core.Identifier\"\240\001\n\023Resource" +
+      "ListRequest\0222\n\002id\030\001 \001(\0132&.nebulaidl.admi" +
+      "n.NamedEntityIdentifier\022\r\n\005limit\030\002 \001(\r\022\r" +
+      "\n\005token\030\003 \001(\t\022\017\n\007filters\030\004 \001(\t\022&\n\007sort_b" +
+      "y\030\005 \001(\0132\025.nebulaidl.admin.Sort\"-\n\021EmailN" +
+      "otification\022\030\n\020recipients_email\030\001 \003(\t\"1\n" +
+      "\025PagerDutyNotification\022\030\n\020recipients_ema" +
+      "il\030\001 \003(\t\"-\n\021SlackNotification\022\030\n\020recipie" +
+      "nts_email\030\001 \003(\t\"\367\001\n\014Notification\0227\n\006phas" +
+      "es\030\001 \003(\0162\'.nebulaidl.core.WorkflowExecut" +
+      "ion.Phase\0223\n\005email\030\002 \001(\0132\".nebulaidl.adm" +
+      "in.EmailNotificationH\000\022<\n\npager_duty\030\003 \001" +
+      "(\0132&.nebulaidl.admin.PagerDutyNotificati" +
+      "onH\000\0223\n\005slack\030\004 \001(\0132\".nebulaidl.admin.Sl" +
+      "ackNotificationH\000B\006\n\004type\")\n\007UrlBlob\022\013\n\003" +
+      "url\030\001 \001(\t\022\r\n\005bytes\030\002 \001(\003:\002\030\001\"l\n\006Labels\0223" +
+      "\n\006values\030\001 \003(\0132#.nebulaidl.admin.Labels." +
+      "ValuesEntry\032-\n\013ValuesEntry\022\013\n\003key\030\001 \001(\t\022" +
+      "\r\n\005value\030\002 \001(\t:\0028\001\"v\n\013Annotations\0228\n\006val" +
+      "ues\030\001 \003(\0132(.nebulaidl.admin.Annotations." +
+      "ValuesEntry\032-\n\013ValuesEntry\022\013\n\003key\030\001 \001(\t\022" +
+      "\r\n\005value\030\002 \001(\t:\0028\001\"4\n\004Envs\022,\n\006values\030\001 \003" +
+      "(\0132\034.nebulaidl.core.KeyValuePair\"N\n\010Auth" +
+      "Role\022\032\n\022assumable_iam_role\030\001 \001(\t\022\"\n\032kube" +
+      "rnetes_service_account\030\002 \001(\t:\002\030\001\"5\n\023RawO" +
+      "utputDataConfig\022\036\n\026output_location_prefi" +
+      "x\030\001 \001(\t\";\n\nNebulaURLs\022\016\n\006inputs\030\001 \001(\t\022\017\n" +
+      "\007outputs\030\002 \001(\t\022\014\n\004deck\030\003 \001(\t*\\\n\020NamedEnt" +
+      "ityState\022\027\n\023NAMED_ENTITY_ACTIVE\020\000\022\031\n\025NAM" +
+      "ED_ENTITY_ARCHIVED\020\001\022\024\n\020SYSTEM_GENERATED" +
+      "\020\002B=Z;github.com/nebulaclouds/nebulaidl/" +
+      "gen/pb-go/nebulaidl/adminb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

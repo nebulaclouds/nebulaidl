@@ -1966,7 +1966,7 @@ public final class MatchableResourceOuterClass {
        * <code>.nebulaidl.admin.TaskResourceSpec defaults = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          nebulaidl.admin.MatchableResourceOuterClass.TaskResourceSpec, nebulaidl.admin.MatchableResourceOuterClass.TaskResourceSpec.Builder, nebulaidl.admin.MatchableResourceOuterClass.TaskResourceSpecOrBuilder>
+          nebulaidl.admin.MatchableResourceOuterClass.TaskResourceSpec, nebulaidl.admin.MatchableResourceOuterClass.TaskResourceSpec.Builder, nebulaidl.admin.MatchableResourceOuterClass.TaskResourceSpecOrBuilder> 
           getDefaultsFieldBuilder() {
         if (defaultsBuilder_ == null) {
           defaultsBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -2083,7 +2083,7 @@ public final class MatchableResourceOuterClass {
        * <code>.nebulaidl.admin.TaskResourceSpec limits = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          nebulaidl.admin.MatchableResourceOuterClass.TaskResourceSpec, nebulaidl.admin.MatchableResourceOuterClass.TaskResourceSpec.Builder, nebulaidl.admin.MatchableResourceOuterClass.TaskResourceSpecOrBuilder>
+          nebulaidl.admin.MatchableResourceOuterClass.TaskResourceSpec, nebulaidl.admin.MatchableResourceOuterClass.TaskResourceSpec.Builder, nebulaidl.admin.MatchableResourceOuterClass.TaskResourceSpecOrBuilder> 
           getLimitsFieldBuilder() {
         if (limitsBuilder_ == null) {
           limitsBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -2318,7 +2318,7 @@ public final class MatchableResourceOuterClass {
           java.lang.String, java.lang.String> defaultEntry =
               com.google.protobuf.MapEntry
               .<java.lang.String, java.lang.String>newDefaultInstance(
-                  nebulaidl.admin.MatchableResourceOuterClass.internal_static_nebulaidl_admin_ClusterResourceAttributes_AttributesEntry_descriptor,
+                  nebulaidl.admin.MatchableResourceOuterClass.internal_static_nebulaidl_admin_ClusterResourceAttributes_AttributesEntry_descriptor, 
                   com.google.protobuf.WireFormat.FieldType.STRING,
                   "",
                   com.google.protobuf.WireFormat.FieldType.STRING,
@@ -5331,7 +5331,7 @@ public final class MatchableResourceOuterClass {
     /**
      * <code>repeated .nebulaidl.admin.PluginOverride overrides = 1;</code>
      */
-    java.util.List<nebulaidl.admin.MatchableResourceOuterClass.PluginOverride>
+    java.util.List<nebulaidl.admin.MatchableResourceOuterClass.PluginOverride> 
         getOverridesList();
     /**
      * <code>repeated .nebulaidl.admin.PluginOverride overrides = 1;</code>
@@ -5344,7 +5344,7 @@ public final class MatchableResourceOuterClass {
     /**
      * <code>repeated .nebulaidl.admin.PluginOverride overrides = 1;</code>
      */
-    java.util.List<? extends nebulaidl.admin.MatchableResourceOuterClass.PluginOverrideOrBuilder>
+    java.util.List<? extends nebulaidl.admin.MatchableResourceOuterClass.PluginOverrideOrBuilder> 
         getOverridesOrBuilderList();
     /**
      * <code>repeated .nebulaidl.admin.PluginOverride overrides = 1;</code>
@@ -5447,7 +5447,7 @@ public final class MatchableResourceOuterClass {
     /**
      * <code>repeated .nebulaidl.admin.PluginOverride overrides = 1;</code>
      */
-    public java.util.List<? extends nebulaidl.admin.MatchableResourceOuterClass.PluginOverrideOrBuilder>
+    public java.util.List<? extends nebulaidl.admin.MatchableResourceOuterClass.PluginOverrideOrBuilder> 
         getOverridesOrBuilderList() {
       return overrides_;
     }
@@ -6008,7 +6008,7 @@ public final class MatchableResourceOuterClass {
       /**
        * <code>repeated .nebulaidl.admin.PluginOverride overrides = 1;</code>
        */
-      public java.util.List<? extends nebulaidl.admin.MatchableResourceOuterClass.PluginOverrideOrBuilder>
+      public java.util.List<? extends nebulaidl.admin.MatchableResourceOuterClass.PluginOverrideOrBuilder> 
            getOverridesOrBuilderList() {
         if (overridesBuilder_ != null) {
           return overridesBuilder_.getMessageOrBuilderList();
@@ -6034,12 +6034,12 @@ public final class MatchableResourceOuterClass {
       /**
        * <code>repeated .nebulaidl.admin.PluginOverride overrides = 1;</code>
        */
-      public java.util.List<nebulaidl.admin.MatchableResourceOuterClass.PluginOverride.Builder>
+      public java.util.List<nebulaidl.admin.MatchableResourceOuterClass.PluginOverride.Builder> 
            getOverridesBuilderList() {
         return getOverridesFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          nebulaidl.admin.MatchableResourceOuterClass.PluginOverride, nebulaidl.admin.MatchableResourceOuterClass.PluginOverride.Builder, nebulaidl.admin.MatchableResourceOuterClass.PluginOverrideOrBuilder>
+          nebulaidl.admin.MatchableResourceOuterClass.PluginOverride, nebulaidl.admin.MatchableResourceOuterClass.PluginOverride.Builder, nebulaidl.admin.MatchableResourceOuterClass.PluginOverrideOrBuilder> 
           getOverridesFieldBuilder() {
         if (overridesBuilder_ == null) {
           overridesBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
@@ -7368,7 +7368,7 @@ public final class MatchableResourceOuterClass {
        * <code>.nebulaidl.core.SecurityContext security_context = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          nebulaidl.core.Security.SecurityContext, nebulaidl.core.Security.SecurityContext.Builder, nebulaidl.core.Security.SecurityContextOrBuilder>
+          nebulaidl.core.Security.SecurityContext, nebulaidl.core.Security.SecurityContext.Builder, nebulaidl.core.Security.SecurityContextOrBuilder> 
           getSecurityContextFieldBuilder() {
         if (securityContextBuilder_ == null) {
           securityContextBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -7521,7 +7521,7 @@ public final class MatchableResourceOuterClass {
        * <code>.nebulaidl.admin.RawOutputDataConfig raw_output_data_config = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          nebulaidl.admin.Common.RawOutputDataConfig, nebulaidl.admin.Common.RawOutputDataConfig.Builder, nebulaidl.admin.Common.RawOutputDataConfigOrBuilder>
+          nebulaidl.admin.Common.RawOutputDataConfig, nebulaidl.admin.Common.RawOutputDataConfig.Builder, nebulaidl.admin.Common.RawOutputDataConfigOrBuilder> 
           getRawOutputDataConfigFieldBuilder() {
         if (rawOutputDataConfigBuilder_ == null) {
           rawOutputDataConfigBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -7674,7 +7674,7 @@ public final class MatchableResourceOuterClass {
        * <code>.nebulaidl.admin.Labels labels = 4;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          nebulaidl.admin.Common.Labels, nebulaidl.admin.Common.Labels.Builder, nebulaidl.admin.Common.LabelsOrBuilder>
+          nebulaidl.admin.Common.Labels, nebulaidl.admin.Common.Labels.Builder, nebulaidl.admin.Common.LabelsOrBuilder> 
           getLabelsFieldBuilder() {
         if (labelsBuilder_ == null) {
           labelsBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -7827,7 +7827,7 @@ public final class MatchableResourceOuterClass {
        * <code>.nebulaidl.admin.Annotations annotations = 5;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          nebulaidl.admin.Common.Annotations, nebulaidl.admin.Common.Annotations.Builder, nebulaidl.admin.Common.AnnotationsOrBuilder>
+          nebulaidl.admin.Common.Annotations, nebulaidl.admin.Common.Annotations.Builder, nebulaidl.admin.Common.AnnotationsOrBuilder> 
           getAnnotationsFieldBuilder() {
         if (annotationsBuilder_ == null) {
           annotationsBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -8204,7 +8204,7 @@ public final class MatchableResourceOuterClass {
        * <code>.nebulaidl.admin.Envs envs = 8;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          nebulaidl.admin.Common.Envs, nebulaidl.admin.Common.Envs.Builder, nebulaidl.admin.Common.EnvsOrBuilder>
+          nebulaidl.admin.Common.Envs, nebulaidl.admin.Common.Envs.Builder, nebulaidl.admin.Common.EnvsOrBuilder> 
           getEnvsFieldBuilder() {
         if (envsBuilder_ == null) {
           envsBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -9471,7 +9471,7 @@ public final class MatchableResourceOuterClass {
        * <code>.nebulaidl.admin.TaskResourceAttributes task_resource_attributes = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          nebulaidl.admin.MatchableResourceOuterClass.TaskResourceAttributes, nebulaidl.admin.MatchableResourceOuterClass.TaskResourceAttributes.Builder, nebulaidl.admin.MatchableResourceOuterClass.TaskResourceAttributesOrBuilder>
+          nebulaidl.admin.MatchableResourceOuterClass.TaskResourceAttributes, nebulaidl.admin.MatchableResourceOuterClass.TaskResourceAttributes.Builder, nebulaidl.admin.MatchableResourceOuterClass.TaskResourceAttributesOrBuilder> 
           getTaskResourceAttributesFieldBuilder() {
         if (taskResourceAttributesBuilder_ == null) {
           if (!(targetCase_ == 1)) {
@@ -9607,7 +9607,7 @@ public final class MatchableResourceOuterClass {
        * <code>.nebulaidl.admin.ClusterResourceAttributes cluster_resource_attributes = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          nebulaidl.admin.MatchableResourceOuterClass.ClusterResourceAttributes, nebulaidl.admin.MatchableResourceOuterClass.ClusterResourceAttributes.Builder, nebulaidl.admin.MatchableResourceOuterClass.ClusterResourceAttributesOrBuilder>
+          nebulaidl.admin.MatchableResourceOuterClass.ClusterResourceAttributes, nebulaidl.admin.MatchableResourceOuterClass.ClusterResourceAttributes.Builder, nebulaidl.admin.MatchableResourceOuterClass.ClusterResourceAttributesOrBuilder> 
           getClusterResourceAttributesFieldBuilder() {
         if (clusterResourceAttributesBuilder_ == null) {
           if (!(targetCase_ == 2)) {
@@ -9743,7 +9743,7 @@ public final class MatchableResourceOuterClass {
        * <code>.nebulaidl.admin.ExecutionQueueAttributes execution_queue_attributes = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          nebulaidl.admin.MatchableResourceOuterClass.ExecutionQueueAttributes, nebulaidl.admin.MatchableResourceOuterClass.ExecutionQueueAttributes.Builder, nebulaidl.admin.MatchableResourceOuterClass.ExecutionQueueAttributesOrBuilder>
+          nebulaidl.admin.MatchableResourceOuterClass.ExecutionQueueAttributes, nebulaidl.admin.MatchableResourceOuterClass.ExecutionQueueAttributes.Builder, nebulaidl.admin.MatchableResourceOuterClass.ExecutionQueueAttributesOrBuilder> 
           getExecutionQueueAttributesFieldBuilder() {
         if (executionQueueAttributesBuilder_ == null) {
           if (!(targetCase_ == 3)) {
@@ -9879,7 +9879,7 @@ public final class MatchableResourceOuterClass {
        * <code>.nebulaidl.admin.ExecutionClusterLabel execution_cluster_label = 4;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          nebulaidl.admin.MatchableResourceOuterClass.ExecutionClusterLabel, nebulaidl.admin.MatchableResourceOuterClass.ExecutionClusterLabel.Builder, nebulaidl.admin.MatchableResourceOuterClass.ExecutionClusterLabelOrBuilder>
+          nebulaidl.admin.MatchableResourceOuterClass.ExecutionClusterLabel, nebulaidl.admin.MatchableResourceOuterClass.ExecutionClusterLabel.Builder, nebulaidl.admin.MatchableResourceOuterClass.ExecutionClusterLabelOrBuilder> 
           getExecutionClusterLabelFieldBuilder() {
         if (executionClusterLabelBuilder_ == null) {
           if (!(targetCase_ == 4)) {
@@ -10015,7 +10015,7 @@ public final class MatchableResourceOuterClass {
        * <code>.nebulaidl.core.QualityOfService quality_of_service = 5;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          nebulaidl.core.Execution.QualityOfService, nebulaidl.core.Execution.QualityOfService.Builder, nebulaidl.core.Execution.QualityOfServiceOrBuilder>
+          nebulaidl.core.Execution.QualityOfService, nebulaidl.core.Execution.QualityOfService.Builder, nebulaidl.core.Execution.QualityOfServiceOrBuilder> 
           getQualityOfServiceFieldBuilder() {
         if (qualityOfServiceBuilder_ == null) {
           if (!(targetCase_ == 5)) {
@@ -10151,7 +10151,7 @@ public final class MatchableResourceOuterClass {
        * <code>.nebulaidl.admin.PluginOverrides plugin_overrides = 6;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          nebulaidl.admin.MatchableResourceOuterClass.PluginOverrides, nebulaidl.admin.MatchableResourceOuterClass.PluginOverrides.Builder, nebulaidl.admin.MatchableResourceOuterClass.PluginOverridesOrBuilder>
+          nebulaidl.admin.MatchableResourceOuterClass.PluginOverrides, nebulaidl.admin.MatchableResourceOuterClass.PluginOverrides.Builder, nebulaidl.admin.MatchableResourceOuterClass.PluginOverridesOrBuilder> 
           getPluginOverridesFieldBuilder() {
         if (pluginOverridesBuilder_ == null) {
           if (!(targetCase_ == 6)) {
@@ -10287,7 +10287,7 @@ public final class MatchableResourceOuterClass {
        * <code>.nebulaidl.admin.WorkflowExecutionConfig workflow_execution_config = 7;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          nebulaidl.admin.MatchableResourceOuterClass.WorkflowExecutionConfig, nebulaidl.admin.MatchableResourceOuterClass.WorkflowExecutionConfig.Builder, nebulaidl.admin.MatchableResourceOuterClass.WorkflowExecutionConfigOrBuilder>
+          nebulaidl.admin.MatchableResourceOuterClass.WorkflowExecutionConfig, nebulaidl.admin.MatchableResourceOuterClass.WorkflowExecutionConfig.Builder, nebulaidl.admin.MatchableResourceOuterClass.WorkflowExecutionConfigOrBuilder> 
           getWorkflowExecutionConfigFieldBuilder() {
         if (workflowExecutionConfigBuilder_ == null) {
           if (!(targetCase_ == 7)) {
@@ -10423,7 +10423,7 @@ public final class MatchableResourceOuterClass {
        * <code>.nebulaidl.admin.ClusterAssignment cluster_assignment = 8;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          nebulaidl.admin.ClusterAssignmentOuterClass.ClusterAssignment, nebulaidl.admin.ClusterAssignmentOuterClass.ClusterAssignment.Builder, nebulaidl.admin.ClusterAssignmentOuterClass.ClusterAssignmentOrBuilder>
+          nebulaidl.admin.ClusterAssignmentOuterClass.ClusterAssignment, nebulaidl.admin.ClusterAssignmentOuterClass.ClusterAssignment.Builder, nebulaidl.admin.ClusterAssignmentOuterClass.ClusterAssignmentOrBuilder> 
           getClusterAssignmentFieldBuilder() {
         if (clusterAssignmentBuilder_ == null) {
           if (!(targetCase_ == 8)) {
@@ -11320,7 +11320,7 @@ public final class MatchableResourceOuterClass {
        * <code>.nebulaidl.admin.MatchingAttributes attributes = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          nebulaidl.admin.MatchableResourceOuterClass.MatchingAttributes, nebulaidl.admin.MatchableResourceOuterClass.MatchingAttributes.Builder, nebulaidl.admin.MatchableResourceOuterClass.MatchingAttributesOrBuilder>
+          nebulaidl.admin.MatchableResourceOuterClass.MatchingAttributes, nebulaidl.admin.MatchableResourceOuterClass.MatchingAttributes.Builder, nebulaidl.admin.MatchableResourceOuterClass.MatchingAttributesOrBuilder> 
           getAttributesFieldBuilder() {
         if (attributesBuilder_ == null) {
           attributesBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -12220,7 +12220,7 @@ public final class MatchableResourceOuterClass {
     /**
      * <code>repeated .nebulaidl.admin.MatchableAttributesConfiguration configurations = 1;</code>
      */
-    java.util.List<nebulaidl.admin.MatchableResourceOuterClass.MatchableAttributesConfiguration>
+    java.util.List<nebulaidl.admin.MatchableResourceOuterClass.MatchableAttributesConfiguration> 
         getConfigurationsList();
     /**
      * <code>repeated .nebulaidl.admin.MatchableAttributesConfiguration configurations = 1;</code>
@@ -12233,7 +12233,7 @@ public final class MatchableResourceOuterClass {
     /**
      * <code>repeated .nebulaidl.admin.MatchableAttributesConfiguration configurations = 1;</code>
      */
-    java.util.List<? extends nebulaidl.admin.MatchableResourceOuterClass.MatchableAttributesConfigurationOrBuilder>
+    java.util.List<? extends nebulaidl.admin.MatchableResourceOuterClass.MatchableAttributesConfigurationOrBuilder> 
         getConfigurationsOrBuilderList();
     /**
      * <code>repeated .nebulaidl.admin.MatchableAttributesConfiguration configurations = 1;</code>
@@ -12341,7 +12341,7 @@ public final class MatchableResourceOuterClass {
     /**
      * <code>repeated .nebulaidl.admin.MatchableAttributesConfiguration configurations = 1;</code>
      */
-    public java.util.List<? extends nebulaidl.admin.MatchableResourceOuterClass.MatchableAttributesConfigurationOrBuilder>
+    public java.util.List<? extends nebulaidl.admin.MatchableResourceOuterClass.MatchableAttributesConfigurationOrBuilder> 
         getConfigurationsOrBuilderList() {
       return configurations_;
     }
@@ -12907,7 +12907,7 @@ public final class MatchableResourceOuterClass {
       /**
        * <code>repeated .nebulaidl.admin.MatchableAttributesConfiguration configurations = 1;</code>
        */
-      public java.util.List<? extends nebulaidl.admin.MatchableResourceOuterClass.MatchableAttributesConfigurationOrBuilder>
+      public java.util.List<? extends nebulaidl.admin.MatchableResourceOuterClass.MatchableAttributesConfigurationOrBuilder> 
            getConfigurationsOrBuilderList() {
         if (configurationsBuilder_ != null) {
           return configurationsBuilder_.getMessageOrBuilderList();
@@ -12933,12 +12933,12 @@ public final class MatchableResourceOuterClass {
       /**
        * <code>repeated .nebulaidl.admin.MatchableAttributesConfiguration configurations = 1;</code>
        */
-      public java.util.List<nebulaidl.admin.MatchableResourceOuterClass.MatchableAttributesConfiguration.Builder>
+      public java.util.List<nebulaidl.admin.MatchableResourceOuterClass.MatchableAttributesConfiguration.Builder> 
            getConfigurationsBuilderList() {
         return getConfigurationsFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          nebulaidl.admin.MatchableResourceOuterClass.MatchableAttributesConfiguration, nebulaidl.admin.MatchableResourceOuterClass.MatchableAttributesConfiguration.Builder, nebulaidl.admin.MatchableResourceOuterClass.MatchableAttributesConfigurationOrBuilder>
+          nebulaidl.admin.MatchableResourceOuterClass.MatchableAttributesConfiguration, nebulaidl.admin.MatchableResourceOuterClass.MatchableAttributesConfiguration.Builder, nebulaidl.admin.MatchableResourceOuterClass.MatchableAttributesConfigurationOrBuilder> 
           getConfigurationsFieldBuilder() {
         if (configurationsBuilder_ == null) {
           configurationsBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
@@ -13078,72 +13078,73 @@ public final class MatchableResourceOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\'nebulaidl/admin/matchable_resource.prot" +
-      "o\022\016nebulaidl.admin\032\033nebulaidl/admin/common" +
-      ".proto\032\'nebulaidl/admin/cluster_assignmen" +
-      "t.proto\032\035nebulaidl/core/execution.proto\032\034" +
-      "nebulaidl/core/security.proto\032\036google/pro" +
-      "tobuf/wrappers.proto\"h\n\020TaskResourceSpec" +
-      "\022\013\n\003cpu\030\001 \001(\t\022\013\n\003gpu\030\002 \001(\t\022\016\n\006memory\030\003 \001" +
-      "(\t\022\017\n\007storage\030\004 \001(\t\022\031\n\021ephemeral_storage" +
-      "\030\005 \001(\t\"~\n\026TaskResourceAttributes\0222\n\010defa" +
-      "ults\030\001 \001(\0132 .nebulaidl.admin.TaskResource" +
-      "Spec\0220\n\006limits\030\002 \001(\0132 .nebulaidl.admin.Ta" +
-      "skResourceSpec\"\235\001\n\031ClusterResourceAttrib" +
-      "utes\022M\n\nattributes\030\001 \003(\01329.nebulaidl.admi" +
-      "n.ClusterResourceAttributes.AttributesEn" +
-      "try\0321\n\017AttributesEntry\022\013\n\003key\030\001 \001(\t\022\r\n\005v" +
-      "alue\030\002 \001(\t:\0028\001\"(\n\030ExecutionQueueAttribut" +
-      "es\022\014\n\004tags\030\001 \003(\t\"&\n\025ExecutionClusterLabe" +
-      "l\022\r\n\005value\030\001 \001(\t\"\301\001\n\016PluginOverride\022\021\n\tt" +
-      "ask_type\030\001 \001(\t\022\021\n\tplugin_id\030\002 \003(\t\022U\n\027mis" +
-      "sing_plugin_behavior\030\004 \001(\01624.nebulaidl.ad" +
-      "min.PluginOverride.MissingPluginBehavior" +
-      "\"2\n\025MissingPluginBehavior\022\010\n\004FAIL\020\000\022\017\n\013U" +
-      "SE_DEFAULT\020\001\"D\n\017PluginOverrides\0221\n\toverr" +
-      "ides\030\001 \003(\0132\036.nebulaidl.admin.PluginOverri" +
-      "de\"\373\002\n\027WorkflowExecutionConfig\022\027\n\017max_pa" +
-      "rallelism\030\001 \001(\005\0228\n\020security_context\030\002 \001(" +
-      "\0132\036.nebulaidl.core.SecurityContext\022C\n\026raw" +
-      "_output_data_config\030\003 \001(\0132#.nebulaidl.adm" +
-      "in.RawOutputDataConfig\022&\n\006labels\030\004 \001(\0132\026" +
-      ".nebulaidl.admin.Labels\0220\n\013annotations\030\005 " +
-      "\001(\0132\033.nebulaidl.admin.Annotations\0221\n\rinte" +
-      "rruptible\030\006 \001(\0132\032.google.protobuf.BoolVa" +
-      "lue\022\027\n\017overwrite_cache\030\007 \001(\010\022\"\n\004envs\030\010 \001" +
-      "(\0132\024.nebulaidl.admin.Envs\"\341\004\n\022MatchingAtt" +
-      "ributes\022J\n\030task_resource_attributes\030\001 \001(" +
-      "\0132&.nebulaidl.admin.TaskResourceAttribute" +
-      "sH\000\022P\n\033cluster_resource_attributes\030\002 \001(\013" +
-      "2).nebulaidl.admin.ClusterResourceAttribu" +
-      "tesH\000\022N\n\032execution_queue_attributes\030\003 \001(" +
-      "\0132(.nebulaidl.admin.ExecutionQueueAttribu" +
-      "tesH\000\022H\n\027execution_cluster_label\030\004 \001(\0132%" +
-      ".nebulaidl.admin.ExecutionClusterLabelH\000\022" +
-      "=\n\022quality_of_service\030\005 \001(\0132\037.nebulaidl.c" +
-      "ore.QualityOfServiceH\000\022;\n\020plugin_overrid" +
-      "es\030\006 \001(\0132\037.nebulaidl.admin.PluginOverride" +
-      "sH\000\022L\n\031workflow_execution_config\030\007 \001(\0132\'" +
-      ".nebulaidl.admin.WorkflowExecutionConfigH" +
-      "\000\022?\n\022cluster_assignment\030\010 \001(\0132!.nebulaidl" +
-      ".admin.ClusterAssignmentH\000B\010\n\006target\"\242\001\n" +
-      " MatchableAttributesConfiguration\0226\n\natt" +
-      "ributes\030\001 \001(\0132\".nebulaidl.admin.MatchingA" +
-      "ttributes\022\016\n\006domain\030\002 \001(\t\022\017\n\007project\030\003 \001" +
-      "(\t\022\020\n\010workflow\030\004 \001(\t\022\023\n\013launch_plan\030\005 \001(" +
-      "\t\"Z\n\036ListMatchableAttributesRequest\0228\n\rr" +
-      "esource_type\030\001 \001(\0162!.nebulaidl.admin.Matc" +
-      "hableResource\"k\n\037ListMatchableAttributes" +
-      "Response\022H\n\016configurations\030\001 \003(\01320.nebula" +
-      "idl.admin.MatchableAttributesConfigurati" +
-      "on*\340\001\n\021MatchableResource\022\021\n\rTASK_RESOURC" +
-      "E\020\000\022\024\n\020CLUSTER_RESOURCE\020\001\022\023\n\017EXECUTION_Q" +
-      "UEUE\020\002\022\033\n\027EXECUTION_CLUSTER_LABEL\020\003\022$\n Q" +
-      "UALITY_OF_SERVICE_SPECIFICATION\020\004\022\023\n\017PLU" +
-      "GIN_OVERRIDE\020\005\022\035\n\031WORKFLOW_EXECUTION_CON" +
-      "FIG\020\006\022\026\n\022CLUSTER_ASSIGNMENT\020\007B7Z5github." +
-      "com/nebulaclouds/nebulaidl/gen/pb-go/nebulaidl" +
-      "/adminb\006proto3"
+      "\n(nebulaidl/admin/matchable_resource.pro" +
+      "to\022\017nebulaidl.admin\032\034nebulaidl/admin/com" +
+      "mon.proto\032(nebulaidl/admin/cluster_assig" +
+      "nment.proto\032\036nebulaidl/core/execution.pr" +
+      "oto\032\035nebulaidl/core/security.proto\032\036goog" +
+      "le/protobuf/wrappers.proto\"h\n\020TaskResour" +
+      "ceSpec\022\013\n\003cpu\030\001 \001(\t\022\013\n\003gpu\030\002 \001(\t\022\016\n\006memo" +
+      "ry\030\003 \001(\t\022\017\n\007storage\030\004 \001(\t\022\031\n\021ephemeral_s" +
+      "torage\030\005 \001(\t\"\200\001\n\026TaskResourceAttributes\022" +
+      "3\n\010defaults\030\001 \001(\0132!.nebulaidl.admin.Task" +
+      "ResourceSpec\0221\n\006limits\030\002 \001(\0132!.nebulaidl" +
+      ".admin.TaskResourceSpec\"\236\001\n\031ClusterResou" +
+      "rceAttributes\022N\n\nattributes\030\001 \003(\0132:.nebu" +
+      "laidl.admin.ClusterResourceAttributes.At" +
+      "tributesEntry\0321\n\017AttributesEntry\022\013\n\003key\030" +
+      "\001 \001(\t\022\r\n\005value\030\002 \001(\t:\0028\001\"(\n\030ExecutionQue" +
+      "ueAttributes\022\014\n\004tags\030\001 \003(\t\"&\n\025ExecutionC" +
+      "lusterLabel\022\r\n\005value\030\001 \001(\t\"\302\001\n\016PluginOve" +
+      "rride\022\021\n\ttask_type\030\001 \001(\t\022\021\n\tplugin_id\030\002 " +
+      "\003(\t\022V\n\027missing_plugin_behavior\030\004 \001(\01625.n" +
+      "ebulaidl.admin.PluginOverride.MissingPlu" +
+      "ginBehavior\"2\n\025MissingPluginBehavior\022\010\n\004" +
+      "FAIL\020\000\022\017\n\013USE_DEFAULT\020\001\"E\n\017PluginOverrid" +
+      "es\0222\n\toverrides\030\001 \003(\0132\037.nebulaidl.admin." +
+      "PluginOverride\"\200\003\n\027WorkflowExecutionConf" +
+      "ig\022\027\n\017max_parallelism\030\001 \001(\005\0229\n\020security_" +
+      "context\030\002 \001(\0132\037.nebulaidl.core.SecurityC" +
+      "ontext\022D\n\026raw_output_data_config\030\003 \001(\0132$" +
+      ".nebulaidl.admin.RawOutputDataConfig\022\'\n\006" +
+      "labels\030\004 \001(\0132\027.nebulaidl.admin.Labels\0221\n" +
+      "\013annotations\030\005 \001(\0132\034.nebulaidl.admin.Ann" +
+      "otations\0221\n\rinterruptible\030\006 \001(\0132\032.google" +
+      ".protobuf.BoolValue\022\027\n\017overwrite_cache\030\007" +
+      " \001(\010\022#\n\004envs\030\010 \001(\0132\025.nebulaidl.admin.Env" +
+      "s\"\351\004\n\022MatchingAttributes\022K\n\030task_resourc" +
+      "e_attributes\030\001 \001(\0132\'.nebulaidl.admin.Tas" +
+      "kResourceAttributesH\000\022Q\n\033cluster_resourc" +
+      "e_attributes\030\002 \001(\0132*.nebulaidl.admin.Clu" +
+      "sterResourceAttributesH\000\022O\n\032execution_qu" +
+      "eue_attributes\030\003 \001(\0132).nebulaidl.admin.E" +
+      "xecutionQueueAttributesH\000\022I\n\027execution_c" +
+      "luster_label\030\004 \001(\0132&.nebulaidl.admin.Exe" +
+      "cutionClusterLabelH\000\022>\n\022quality_of_servi" +
+      "ce\030\005 \001(\0132 .nebulaidl.core.QualityOfServi" +
+      "ceH\000\022<\n\020plugin_overrides\030\006 \001(\0132 .nebulai" +
+      "dl.admin.PluginOverridesH\000\022M\n\031workflow_e" +
+      "xecution_config\030\007 \001(\0132(.nebulaidl.admin." +
+      "WorkflowExecutionConfigH\000\022@\n\022cluster_ass" +
+      "ignment\030\010 \001(\0132\".nebulaidl.admin.ClusterA" +
+      "ssignmentH\000B\010\n\006target\"\243\001\n MatchableAttri" +
+      "butesConfiguration\0227\n\nattributes\030\001 \001(\0132#" +
+      ".nebulaidl.admin.MatchingAttributes\022\016\n\006d" +
+      "omain\030\002 \001(\t\022\017\n\007project\030\003 \001(\t\022\020\n\010workflow" +
+      "\030\004 \001(\t\022\023\n\013launch_plan\030\005 \001(\t\"[\n\036ListMatch" +
+      "ableAttributesRequest\0229\n\rresource_type\030\001" +
+      " \001(\0162\".nebulaidl.admin.MatchableResource" +
+      "\"l\n\037ListMatchableAttributesResponse\022I\n\016c" +
+      "onfigurations\030\001 \003(\01321.nebulaidl.admin.Ma" +
+      "tchableAttributesConfiguration*\340\001\n\021Match" +
+      "ableResource\022\021\n\rTASK_RESOURCE\020\000\022\024\n\020CLUST" +
+      "ER_RESOURCE\020\001\022\023\n\017EXECUTION_QUEUE\020\002\022\033\n\027EX" +
+      "ECUTION_CLUSTER_LABEL\020\003\022$\n QUALITY_OF_SE" +
+      "RVICE_SPECIFICATION\020\004\022\023\n\017PLUGIN_OVERRIDE" +
+      "\020\005\022\035\n\031WORKFLOW_EXECUTION_CONFIG\020\006\022\026\n\022CLU" +
+      "STER_ASSIGNMENT\020\007B=Z;github.com/nebulacl" +
+      "ouds/nebulaidl/gen/pb-go/nebulaidl/admin" +
+      "b\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

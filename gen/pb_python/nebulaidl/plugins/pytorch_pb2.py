@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1e\x66lyteidl/plugins/pytorch.proto\x12\x10\x66lyteidl.plugins\"\xc1\x01\n\rElasticConfig\x12!\n\x0crdzv_backend\x18\x01 \x01(\tR\x0brdzvBackend\x12!\n\x0cmin_replicas\x18\x02 \x01(\x05R\x0bminReplicas\x12!\n\x0cmax_replicas\x18\x03 \x01(\x05R\x0bmaxReplicas\x12$\n\x0enproc_per_node\x18\x04 \x01(\x05R\x0cnprocPerNode\x12!\n\x0cmax_restarts\x18\x05 \x01(\x05R\x0bmaxRestarts\"\x82\x01\n\x1e\x44istributedPyTorchTrainingTask\x12\x18\n\x07workers\x18\x01 \x01(\x05R\x07workers\x12\x46\n\x0e\x65lastic_config\x18\x02 \x01(\x0b\x32\x1f.nebulaidl.plugins.ElasticConfigR\relasticConfigB\xbe\x01\n\x14\x63om.nebulaidl.pluginsB\x0cPytorchProtoP\x01Z7github.com/nebulaclouds/nebulaidl/gen/pb-go/nebulaidl/plugins\xa2\x02\x03\x46PX\xaa\x02\x10\x46lyteidl.Plugins\xca\x02\x10\x46lyteidl\\Plugins\xe2\x02\x1c\x46lyteidl\\Plugins\\GPBMetadata\xea\x02\x11\x46lyteidl::Pluginsb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1fnebulaidl/plugins/pytorch.proto\x12\x11nebulaidl.plugins\"\xc1\x01\n\rElasticConfig\x12!\n\x0crdzv_backend\x18\x01 \x01(\tR\x0brdzvBackend\x12!\n\x0cmin_replicas\x18\x02 \x01(\x05R\x0bminReplicas\x12!\n\x0cmax_replicas\x18\x03 \x01(\x05R\x0bmaxReplicas\x12$\n\x0enproc_per_node\x18\x04 \x01(\x05R\x0cnprocPerNode\x12!\n\x0cmax_restarts\x18\x05 \x01(\x05R\x0bmaxRestarts\"\x83\x01\n\x1e\x44istributedPyTorchTrainingTask\x12\x18\n\x07workers\x18\x01 \x01(\x05R\x07workers\x12G\n\x0e\x65lastic_config\x18\x02 \x01(\x0b\x32 .nebulaidl.plugins.ElasticConfigR\relasticConfigB\xc9\x01\n\x15\x63om.nebulaidl.pluginsB\x0cPytorchProtoP\x01Z=github.com/nebulaclouds/nebulaidl/gen/pb-go/nebulaidl/plugins\xa2\x02\x03NPX\xaa\x02\x11Nebulaidl.Plugins\xca\x02\x11Nebulaidl\\Plugins\xe2\x02\x1dNebulaidl\\Plugins\\GPBMetadata\xea\x02\x12Nebulaidl::Pluginsb\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -21,9 +21,9 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'nebulaidl.plugins.pytorch_p
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  DESCRIPTOR._serialized_options = b'\n\024com.nebulaidl.pluginsB\014PytorchProtoP\001Z7github.com/nebulaclouds/nebulaidl/gen/pb-go/nebulaidl/plugins\242\002\003FPX\252\002\020Nebulaidl.Plugins\312\002\020Nebulaidl\\Plugins\342\002\034Nebulaidl\\Plugins\\GPBMetadata\352\002\021Nebulaidl::Plugins'
-  _globals['_ELASTICCONFIG']._serialized_start=53
-  _globals['_ELASTICCONFIG']._serialized_end=246
-  _globals['_DISTRIBUTEDPYTORCHTRAININGTASK']._serialized_start=249
-  _globals['_DISTRIBUTEDPYTORCHTRAININGTASK']._serialized_end=379
+  DESCRIPTOR._serialized_options = b'\n\025com.nebulaidl.pluginsB\014PytorchProtoP\001Z=github.com/nebulaclouds/nebulaidl/gen/pb-go/nebulaidl/plugins\242\002\003NPX\252\002\021Nebulaidl.Plugins\312\002\021Nebulaidl\\Plugins\342\002\035Nebulaidl\\Plugins\\GPBMetadata\352\002\022Nebulaidl::Plugins'
+  _globals['_ELASTICCONFIG']._serialized_start=55
+  _globals['_ELASTICCONFIG']._serialized_end=248
+  _globals['_DISTRIBUTEDPYTORCHTRAININGTASK']._serialized_start=251
+  _globals['_DISTRIBUTEDPYTORCHTRAININGTASK']._serialized_end=382
 # @@protoc_insertion_point(module_scope)

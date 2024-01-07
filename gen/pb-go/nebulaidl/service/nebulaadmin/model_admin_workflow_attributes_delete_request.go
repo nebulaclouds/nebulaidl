@@ -10,8 +10,8 @@
 package nebulaadmin
 
 type AdminWorkflowAttributesDeleteRequest struct {
-	Project      string                  `json:"project,omitempty"`
-	Domain       string                  `json:"domain,omitempty"`
-	Workflow     string                  `json:"workflow,omitempty"`
+	Project string `json:"project,omitempty"`
+	Domain string `json:"domain,omitempty"`
+	Workflow string `json:"workflow,omitempty"`
 	ResourceType *AdminMatchableResource `json:"resource_type,omitempty"`
 }

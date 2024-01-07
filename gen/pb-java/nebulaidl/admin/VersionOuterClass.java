@@ -638,7 +638,7 @@ public final class VersionOuterClass {
        * <code>.nebulaidl.admin.Version control_plane_version = 1;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          nebulaidl.admin.VersionOuterClass.Version, nebulaidl.admin.VersionOuterClass.Version.Builder, nebulaidl.admin.VersionOuterClass.VersionOrBuilder>
+          nebulaidl.admin.VersionOuterClass.Version, nebulaidl.admin.VersionOuterClass.Version.Builder, nebulaidl.admin.VersionOuterClass.VersionOrBuilder> 
           getControlPlaneVersionFieldBuilder() {
         if (controlPlaneVersionBuilder_ == null) {
           controlPlaneVersionBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -2085,13 +2085,14 @@ public final class VersionOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\034nebulaidl/admin/version.proto\022\016nebulaidl" +
-      ".admin\"L\n\022GetVersionResponse\0226\n\025control_" +
-      "plane_version\030\001 \001(\0132\027.nebulaidl.admin.Ver" +
-      "sion\"<\n\007Version\022\r\n\005Build\030\001 \001(\t\022\017\n\007Versio" +
-      "n\030\002 \001(\t\022\021\n\tBuildTime\030\003 \001(\t\"\023\n\021GetVersion" +
-      "RequestB7Z5github.com/nebulaclouds/nebulaidl/" +
-      "gen/pb-go/nebulaidl/adminb\006proto3"
+      "\n\035nebulaidl/admin/version.proto\022\017nebulai" +
+      "dl.admin\"M\n\022GetVersionResponse\0227\n\025contro" +
+      "l_plane_version\030\001 \001(\0132\030.nebulaidl.admin." +
+      "Version\"<\n\007Version\022\r\n\005Build\030\001 \001(\t\022\017\n\007Ver" +
+      "sion\030\002 \001(\t\022\021\n\tBuildTime\030\003 \001(\t\"\023\n\021GetVers" +
+      "ionRequestB=Z;github.com/nebulaclouds/ne" +
+      "bulaidl/gen/pb-go/nebulaidl/adminb\006proto" +
+      "3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {
